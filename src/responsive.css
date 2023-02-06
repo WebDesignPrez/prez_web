@@ -1,0 +1,240 @@
+@media only screen and (max-width: 768px) {
+    .logoLateral {
+        width: 9vh;
+        height: 7vh;
+    }
+
+    .menuLateral {
+        padding: 0 0;
+    }
+
+    .menuLateral .burger {
+        padding-right: 5vw;
+    }
+
+    .tituloInicio {
+        background-size: 100%;
+        width: 100%;
+        padding: 15vw 0 15vw 0vw;
+        transform: none;
+        text-align: center;
+    }
+
+    .videoInicio img, .videoInicio video {
+        width: 100%;
+        padding: 2vw 0 2vw 0vw;
+    }
+
+    .serviciosRow .box {
+        width: 85%;
+    }
+
+    .serviciosRow {
+        padding: 2vw 0 2vw 0vw;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .casosRow {
+        padding: 0vw 0 0vw 0vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .casosBox {
+        width: 85%;
+    }
+
+    .casosBox .casoHeader img {
+        width: 50%;
+    }
+
+    .casosArrow{
+        display: none;
+    }
+
+    .casosImg {
+        width: 90%;
+    }
+
+    .tituloCasos {
+        padding: 3vw 0 0vw 1vw;
+    }
+
+    .tituloCasos p {
+        font-size: 3rem;
+    }
+
+    .casosRow2 {
+        flex-direction: column;
+        padding: 0vw 0 0vw 0vw;
+        align-items: center;
+    }
+
+    .casosRow2 .casosImg {
+        width: 90vw;
+    }
+
+    .clientesTitulo {
+        font-size: 3rem;
+    }
+
+    .clientesBox {
+        padding: 0vw 5vw 10vw 5vw;
+    }
+
+    .clientesBox .imgBox {
+        width: 35vw;
+        max-width: 180px;
+    }
+
+    .testimonios {
+        padding: 2vw 0vw 1vw 5vw;
+    }
+
+    .testimonios .titulo {
+        font-size: 3rem;
+    }
+
+    .testimoniosBox .box {
+        width: 55vw;
+    }
+
+    .testimoniosContainer {
+        padding: 2vw 5vw 3vw 5vw;
+    }
+
+    .piePagina {
+        flex-direction: column;
+        margin-left: 0vw;
+        text-align: center;
+    }
+
+    .piePagina .social {
+        justify-content: center;
+        display: flex;
+    }
+
+    .marketingPage {
+        padding: 20vw 3vw 5vw 3vw;
+    }
+
+    .marketingImg img{
+        width: 100%;
+    }
+
+    .marketingCol {
+        flex-direction: column;
+    }
+
+    .marketingBox {
+        display: flex;
+        flex-direction: column;
+        background-color: #25272c;
+        color: #fff;
+        padding: 0vw 5vw 5vw 5vw;
+        align-items: center;
+    }
+
+    .marketingBox .col1 {
+        width: 95vw;
+        font-size: 2.1rem;
+        text-align: center;
+    }
+
+    .marketingBox .col2 {
+        width: 90vw;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 10vw;
+    }
+
+    .linkBox {
+        margin: 15vh 8vw 0 5vw;
+        font-size: 3rem;
+    }
+
+    .linkBox .link{
+        border-bottom: solid #93e54c 0.1vh;
+        margin-bottom: 5vh;
+    }
+
+    .contactBanner {
+        margin-top: 10vh;
+    }
+
+    .formContainer > div {
+        width: 90%;
+    }
+
+    .input_title {
+        font-size: 5.7vw !important;
+        height: 9vw !important
+    }
+    .form-box input {
+        height: 12vw !important;
+    }
+
+    .form-box .userIcon img {
+        width: 5.5vw !important;
+    }
+
+    .form-box .userIcon {
+        position: relative;
+        top: 2.7vw !important;
+        left: 2vw !important;
+    }
+
+    .form-box textarea {
+        height: 35vw !important;
+    }
+
+    .form-box input, textarea, select {
+        font-size: 5.7vw !important;
+    }
+
+    .copyright p {
+        font-size: 3.5vw !important;
+    }
+
+    .titleBlock2 {
+        padding: 5vw !important;
+    }
+
+    .contactInfo h2 {
+        font-size: 4.3vw !important;
+        margin-bottom: 5vw;
+    }
+
+    .formContainer .logosDist img {
+        width: 25% !important;
+    }
+
+    .btnAccess {
+        padding: 5vw 18vw !important;
+        margin: 7vw 2vw !important;
+    }
+
+    .nextBtn {
+        height: 4rem !important;
+        font-size: 1.5em !important;
+    }
+
+    .contactBanner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contactBanner .title {
+        width: 100%;
+        font-size: 7vh;
+    }
+
+    .contactBanner .desc {
+        width: 100%;
+        font-size: 3vh;
+        padding-right: 0vw;
+    }
+}

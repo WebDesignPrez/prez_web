@@ -1,0 +1,288 @@
+* {
+/*     box-sizing: border-box;
+    margin: 0;
+    padding: 0; */
+    /*  border: 1px solid red; */
+}
+
+.form-box {
+    margin: 0vw;
+    padding: 2vw 3vw;
+    position: relative;
+    /* position:relative for .prevBtn and .nextBtn position:absolute; */
+}
+
+.form-box h5 {
+    font-size: 35px;
+    text-align: center;
+    color: #c41a2f;
+    margin: 0 0 .5vh 0;
+}
+
+.form-box label {
+    display: block;
+    text-align: center;
+    font-size: 2vw;
+    margin: 0 0 2vh 0;
+}
+
+.form-box input,
+textarea,
+select {
+    padding: .5rem .8rem .5rem .8rem;
+    border: none;
+    font-size: 1.7vw;
+    margin-left: 2vw;
+}
+
+.form-box input:focus,
+textarea:focus,
+select:focus {
+    border: none;
+    outline: none;
+}
+
+.form-box input {
+    height: 3vw;
+    width: 90%;
+}
+
+.form-box textarea{
+    width: 100%;
+}
+
+.form-box select {
+    height: 4.2vw;
+    width: inherit;
+}
+
+.form-box textarea {
+    height: 10vw;
+    margin-left: 0vw;
+}
+
+.input-group {
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.nextBtn {
+    display: inline-block;
+    width: 100%;
+    height: 3.5vw;
+    color: red;
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 1.7vw;
+}
+
+
+.nextBtn {
+    margin: 1rem 8rem 1rem 8rem;
+    border-radius: 0.5vw;
+    background-color: #93e54c;
+    color: #fff;
+}
+
+.nextBtn:hover {
+
+    transition: 1s background ease;
+}
+
+.nextBtn {
+    margin: 1rem 0 1rem 0;
+    display: inline-block;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-bottom: 1.5vw;
+    background-color: white;
+}
+
+.userIcon::before {
+    /*     content: url(../public/images/user-solid_small.png);
+    transform: scale(0.35);
+    position: relative;
+    top: 5px;
+    left: -20px; */
+}
+
+.form-box .userIcon {
+    position: relative;
+    top: 0.7vw;
+    left: 1vw;
+
+}
+
+.form-box .userIcon img {
+    width: 1.5vw;
+    padding: 0vw;
+}
+
+.input_title {
+    text-align: left !important;
+    margin: 0px !important;
+    color: #888 !important;
+    font-size: 1.7vw;
+    height: 2.5vw;
+}
+
+input[type=text] {
+    color: #888;
+}
+
+.errorClass {
+    border-color: red !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .form-box select {
+        width: inherit;
+    }
+}
+
+
+/*MODAL FORM*/
+
+.modalForm .form-box {
+    height: 90vh;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formContainer > div{
+    width: 50%;
+    text-align: center;
+}
+
+.formContainer .logosDist img{
+    width: 15%;
+}
+
+.contactInfo {
+    padding: 2vw 3vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contactInfo h5 {
+    font-size: 2.5vw;
+    text-align: center;
+    color: #3B4A89;
+    margin: 0 0 0.5vh 0;
+}
+
+.contactInfo .title{
+    font-weight: bold;
+}
+
+.infoBox label {
+    display: block;
+    text-align: center;
+    font-size: 2vw;
+    margin: 0 0 2vh 0;
+}
+
+.contactInfo h2{
+    font-size: 1.3vw;
+}
+
+.contactInfo p, .contactInfo a{
+    margin: 10px 0px;
+    font-weight: 300;
+    font-size: 2vw;
+}
+
+.contactInfo p.tel, .contactInfo a.tel, .contactInfo p.email{
+    color:#3B4A89;
+    display: block;
+}
+
+
+
+.contactInfo p span{
+    position: relative;
+}
+
+.contactInfo p.tel span::before, .contactInfo a.tel span::before{
+    content: url(../public/img/contactPhone.png);
+    position: absolute;
+    left: -3vw;
+    transform: scale(0.7);
+    top: -1px;
+}
+
+.contactInfo p.tel span::before, .contactInfo a.tel span::before{
+    content: url(../public/img/contactPhone.png);
+    position: absolute;
+    left: -3vw;
+    transform: scale(0.7);
+    top: -1px;
+}
+
+.contactInfo p.email span::before{
+    content: url(../public/img/contactEmail.png);
+    position: absolute;
+    left: -30px;
+    transform: scale(0.7);
+    top: -1px;
+}
+
+.logosDist{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contactInfo .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4vw;
+}
+
+
+.contactBanner{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.contactBanner > div {
+    display: flex;
+    align-items: center;
+    min-height: 15vw;
+    justify-content: center;
+    padding: 2vw 4vw;
+}
+
+.contactBanner .title{
+    width: 35%;
+    font-weight: lighter;
+    font-size: 3vw;
+    background-color: #1B1C1A;
+    color: #fff;
+}
+
+.contactBanner .desc{
+    width: 65%;
+    padding-right: 15vw;
+    background-color: #272726;
+    color: #fff;
+    font-size: 2vw;
+  }
