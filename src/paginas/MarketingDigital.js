@@ -2,22 +2,30 @@ import LetsTalk from "../componentes/LetsTalk";
 import MenuLateral from "../componentes/MenuLateral";
 import PiePagina from "../componentes/PiePagina";
 
-function MarketingDigital(){
+function MarketingDigital() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    return(
-    <>
-        <MenuLateral />
-        <div className="marketingPage">
-            <div className="marketingImg">
-                <img src="./img/banner1.png" />
+    return (
+        <>
+            <MenuLateral />
+            <div className="tituloMarketing" id="Inicio">
+                <div className="iconotituloizquierda">
+                    <img src="./img/marketing.png" alt="" />
+                    <div className="arrowBox">
+                        <img src="./img/flecha-negra-abajo.webp" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <p>Marketing</p>
+                    <p><span>Digital</span></p>
+                </div>
+
             </div>
-        </div>
             <div className="marketingBox">
-                <p className="titulo">¿Necesitas Crecer ?</p>
+                <p className="titulo">¿Necesitas Crecer?</p>
                 <div className="marketingCol">
                     <div className="col1">
-                        Las desiciones que cambiaran <br></br>el rumbo de tu negocio <br></br>deben tomarse ahora
+                        Las decisiones que cambiaran <br></br>el rumbo de tu negocio <br></br>deben tomarse ahora
                     </div>
                     <div className="col2">
                         Planiﬁcación, desarrollo y gentión de estrategias digitales. Content marketing, Inbound marketing
@@ -25,10 +33,10 @@ function MarketingDigital(){
                 </div>
             </div>
             <div className="marketingBox">
-                <p className="titulo">¿Necesitas Crecer ?</p>
+                <p className="titulo">¿Necesitas Crecer?</p>
                 <div className="marketingCol">
                     <div className="col1">
-                        Las desiciones que cambiaran <br></br>el rumbo de tu negocio <br></br>deben tomarse ahora
+                        Las decisiones que cambiaran <br></br>el rumbo de tu negocio <br></br>deben tomarse ahora
                     </div>
                     <div className="col2">
                         Planiﬁcación, desarrollo y gentión de estrategias digitales. Content marketing, Inbound marketing
@@ -36,9 +44,9 @@ function MarketingDigital(){
                 </div>
             </div>
             <LetsTalk />
-        
-        <PiePagina />
-    </>
+
+            <PiePagina />
+        </>
     )
 }
 export default MarketingDigital

@@ -1,6 +1,8 @@
-function CasosExito(){
-    return(
-        <>
+function CasosExito() {
+    return (
+        <><div className="tituloCasos tituloExito" >
+            <p>Casos de éxito</p>
+        </div>
             <div className="casosRow" id="Casos-exito">
                 <div className="casosBox">
                     <div className="casoHeader">
@@ -10,11 +12,11 @@ function CasosExito(){
                         </div>
                     </div>
                     <div className="casosArrow">
-                        <img src="./img/flech_n.png" alt="flecha" />
+                        <img src="./img/flecha-blanca.webp" alt="flecha" />
                     </div>
                 </div>
                 <div className="casosImg">
-                    <img src="./img/casos.png" alt="Vehicentro" />
+                    <img src="./img/vehicentro-web.webp" alt="Vehicentro" />
                 </div>
             </div>
         </>

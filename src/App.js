@@ -8,7 +8,7 @@ import Contacto from './paginas/Contacto';
 
 function App() {
   return (
-    <BrowserRouter basename='/prez'>
+    <BrowserRouter basename='/'>
       <Helmet>
         <title>Prez</title>
         <meta name="description" content="Prez" />

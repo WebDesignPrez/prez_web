@@ -4,7 +4,7 @@ function PiePagina(){
         <div className="piePagina">
             <div className="Info">
                 <div className="logoPie">
-                    <img src="./img/logo.png" alt="Logo Prez"/>
+                    <img src="./img/prez-logo.webp" alt="Logo Prez"/>
                     <p className="titulo">
                         Oficina
                     </p>
@@ -50,7 +50,7 @@ function PiePagina(){
                     <p className="titulo">
                         Certificados
                     </p>
-                <img src="./img/certificado.png"></img>
+                <img className="metaLogo" src="./img/meta-logo.webp"></img>
             </div>
         </div>
         </>
