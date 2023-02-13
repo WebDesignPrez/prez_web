@@ -24,7 +24,7 @@ html {
 }
 
 .logoLateral {
-  background-image: url(../public/img/simbolo-prez.webp);
+  background-image: url(../public/img/linea-prez.webp);
   background-size: cover;
   width: 5vw;
   height: 5vw;
@@ -60,7 +60,7 @@ html {
 }
 
 .menuLateralActive .logoLateral {
-  background-image: url(../public/img/logoMenuActive.png);
+  background-image: url(../public/img/linea-prez.webp);
 }
 
 .menuLateralActive .burger span {
@@ -242,12 +242,10 @@ html {
 }
 
 .piePagina {
+  padding: 2vw 0 2vw 15vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 8vw;
-  margin-top: 4vw;
-  margin-bottom: 3vw;
   justify-content: space-around;
 }
 
