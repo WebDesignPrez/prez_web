@@ -7,9 +7,8 @@ import { NotificationContainer, NotificationManager } from 'react-notifications'
 import 'react-notifications/lib/notifications.css';
 
 function Formulario() {
-    let url = "https://vehicentro.com/prez/ws-form.php"
-    let redireccion = "gracias-por-contactarse"
-
+    let redireccion = "lets-talk"
+    let url = "https://formsubmit.co/5fa621aec40156d586ce51346a7a7608"
     let [nombre_y_apellido, setName] = useState('');
     let [ciudad, setCity] = useState('');
     let [email, setEmail] = useState('');
@@ -119,7 +118,14 @@ function Formulario() {
             url: form.attr("action"),
             data: form.serialize(),
             success(data) {
-                NotificationManager.success('Datos enviados.', '');
+                NotificationManager.success('Datos enviados.', '',);
+                setName('')
+                setCity('')
+                setEmail('')
+                setTel('')
+                setCed('')
+                setReq('')
+                
             }, 
             error(data){
                 NotificationManager.success('Datos enviados.', '');
@@ -128,7 +134,7 @@ function Formulario() {
                 setEmail('')
                 setTel('')
                 setCed('')
-                window.location.href = redireccion;
+                setReq('')
             }
             })
         } else {
@@ -142,54 +148,43 @@ function Formulario() {
                 <div className="title">Lets´s Talk</div>
                 <div className="desc">Sé parte de nuestro mundo.</div>
             </div>
+            
             <div className="formContainer">
                 <div className="form-box">
-                <form action={url} method="post" onSubmit={(ev) => handleSumbit(ev)}>
-                    <div className="field1">
-
-                    <label className="input_title">*Nombre y Apellido</label>
-                    <div className="input-group">
-                        <span className="userIcon"><img src="./img/user-solid.png" /></span>
-                        <input placeholder="" name="nombre_y_apellido" type="text" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChange(e) }} value={nombre_y_apellido} />
-                    </div>
-
-                    <label className="input_title">*Ciudad</label>
-                    <div className="input-group">
-                        <span className="userIcon"><img src="./img/address-card-solid.png" /></span>
-                        <input placeholder="" name="ciudad" type="text" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChangeCity(e) }} value={ciudad} />
-                    </div>
-
-                    <label className="input_title">*Email</label>
-                    <div className="input-group">
-                        <span className="userIcon"><img src="./img/envelope-solid.png" /></span>
-                        <input placeholder="" name="email" type="text" onBlur={(e) => { handleFocusEmail(e) }} onChange={(e) => { handleChangeEmail(e) }} value={email} />
-                    </div>
-
-                    <label className="input_title">*Teléfono</label>
-                    <div className="input-group">
-                        <span className="userIcon"><img src="./img/phone-solid.png" /></span>
-                        <input placeholder="" name="celular" type="text" onBlur={(e) => { handleFocusTel(e) }} onChange={(e) => { handleChangeTel(e) }} value={celular} />
-                    </div>
-
-                    <label className="input_title">*Cédula</label>
-                    <div className="input-group">
-                        <span className="userIcon"><img src="./img/portrait-solid.png" /></span>
-                        <input placeholder="" name="cedula" type="text" onBlur={(e) => { handleFocusCed(e) }} onChange={(e) => { handleChangeCed(e) }} value={cedula} />
-                    </div>
-
-                    <label className="input_title">Requerimiento</label>
-                    <div className="input-group">
-                        <textarea name='requerimeinto' onChange={(e) => { handleChangeReq(e) }}  value={requerimiento} ></textarea>
-                    </div>
-            
-                    </div>
-                    <button className="nextBtn" type="submit"> Contactar </button>
-                    <NotificationContainer />
-                </form>
-                </div>          
+                    <form action={url} method="POST" onSubmit={(ev) => handleSumbit(ev)}>
+                        <div class="form-field">
+                            <input type="text" id="nombre_y_apellido" placeholder=" " name="nombre_y_apellido" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChange(e) }} value={nombre_y_apellido}/>
+                            <label for="nombre_y_apellido">Nombre y Apellido</label>
+                        </div>
+                        <div class="form-field">
+                            <input type="text" id="ciudad" placeholder=" " name="ciudad" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChangeCity(e) }} value={ciudad} />
+                            <label for="ciudad">Ciudad</label>
+                        </div>
+                        <div class="form-field">
+                            <input type="text" id="email" placeholder=" " name="email" onBlur={(e) => { handleFocusEmail(e) }} onChange={(e) => { handleChangeEmail(e) }} value={email} />
+                            <label for="email">Correo</label>
+                        </div>
+                        <div class="form-field">
+                            <input type="text" id="celular" placeholder=" " name="celular" onBlur={(e) => { handleFocusTel(e) }} onChange={(e) => { handleChangeTel(e) }} value={celular} />
+                            <label for="celular">Celular</label>
+                        </div>
+                        <div class="form-field">
+                            <input type="text" id="cedula" placeholder=" " name="cedula" onBlur={(e) => { handleFocusCed(e) }} onChange={(e) => { handleChangeCed(e) }} value={cedula} />
+                            <label for="cedula">Cédula</label>
+                        </div>
+                        <div class="form-field">
+                            <textarea name='requerimeinto' id="requerimeinto" placeholder=" " onChange={(e) => { handleChangeReq(e) }}  value={requerimiento} ></textarea>
+                            <label class="ltextarea" for="requerimeinto">Requerimiento</label>
+                        </div>
+                        <button className="nextBtn" type="submit"> Contactar </button>
+                        <input type="hidden" name="_captcha" value="false"/>
+                        <NotificationContainer/>
+                    </form>
+                </div>       
+                   
             </div>
         </>
     )
 }
-
+/*NUEVA*/
 export default Formulario
