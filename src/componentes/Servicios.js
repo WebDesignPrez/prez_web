@@ -20,17 +20,17 @@ function Servicios(){
         <>     
             
             <div id="Servicios" className="serviciosRow">
-                
-                <div className="box" onClick={()=>{selOpt('md')}}>
-                    <div className="imgBox">
-                        <img src="./img/marketing-digital.webp" alt="" />
+                    <div className="box" onClick={()=>{selOpt('md')}}>
+                            <div className="imgBox">
+                                <img src="./img/marketing-digital.webp" alt="" />
+                            </div>
+                            <div className="tituloBox">Marketing<br></br> Digital</div>
+                            <div className="descBox">Planiﬁcación, desarrollo y gentión de estrategias digitales. Content marketing, Inbound marketing</div>
+                            <div className="arrowBox">
+                            <img src="./img/flecha-negra.webp" alt="" />
+                            </div>
                     </div>
-                    <div className="tituloBox">Marketing<br></br> Digital</div>
-                    <div className="descBox">Planiﬁcación, desarrollo y gentión de estrategias digitales. Content marketing, Inbound marketing</div>
-                    <div className="arrowBox">
-                    <img src="./img/flecha-negra.webp" alt="" />
-                    </div>
-                </div>
+                    <div className="lineaVertical"></div>
                 <div className="box" onClick={()=>{selOpt('pm')}}>
                     <div className="imgBox">
                         <img src="./img/paid-media.webp" alt="" />
@@ -41,6 +41,7 @@ function Servicios(){
                     <img src="./img/flecha-negra.webp" alt="" />
                     </div>
                 </div>
+                <div className="lineaVertical"></div>
                 <div className="box">
                     <div className="imgBox">
                         <img src="./img/branding.webp" alt="" />
@@ -63,6 +64,7 @@ function Servicios(){
                     <img src="./img/flecha-negra.webp" alt="" />
                     </div>
                 </div>
+                <div className="lineaVertical"></div>
                 <div className="box">
                     <div className="imgBox">
                         <img src="./img/leads.webp" alt="" />
@@ -73,6 +75,7 @@ function Servicios(){
                     <img src="./img/flecha-negra.webp" alt="" />
                     </div>
                 </div>
+                <div className="lineaVertical"></div>
                 <div className="box">
                     <div className="imgBox">
                         <img src="./img/produccion.webp" alt="" />

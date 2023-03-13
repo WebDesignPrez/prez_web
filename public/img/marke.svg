@@ -1,0 +1,45 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121 142" width="121" height="142">
+	<title>&lt;Group&gt;</title>
+	<style>
+		.s0 { fill: #dddddd } 
+		.s1 { fill: #25272c } 
+		.s2 { fill: #82ed38 } 
+		.s3 { fill: #ffffff } 
+	</style>
+	<path id="&lt;Path&gt;" class="s0" d="m120.4 141.2h-110.5v-63.6c0-2.9 2.4-5.3 5.3-5.3h100.9c2.4 0 4.3 1.9 4.3 4.2z"/>
+	<g id="&lt;Group&gt;">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m57.3 103c-25.3 0-33.3-20.5-34.1-31.3v-0.4-35.1h12.6v34.8c0.2 2.7 2.5 19.4 21.5 19.4 19 0 20.1-18.9 20.1-21.2v-33h12.6v33c0 1-0.2 8.6-4.1 16.5-5.4 11.1-15.6 17.3-28.6 17.3z"/>
+			</g>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m90.2 48.9h-12.9v-12.7h12.9z"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m36 48.9h-12.9v-12.7h12.9z"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m52.7 0.4l-8 18.3h9.6l-8.1 18.4"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m66.3 20.1l-7.9 18.3h9.5l-8.1 18.3"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m112.8 133.8h-112.2v-63.8c0-3.7 3-6.8 6.8-6.8h12.4v3.4h-12.4c-1.9 0-3.4 1.5-3.4 3.4v60.5h105.4v-61.4c0-1.4-1.1-2.5-2.5-2.5h-14.3v-3.4h14.3c3.2 0 5.9 2.6 5.9 5.9z"/>
+			</g>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s3" d="m73.4 66.6h-34v-3.4h34z"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m2.6 121.8h108v10.4h-108.3z"/>
+			</g>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m39.7 121.8v5h34.7v-5z"/>
+		</g>
+	</g>
+</svg>

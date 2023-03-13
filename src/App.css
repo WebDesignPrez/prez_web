@@ -1,11 +1,113 @@
 body {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6vw;
   line-height: 1.5;
   margin: 0;
   overflow-x: hidden;
   color: #000;
   background-color: #f9f9f9;
+}
+
+.boxVideoInicioP{
+  background-color: #25272c;
+}
+
+/*Box Marketing*/
+.boxMarketing {
+  padding: 2vw 0 2vw 12vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* crea 4 columnas con ancho flexible */
+  grid-template-rows: repeat(3, 1fr); /* crea 3 filas con altura flexible */
+  background-color: #24262b /* establece el color de fondo */
+}
+
+.item {
+  padding: 1vw;
+  line-height: 0.8;
+  text-align: left;
+  color:#fff;
+  font-size: 1.1rem;
+}
+.item span{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.item img{
+  padding-top: 1vw;
+  padding-left: 1vw;
+  width: 80%;
+  height: 80%;
+}
+
+.linea {
+  font-size: 2vw;
+  border-bottom: 3vw solid white;
+  color: black; 
+  padding-left: 30%;
+}
+/*imagenes colunmas*/
+.contenedor-imagenes {
+  position: relative;
+  width: 100%;
+  height: 68vw;
+  overflow: hidden;
+  background-color: #24262b;
+  padding-top: 2vw;
+}
+
+.imagen1 {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  max-width: 100%; /* asegura que la imagen no supere el ancho del contenedor */
+  max-height: 100%; /* asegura que la imagen no supere la altura del contenedor */
+  width: 40vw;
+  height: auto;
+  left: 18vw;
+}
+
+.imagen2 {
+  position: absolute;
+  z-index: 2;
+  left: 12vw; /* ajusta el valor para superponer las imágenes */
+  max-width: 100%; /* asegura que la imagen no supere el ancho del contenedor */
+  max-height: 100%; /* asegura que la imagen no supere la altura del contenedor */
+  width: 40vw;
+  height: auto;
+  left: 50vw;
+  padding-top: 12vw;
+}
+
+
+/*Imagenes Menu lateral*/
+.container {
+  position: fixed;
+  bottom: 0;
+  right: 5vw;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 50%;
+}
+.container img {
+  width: 3vw;
+  height: 3vw;
+  margin-left: 1vw;
+  margin-bottom: 2vw;
+}
+/**/
+
+h1{
+  font-size: 5rem;
+  font-weight: 700;
+  padding: 0vw 0 1vw 10vw;
+  color: #25272c;
+  margin: 0 2vw 0 0;
+  border-top: solid #fff 0.2vh;
+}
+
+.lineaVertical{
+  border-right: 0.1vw solid black;
 }
 
 html {
@@ -16,7 +118,7 @@ html {
   display: block;
   background-color: #27272e;
   width: 2rem;
-  height: 2px;
+  height: 0.2vw;
   -webkit-transition: -webkit-transform .15s ease-in-out;
   transition: -webkit-transform .15s ease-in-out;
   transition: transform .15s ease-in-out;
@@ -61,6 +163,8 @@ html {
 
 .menuLateralActive .logoLateral {
   background-image: url(../public/img/linea-prez.webp);
+  width: 5vw;
+  height: 5vw;
 }
 
 .menuLateralActive .burger span {
@@ -72,19 +176,19 @@ html {
 }
 
 .menuLateralActive .burger span:nth-child(2) {
-  -webkit-transform: rotate(-45deg)translateX(1px);
-  transform: rotate(-45deg)translateX(1px);
+  -webkit-transform: rotate(-45deg)translateX(0.1vw);
+  transform: rotate(-45deg)translateX(0.1vw);
 }
 
 
 .menuLateralActive .burger span:nth-child(1) {
   margin-bottom: 0 !important;
-  -webkit-transform: rotate(45deg)translateX(1px);
-  transform: rotate(45deg)translateX(1px);
+  -webkit-transform: rotate(45deg)translateX(0.1vw);
+  transform: rotate(45deg)translateX(0.1vw);
 }
 
 .menuLateral .burger span:first-child {
-  margin-bottom: 7px;
+  margin-bottom: 0.7vw;
 }
 
 .menuLateral .burger {
@@ -125,17 +229,31 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  padding: 15vw 0 15vw 50vw;
+  padding: 15vw 0 1vw 50vw;
   transform: translateX(-15%);
   position: relative;
+}
+.abajo {
+  font-size: 2.2vw;
+  padding: 0 0 0 32vw;
+  line-height: 0.5;
+  padding-bottom: 2.3vw;
+} 
+.abajo .primera::first-letter {
+  font-weight: bold;
+  color: #93e54c;
+} 
+
+.abajo span{
+  font-weight: bold;
 }
 
 .logo {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 0.5vw;
+  top: 0.5vw;
   z-index: 1;
-  max-width: 10%;
+  max-width: 8%;
 }
 
 .mainMenu {
@@ -153,8 +271,8 @@ html {
 }
 
 .linkBox {
-  margin: 10vw 10vw 0 17vw;
-  font-size: 4rem;
+  margin: 5vw 5vw 0 20vw;
+  font-size: 3.5vw;
   font-weight: 700;
 }
 
@@ -187,6 +305,10 @@ html {
   transition: opacity 0.5s;
 }
 
+.videoInicio{
+  background-color: #24262b;
+}
+
 .videoInicio img,
 .videoInicio video {
   width: 80%;
@@ -214,7 +336,7 @@ html {
 
 .tituloMarketing p {
   line-height: 1.21;
-  font-size: 5rem;
+  font-size: 5vw;
   font-weight: bold;
   margin: 0;
 }
@@ -264,6 +386,21 @@ li {
   text-align: left;
 }
 
+.piePagina .social img {
+  width: 6%;
+  height: 6%;
+  }
+  
+.cambiar-imagen-fb:hover{
+  content: url(../public/img/fb.png);
+  }
+.cambiar-imagen-insta:hover{
+  content: url(../public/img/insta.png);
+  }
+.cambiar-imagen-in:hover{
+  content: url(../public/img/in.png);
+}
+
 .piePagina a:link,
 .piePagina a:visited {
   color: #000;
@@ -288,7 +425,7 @@ li {
 }
 
 .serviciosRow {
-  padding: 2vw 0 2vw 15vw;
+  padding: 2vw 2vw 2vw 10vw;
   display: flex;
   flex-direction: row;
 
@@ -398,7 +535,7 @@ li {
 }
 
 .tituloLetsTalk .titulo2+span {
-  margin-left: 25px;
+  margin-left: 2.5vw;
 }
 
 .tituloLetsTalk img{
@@ -416,7 +553,7 @@ li {
 }
 
 .casosBox {
-  width: 25%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -430,7 +567,10 @@ li {
   height: 55vw;
   gap: 5vh;
 }
-
+.casoHeader img {
+ width: 65%;
+ padding-bottom: 2vw;
+}
 .casosImg {
   width: 75%;
 }
@@ -525,6 +665,23 @@ li {
   width: 40vw;
   font-size: 1.1rem;
 }
+.marketingBox .col1{
+  overflow: auto;
+}
+.marketingBox .col1 .titulos{
+  font-size: 4vw;
+  margin: 0;
+ }
+.marketingBox .col1 p{
+ font-size: 2vw;
+ margin: 0;
+}
+.marketingBox .col1 img{
+  float: right;
+  margin: 0 0 1vw 1vw;
+  width: 75%;
+  height:  75%;
+}
 
 .marketingCol {
   display: flex;
@@ -533,7 +690,10 @@ li {
 
 .serviciosRow .box:hover .tituloBox {
   color: #93e54c;
-
+}
+.serviciosRow .box:hover .arrowBox {
+  content: url("../public/img/flechaVerde.webp");
+  max-width: 10%;
 }
 
 .serviciosRow .box:hover,
@@ -577,13 +737,14 @@ li {
 .testimoniosBox .box {
   width: 30vw;
   padding: 0 2%;
-  border-right: 1px solid #525257;
+  border-right: 0.1vw solid #525257;
+  
 }
 
 
 .testimoniosBox .box:first-of-type {
   padding: 0 2% 0 0;
-  border-right: 1px solid #525257;
+  border-right: 0.1vw solid #525257;
 }
 
 .testimoniosBox .box:last-of-type {
@@ -600,24 +761,24 @@ li {
 }
 
 #style-1::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 0.6vw rgba(0, 0, 0, 0.3);
+  border-radius: 1vw;
   background-color: #F5F5F5;
 }
 
 #style-1::-webkit-scrollbar {
-  width: 12px;
+  width: 1.2vw;
   background-color: #F5F5F5;
 }
 
 #style-1::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  border-radius: 1vw;
+  -webkit-box-shadow: inset 0 0 0.6vw rgba(0, 0, 0, .3);
   background-color: #555;
 }
 
 .logoPie img {
-  max-width: 40%;
+  max-width: 20%;
 }
 
 .metaLogo {
@@ -653,6 +814,7 @@ li {
 
 .comentarioTestimonio{
   min-height: 60%;
+  font-size: 1.1vw;
 }
 
 .arrowBox img{

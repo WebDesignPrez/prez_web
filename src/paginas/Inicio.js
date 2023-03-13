@@ -13,7 +13,7 @@ function Inicio() {
     return (
         <>
             <MenuLateral />
-            <img className="logo" src="./img/prez-logo.webp" alt="Logo" />
+            <img className="logo" src="./img/prez-logo.png" alt="Logo" />
             <div className="tituloInicio" id="Inicio">
                 <p>En nuestro mundo</p>
                 <p>no hay <span>imposibles,</span></p>
@@ -22,10 +22,11 @@ function Inicio() {
                     <img src="./img/flecha-negra-abajo.webp" alt="" />
                 </div>
             </div>
+            <div className='boxVideoInicio'>
+                <div className="videoInicio">
+                    <img src="./img/img2.png" />
 
-            <div className="videoInicio">
-                <img src="./img/img2.png" />
-
+                </div>
             </div>
             <div class="tituloServicios" ><p>Nuestros Servicios</p></div>
             <Servicios />

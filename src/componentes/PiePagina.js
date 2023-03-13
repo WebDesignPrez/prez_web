@@ -4,7 +4,7 @@ function PiePagina(){
         <div className="piePagina">
             <div className="Info">
                 <div className="logoPie">
-                    <img src="./img/prez-logo.webp" alt="Logo Prez"/>
+                    <img src="./img/prez-logo.png" alt="Logo Prez"/>
                     <p className="titulo">
                         Oficina
                     </p>
@@ -15,9 +15,15 @@ function PiePagina(){
                     </p>
                     <a className="desc" href="tel:0959792827"><strong>Cel: </strong>095 979 2827</a>
                     <div className="social">
-                        <img src="./img/facebook.png" alt="facebook"/>
-                        <img src="./img/instagram.png" alt="instagram"/>
-                        <img src="./img/linked.png" alt="linkedin"/>
+                    <a href="https://www.facebook.com/agenciaprez" >
+                        <img class="cambiar-imagen-fb" src="./img/fbnegra.png" alt="facebook"/>
+                    </a>
+                    <a href="https://www.instagram.com/prez_agencia/"> 
+                        <img class="cambiar-imagen-insta"src="./img/instanegra.png" alt="instagram"/>
+                    </a>
+                    <a>
+                        <img class="cambiar-imagen-in"src="./img/innegra.png" alt="linkedin"/>
+                    </a>
                     </div>
                 </div>
             </div>

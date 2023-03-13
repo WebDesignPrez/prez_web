@@ -8,7 +8,7 @@ function CasosExito() {
                     <div className="casoHeader">
                         <img src="./img/vehicentro-logo-blanco.png" alt="Vehicentro" />
                         <div className="casosDesc">
-                            Número 1 en ventas de cabezales en Ecuador en el año 2020 / 21 / 22
+                            <strong>Número 1 en ventas</strong> de cabezales en Ecuador en el año 2020 / 21 / 22
                         </div>
                     </div>
                     <div className="casosArrow">
