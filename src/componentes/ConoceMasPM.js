@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 
-function ConoceMasMD(){
+function ConoceMasPD(){
     const navigate = useNavigate();
     const selOpt = (opt) => {
         switch (opt) {
@@ -29,19 +29,19 @@ function ConoceMasMD(){
 
     return ( 
         <>     
-        <div id="Servicios" className="serviciosRow">
-                <div className="box" onClick={()=>{selOpt('pm')}}>
+            <div id="Servicios" className="serviciosRow">
+                <div className="box" onClick={() => { selOpt('md') }}>
                     <div className="imgBox">
-                        <img src="./img/paid-media.webp" alt="" />
+                        <img src="./img/marketing-digital.webp" alt="" />
                     </div>
-                    <div className="tituloBox">Paid<br></br> Media</div>
-                    <div className="descBox">Estrategias de pauta en plataformas como Facebook ADS y Google ADS</div>
+                    <div className="tituloBox">Marketing<br></br> Digital</div>
+                    <div className="descBox">Planiﬁcación, desarrollo y gentión de estrategias digitales. Content marketing, Inbound marketing</div>
                     <div className="arrowBox">
                         <img src="./img/flecha-negra.webp" alt="" />
                     </div>
-                </div>    
-                    <div className="lineaVertical"></div>
-                <div className="box" onClick={()=>{selOpt('be')}}>
+                </div>
+                <div className="lineaVertical"></div>
+                <div className="box" onClick={() => { selOpt('be') }}>
                     <div className="imgBox">
                         <img src="./img/branding.webp" alt="" />
                     </div>
@@ -52,18 +52,18 @@ function ConoceMasMD(){
                     </div>
                 </div>
                 <div className="lineaVertical"></div>
-                <div className="box" onClick={()=>{selOpt('dw')}}>
+                <div className="box" onClick={() => { selOpt('dw') }}>
                     <div className="imgBox">
                         <img src="./img/desarrollo-web.webp" alt="" />
                     </div>
                     <div className="tituloBox">Desarollo Web <br></br>/ e-commerce</div>
                     <div className="descBox">Desarrollamos un sitio web funcional, elegante y vendedor para tu empresa</div>
                     <div className="arrowBox">
-                    <img src="./img/flecha-negra.webp" alt="" />
+                        <img src="./img/flecha-negra.webp" alt="" />
                     </div>
                 </div>
             </div>
         </>
     )
 }
-export default ConoceMasMD
+export default ConoceMasPD

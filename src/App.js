@@ -5,6 +5,10 @@ import { Helmet } from "react-helmet"
 import MarketingDigital from './paginas/MarketingDigital';
 import PaidMedia from './paginas/PaidMedia';
 import Contacto from './paginas/Contacto';
+import BrandingE from './paginas/BrandingE';
+import DesarolloWeb from './paginas/DesarolloWeb';
+import Leads from './paginas/Leads';
+import FotoVideo from './paginas/ProduccionFotoVideo';
 
 function App() {
   return (
@@ -18,6 +22,10 @@ function App() {
           <Route path="/marketing-digital" element={<MarketingDigital />} />
           <Route path="/paid-media" element={<PaidMedia />} />
           <Route path="/lets-talk" element={<Contacto />} />
+          <Route path="/branding-estratégico" element={<BrandingE />} />
+          <Route path="/desaroolo-web" element={<DesarolloWeb />} />
+          <Route path="/generacion-leads" element={<Leads />} />
+          <Route path="/produccion-fotografia-video" element={<FotoVideo />} />
       </Routes>
     </BrowserRouter>
 

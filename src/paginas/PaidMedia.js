@@ -1,16 +1,20 @@
 import LetsTalk from "../componentes/LetsTalk";
 import MenuLateral from "../componentes/MenuLateral";
 import PiePagina from "../componentes/PiePagina";
+import ConoceMasPD from "../componentes/ConoceMasPM";
+import Testimonios from "../componentes/Testimonios";
 
-function PaidMedia(){
-    return(
-    <>
-        <MenuLateral />
-        <div className="paidPage">
-            <div className="marketingImg">
-                <img src="./img/banner2.png" />
+function PaidMedia() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    return (
+        <>
+            <MenuLateral />
+            <div className="paidPage">
+                <div className="marketingImg">
+                    <img src="./img/banner2.png" />
+                </div>
             </div>
-        </div>
             <div className="marketingBox2">
                 <p className="titulo">¿Necesitas Crecer ?</p>
                 <div className="marketingCol">
@@ -34,9 +38,11 @@ function PaidMedia(){
                 </div>
             </div>
             <LetsTalk />
-        
-        <PiePagina />
-    </>
+            <h1>Conoce más</h1>
+            <ConoceMasPD />
+            <Testimonios />
+            <PiePagina />
+        </>
     )
 }
 export default PaidMedia
