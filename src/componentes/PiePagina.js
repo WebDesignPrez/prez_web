@@ -81,7 +81,7 @@ function PiePagina(){
                         </div>
                     </div>
                     <div class="columna">
-                        <h3 className="menos-espacio">Menu</h3>
+                        <h3 className="menos-espacio">Menú</h3>
                         <nav>
                             <ul>
                                 <li><a href="#">Principal</a></li>
