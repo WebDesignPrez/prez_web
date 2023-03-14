@@ -76,9 +76,6 @@ function Clientes() {
                         <img width="100%" src="./img/logos/logo15.png" alt="" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img width="100%" src="./img/logos/logo16.png" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
                         <img width="100%" src="./img/logos/logo17.png" alt="" />
                     </Carousel.Item>
                     <Carousel.Item>
