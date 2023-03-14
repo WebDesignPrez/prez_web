@@ -16,6 +16,12 @@ body {
   background-color: #25272c;
   color: #FFF;
 }
+.cetificado{
+  width: 150%;
+}
+.menu{
+  width: 100%;
+}
 
 .boxVideoInicioP{
   background-color: #25272c;
@@ -133,7 +139,8 @@ html {
 
 .menuLateral .burger span {
   display: block;
-  background-color: #27272e;
+  /*background-color: #27272e;*/
+  background-color: #fff;
   width: 2rem;
   height: 0.2vw;
   -webkit-transition: -webkit-transform .15s ease-in-out;
@@ -167,7 +174,8 @@ html {
 .linkDecor {
   font-weight: bold;
   display: block;
-  color: #27272e;
+  /*color: #27272e;*/
+  color:#FFF;
   font-size: 1.5rem;
   line-height: 160%;
   text-decoration: none;
@@ -404,8 +412,8 @@ li {
 }
 
 .piePagina .social img {
-  width: 6%;
-  height: 6%;
+  width: 12%;
+  height: 12%;
   }
   
 .cambiar-imagen-fb:hover{
@@ -794,6 +802,7 @@ li {
   background-color: #555;
 }
 
+
 .logoPie img {
   max-width: 20%;
 }
@@ -869,6 +878,8 @@ max-width: 4%;
 
 @media only screen and (min-width: 768px) {
   .menuLateral {
+    /*Color fondo*/
+    background-color: #24262b;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
