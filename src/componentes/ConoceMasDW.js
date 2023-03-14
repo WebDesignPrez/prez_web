@@ -14,7 +14,7 @@ function ConoceMasDW(){
                 navigate("/branding-estratégico")
                 break;
             case "dw":
-                navigate("/desaroolo-web")
+                navigate("/desarrollo-web")
                 break;
             case "gl":
                 navigate("/generacion-leads")
@@ -56,7 +56,7 @@ function ConoceMasDW(){
                     <div className="imgBox">
                         <img src="./img/produccion.webp" alt="" />
                     </div>
-                    <div className="tituloBox">Producción, <br></br>fotografia y video</div>
+                    <div className="tituloBox">Producción, <br></br>fotografía y video</div>
                     <div className="descBox">Desarrollo, producción y post producción de fotografías, videos y piezas audiovisuales.</div>
                     <div className="arrowBox">
                         <img src="./img/flecha-negra.webp" alt="" />

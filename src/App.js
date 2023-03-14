@@ -6,7 +6,7 @@ import MarketingDigital from './paginas/MarketingDigital';
 import PaidMedia from './paginas/PaidMedia';
 import Contacto from './paginas/Contacto';
 import BrandingE from './paginas/BrandingE';
-import DesarolloWeb from './paginas/DesarolloWeb';
+import DesarrolloWeb from './paginas/DesarrolloWeb';
 import Leads from './paginas/Leads';
 import FotoVideo from './paginas/ProduccionFotoVideo';
 
@@ -23,7 +23,7 @@ function App() {
           <Route path="/paid-media" element={<PaidMedia />} />
           <Route path="/lets-talk" element={<Contacto />} />
           <Route path="/branding-estratégico" element={<BrandingE />} />
-          <Route path="/desaroolo-web" element={<DesarolloWeb />} />
+          <Route path="/desarrollo-web" element={<DesarrolloWeb />} />
           <Route path="/generacion-leads" element={<Leads />} />
           <Route path="/produccion-fotografia-video" element={<FotoVideo />} />
       </Routes>

@@ -4,7 +4,7 @@ import PiePagina from "../componentes/PiePagina";
 import Testimonios from "../componentes/Testimonios";
 import ConoceMasDW from "../componentes/ConoceMasDW";
 
-function DesarolloWeb() {
+function DesarrolloWeb() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     return (
@@ -17,4 +17,4 @@ function DesarolloWeb() {
         </>
     )
 }
-export default DesarolloWeb
+export default DesarrolloWeb
