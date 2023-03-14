@@ -56,7 +56,7 @@ function MenuLateral(){
             </div>
             <div className={isActive ? "menuLateral menuLateralActive" : "menuLateral"}>
                 
-                <div className="logoLateral" onClick={topFunction}></div>
+                {/* <div className="logoLateral" onClick={topFunction}></div> */}
                 <a className="burger" onClick={handleToggle}> <span></span> <span></span> </a>
                 <div className="textoRotar"><a className="linkDecor" onClick={selOpt}>Let's talk</a></div>
             </div>

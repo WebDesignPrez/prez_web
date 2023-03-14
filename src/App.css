@@ -282,7 +282,7 @@ html {
 .menuLateral .burger span {
   display: block;
   /*background-color: #27272e;*/
-  background-color: #fff;
+  background-color: #000;
   width: 2rem;
   height: 0.2vw;
   -webkit-transition: -webkit-transform .15s ease-in-out;
@@ -317,7 +317,7 @@ html {
   font-weight: bold;
   display: block;
   /*color: #27272e;*/
-  color:#FFF;
+  color:#000;
   font-size: 1.5rem;
   line-height: 160%;
   text-decoration: none;
@@ -417,10 +417,10 @@ html {
 
 .logo {
   position: absolute;
-  right: 0.5vw;
-  top: 0.5vw;
+  right: 1.3vw;
+  top: 1.3vw;
   z-index: 1;
-  max-width: 8%;
+  max-width: 8.5%;
 }
 
 .mainMenu {
@@ -1021,7 +1021,7 @@ max-width: 4%;
 @media only screen and (min-width: 768px) {
   .menuLateral {
     /*Color fondo*/
-    background-color: #24262b;
+    background-color: #fff;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
