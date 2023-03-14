@@ -7,6 +7,15 @@ body {
   color: #000;
   background-color: #f9f9f9;
 }
+.casosEBox{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0vw 2vw 0vw 9vw;
+  background-color: #25272c;
+  color: #FFF;
+}
 
 .boxVideoInicioP{
   background-color: #25272c;
@@ -19,6 +28,14 @@ body {
   grid-template-columns: repeat(4, 1fr); /* crea 4 columnas con ancho flexible */
   grid-template-rows: repeat(3, 1fr); /* crea 3 filas con altura flexible */
   background-color: #24262b /* establece el color de fondo */
+}
+
+@media screen and (max-width: 767px) {
+  .boxMarketing {
+    padding: 2vh 0 2vh 5vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
 }
 
 .item {

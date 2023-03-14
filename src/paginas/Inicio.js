@@ -24,7 +24,7 @@ function Inicio() {
             </div>
             <div className='boxVideoInicio'>
                 <div className="videoInicio">
-                    <img src="./img/img2.png" />
+                    <img src="./img/video.png" />
 
                 </div>
             </div>
