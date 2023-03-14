@@ -108,15 +108,26 @@ a:hover {
     text-align: center;
     margin-left: 20vw;
   }
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
   .social img {
     width: 75%;
-    margin: 5vw 5vw 0vw 5vw;
   }
   .logoP{
-    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
   .certificadoI{
-    margin-left: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
   .menos-espacio {
     margin-top: 0.5em;
@@ -145,6 +156,8 @@ a:hover {
   background-color: #25272c;
   color: #FFF;
 }
+
+
 .cetificado{
   width: 150%;
 }
