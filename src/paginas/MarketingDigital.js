@@ -11,6 +11,7 @@ function MarketingDigital() {
     return (
         <>
             <MenuLateral />
+            <img className="logo" src="./img/prez-logo.png" alt="Logo" />
             <div className="tituloMarketing" id="Inicio">
                 <div className="iconotituloizquierda">
                     <img src="./img/marke.svg" alt="" />
@@ -24,32 +25,33 @@ function MarketingDigital() {
                 </div>
             </div>
             <div className="abajo"> 
-                    <p className="primera">Creamos, <span>estratégias de marketing</span></p>
-                    <p><span>digital</span>, para cumplir tus objetivos</p>
-                    <p>de marca</p>
+                    <p className="primera">La aventura<span> digital de tu negocio</span></p>
+                    <p><span>comienza aquí</span>. En nuestro mundo </p>
+                    <p>enfocado en resultados, podrás</p>
+                    <p>viajar en modo automático</p>
             </div>
             <div class="boxMarketing">
                 <div class="item">
                     <p><span>Social</span></p>
                     <p><span>Media</span></p>
-                    <p>Nuestro equipo creativo pone</p>
-                    <p>en marcha estrategias de con-</p>
-                    <p>tenido pensada especialmente</p>
-                    <p>para tu marca.</p>
+                    <p>Con nuestro enfoque creativo y</p>
+                    <p>experiencia en Social Media, po-</p>
+                    <p>podemos aumentar su presencia</p>
+                    <p>en este universo llamado Internet.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/icono-prez-1.png"/>
+                    <img src="./img/social-media.png"/>
                 </div>
                 <div class="item">
                     <p><span>E-mail</span></p>
                     <p><span>Marketing</span></p>
-                    <p>Nos comunicamos con tus</p>
-                    <p>clientes luego de la compra</p>
-                    <p>para convertirlos en promoto-</p>
-                    <p>res de marca.</p>
+                    <p>Viajemos al infinito y</p>
+                    <p>más allá con estrategias</p>
+                    <p>de E-mail Marketing</p>
+                    <p>innovadoras y efectivas.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/icono-prez-2.png"/>
+                    <img src="./img/mailing.png"/>
                 </div>
                 <div class="item">
                     <p><span>Inbound</span></p>
@@ -61,7 +63,7 @@ function MarketingDigital() {
                     <p>luego de sus compras.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/inbo.png"/>
+                    <img src="./img/inbound-mk.png"/>
                 </div>
                 <div class="item">
                     <p><span>Marketing de</span></p>
@@ -72,7 +74,7 @@ function MarketingDigital() {
                     <p>de búsqueda y redes sociales.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/icono-prez-3.png"/>
+                    <img src="./img/mk-de-contemidos.png"/>
                 </div>
                 <div class="item">
                     <p><span>Analitica</span></p>
@@ -84,7 +86,7 @@ function MarketingDigital() {
                     <p>sión</p>
                 </div>
                 <div class="item">
-                    <img src="./img/icono-prez-4.png"/>
+                    <img src="./img/analitica-web.png"/>
                 </div>
                 <div class="item">
                     <p><span>SEO</span></p>
@@ -96,11 +98,11 @@ function MarketingDigital() {
                     <p>tes, leads y conversiones.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/icono-prez-5.png"/>
+                    <img src="./img/seo.png"/>
                 </div>
 
             </div>
-            <span class="linea">¡Descubre como llevar tu empresa el siguiente nivel!</span>
+            <span class="linea">¡El Universo Digital, ya no será un misterio. Preparemos motores y comencemos el viaje!</span>
             <div class="contenedor-imagenes">
                 <img src="./img/imagenIzquierda.jpg" alt="Imagen 1" class="imagen1"/>
                 <img src="./img/imagenDerecha.jpg" alt="Imagen 2" class="imagen2"/>

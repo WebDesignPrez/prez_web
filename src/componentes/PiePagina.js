@@ -70,13 +70,17 @@ function PiePagina(){
                         <a className="cel" href="tel:0959792827"><strong>Cel: </strong>095 979 2827</a>
                         <div className="social">
                             <a href="https://www.facebook.com/agenciaprez" >
-                                <img class="cambiar-imagen-fb" src="./img/fbnegra.png" alt="facebook" />
+                                <img class="cambiar-imagen-fb" src="./img/FaceNegra.webp" alt="facebook" />
                             </a>
+                            
                             <a href="https://www.instagram.com/prez_agencia/">
-                                <img class="cambiar-imagen-insta" src="./img/instanegra.png" alt="instagram" />
+                                <img class="cambiar-imagen-insta" src="./img/InstaNegro.webp" alt="instagram" />
                             </a>
                             <a>
-                                <img class="cambiar-imagen-in" src="./img/innegra.png" alt="linkedin" />
+                                <img class="cambiar-imagen-in" src="./img/InNegra.webp" alt="linkedin" />
+                            </a>
+                            <a>
+                                <img class="cambiar-imagen-tiktok" src="./img/TiktokNegra.webp" alt="tiktok" />
                             </a>
                         </div>
                     </div>
@@ -88,7 +92,7 @@ function PiePagina(){
                                 <li><a href="#Servicios">Nuestros Servicios</a></li>
                                 <li><a href="#Casos-exito">Casos de éxito</a></li>
                                 <li><a href="#Ultimos-casos">Últimos casos</a></li>
-                                <li><a href="#Clientes">Clientes que viajan con nosotros</a></li>
+                                <li><a href="#Clientes">Clientes que viajan<br/> <br/>con nosotros</a></li> 
                                 <li><a href="#Testimonios"> Testimonios</a></li>
                             </ul>
                         </nav>

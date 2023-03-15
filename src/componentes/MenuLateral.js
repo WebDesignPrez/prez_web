@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react"
 import { NavLink, useNavigate, useLocation } from "react-router-dom"
 
-function MenuLateral(){
+function MenuLateral() {
     let location = useLocation();
 
     const [isActive, setActive] = useState(false);
     const handleToggle = () => {
-        setActive(!isActive);  
+        setActive(!isActive);
     }
 
     const navigate = useNavigate();
@@ -17,23 +17,23 @@ function MenuLateral(){
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
 
-    const closeMenu = ()=>{        
+    const closeMenu = () => {
         console.log(location.pathname)
-      
+
         navigate("/");
         handleToggle()
     }
 
-    const topFunction = ()=> {
+    const topFunction = () => {
         navigate("/");
-        if(isActive){
+        if (isActive) {
             handleToggle()
         }
         document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0; 
-      }
+        document.documentElement.scrollTop = 0;
+    }
 
-    return(
+    return (
         <>
             <div className={isActive ? "mainMenu mainMenuActive" : "mainMenu"}>
                 <div className="linkBox">
@@ -45,17 +45,22 @@ function MenuLateral(){
                     <div className="link"><a href="#Testimonios" onClick={closeMenu}>Testimonios</a></div>
                 </div>
                 <div class="container">
-                <a href="https://www.facebook.com/agenciaprez" >
-                    <img src="img/fb.png" alt="Imagen FB"/>
-                </a>    
-                <a href="https://www.instagram.com/prez_agencia/" >
-                    <img src="img/insta.png" alt="Imagen Instagram"/>
-                </a>
-                <img src="img/in.png" alt="Imagen In"/>
-            </div>
+                    <a href="https://www.facebook.com/agenciaprez" >
+                        <img src="img/FaceVerde.webp" alt="FB" />
+                    </a>
+                    <a href="https://www.instagram.com/prez_agencia/" >
+                        <img src="img/InstaVerde.webp" alt="Instagram" />
+                    </a>
+                    <a>
+                        <img src="img/TiktokVerde.webp" alt="Tiktok" />
+                    </a>
+                    <a>
+                        <img src="img/InVerde.webp" alt="In" />
+                    </a>
+                </div>
             </div>
             <div className={isActive ? "menuLateral menuLateralActive" : "menuLateral"}>
-                
+
                 {/* <div className="logoLateral" onClick={topFunction}></div> */}
                 <a className="burger" onClick={handleToggle}> <span></span> <span></span> </a>
                 <div className="textoRotar"><a className="linkDecor" onClick={selOpt}>Let's talk</a></div>

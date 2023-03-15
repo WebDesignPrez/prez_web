@@ -1,7 +1,7 @@
 function CasosExito() {
     return (
         <><div className="tituloCasos tituloExito" >
-            <p>Casos de éxito</p>
+            <p>Clientes en Órbita</p>
         </div>
             <div className="casosRow" id="Casos-exito">
                 <div className="casosBox">
