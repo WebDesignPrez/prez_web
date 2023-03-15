@@ -1,4 +1,14 @@
+import Slider from 'react-slick';
 import { useNavigate } from "react-router-dom"
+const settings = {
+    dots: true,
+    arrows: true,
+    speed: 200,
+    fade: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1
+};
 
 function Servicios() {
     const navigate = useNavigate();
@@ -91,13 +101,33 @@ function Servicios() {
                     <div className="imgBox">
                         <img src="./img/produccion.webp" alt="" />
                     </div>
-                    <div className="tituloBox">Producción, <br></br>fotografía y video</div>
+                    <div className="tituloBox">Producción, <br></br>fotográfica, audio y video</div>
                     <div className="descBox">Desarrollo, producción y post producción de fotografías, videos y piezas audiovisuales.</div>
                     <div className="arrowBox">
                         <img src="./img/flecha-negra.webp" alt="" />
                     </div>
                 </div>
             </div>
+           {/*  <Slider {...settings}>
+                <div className="slide">
+                    <img src="./img/marketing-digital.webp" />
+                </div>
+                <div className="slide">
+                    <img src="./img/paid-media.webp" />
+                </div>
+                <div className="slide">
+                    <img src="./img/branding.webp" />
+                </div>
+                <div className="slide">
+                    <img src="/img/desarrollo-web.webp" />
+                </div>
+                <div className="slide">
+                    <img src="./img/leads.webp" />
+                </div>
+                <div className="slide">
+                    <img src="./img/produccion.webp" />
+                </div>
+            </Slider> */}
         </>
     )
 }

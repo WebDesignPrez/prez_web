@@ -39,7 +39,7 @@ function MenuLateral() {
                 <div className="linkBox">
                     <div className="link"><a href="#" onClick={closeMenu}>Inicio</a></div>
                     <div className="link"><a href="#Servicios" onClick={closeMenu}>Nuestros Servicios</a></div>
-                    <div className="link"><a href="#Casos-exito" onClick={closeMenu}>Casos de éxito</a></div>
+                    <div className="link"><a href="#Casos-exito" onClick={closeMenu}>Clientes en Órbita</a></div>
                     <div className="link"><a href="#Clientes" onClick={closeMenu}>Clientes que viajan <br></br>con nosotros</a></div>
                     <div className="link"><a href="#Ultimos-casos" onClick={closeMenu}>Últimos casos</a></div>
                     <div className="link"><a href="#Testimonios" onClick={closeMenu}>Testimonios</a></div>

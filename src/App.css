@@ -12,6 +12,14 @@ body ::selection{
   color:#000;
 }
 
+.slide {
+  width: 33.33%; /* El ancho es 1/3 del ancho del carrusel para mostrar 3 imágenes a la vez */
+}
+
+.slide img {
+  width: 33%; /* La imagen ocupará todo el ancho del elemento div */
+  height: auto; /* La altura se ajustará automáticamente para mantener la relación de aspecto */
+}
 /*Pie de pagina*/
 footer {
   background-color: #f9f9f9;
@@ -40,11 +48,12 @@ footer a{
 .social {
   margin-top: 2vw;
   display: flex;
-  justify-content: center; /* Agregado para centrar horizontalmente las imágenes */
+  justify-content: center;
 }
 
 .social img {
-  width: 2.8vw
+  width: 2.7vw;
+  margin-right: 1vw; /* Agrega un margen derecho de 1vw */
 }
 
 .logoP{
@@ -185,11 +194,15 @@ a:hover {
 
 .item {
   padding: 1vw;
-  line-height: 0.8;
-  text-align: left;
+}
+
+.item p{
   color:#fff;
+  text-align: justify;
+  line-height: 1.5;
   font-size: 1.1rem;
 }
+
 .item p::selection{
   background-color: #93e54c;
   color:#000;
@@ -199,13 +212,14 @@ a:hover {
   color:#000;
 }
 .item span{
+  line-height: 0.5;
   font-size: 2rem;
   font-weight: bold;
 }
 
 .item img{
-  padding-top: 1vw;
-  padding-left: 1vw;
+  padding-top: 4vw;
+  padding-left: 5vw;
   width: 50%;
   height: auto;
 }
@@ -482,6 +496,36 @@ html {
   cursor: pointer;
 }
 
+/*Menu Lateral Sin Home*/
+.linkBoxSinHome {
+  margin: 10vw 5vw 0 20vw;
+  font-size: 3.5vw;
+  font-weight: 700;
+}
+
+.mainMenu .linkBoxSinHome a {
+  text-decoration: none;
+  color: #FFF;
+  display: inline-block;
+}
+
+.linkBoxSinHome a.active {
+  color: #93e54c !important;
+  border-bottom-color: #93e54c;
+  border-bottom-style: solid;
+  border-bottom-width: 0.3vw;
+}
+
+.linkBoxSinHome .link a:hover {
+  color: #93e54c;
+  border-bottom-color: #93e54c;
+  border-bottom-style: solid;
+  border-bottom-width: 0.3vw;
+
+  cursor: pointer;
+}
+/**/
+
 
 .mainMenuActive {
   opacity: 1;
@@ -632,6 +676,7 @@ li {
 
 .serviciosRow .box .descBox {
   font-size: 1.1rem;
+  text-align: justify;
 }
 
 .casosRow {

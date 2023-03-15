@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { NavLink, useNavigate, useLocation } from "react-router-dom"
 
-function MenuLateral() {
+function MenuLateralSinHome() {
     let location = useLocation();
 
     const [isActive, setActive] = useState(false);
@@ -36,10 +36,9 @@ function MenuLateral() {
     return (
         <>
             <div className={isActive ? "mainMenu mainMenuActive" : "mainMenu"}>
-                <div className="linkBox">
-                    <div className="link"><a href="#" onClick={closeMenu}>Inicio</a></div>
+                <div className="linkBoxSinHome">
                     <div className="link"><a href="#Servicios" onClick={closeMenu}>Nuestros Servicios</a></div>
-                    <div className="link"><a href="#Casos-exito" onClick={closeMenu}>Casos de éxito</a></div>
+                    <div className="link"><a href="#Casos-exito" onClick={closeMenu}>Clientes en Órbita</a></div>
                     <div className="link"><a href="#Clientes" onClick={closeMenu}>Clientes que viajan <br></br>con nosotros</a></div>
                     <div className="link"><a href="#Ultimos-casos" onClick={closeMenu}>Últimos casos</a></div>
                     <div className="link"><a href="#Testimonios" onClick={closeMenu}>Testimonios</a></div>
@@ -68,4 +67,4 @@ function MenuLateral() {
         </>
     )
 }
-export default MenuLateral
+export default MenuLateralSinHome

@@ -9,6 +9,7 @@ import BrandingE from './paginas/BrandingE';
 import DesarrolloWeb from './paginas/DesarrolloWeb';
 import Leads from './paginas/Leads';
 import FotoVideo from './paginas/ProduccionFotoVideo';
+import MenuLateralSinHome from './componentes/MenuLateralSinHome';
 
 function App() {
   return (

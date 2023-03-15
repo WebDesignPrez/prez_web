@@ -7,12 +7,15 @@ import PiePagina from '../componentes/PiePagina';
 import Servicios from '../componentes/Servicios';
 import Testimonios from '../componentes/Testimonios';
 import UltimosCasos from '../componentes/UltimosCasos';
+import MenuLateralSinHome from '../componentes/MenuLateralSinHome';
+import WhatsappIcon from '../componentes/Whatsapp';
 
 function Inicio() {
 
     return (
         <>
-            <MenuLateral />
+            <MenuLateralSinHome />
+            <WhatsappIcon />
             <img className="logo" src="./img/prez-logo.png" alt="Logo" />
             <div className="tituloInicio" id="Inicio">
                 <p>En nuestro mundo</p>
