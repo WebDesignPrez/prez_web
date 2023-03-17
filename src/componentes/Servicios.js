@@ -46,7 +46,7 @@ function Servicios() {
                         <img src="./img/marketing-digital.webp" alt="" />
                     </div>
                     <div className="tituloBox">Marketing<br></br> Digital</div>
-                    <div className="descBox">La aventura digital de tu negocio comienza aquí. En nuestro mundo enfocado en resultados, podrás viajar en modo automático. (También en los servicios principales)</div>
+                    <div className="descBox">La aventura digital de tu negocio comienza aquí. En nuestro mundo enfocado en resultados, podrás viajar en modo automático.</div>
                     <div className="arrowBox">
                         <img src="./img/flecha-negra.webp" alt="" />
                     </div>

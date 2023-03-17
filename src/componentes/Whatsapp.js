@@ -1,22 +1,7 @@
 import React from 'react';
+import { ElfsightWidget } from 'react-elfsight-widget';
 
-const WhatsappIcon = () => {
-  return (
-    <a href="https://api.whatsapp.com/send?phone=+593959792827">
-      <img
-        src="./img/whatsapplogo.webp"
-        alt="Enviar mensaje a Whatsapp"
-        style={{
-          position: 'fixed',
-          bottom: '20px',
-          right: '20px',
-          width: '60px',
-          height: '60px',
-          borderRadius: '50%',
-        }}
-      />
-    </a>
-  );
-};
-
-export default WhatsappIcon;
+function Whatsapp() {
+  return <ElfsightWidget widgetID="0fe11f24-edb4-46d2-b047-3d9781700cca" />;
+}
+export default Whatsapp;

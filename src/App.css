@@ -1,3 +1,6 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 body {
   font-weight: 400;
   font-size: 1.6vw;
@@ -7,19 +10,75 @@ body {
   color: #000;
   background-color: #f9f9f9;
 }
+.contenedor-imagenesPD {
+  padding-top: 0vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filaimg {
+  display: flex;
+  flex: 1;
+}
+
+.filaimg img {
+  max-width: 7vw;
+  height: auto;
+}
+
+/*Slider*/
+.slide-container{
+  margin-left: 9vw;
+  position: relative;
+  width: 64%;
+}
+.slide-container p:hover{
+  color: #000;
+}
+
+
+.slide-image {
+  width: 100%;
+  height: auto;
+  margin: 0 -2vw;
+}
+.main-caption {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.slide-caption {
+  position: absolute;
+  color: white;
+  font-size: 16px;
+}
+
+.sub-caption {
+  font-size: 18px;
+  font-style: italic;
+  text-align: justify;
+}
+
+.flechaSlider{  
+  width: 5vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.slide-container .flechaSlider:hover {
+  content: url("../public/img/flechaVerde.webp");
+  width: 5vw;
+}
+
+
+/*FIN*/
+
 body ::selection{
   background-color: #93e54c;
   color:#000;
 }
 
-.slide {
-  width: 33.33%; /* El ancho es 1/3 del ancho del carrusel para mostrar 3 imágenes a la vez */
-}
-
-.slide img {
-  width: 33%; /* La imagen ocupará todo el ancho del elemento div */
-  height: auto; /* La altura se ajustará automáticamente para mantener la relación de aspecto */
-}
 /*Pie de pagina*/
 footer {
   background-color: #f9f9f9;
@@ -27,9 +86,11 @@ footer {
   padding-top: 2vw;
   padding-left: 10vw;
 }
+
 h3{
   font-size: 1.4vw;
 }
+
 footer p{
   font-size: 1.3vw;
 }
@@ -43,12 +104,12 @@ footer a{
 }
 
 .columna {
-  flex-basis: 20%;
+  flex-basis: 22%;
 }
 .social {
   margin-top: 2vw;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .social img {
@@ -61,25 +122,26 @@ footer a{
   height: auto;
 }
 .certificadoI{
-  width: 60%;
-  height: auto;
+  width: 40%;
 }
 
 nav {
   display: flex;
-  justify-content: center;
+}
+
+.masEspacio{
+  margin-left: 6vw;
 }
 
 .columna ul {
-  padding-left: 0;
+  padding: 0;
 }
-
 .columna ul li {
   display: block;
-  margin-bottom: 3vw;
+  margin-bottom: 1vw;
   text-align: left;
   font-size: 1.5rem; 
-  line-height: 1rem; 
+  line-height: 1.6rem;
 }
 a {
   text-decoration: none;
@@ -432,10 +494,12 @@ html {
   position: relative;
 }
 .abajo {
+  width: 58vw;
   font-size: 2.1vw;
-  padding: 0 0 0 33vw;
-  line-height: 0.5;
+  padding: 0 0 0 25vw;
+  line-height: 1.2;
   padding-bottom: 3vw;
+  text-align: justify;
 } 
 .abajo .primera::first-letter {
   font-weight: bold;
@@ -451,7 +515,7 @@ html {
   right: 1.3vw;
   top: 1.3vw;
   z-index: 1;
-  max-width: 8.5%;
+  max-width: 10%;
 }
 
 .mainMenu {

@@ -9,14 +9,17 @@ import Testimonios from '../componentes/Testimonios';
 import UltimosCasos from '../componentes/UltimosCasos';
 import MenuLateralSinHome from '../componentes/MenuLateralSinHome';
 import WhatsappIcon from '../componentes/Whatsapp';
+import SliderComponent from '../componentes/SliderComponent';
+
 
 function Inicio() {
+    
 
     return (
         <>
             <MenuLateralSinHome />
             <WhatsappIcon />
-            <img className="logo" src="./img/prez-logo.png" alt="Logo" />
+            <img className="logo" src="./img/logo-prezagencia.png" alt="Logo" />
             <div className="tituloInicio" id="Inicio">
                 <p>En nuestro mundo</p>
                 <p>no hay <span>imposibles,</span></p>
@@ -33,7 +36,8 @@ function Inicio() {
                 </div>
             </div>
             <div class="tituloServicios" ><p>Nuestros Servicios</p></div>
-            <Servicios />
+            <SliderComponent />
+            <br/>
             <CasosExito />
             <UltimosCasos />
             <Clientes />

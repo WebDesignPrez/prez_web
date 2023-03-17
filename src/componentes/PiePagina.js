@@ -1,7 +1,7 @@
-function PiePagina(){
-    return(
+function PiePagina() {
+    return (
         <>
-        {/* <div className="piePagina">
+            {/* <div className="piePagina">
             <div className="Info">
                 <div className="logoPie">
                     <img src="./img/prez-logo.png" alt="Logo Prez"/>
@@ -62,7 +62,7 @@ function PiePagina(){
             <footer>
                 <div class="footer-container">
                     <div class="columna">
-                    <img  className="logoP" src="./img/prez-logo.png" alt="Logo Prez"/>
+                        <img className="logoP" src="./img/logo-prezagencia.png" alt="Logo Prez" />
                         <p><strong>Oficina</strong></p>
                         <p>Ambato</p>
                         <p>Virgen del Sol y Camino al Oriente</p>
@@ -72,7 +72,7 @@ function PiePagina(){
                             <a href="https://www.facebook.com/agenciaprez" >
                                 <img class="cambiar-imagen-fb" src="./img/FaceNegra.webp" alt="facebook" />
                             </a>
-                            
+
                             <a href="https://www.instagram.com/prez_agencia/">
                                 <img class="cambiar-imagen-insta" src="./img/InstaNegro.webp" alt="instagram" />
                             </a>
@@ -85,21 +85,34 @@ function PiePagina(){
                         </div>
                     </div>
                     <div class="columna">
-                        <h3 className="menos-espacio">Menú</h3>
+                        <div class="masEspacio">
+                            <h3>Menú</h3>
+                            <nav>
+                                <ul>
+                                    <li><a href="/#">Principal</a></li>
+                                    <li><a href="/#Casos-exito">Casos de éxito</a></li>
+                                    <li><a href="/#Ultimos-casos">Últimos casos</a></li>
+                                    <li><a href="/#Testimonios"> Testimonios</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <h3><a href="#Servicios">Servicios</a></h3>
                         <nav>
                             <ul>
-                                <li><a href="#">Principal</a></li>
-                                <li><a href="#Servicios">Nuestros Servicios</a></li>
-                                <li><a href="#Casos-exito">Casos de éxito</a></li>
-                                <li><a href="#Ultimos-casos">Últimos casos</a></li>
-                                <li><a href="#Clientes">Clientes que viajan<br/> <br/>con nosotros</a></li> 
-                                <li><a href="#Testimonios"> Testimonios</a></li>
+                                <li><a href="/marketing-digital">Marketing Digital</a></li>
+                                <li><a href="/paid-media">Paid Media</a></li>
+                                <li><a href="/branding-estratégico">Branding Estratégico</a></li>
+                                <li><a href="/desarrollo-web">Desarrollo Web/ e-commerce</a></li>
+                                <li><a href="/generacion-leads">Generación de Leads</a></li>
+                                <li><a href="/produccion-fotografia-video">Producción, fotográfica, audio y video</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="columna">
                         <h3>Certificados</h3>
-                        <img className="certificadoI" src="./img/meta-logo.webp" alt="Certificado"/>
+                        <img className="certificadoI" src="./img/meta-logo.webp" alt="Certificado" />
                     </div>
                 </div>
             </footer>
