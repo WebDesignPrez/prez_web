@@ -27,7 +27,7 @@ function Leads() {
                     </p>
                 </div>
                 <div class="item">
-                    <img src="./img/leads/captacion-de-leads-icono.png" />
+                    <img src="./img/leads/captaciondeleadsicono.png" />
                 </div>
                 <div class="item">
                     <p><span>Centralización y</span></p>
@@ -38,7 +38,7 @@ function Leads() {
                         de la marca.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/leads/iconos-centralizacion.png" />
+                    <img src="./img/leads/iconoscentralizacion.png" />
                 </div>
             </div>
             <LetsTalk />

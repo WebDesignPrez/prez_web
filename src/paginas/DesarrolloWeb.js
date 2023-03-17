@@ -28,7 +28,7 @@ function DesarrolloWeb() {
                     </p>
                 </div>
                 <div class="item">
-                    <img src="./img/desarrollo/diseño-web-icono.png" />
+                    <img src="./img/desarrollo/diseñowebicono.png" />
                 </div>
                 <div class="item">
                     <p><span>E-commerce</span></p>
@@ -37,7 +37,7 @@ function DesarrolloWeb() {
                         de la marca.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/desarrollo/ecommerce-icono.png" />
+                    <img src="./img/desarrollo/ecommerceicono.png" />
                 </div>
                 <div class="item">
                     <p><span>Apps Android / IOS</span></p>
@@ -45,7 +45,7 @@ function DesarrolloWeb() {
                         se identifica no solo con el estilo, sino también con las creencias de la marca lo que hace una conexión más fuerte.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/desarrollo/apps-icono.png" />
+                    <img src="./img/desarrollo/appsicono.png" />
                 </div>
             </div>
             <LetsTalk />

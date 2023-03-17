@@ -12,7 +12,7 @@ function MarketingDigital() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     return (
         <>
-        <img className="logo" src="./img/logo-prezagencia.png" alt="Logo" />
+        <img className="logo" src="./img/logoprezagencia.png" alt="Logo" />
             <MenuLateral />
             <VideoLoop />
             <span class="linea">¡El Universo Digital, ya no será un misterio. Preparemos motores y comencemos el viaje!</span>

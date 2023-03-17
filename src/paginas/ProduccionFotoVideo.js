@@ -28,7 +28,7 @@ function FotoVideo() {
                     </p>
                 </div>
                 <div class="item">
-                    <img src="./img/foto/prod-fotografia-icono.png" />
+                    <img src="./img/foto/prodfotografiaicono.png" />
                 </div>
                 <div class="item">
                     <p><span>Centralización y</span></p>
@@ -39,7 +39,7 @@ function FotoVideo() {
                         de la marca.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/foto/vidoe-icono.png" />
+                    <img src="./img/foto/vidoeicono.png" />
                 </div>
                 <div class="item">
                     <p><span>Captación de</span></p>
