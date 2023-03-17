@@ -11,6 +11,7 @@ function Leads() {
     return (
         <>
             <MenuLateral />
+            <img className="logo" src="./img/logopr.png" alt="Logo" />
             <div className="paidPage">
                 <div className="marketingImg">
                     <img src="" alt="Generación de Leads"/>
@@ -27,7 +28,7 @@ function Leads() {
                     </p>
                 </div>
                 <div class="item">
-                    <img src="./img/leads/captaciondeleadsicono.png" />
+                    <img src="./img/le1.png" />
                 </div>
                 <div class="item">
                     <p><span>Centralización y</span></p>
@@ -38,7 +39,7 @@ function Leads() {
                         de la marca.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/leads/iconoscentralizacion.png" />
+                    <img src="./img/le2.png" />
                 </div>
             </div>
             <LetsTalk />

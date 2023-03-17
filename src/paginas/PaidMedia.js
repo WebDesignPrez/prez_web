@@ -11,6 +11,7 @@ function PaidMedia() {
     return (
         <>
             <MenuLateral />
+            <img className="logo" src="./img/logopr.png" alt="Logo" />
             <div className="paidPage">
                 <div className="marketingImg">
                     <img src="./img/banner2.png" />
@@ -26,7 +27,7 @@ function PaidMedia() {
                     <p>El arma perfecta para conseguir ventas, leads, notariedad de marca</p>
                 </div>
                 <div class="item">
-                    <img src="./img/paid_media/iconos-paid-media-1.png" />
+                    <img src="./img/pm1.png" />
                 </div>
                 <div class="item">
                     <p><span>Social</span></p>
@@ -34,21 +35,21 @@ function PaidMedia() {
                     <p>Desarrollo de campañas para Social ads, en las que se promocionan tus productos o servicios de forma personalizada.</p>
                     <div class="contenedor-imagenesPD">
                         <div class="filaimg">
-                            <img src="./img/paid_media/FACE.png" />
-                            <img src="./img/paid_media/FACE.png" />
+                            <img src="./img/pms1.png" />
+                            <img src="./img/pms2.png" />
                         </div>
                         <div class="filaimg">
-                            <img src="./img/paid_media/FACE.png" />
-                            <img src="./img/paid_media/FACE.png" />
+                            <img src="./img/pms3.png" />
+                            <img src="./img/pms4.png" />
                         </div>
                         <div class="filaimg">
-                            <img src="./img/paid_media/FACE.png" />
-                            <img src="./img/paid_media/FACE.png" />
+                            <img src="./img/pms5.png" />
+                            <img src="./img/pms5.png" />
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="./img/paid_media/iconos-paid-media-2.png" />
+                    <img src="./img/pm2.png" />
                 </div>
             </div>
             <LetsTalk />

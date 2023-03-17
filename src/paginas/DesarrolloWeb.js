@@ -11,6 +11,7 @@ function DesarrolloWeb() {
     return (
         <>
             <MenuLateral />
+            <img className="logo" src="./img/logopr.png" alt="Logo" />
             <div className="paidPage">
                 <div className="marketingImg">
                     <img src="" alt="Desarrollo Web e-commerce"/>
@@ -28,7 +29,7 @@ function DesarrolloWeb() {
                     </p>
                 </div>
                 <div class="item">
-                    <img src="./img/desarrollo/diseñowebicono.png" />
+                    <img src="./img/de1.png" />
                 </div>
                 <div class="item">
                     <p><span>E-commerce</span></p>
@@ -37,7 +38,7 @@ function DesarrolloWeb() {
                         de la marca.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/desarrollo/ecommerceicono.png" />
+                    <img src="./img/de2.png" />
                 </div>
                 <div class="item">
                     <p><span>Apps Android / IOS</span></p>
@@ -45,7 +46,7 @@ function DesarrolloWeb() {
                         se identifica no solo con el estilo, sino también con las creencias de la marca lo que hace una conexión más fuerte.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/desarrollo/appsicono.png" />
+                    <img src="./img/de3.png" />
                 </div>
             </div>
             <LetsTalk />

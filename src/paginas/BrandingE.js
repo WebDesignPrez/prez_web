@@ -11,6 +11,7 @@ function BrandingE() {
     return (
         <>
             <MenuLateral />
+            <img className="logo" src="./img/logopr.png" alt="Logo" />
             <div className="paidPage">
                 <div className="marketingImg">
                     <img src="" alt="Brabing Estratégico"/>
@@ -29,7 +30,7 @@ function BrandingE() {
                     </p>
                 </div>
                 <div class="item">
-                    <img src="./img/branding_estrategico/brandingicono4.png" />
+                    <img src="./img/be4.png" />
                 </div>
                 <div class="item">
                     <p><span>Rebranding</span></p>
@@ -38,7 +39,7 @@ function BrandingE() {
                         de la marca.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/branding_estrategico/brandingicono3.png" />
+                    <img src="./img/be3.png" />
                 </div>
                 <div class="item">
                     <p><span>Estrategia</span></p>
@@ -46,7 +47,7 @@ function BrandingE() {
                         se identifica no solo con el estilo, sino también con las creencias de la marca lo que hace una conexión más fuerte.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/branding_estrategico/estrategia-icono.png" />
+                    <img src="./img/be1.png" />
                 </div>
                 <div class="item">
                     <p><span>Personalidad</span></p>
@@ -55,7 +56,7 @@ function BrandingE() {
                         Esas preguntas ayudan a crear una imagen mental más clara.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/branding_estrategico/brandingicono2.png" />
+                    <img src="./img/be2.png" />
                 </div>
                 <div class="item">
                     <p><span>Tono de voz</span></p>
@@ -63,7 +64,7 @@ function BrandingE() {
                         público. Busca cuáles son las palabras que ellos usan.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/5BE.png" />
+                    <img src="./img/be5.png" />
                 </div>
             </div>
             <LetsTalk />

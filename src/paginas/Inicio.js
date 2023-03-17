@@ -19,7 +19,7 @@ function Inicio() {
         <>
             <MenuLateralSinHome />
             <WhatsappIcon />
-            <img className="logo" src="./img/logo-prezagencia.png" alt="Logo" />
+            <img className="logo" src="./img/logopr.png" alt="Logo" />
             <div className="tituloInicio" id="Inicio">
                 <p>En nuestro mundo</p>
                 <p>no hay <span>imposibles,</span></p>
@@ -36,7 +36,7 @@ function Inicio() {
                 </div>
             </div>
             <div class="tituloServicios" ><p>Nuestros Servicios</p></div>
-            <SliderComponent />
+            <Servicios />
             <br/>
             <CasosExito />
             <UltimosCasos />

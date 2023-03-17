@@ -11,6 +11,7 @@ function FotoVideo() {
     return (
         <>
             <MenuLateral />
+            <img className="logo" src="./img/logopr.png" alt="Logo" />
             <div className="paidPage">
                 <div className="marketingImg">
                     <img src="" alt="Produccioón fotográfica audio y video"/>
@@ -28,7 +29,7 @@ function FotoVideo() {
                     </p>
                 </div>
                 <div class="item">
-                    <img src="./img/foto/prodfotografiaicono.png" />
+                    <img src="./img/fo1.png" />
                 </div>
                 <div class="item">
                     <p><span>Centralización y</span></p>
@@ -39,7 +40,7 @@ function FotoVideo() {
                         de la marca.</p>
                 </div>
                 <div class="item">
-                    <img src="./img/foto/vidoeicono.png" />
+                    <img src="./img/fo2.png" />
                 </div>
                 <div class="item">
                     <p><span>Captación de</span></p>
@@ -48,7 +49,7 @@ function FotoVideo() {
                     </p>
                 </div>
                 <div class="item">
-                    <img src="./img/foto/audio-mkt-icono.png" />
+                    <img src="./img/fo3.png" />
                 </div>
             </div>
             <LetsTalk />
