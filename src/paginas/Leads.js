@@ -46,7 +46,7 @@ function Leads() {
             <FotoVideoLE/>
             <LetsTalk />
             <div class="tituloServicios" ><p>Conoce Más</p></div>
-            <SliderComponent />
+            <ConoceMasGL/>
             <br/>
             <Testimonios />
             <PiePagina />
