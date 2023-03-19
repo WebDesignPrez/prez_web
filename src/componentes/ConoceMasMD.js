@@ -1,69 +1,87 @@
-import { useNavigate } from "react-router-dom"
+import React from "react";
+import Slider from "react-slick";
 
-function ConoceMasMD(){
-    const navigate = useNavigate();
-    const selOpt = (opt) => {
-        switch (opt) {
-            case "md":
-                navigate("/marketing-digital")
-                break;
-            case "pm":
-                navigate("/paid-media")
-                break;
-            case "be":
-                navigate("/branding-estratégico")
-                break;
-            case "dw":
-                navigate("/desarrollo-web")
-                break;
-            case "gl":
-                navigate("/generacion-leads")
-                break;
-            case "fv":
-                navigate("/produccion-fotografia-video")
-                break;
-            default:
-                break;
-        }
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 1000,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
       }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1
+      }
+    }
+  ]
+};
 
-    return ( 
-        <>     
-        <div id="Servicios" className="serviciosRow">
-                <div className="box" onClick={()=>{selOpt('pm')}}>
-                    <div className="imgBox">
-                        <img src="./img/paid-media.webp" alt="" />
-                    </div>
-                    <div className="tituloBox">Paid<br></br> Media</div>
-                    <div className="descBox">Estrategias de pauta en plataformas como Facebook ADS y Google ADS</div>
-                    <div className="arrowBox">
-                        <img src="./img/flecha-negra.webp" alt="" />
-                    </div>
-                </div>    
-                    <div className="lineaVertical"></div>
-                <div className="box" onClick={()=>{selOpt('be')}}>
-                    <div className="imgBox">
-                        <img src="./img/branding.webp" alt="" />
-                    </div>
-                    <div className="tituloBox">Branding <br></br>Estratégico</div>
-                    <div className="descBox">La identidad corporativa de tu marca. Encontramos lo que te hace único y se lo contamos al mundo.</div>
-                    <div className="arrowBox">
-                        <img src="./img/flecha-negra.webp" alt="" />
-                    </div>
-                </div>
-                <div className="lineaVertical"></div>
-                <div className="box" onClick={()=>{selOpt('dw')}}>
-                    <div className="imgBox">
-                        <img src="./img/desarrollo-web.webp" alt="" />
-                    </div>
-                    <div className="tituloBox">Desarrollo Web <br></br>/ e-commerce</div>
-                    <div className="descBox">Desarrollamos un sitio web funcional, elegante y vendedor para tu empresa</div>
-                    <div className="arrowBox">
-                    <img src="./img/flecha-negra.webp" alt="" />
-                    </div>
-                </div>
-            </div>
-        </>
-    )
-}
-export default ConoceMasMD
+const Slide = ({ imgSrc, altText, mainCaption, subCaption, linkTo }) => (
+  <div className="slide-container">
+    <a href={linkTo}>
+      <img className="slider-image" src={imgSrc} alt={altText} />
+      <div className="slide-caption"></div>
+      <p className="main-caption">{mainCaption}</p>
+      <p className="sub-caption">{subCaption}</p>
+      <br/>
+    </a>  
+  </div>
+);
+
+const ConoceMasMD = () => (
+  <div className="slider-wrapper">
+    <div className="slider-line"></div>
+    <Slider {...settings}>
+      <Slide
+        imgSrc="./img/serv2.png"
+        altText="Second slide"
+        mainCaption="Paid Media       "
+        subCaption="Estrategias de pauta en plataformas como Facebook ADS y Google ADS"
+        linkTo="/paid-media"
+      />
+      <Slide
+        imgSrc="./img/serv3.png"
+        altText="Third slide"
+        mainCaption="Branding Estratégico"
+        subCaption="La identidad corporativa de tu marca. Encontramos lo que te hace único y se lo contamos al mundo."
+        linkTo="/branding-estratégico"
+      />
+      <Slide
+        imgSrc="./img/serv4.png"
+        altText="Fourth slide"
+        mainCaption="Desarrollo Web / e-commerce"
+        subCaption="Desarrollamos un sitio web funcional, elegante y vendedor para tu empresa"
+        linkTo="/desarrollo-web"
+      />
+      <Slide
+        imgSrc="./img/serv5.png"
+        altText="Fifth slide"
+        mainCaption="Generación de Leads"
+        subCaption="Estrategias de redes sociales para alcanzar y convertir nuevos clientes"
+        linkTo="/generacion-leads"
+      />
+      <Slide
+        imgSrc="./img/serv6.png"
+        altText="Sixth slide"
+        mainCaption="Producción fotográfica, audio y video"
+        subCaption="Desarrollo, producción y post producción de fotografías, videos y piezas audiovisuales."
+        linkTo="/produccion-fotografia-video"
+      />
+    </Slider>
+    <div className="slider-line"></div>
+  </div>
+);
+
+export default ConoceMasMD;

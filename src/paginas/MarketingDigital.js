@@ -1,10 +1,8 @@
 import LetsTalk from "../componentes/LetsTalk";
 import MenuLateral from "../componentes/MenuLateral";
 import PiePagina from "../componentes/PiePagina";
-import Servicios from "../componentes/Servicios";
 import ConoceMasMD from "../componentes/ConoceMasMD";
 import Testimonios from "../componentes/Testimonios";
-import SliderComponent from "../componentes/SliderComponent";
 import VideoLoop from "../componentes/VideoLoop";
 import FotoVideoMD from "../componentes/FotoVideoMD";
 
@@ -19,7 +17,7 @@ function MarketingDigital() {
             <FotoVideoMD />
             <LetsTalk />
             <div class="tituloServicios" ><p>Conoce Más</p></div>
-            <SliderComponent />
+            <ConoceMasMD/>
             <br />
             <Testimonios />
             <PiePagina />
