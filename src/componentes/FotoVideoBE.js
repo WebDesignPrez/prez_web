@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 
-function FotoVideoMD() {
+function FotoVideoBE() {
     const boxMarketingRef = useRef(null);
 
     const handleVideoClick = () => {
@@ -29,4 +29,4 @@ function FotoVideoMD() {
     );
 }
 
-export default FotoVideoMD;
+export default FotoVideoBE;

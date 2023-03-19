@@ -4,6 +4,7 @@ import PiePagina from "../componentes/PiePagina";
 import Testimonios from "../componentes/Testimonios";
 import ConoceMasDW from "../componentes/ConoceMasDW";
 import VideoDE from "../componentes/VideoDE";
+import FotoVideoDE from "../componentes/FotoVideoDE";
 
 function DesarrolloWeb() {
     document.body.scrollTop = 0; // For Safari
@@ -11,8 +12,9 @@ function DesarrolloWeb() {
     return (
         <>
             <MenuLateral />
-            <VideoDE/>
             <img className="logo" src="./img/logopr.png" alt="Logo" />
+            <VideoDE/>
+            <FotoVideoDE/>
             <LetsTalk />
             <div class="tituloServicios" ><p>Conoce Más</p></div>
             <ConoceMasDW />

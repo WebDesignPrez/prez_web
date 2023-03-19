@@ -10,12 +10,34 @@ body {
   color: #000;
   background-color: #f9f9f9;
 }
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.1vw; /* para separar las filas */
+}
+
+.image-row img {
+  max-width: 100%; /* para asegurarse de que las imágenes no superen el ancho del contenedor */
+}
+
+.socialImage{
+ margin-top: 0vw;
+ margin-left: 0vw;
+ margin-right: 5vw;
+}
+
 .contenedor-imagenesPD {
   padding-top: 0vw;
   display: flex;
   flex-wrap: wrap;
 }
 .abajo .fondoV{
+  background-color: #83de4e;
+  font-weight: normal;
+}
+.abajo2 .fondoV{
   background-color: #83de4e;
   font-weight: normal;
 }
@@ -573,6 +595,14 @@ html {
   line-height: 1.2;
   padding-bottom: 3vw;
   text-align: justify;
+} 
+
+.abajo2 {
+  width: 58vw;
+  font-size: 2.1vw;
+  padding: 0 0 0 25vw;
+  line-height: 1.2;
+  text-align: center;
 } 
 .abajo .primera::first-letter {
   font-weight: bold;

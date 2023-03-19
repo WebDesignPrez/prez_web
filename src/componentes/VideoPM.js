@@ -36,13 +36,17 @@ function VideoPM() {
                     <p><span>Social</span></p>
                     <p><span>ADS</span></p>
                     <p>Desarrollo de campañas para Social ads, en las que se promocionan tus productos o servicios de forma personalizada.</p>
-                    <img src="./img/pms1.png" />
-                    <img src="./img/pms2.png" />
-                    <img src="./img/pms3.png" />
-                    <img src="./img/pms4.png" />
-                    <img src="./img/pms5.png" />
-                    <img src="./img/pms5.png" />
-                    
+                    <div className='socialImage'>
+                        <div className='image-row'>
+                            <img src="./img/pms1.png" />
+                            <img src="./img/pms2.png" />
+                            <img src="./img/pms3.png" />
+                        </div>
+                        <div className='image-row'>
+                            <img src="./img/pms4.png" />
+                            <img src="./img/pms5.png" />
+                        </div>
+                    </div>
                 </div>
                 <div class="item">
                     <img src="./img/pm2.png" />

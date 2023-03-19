@@ -5,6 +5,7 @@ import Testimonios from "../componentes/Testimonios";
 import ConoceMasFV from "../componentes/ConoceMasFV";
 import SliderComponent from "../componentes/SliderComponent";
 import VideoFO from "../componentes/VideoFO";
+import FotoVideoFO from "../componentes/FotoVideoFO";
 
 function FotoVideo() {
     document.body.scrollTop = 0; // For Safari
@@ -12,8 +13,9 @@ function FotoVideo() {
     return (
         <>
             <MenuLateral />
-            <VideoFO />
             <img className="logo" src="./img/logopr.png" alt="Logo" />
+            <VideoFO />
+            <FotoVideoFO/>
             <LetsTalk />
             <div class="tituloServicios" ><p>Conoce Más</p></div>
             <ConoceMasFV />

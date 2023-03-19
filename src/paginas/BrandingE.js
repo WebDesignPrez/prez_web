@@ -4,6 +4,7 @@ import PiePagina from "../componentes/PiePagina";
 import Testimonios from "../componentes/Testimonios";
 import ConoceMasBE from "../componentes/ConoceMasBE";
 import VideoBE from "../componentes/VideoBE";
+import FotoVideoBE from "../componentes/FotoVideoBE";
 
 function BrandingE() {
     document.body.scrollTop = 0; // For Safari
@@ -13,6 +14,7 @@ function BrandingE() {
             <MenuLateral />
             <img className="logo" src="./img/logopr.png" alt="Logo" />
             <VideoBE/>
+            <FotoVideoBE/>
             <LetsTalk />
             <div class="tituloServicios" ><p>Conoce Más</p></div>
             <ConoceMasBE/>

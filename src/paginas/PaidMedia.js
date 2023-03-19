@@ -4,6 +4,7 @@ import PiePagina from "../componentes/PiePagina";
 import ConoceMasPD from "../componentes/ConoceMasPM";
 import Testimonios from "../componentes/Testimonios";
 import VideoPM from "../componentes/VideoPM";
+import FotoVideoPM from "../componentes/FotoVideoPM";
 
 function PaidMedia() {
     document.body.scrollTop = 0; // For Safari
@@ -12,7 +13,8 @@ function PaidMedia() {
         <>
             <MenuLateral />
             <img className="logo" src="./img/logopr.png" alt="Logo" />
-            <VideoPM /> 
+            <VideoPM />
+            <FotoVideoPM/> 
             <LetsTalk />
             <div class="tituloServicios" ><p>Conoce Más</p></div>
             <ConoceMasPD />

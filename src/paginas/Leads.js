@@ -4,6 +4,7 @@ import PiePagina from "../componentes/PiePagina";
 import Testimonios from "../componentes/Testimonios";
 import ConoceMasGL from "../componentes/ConoceMasGL";
 import SliderComponent from "../componentes/SliderComponent";
+import FotoVideoLE from "../componentes/FotoVideoLE";
 
 function Leads() {
     document.body.scrollTop = 0; // For Safari
@@ -42,6 +43,7 @@ function Leads() {
                     <img src="./img/le2.png" />
                 </div>
             </div>
+            <FotoVideoLE/>
             <LetsTalk />
             <div class="tituloServicios" ><p>Conoce Más</p></div>
             <SliderComponent />
