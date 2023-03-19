@@ -23,7 +23,7 @@ function VideoBE() {
                 <p>Encontramos<span> lo que le hace única</span> a tu marca y se lo <span className='fondoV'>contamos al mundo</span>.</p>
             </div>
             <br/>
-            <div class="boxMarketing">
+            <div class="boxMarketingBE">
                 <div class="item">
                     <p><span>Creación</span></p>
                     <p><span>de marca</span></p>

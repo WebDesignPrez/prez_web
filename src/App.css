@@ -10,29 +10,77 @@ body {
   color: #000;
   background-color: #f9f9f9;
 }
+.boxMarketing2 {
+  padding: 2vw 0 2vw 12vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* crea 3 columnas con ancho flexible */
+  grid-template-rows: repeat(1, 1fr); /* crea 3 filas con altura flexible */
+  background-color: #24262b /* establece el color de fondo */
+}
+.boxMarketingBE {
+  padding: 2vw 0 2vw 12vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* crea 3 columnas con ancho flexible */
+  grid-template-rows: repeat(1, 1fr); /* crea 3 filas con altura flexible */
+  background-color: #24262b /* establece el color de fondo */
+}
+.boxMarketingDE {
+  padding: 2vw 0 2vw 12vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* crea 3 columnas con ancho flexible */
+  grid-template-rows: repeat(1, 1fr); /* crea 3 filas con altura flexible */
+  background-color: #24262b /* establece el color de fondo */
+}
+.boxMarketingLE {
+  padding: 2vw 0 2vw 12vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* crea 3 columnas con ancho flexible */
+  grid-template-rows: repeat(1, 1fr); /* crea 3 filas con altura flexible */
+  background-color: #24262b /* establece el color de fondo */
+}
+.boxMarketingFO {
+  padding: 2vw 0 2vw 12vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* crea 3 columnas con ancho flexible */
+  grid-template-rows: repeat(1, 1fr); /* crea 3 filas con altura flexible */
+  background-color: #24262b /* establece el color de fondo */
+}
+.item2 img {
+  max-width: 70%;
+}
 
-.image-row {
+.item2 {
+  padding: 1vw;
+}
+
+.item2 p{
+  color:#fff;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+.item2 p::selection{
+  background-color: #93e54c;
+  color:#000;
+}
+.item2 span::selection{
+  background-color: #93e54c;
+  color:#000;
+}
+.item2 span{
+  line-height: 0.5;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.item2 .image-row {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.1vw; /* para separar las filas */
+  justify-content: center;
+  margin-left: 11vw;
 }
 
-.image-row img {
-  max-width: 100%; /* para asegurarse de que las imágenes no superen el ancho del contenedor */
-}
 
-.socialImage{
- margin-top: 0vw;
- margin-left: 0vw;
- margin-right: 5vw;
-}
-
-.contenedor-imagenesPD {
-  padding-top: 0vw;
-  display: flex;
-  flex-wrap: wrap;
-}
 .abajo .fondoV{
   background-color: #83de4e;
   font-weight: normal;
@@ -108,7 +156,7 @@ body {
 .sub-caption {
   font-size: 18px;
   font-style: italic;
-  text-align: justify;
+  text-align: left;
 }
 
 .flechaSlider{  
@@ -333,7 +381,7 @@ a:hover {
 
 .item p{
   color:#fff;
-  text-align: justify;
+  text-align: left;
   line-height: 1.5;
   font-size: 1.1rem;
 }

@@ -23,7 +23,7 @@ function VideoDE() {
                 <p>Desarrollamos<span> un sitio web funcional</span>, elegante y vendedor <span className='fondoV'>para tu empreasa</span>.</p>
             </div>
             <br/>
-            <div class="boxMarketing">
+            <div class="boxMarketingDE">
                 <div class="item">
                     <p><span>Diseño y</span></p>
                     <p><span>desarrollo Web</span></p>

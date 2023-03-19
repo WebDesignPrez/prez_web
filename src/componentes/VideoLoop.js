@@ -20,7 +20,7 @@ function VideoLoop() {
         Tu navegador no soporta la etiqueta de video HTML5.
       </video>
       <div className="abajo">
-                <p className="primera">La aventura<span> digital de tu negocio comienza aquí.</span> En nuestro mundo  enfocado en resultados, podrás viajar en modo automático</p>
+                <p>La aventura<span> digital de tu negocio comienza aquí.</span> En nuestro mundo  enfocado en resultados, podrás <span className='fondoV'>viajar en modo automático</span></p>
             </div>
       <div ref={boxMarketingRef} className="boxMarketing">
         

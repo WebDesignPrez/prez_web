@@ -19,9 +19,9 @@ function Leads() {
                 </div>
             </div>
             <div className="abajo">
-                <p className="primera">Estrategias de<span> redes sociales para alcanzar</span> y convertir nuevos clientes.</p>
+                <p>Estrategias de<span> redes sociales para alcanzar</span> y convertir <span className="fondoV">nuevos clientes</span>.</p>
             </div>
-            <div class="boxMarketing">
+            <div class="boxMarketingLE">
                 <div class="item">
                     <p><span>Captación de</span></p>
                     <p><span>leads</span></p>

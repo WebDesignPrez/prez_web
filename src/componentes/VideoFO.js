@@ -23,7 +23,7 @@ function VideoFO() {
         <p>Desarrollo<span>, produccion y post produccion</span> de fotografías, videos y <span className='fondoV'>piezas audiovisuales</span>.</p>
           <br/>
       </div>
-      <div class="boxMarketing">
+      <div class="boxMarketingFO">
         <div class="item">
           <p><span>Producción de</span></p>
           <p><span>fotografía</span></p>
