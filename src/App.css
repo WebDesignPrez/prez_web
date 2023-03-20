@@ -240,6 +240,7 @@ body {
   margin: 0 -2vw;
 }
 .main-caption {
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: bold;
   text-align: left;
@@ -252,6 +253,7 @@ body {
 }
 
 .sub-caption {
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-style: italic;
   text-align: left;
