@@ -340,4 +340,13 @@
     .menuLateral {
         height: 4rem;
     }
+
+    .videoInicio frame {
+        max-width: max-content !important;
+    }
+
+    .noresponsive {
+        display: none;
+    }
+
 }
