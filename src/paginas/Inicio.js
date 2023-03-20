@@ -25,7 +25,7 @@ function Inicio() {
                 declineButtonText="Rechazar"
                 buttonWrapperClasses="cookie-buttons"
             >
-                <p style={{ fontSize: '1.2vw' }}>Este sitio web utiliza cookies para personalizar el contenido y los anuncios, y para analizar el tráfico. Al hacer clic en 'Aceptar', usted acepta el uso de todas las cookies.</p>
+                <span class="cookie-text">Acepte el uso de cookies para mejorar su experiencia en este sitio web.</span>
             </CookieConsent>
             <MenuLateralSinHome />
             <WhatsappIcon />

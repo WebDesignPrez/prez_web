@@ -31,12 +31,18 @@ const settings = {
 const Slide = ({ imgSrc, altText, mainCaption, subCaption, linkTo }) => (
   <div className="slide-container">
     <a href={linkTo}>
-      <img className="slider-image" src={imgSrc} alt={altText} />
-      <div className="slide-caption"></div>
-      <p className="main-caption">{mainCaption}</p>
-      <p className="sub-caption">{subCaption}</p>
-      <br/>
-    </a>  
+      <div className="arriba">
+        <img className="slider-image" src={imgSrc} alt={altText} />
+        <div className="slide-caption"></div>
+        <p className="main-caption">{mainCaption}</p>
+        <p className="sub-caption">{subCaption}</p>
+      </div>
+      <div class="imagen-padreSlider">
+        <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1Slider" />
+        <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2Slider" />
+      </div>
+      <br />
+    </a>
   </div>
 );
 
