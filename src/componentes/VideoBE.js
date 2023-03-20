@@ -25,8 +25,7 @@ function VideoBE() {
             <br/>
             <div class="boxMarketingBE">
                 <div class="item">
-                    <p><span>Creación</span></p>
-                    <p><span>de marca</span></p>
+                    <p><span>Creación de marca</span></p>
                     <p>Una marca es una identificación, que cuando se habla de aspectos comerciales, es la que representa
                         una identidad simbólica de una empresa, producto o servicio, es decir el activo intangible más importante
                         de la empresa.
@@ -53,8 +52,7 @@ function VideoBE() {
                     <img src="./img/be1.png" />
                 </div>
                 <div class="item">
-                    <p><span>Personalidad</span></p>
-                    <p><span>de la marca</span></p>
+                    <p><span>Personalidad de la marca</span></p>
                     <p>¿Tu marca tiene personalidad? ¿Cuáles son sus cualidades? ¿Qué es lo que la define? Y si fiera una persona, ¿cómo seria?
                         Esas preguntas ayudan a crear una imagen mental más clara.</p>
                 </div>

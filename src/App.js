@@ -9,13 +9,13 @@ import BrandingE from './paginas/BrandingE';
 import DesarrolloWeb from './paginas/DesarrolloWeb';
 import Leads from './paginas/Leads';
 import FotoVideo from './paginas/ProduccionFotoVideo';
-import MenuLateralSinHome from './componentes/MenuLateralSinHome';
+import Blog from './paginas/Blog';
 
 function App() {
   return (
     <BrowserRouter basename='/'>
       <Helmet>
-        <title>Prez</title>
+        <title>Prez - Agencia de Marketing</title>
         <meta name="description" content="Prez" />
       </Helmet>
       <Routes>
@@ -27,6 +27,7 @@ function App() {
           <Route path="/desarrollo-web" element={<DesarrolloWeb />} />
           <Route path="/generacion-leads" element={<Leads />} />
           <Route path="/produccion-fotografia-video" element={<FotoVideo />} />
+          <Route path="/blog" element={<Blog />} />
       </Routes>
     </BrowserRouter>
 

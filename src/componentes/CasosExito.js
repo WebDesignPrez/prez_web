@@ -11,8 +11,9 @@ function CasosExito() {
                             <strong>Número 1 en ventas</strong> de cabezales en Ecuador en el año 2020 / 21 / 22
                         </div>
                     </div>
-                    <div className="casosArrow">
-                        <img src="./img/flecha-blanca.webp" alt="flecha" />
+                    <div class="imagen-padreCE">
+                        <img src="./img/flechaBlancaListo.webp" alt="Imagen 1" class="imagen1BCE" />
+                        <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2BCE" />
                     </div>
                 </div>
                 <div className="casosImg">

@@ -23,8 +23,7 @@ function Leads() {
             </div>
             <div class="boxMarketingLE">
                 <div class="item">
-                    <p><span>Captación de</span></p>
-                    <p><span>leads</span></p>
+                    <p><span>Captación de leads</span></p>
                     <p>Desarrollamos estrategias enfocadas en llamar la atención de tu audencia y obtener los datos necesarios.
                     </p>
                 </div>
@@ -32,9 +31,7 @@ function Leads() {
                     <img src="./img/le1.png" />
                 </div>
                 <div class="item">
-                    <p><span>Centralización y</span></p>
-                    <p><span>segmentación de</span></p>
-                    <p><span>contactos CRM</span></p>
+                    <p><span>Centralización y segmentación de contactos CRM</span></p>
                     <p>El rebranding es una estrategia de marteking que consiste en el cambio de nombre o marca, ya sea realizando
                         una variación del original o cambiando por completo a uno nuevo con el objetivo de mejorar el posicionamiento
                         de la marca.</p>

@@ -66,7 +66,7 @@ function PiePagina() {
                         <p><strong>Oficina</strong></p>
                         <p>Ambato</p>
                         <p>Virgen del Sol y Camino al Oriente</p>
-                        <p><strong>Atocha</strong></p>
+                        <p><strong>Ambato - Ecuador</strong></p>
                         <a className="cel" href="tel:0959792827"><strong>Cel: </strong>095 979 2827</a>
                         <div className="social">
                             <a href="https://www.facebook.com/agenciaprez" >

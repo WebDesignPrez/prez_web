@@ -2,6 +2,7 @@ import LetsTalk from "../componentes/LetsTalk"
 import Carousel from 'better-react-carousel'
 import React, { useState, useEffect } from 'react';
 
+
 function UltimosCasos() {
   const [numCols, setNumCols] = useState(3); // set the initial number of columns to 3
 
@@ -19,13 +20,19 @@ function UltimosCasos() {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+
   return (
     <>
       <div className="tituloCasos" id="Ultimos-casos">
         <p>Últimos casos</p>
       </div>
       <div className="casosEBox">
-        <Carousel cols={numCols} rows={1} gap={30} loop>
+        <Carousel
+          cols={numCols}
+          rows={1}
+          gap={30}
+          loop
+        >
           <Carousel.Item>
             <img width="100%" src="./img/exito1.png" alt="" />
             <p>
@@ -69,7 +76,8 @@ function UltimosCasos() {
           <Carousel.Item>
             <img width="100%" src="./img/exito1.png" alt="" />
             <p>
-              <strong>Conversión</strong> del <br />
+              <strong>Conversión
+              </strong> del <br />
               32% para clientes nuevos.
               <span></span>
             </p>
