@@ -301,7 +301,7 @@
     }
 
     .tituloLetsTalk p.titulo2 {
-        font-size: 1.9rem;
+        font-size: 2rem;
     }
 
     .tituloLetsTalk {
@@ -311,7 +311,7 @@
     }
 
     .tituloLetsTalk p.titulo1 {
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
 
     .tituloCasos p {
@@ -319,7 +319,7 @@
     }
 
     .casosDesc {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         line-height: 2rem;
         text-align: center;
     }
@@ -349,4 +349,61 @@
         display: none;
     }
 
+    .comentarioTestimonio {
+        font-size: 1.1rem;
+    }
+
+    .testimonios .controls .contador {
+        font-size: 1.6rem;
+    }
+
+    footer p {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .social a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social img {
+        max-width: 50%;
+        margin: 50% 0 0 0;
+    }
+
+    .columna .masEspacio {
+        margin: 0;
+    }
+
+    .columna .masEspacio nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer h3, footer h3 a {
+        font-size: 1.8rem !important;
+        margin: 10% 0 0 0;
+    }
+
+    .columna ul li a {
+        font-size: 1.4rem;
+    }
+
+    .certificadoI{
+        width: 65%;
+        margin-top: 10%;
+    }
+    
+    footer {
+        padding: 15vw 2vw 15vw 2vw;
+    }
+
+    .serviciosRow .box .descBox {
+        font-size: 1.6rem;
+    }
+
+    .imagen1B, .imagen2B {
+        width: 10vw;
+    }
 }
