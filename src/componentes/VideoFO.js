@@ -25,8 +25,7 @@ function VideoFO() {
       </div>
       <div class="boxMarketingFO">
         <div class="item">
-          <p><span>Producción de</span></p>
-          <p><span>fotografía</span></p>
+          <p><span>Producción de fotografía</span></p>
           <p>Desarrollamos estrategias enfocadas en llamar la atención de tu audencia y obtener los datos necesarios.
           </p>
         </div>
@@ -34,9 +33,7 @@ function VideoFO() {
           <img src="./img/fo1.png" />
         </div>
         <div class="item">
-          <p><span>Centralización y</span></p>
-          <p><span>segmentación de</span></p>
-          <p><span>contactos CRM</span></p>
+          <p><span>Producción de video</span></p>
           <p>El rebranding es una estrategia de marteking que consiste en el cambio de nombre o marca, ya sea realizando
             una variación del original o cambiando por completo a uno nuevo con el objetivo de mejorar el posicionamiento
             de la marca.</p>
@@ -45,8 +42,7 @@ function VideoFO() {
           <img src="./img/fo2.png" />
         </div>
         <div class="item">
-          <p><span>Captación de</span></p>
-          <p><span>leads</span></p>
+          <p><span>Audiomarketing</span></p>
           <p>Desarrollamos estrategias enfocadas en llamar la atención de tu audencia y obtener los datos necesarios.
           </p>
         </div>

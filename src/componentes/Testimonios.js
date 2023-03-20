@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 
 function Testimonios() {
     let testimoniosData = [{
-        comentario: "I've worked with literally hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
-        nombre: "Nombre 1",
-        cargo: "Director 2"
+        comentario: "Yo siempre he tenido en cuenta la buena atención, puntualidad y responsabilidad, pero lo que ustedes me ofrecieron fue mas que eso, siempre han aportado soluciones originales a los retos planteados, de una manera organizada y sobre todo muy creativos, por eso recomiendo a Prez Agencia de Marketing por su calidad y buen servicio.",
+        nombre: "Andres Morales",
+        cargo: "Gerente Inmobiliaria M&M"
     }, {
         comentario: "to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
         nombre: "Nombre 2",
@@ -103,7 +103,7 @@ function Testimonios() {
                             <img src="./img/quotes.png" alt="quotes" />
                             <p className="comentarioTestimonio">{data.comentario}</p>
                             <div className="fotoTestimonio">
-                                <img src="./img/testimonial.webp"  />
+                                <img src=""  />
                                 <p className="sinespacio"><strong>{data.nombre}</strong><br></br>{data.cargo}</p>
                             </div>
                         </div>

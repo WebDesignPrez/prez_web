@@ -25,8 +25,7 @@ function VideoLE() {
       <div ref={boxMarketingRef} className="boxMarketing">
         
            <div class="item">
-           <p><span>Social</span></p>
-           <p><span>Media</span></p>
+           <p><span>Social Media</span></p>
            <p>Con nuestro enfoque creativo y experiencia en Social Media, po- demos aumentar
                su presencia en este universo llamado Internet.</p>
        </div>
@@ -34,8 +33,7 @@ function VideoLE() {
            <img src="./img/mk-digital-prez-1.png" />
        </div>
        <div class="item">
-           <p><span>E-mail</span></p>
-           <p><span>Marketing</span></p>
+           <p><span>E-mail Marketing</span></p>
            <p>Viajemos al infinito y más allá con estrategias de E-mail Marketing innovadoras y efectivas.</p>
        </div>
        <div class="item">

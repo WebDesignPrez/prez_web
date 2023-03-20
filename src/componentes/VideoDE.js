@@ -25,8 +25,7 @@ function VideoDE() {
             <br/>
             <div class="boxMarketingDE">
                 <div class="item">
-                    <p><span>Diseño y</span></p>
-                    <p><span>desarrollo Web</span></p>
+                    <p><span>Diseño y desarrollo Web</span></p>
                     <p>Una marca es una identificación, que cuando se habla de aspectos comerciales, es la que representa una identidad
                         simbólica de una empresa, producto o servicio, es decir el activo intangible más importante de la empresa.
                     </p>

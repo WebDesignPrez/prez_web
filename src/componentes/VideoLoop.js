@@ -25,8 +25,7 @@ function VideoLoop() {
       <div ref={boxMarketingRef} className="boxMarketing">
         
            <div class="item">
-           <p><span>Social</span></p>
-           <p><span>Media</span></p>
+           <p><span>Social Media</span></p>
            <p>Con nuestro enfoque creativo y experiencia en Social Media, po- demos aumentar
                su presencia en este universo llamado Internet.</p>
        </div>
@@ -34,32 +33,28 @@ function VideoLoop() {
            <img src="./img/mk-digital-prez-1.png" />
        </div>
        <div class="item">
-           <p><span>E-mail</span></p>
-           <p><span>Marketing</span></p>
+           <p><span>E-mail Marketing</span></p>
            <p>Viajemos al infinito y más allá con estrategias de E-mail Marketing innovadoras y efectivas.</p>
        </div>
        <div class="item">
            <img src="./img/mk-digital-prez-4.png" />
        </div>
        <div class="item">
-           <p><span>Inbound</span></p>
-           <p><span>Marketing</span></p>
+           <p><span>Inbound Marketing</span></p>
            <p>Atraemos, convertimos y fideliza- mos a tu público objetivo con con- tenido relevante y de calidad.</p>
        </div>
        <div class="item">
            <img src="./img/mk-digital-prez-2.png" />
        </div>
        <div class="item">
-           <p><span>Marketing de</span></p>
-           <p><span>contenidos</span></p>
+           <p><span>Marketing de contenidos</span></p>
            <p>Despega tu contenido al espacio exterior y llega a usuarios de alto potencial de compra, por medio de anuncios en motores de bús- queda y redes sociales.</p>
        </div>
        <div class="item">
            <img src="./img/mk-digital-prez-5.png" />
        </div>
        <div class="item">
-           <p><span>Analitica</span></p>
-           <p><span>Web</span></p>
+           <p><span>Analitica Web</span></p>
            <p>A través de la analítica web ayu- damos a tomar decisiones basa- das en datos y a mejorar la efec- tividad y el éxito de su sitio web o aplicación móvil.</p>
        </div>
        <div class="item">

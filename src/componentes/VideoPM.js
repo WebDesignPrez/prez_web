@@ -25,8 +25,7 @@ function VideoPM() {
             <br />
             <div class="boxMarketing2">
                 <div class="item">
-                    <p><span>SEM</span></p>
-                    <p>Googler ADS</p>
+                    <p><span>SEM Googler ADS</span></p>
                     <p>El arma perfecta para conseguir ventas, leads, notariedad de marca</p>
                 </div>
                 <div class="item">
@@ -34,8 +33,7 @@ function VideoPM() {
                 </div>
                 
                     <div class="item2">
-                        <p><span>Social</span></p>
-                        <p><span>ADS</span></p>
+                        <p><span>Social ADS</span></p>
                         <p>Desarrollo de campañas para Social ads, en las que se promocionan tus productos o servicios de forma personalizada.</p>
                         <div className='image-row'>
                             <img src="./img/pms1.png" />
