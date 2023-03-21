@@ -13,6 +13,45 @@ body {
   color: #000;
   background-color: #f9f9f9;
 }
+/*Formulario*/
+.containerFor {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-leftFor {
+  width: 70%;
+  background-color: #f9f9f9;
+  padding: 1vw;
+}
+
+.column-rightFor {
+  width: 30%;
+  background-color: #f9f9f9;
+}
+.column-rightFor video{
+  padding-left: 48.1vw;
+  padding-top: 0;
+  padding-right: 0;
+}
+
+.tituloFormulario {
+  display: flex;
+  width: 100%;
+  padding: 0 0 0 10vw;
+}
+.tituloFormulario p span {
+  color: #FFF;
+  background-color: #93e54c;
+
+}
+
+.tituloFormulario p {
+  line-height: 1.21;
+  font-size: 4vw;
+  font-weight: bold;
+  margin: 0;
+}
 
 /*Flecha ultimos casos*/
 .flecha{
@@ -96,7 +135,6 @@ body {
 .ArrowButton__Button-sc-1ikb0hj-1 dZkckO{
   background: #94e54d;
 }
-
 
 .boxMarketing2 {
   padding: 2vw 0 2vw 12vw;
@@ -320,6 +358,83 @@ body ::selection{
   background-color: #93e54c;
   color:#000;
 }
+
+/*Pie pagina Formulario*/
+#footer2{
+  background-color: #22262b;
+  color: #fff;
+  padding-top: 2vw;
+  padding-left: 10vw;
+}
+
+#footer2 h3{
+  font-size: 1.4vw;
+  color: #fff;
+}
+
+#footer2 p{
+  font-size: 1.3vw;
+  color: #fff;
+}
+#footer2 a{
+  font-size: 1.3vw;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columna {
+  flex-basis: 22%;
+}
+.social {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: left;
+}
+
+.social img {
+  width: 2.7vw;
+  margin-right: 1vw; /* Agrega un margen derecho de 1vw */
+}
+
+.logoP{
+  max-width: 50%;
+  height: auto;
+}
+.certificadoI{
+  width: 40%;
+}
+
+nav {
+  display: flex;
+}
+
+.masEspacio{
+  margin-left: 6vw;
+}
+
+.columna ul {
+  padding: 0;
+}
+.columna ul li {
+  display: block;
+  margin-bottom: 1vw;
+  text-align: left;
+  font-size: 1.5rem; 
+  line-height: 1.6rem;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.1s ease;
+}
+
+
+
+/**/
 
 /*Pie de pagina*/
 footer {
@@ -758,6 +873,8 @@ html {
   transform: translateX(-15%);
   position: relative;
 }
+
+
 .abajo {
   width: 58vw;
   font-size: 2.1vw;

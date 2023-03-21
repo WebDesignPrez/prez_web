@@ -28,6 +28,7 @@ function App() {
           <Route path="/generacion-leads" element={<Leads />} />
           <Route path="/produccion-fotografia-video" element={<FotoVideo />} />
           <Route path="/blog" element={<Blog />} />
+
       </Routes>
     </BrowserRouter>
 

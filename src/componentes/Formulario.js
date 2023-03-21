@@ -1,7 +1,6 @@
 
 import $ from "jquery";
 import '../form.css'
-//import '../responsive.css'
 import { useState } from 'react';
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
@@ -15,6 +14,13 @@ function Formulario() {
     let [celular, setTel] = useState('');
     let [cedula, setCed] = useState('');
     let [requerimiento, setReq] = useState('');
+    let [servicio, setServicio] = useState('');
+
+
+
+    const handleChangeService = (e) => {
+        setServicio(e.target.value);
+    }
 
     const handleChange = (e) => {
         setName(e.target.value);
@@ -111,7 +117,7 @@ function Formulario() {
 
     function handleSumbit(e) {
         e.preventDefault();
-        if (!validateName(e.target[0].value) && !validateName(e.target[1].value) && !validateEmail(e.target[2].value) && !validateTel(e.target[3].value)) {
+        if (!validateName(e.target[0].value)) {
             const form = $(e.target);
             $.ajax({
                 type: "POST",
@@ -125,6 +131,8 @@ function Formulario() {
                     setTel('')
                     setCed('')
                     setReq('')
+                    setServicio('');
+
 
                 },
                 error(data) {
@@ -135,6 +143,7 @@ function Formulario() {
                     setTel('')
                     setCed('')
                     setReq('')
+                    setServicio('');
                 }
             })
         } else {
@@ -146,60 +155,79 @@ function Formulario() {
         <>
 
             <div class="containerFor">
-            <div class="column-leftFor">
-            <div className="tituloMarketing" id="Inicio">
-                <div className="iconotituloizquierda">
+                <div class="column-leftFor">
+                    <div className="tituloFormulario" >
+                        <div className="iconotituloizquierda">
+                        </div>
+                        <div>
+                            <p>¿ Listo para hablar</p>
+                            <p><span>con nosotros ?</span></p>
+                        </div>
+                    </div>
+                    <div className="formContainer">
+                        <div className="form-box">
+                            <form action={url} method="POST" onSubmit={(ev) => handleSumbit(ev)}>
+                                <div class="form-field">
+                                    <input type="text" id="nombre_y_apellido" placeholder=" " name="nombre_y_apellido" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChange(e) }} value={nombre_y_apellido} />
+                                    <label for="nombre_y_apellido">Nombre y Apellido</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" id="ciudad" placeholder=" " name="ciudad" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChangeCity(e) }} value={ciudad} />
+                                    <label for="ciudad">Ciudad</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" id="email" placeholder=" " name="email" onBlur={(e) => { handleFocusEmail(e) }} onChange={(e) => { handleChangeEmail(e) }} value={email} />
+                                    <label for="email">Correo</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" id="celular" placeholder=" " name="celular" onBlur={(e) => { handleFocusTel(e) }} onChange={(e) => { handleChangeTel(e) }} value={celular} />
+                                    <label for="celular">Celular</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" id="cedula" placeholder=" " name="cedula" onBlur={(e) => { handleFocusCed(e) }} onChange={(e) => { handleChangeCed(e) }} value={cedula} />
+                                    <label for="cedula">Cédula</label>
+                                </div>
+                                <div class="form-field">
+                                    <textarea name='requerimeinto' id="requerimeinto" placeholder=" " onChange={(e) => { handleChangeReq(e) }} value={requerimiento} ></textarea>
+                                    <label class="ltextarea" for="requerimeinto">Requerimiento</label>
+                                </div>
+                                <div class="form-field">
+                                    <select id="servicio" name="servicio" for="servicio" onChange={(e) => { handleChangeService(e) }} value={servicio}>
+                                        <option value="">¿En qué servicio estas interesado?</option>
+                                        <option value="Aumentar las ventas de mi e-commerce">Aumentar las ventas de mi e-commerce</option>
+                                        <option value="Conseguir clientes potenciales para mi empresa (leads)">Conseguir clientes potenciales para mi empresa (leads)</option>
+                                        <option value="Administrar mis redes sociales y aumentar mi comunidad">Administrar mis redes sociales y aumentar mi comunidad</option>
+                                        <option value="Posicionar mi sitio web en Google">Posicionar mi sitio web en Google</option>
+                                        <option value="Estrategia de marketing digital 360">Estrategia de marketing digital 360</option>
+                                        <option value="Inbound Marketing">Inbound Marketing</option>
+                                        <option value="Diseño de página web">Diseño de página web</option>
+                                        <option value="Desarrollo web">Desarrollo web</option>
+                                        <option value="Otro">Otro</option>
+                                    </select>
+                                </div>
+                                <button className="nextBtn" type="submit"> Contactar </button>
+                                <input type="hidden" name="_captcha" value="false" />
+                                <NotificationContainer />
+                            </form>
+                        </div>
+
+                    </div>
+
 
                 </div>
-                <div>
-                    <p>¿ Listo para hablar</p>
-                    <p><span>con nosotros ?</span></p>
+                <div class="column-rightFor">
+                    <video class="imagen2MD"
+                        src="./img/adelante.mp4"
+                        autoPlay
+                        loop
+                        muted
+                    >
+                        Tu navegador no soporta la etiqueta de video HTML5.
+                    </video>
                 </div>
-
-                <img src="./img/flecha-negra-abajo.webp" alt="" />
-                <div className="formContainer">
-                <div className="form-box">
-                    <form action={url} method="POST" onSubmit={(ev) => handleSumbit(ev)}>
-                        <div class="form-field">
-                            <input type="text" id="nombre_y_apellido" placeholder=" " name="nombre_y_apellido" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChange(e) }} value={nombre_y_apellido} />
-                            <label for="nombre_y_apellido">Nombre y Apellido</label>
-                        </div>
-                        <div class="form-field">
-                            <input type="text" id="ciudad" placeholder=" " name="ciudad" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChangeCity(e) }} value={ciudad} />
-                            <label for="ciudad">Ciudad</label>
-                        </div>
-                        <div class="form-field">
-                            <input type="text" id="email" placeholder=" " name="email" onBlur={(e) => { handleFocusEmail(e) }} onChange={(e) => { handleChangeEmail(e) }} value={email} />
-                            <label for="email">Correo</label>
-                        </div>
-                        <div class="form-field">
-                            <input type="text" id="celular" placeholder=" " name="celular" onBlur={(e) => { handleFocusTel(e) }} onChange={(e) => { handleChangeTel(e) }} value={celular} />
-                            <label for="celular">Celular</label>
-                        </div>
-                        <div class="form-field">
-                            <input type="text" id="cedula" placeholder=" " name="cedula" onBlur={(e) => { handleFocusCed(e) }} onChange={(e) => { handleChangeCed(e) }} value={cedula} />
-                            <label for="cedula">Cédula</label>
-                        </div>
-                        <div class="form-field">
-                            <textarea name='requerimeinto' id="requerimeinto" placeholder=" " onChange={(e) => { handleChangeReq(e) }} value={requerimiento} ></textarea>
-                            <label class="ltextarea" for="requerimeinto">Requerimiento</label>
-                        </div>
-                        <button className="nextBtn" type="submit"> Contactar </button>
-                        <input type="hidden" name="_captcha" value="false" />
-                        <NotificationContainer />
-                    </form>
-                </div>
-
             </div>
 
-            </div>
-            </div>
-            <div class="column-rightFor">
-                
-            </div>
-            </div>
 
-           
         </>
     )
 }
