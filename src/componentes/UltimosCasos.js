@@ -7,67 +7,14 @@ function UltimosCasos() {
 
   return (
     < div className="">
-      <div className="noresponsive">
+      <div className="">
         <div className="tituloCasos " id="Ultimos-casos">
           <p>Últimos casos</p>
         </div>
-        <div className="casosEBox ">
-          <Carousel cols={3} rows={1} gap={30} loop>
-            <Carousel.Item>
-              <img width="100%" src="./img/exito1.png" alt="" />
-              <p>
-                <strong>Conversión</strong> del <br />
-                32% para clientes nuevos.
-                <span></span>
-              </p>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img width="100%" src="./img/exito2.png" alt="" />
-              <p>
-                <strong>Conversión</strong> del <br />
-                32% para clientes nuevos.
-                <span></span>
-              </p>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img width="100%" src="./img/exito3.png" alt="" />
-              <p>
-                <strong>Conversión</strong> del <br />
-                32% para clientes nuevos.
-                <span></span>
-              </p>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img width="100%" src="./img/exito1.png" alt="" />
-              <p>
-                <strong>Conversión</strong> del <br />
-                32% para clientes nuevos.
-                <span></span>
-              </p>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img width="100%" src="./img/exito1.png" alt="" />
-              <p>
-                <strong>Conversión</strong> del <br />
-                32% para clientes nuevos.
-                <span></span>
-              </p>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img width="100%" src="./img/exito1.png" alt="" />
-              <p>
-                <strong>Conversión
-                </strong> del <br />
-                32% para clientes nuevos.
-                <span></span>
-              </p>
-            </Carousel.Item>
-          </Carousel>
-        </div>
       </div>
-      <div className="casosEBox">
+      <div className="casosEBox noresponsive">
         <Carousel
-          cols={numCols}
+          cols={3}
           rows={1}
           gap={30}
           loop
@@ -84,7 +31,7 @@ function UltimosCasos() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="slideflecha">
-              <img width="100%" src="./img/exito2.png" alt="" />
+              <img width="100%" src="./img/home/admisiones-cebi.webp" alt="" />
               <p>
                 <strong>Conversión</strong> del <br />
                 32% para clientes nuevos.
@@ -94,7 +41,7 @@ function UltimosCasos() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="slideflecha">
-              <img width="100%" src="./img/exito3.png" alt="" />
+              <img width="100%" src="./img/home/salguero-creditos.webp" alt="" />
               <p>
                 <strong>Conversión</strong> del <br />
                 32% para clientes nuevos.
@@ -104,7 +51,7 @@ function UltimosCasos() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="slideflecha">
-              <img className="enlaceFlecha" width="100%" src="./img/exito1.png" alt="" />
+              <img className="enlaceFlecha" width="100%" src="./img/exito3.png" alt="" />
               <p className="enlaceFlecha">
                 <strong>Conversión</strong> del <br />
                 32% para clientes nuevos.
@@ -131,6 +78,52 @@ function UltimosCasos() {
                 32% para clientes nuevos.
                 <a className="flecha" href="">   🡢</a>
               </p>
+            </div>
+          </Carousel.Item>
+        </Carousel>
+      </div>
+
+      <div className="casosEBox responsive">
+        <Carousel
+          cols={1}
+          rows={1}
+          gap={10}
+          loop
+        >
+          <Carousel.Item>
+            <div className="slideflecha">
+              <img width="100%" src="./img/exito1.png" alt="" />
+
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="slideflecha">
+              <img width="100%" src="./img/exito2.png" alt="" />
+
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="slideflecha">
+              <img width="100%" src="./img/exito3.png" alt="" />
+
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="slideflecha">
+              <img className="enlaceFlecha" width="100%" src="./img/exito1.png" alt="" />
+
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="slideflecha">
+              <img width="100%" src="./img/exito1.png" alt="" />
+
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="slideflecha">
+              <img width="100%" src="./img/exito1.png" alt="" />
+
             </div>
           </Carousel.Item>
         </Carousel>

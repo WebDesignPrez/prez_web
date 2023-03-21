@@ -8,7 +8,7 @@ function VideoPM() {
     };
 
     return (
-        <div>
+        <div className='videoloop'>
             <video
                 src="./img/IconoPaidMedia.mp4"
                 autoPlay

@@ -339,6 +339,7 @@
 
     .menuLateral {
         height: 4rem;
+        position: sticky;
     }
 
     .videoInicio frame {
@@ -422,20 +423,46 @@
         justify-content: center !important;
     }
 
-    .cookie-text{
+    .cookie-text {
         font-size: 1.1rem;
         padding-left: 0;
 
     }
 
-    .cookie-buttons{
+    .cookie-buttons {
         padding-right: 0;
     }
 
-    .texto-cookies{
+    .texto-cookies {
         flex: 100% !important;
         margin: 3% 0 !important;
         text-align: center;
     }
 
+    .videoserviciosinicio {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0 !important;
+    }
+
+    .item.imgservices {
+        text-align: center;
+    }
+
+    .item.imgservices img {
+        padding-top: 0;
+        padding-left: 0;
+        width: 55%;
+        height: auto;
+    }
+
+    .abajo, .abajo2 {
+        width: auto;
+        padding: 0 10vw;
+        font-size: 1.4rem;
+    }
+
+    .boxMarketing {
+        grid-template-rows: repeat(3, 1fr);
+    }
 }
