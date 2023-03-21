@@ -10,7 +10,7 @@ function VideoLE() {
   return (
     <div>
       <video
-        src="./img/iconoMarketing.mp4"
+        src="./img/iconoLeads.mp4"
         autoPlay
         loop
         muted
@@ -20,58 +20,28 @@ function VideoLE() {
         Tu navegador no soporta la etiqueta de video HTML5.
       </video>
       <div className="abajo">
-                <p className="primera">La aventura<span> digital de tu negocio comienza aquí.</span> En nuestro mundo  enfocado en resultados, podrás viajar en modo automático</p>
+                <p>Estrategias de<span> redes sociales para alcanzar</span> y convertir <span className="fondoV">nuevos clientes</span>.</p>
             </div>
-      <div ref={boxMarketingRef} className="boxMarketing">
-        
-           <div class="item">
-           <p><span>Social Media</span></p>
-           <p>Con nuestro enfoque creativo y experiencia en Social Media, po- demos aumentar
-               su presencia en este universo llamado Internet.</p>
-       </div>
-       <div class="item">
-           <img src="./img/mk-digital-prez-1.png" />
-       </div>
-       <div class="item">
-           <p><span>E-mail Marketing</span></p>
-           <p>Viajemos al infinito y más allá con estrategias de E-mail Marketing innovadoras y efectivas.</p>
-       </div>
-       <div class="item">
-           <img src="./img/mk-digital-prez-4.png" />
-       </div>
-       <div class="item">
-           <p><span>Inbound</span></p>
-           <p><span>Marketing</span></p>
-           <p>Atraemos, convertimos y fideliza- mos a tu público objetivo con con- tenido relevante y de calidad.</p>
-       </div>
-       <div class="item">
-           <img src="./img/mk-digital-prez-2.png" />
-       </div>
-       <div class="item">
-           <p><span>Marketing de</span></p>
-           <p><span>contenidos</span></p>
-           <p>Despega tu contenido al espacio exterior y llega a usuarios de alto potencial de compra, por medio de anuncios en motores de bús- queda y redes sociales.</p>
-       </div>
-       <div class="item">
-           <img src="./img/mk-digital-prez-5.png" />
-       </div>
-       <div class="item">
-           <p><span>Analitica</span></p>
-           <p><span>Web</span></p>
-           <p>A través de la analítica web ayu- damos a tomar decisiones basa- das en datos y a mejorar la efec- tividad y el éxito de su sitio web o aplicación móvil.</p>
-       </div>
-       <div class="item">
-           <img src="./img/mk-digital-prez-3.png" />
-       </div>
-       <div class="item">
-           <p><span>SEO</span></p>
-           <p>En un universo digital con tanta competencia el SEO, es una op- ción de una alta probabilidad para tener un gran impacto en el trá- fico y la visibilidad de un sitio web por medio de palabras claves co- rrectas y varias estrategias adicio- nales. </p>
-       </div>
-       <div class="item">
-           <img src="./img/mk-digital-prez-6.png" />
-       </div>
-        
-      </div>
+            <br/>
+            <div class="boxMarketingLE">
+                <div class="item">
+                    <p><span>Captación de leads</span></p>
+                    <p>Desarrollamos estrategias enfocadas en llamar la atención de tu audencia y obtener los datos necesarios.
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="./img/le1.png" />
+                </div>
+                <div class="item">
+                    <p><span>Centralización y segmentación de contactos CRM</span></p>
+                    <p>El rebranding es una estrategia de marteking que consiste en el cambio de nombre o marca, ya sea realizando
+                        una variación del original o cambiando por completo a uno nuevo con el objetivo de mejorar el posicionamiento
+                        de la marca.</p>
+                </div>
+                <div class="item">
+                    <img src="./img/le2.png" />
+                </div>
+            </div>
     </div>
   );
 }

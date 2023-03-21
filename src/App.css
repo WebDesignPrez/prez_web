@@ -1,5 +1,8 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 
 body {
   font-weight: 400;
@@ -9,6 +12,67 @@ body {
   overflow-x: hidden;
   color: #000;
   background-color: #f9f9f9;
+}
+/*Slider Flechas*/
+.imagen-padreSlider {
+  position: relative;
+  display: inline-block;
+}
+
+.imagen-padreSlider img{
+  width: 3vw;
+  height: 3vw;
+}
+
+.imagen1Slide .imagen2Slider img {
+  width: 3vw;
+}
+.imagen2Slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.slide-container:hover .imagen1Slide {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+
+.slide-container:hover .imagen2Slider {
+  opacity: 1;
+  z-index: 1;
+
+}
+/**/
+
+.arriba{
+  height: 27vw;
+}
+
+.cookie-text{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2vw;
+  padding-left: 7vw;
+  text-align: center;
+}
+
+.cookie-buttons{
+  padding-right: 7vw;
+  justify-content: center;
+}
+
+/* Centrar los botones */
+.cookie__content .cookie__buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Alinear los botones verticalmente */
+.cookie__content .cookie__buttons button {
+  margin: 0 10px;
 }
 
 .ArrowButton__Button-sc-1ikb0hj-1 dZkckO{
@@ -165,13 +229,10 @@ body {
   width: 64%;
 }
 
-.slider-image a:hover{
-  color: transparent;
-}
-
-.slide-container p:hover{
+.slider-image:hover p{
   color: #000;
 }
+
 
 .slide-image {
   width: 100%;
@@ -179,6 +240,7 @@ body {
   margin: 0 -2vw;
 }
 .main-caption {
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: bold;
   text-align: left;
@@ -191,6 +253,7 @@ body {
 }
 
 .sub-caption {
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-style: italic;
   text-align: left;
@@ -307,9 +370,9 @@ a {
   transition: all 0.1s ease;
 }
 
- a:hover {
+/*  a:hover {
   color: #94e54d;
-}
+} */
 
 .responsive{
   display: none !important; 
