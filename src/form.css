@@ -82,8 +82,7 @@
     .form-box label {
         display: block;
         text-align: center;
-        font-size: 2vw;
-        margin: 0 0 2vh 0;
+        font-size: 1.5vw;
     }
     
     .form-box input,
@@ -104,7 +103,7 @@
     
     .form-box input {
         height: 3vw;
-        width: 90%;
+        width: 155%;
         border: none;
         border-bottom: 2px solid black;
         outline: none;
@@ -126,7 +125,7 @@
     
     .form-box textarea {
         height: 10vw;
-        width: 45vw;
+        width: 47vw;
         
     }
     
@@ -154,16 +153,12 @@
         border-radius: 0.5vw;
         background-color: #93e54c;
         color: #fff;
+        display: inline-block;
     }
     
     .nextBtn:hover {
     
         transition: 1s background ease;
-    }
-    
-    .nextBtn {
-        margin: 1rem 0 1rem 0;
-        display: inline-block;
     }
     
     .input-group {
@@ -227,7 +222,8 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        padding-top: 0vw;
+        padding-left: 7.5vw;
     }
     
     .formContainer > div{
