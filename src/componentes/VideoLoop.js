@@ -25,7 +25,7 @@ function VideoLoop() {
       <div ref={boxMarketingRef} className="boxMarketing">
            <div class="item textservices">
            <p><span>Social Media</span></p>
-           <p>Con nuestro enfoque creativo y experiencia en Social Media, po- demos aumentar
+           <p>Con nuestro enfoque creativo y experiencia en Social Media, podemos aumentar
                su presencia en este universo llamado Internet.</p>
        </div>
        <div class="item imgservices">
@@ -40,28 +40,28 @@ function VideoLoop() {
        </div>
        <div class="item textservices">
            <p><span>Inbound Marketing</span></p>
-           <p>Atraemos, convertimos y fideliza- mos a tu público objetivo con con- tenido relevante y de calidad.</p>
+           <p>Atraemos, convertimos y fidelizamos a tu público objetivo con contenido relevante y de calidad.</p>
        </div>
        <div class="item imgservices">
            <img src="./img/mk-digital-prez-2.png" />
        </div>
        <div class="item textservices">
            <p><span>Marketing de contenidos</span></p>
-           <p>Despega tu contenido al espacio exterior y llega a usuarios de alto potencial de compra, por medio de anuncios en motores de bús- queda y redes sociales.</p>
+           <p>Despega tu contenido al espacio exterior y llega a usuarios de alto potencial de compra, por medio de anuncios en motores de búsqueda y redes sociales.</p>
        </div>
        <div class="item imgservices">
            <img src="./img/mk-digital-prez-5.png" />
        </div>
        <div class="item textservices">
            <p><span>Analitica Web</span></p>
-           <p>A través de la analítica web ayu- damos a tomar decisiones basa- das en datos y a mejorar la efec- tividad y el éxito de su sitio web o aplicación móvil.</p>
+           <p>A través de la analítica web ayudamos a tomar decisiones basadas en datos y a mejorar la efectividad y el éxito de su sitio web o aplicación móvil.</p>
        </div>
        <div class="item imgservices">
            <img src="./img/mk-digital-prez-3.png" />
        </div>
        <div class="item textservices">
            <p><span>SEO</span></p>
-           <p>En un universo digital con tanta competencia el SEO, es una op- ción de una alta probabilidad para tener un gran impacto en el trá- fico y la visibilidad de un sitio web por medio de palabras claves co- rrectas y varias estrategias adicio- nales. </p>
+           <p>En un universo digital con tanta competencia el SEO, es una opción de una alta probabilidad para tener un gran impacto en el tráfico y la visibilidad de un sitio web por medio de palabras claves correctas y varias estrategias adicionales. </p>
        </div>
        <div class="item imgservices">
            <img src="./img/mk-digital-prez-6.png" />

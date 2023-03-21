@@ -20,12 +20,12 @@ function VideoPM() {
                 Tu navegador no soporta la etiqueta de video HTML5.
             </video>
             <div className="abajo">
-                <p>Creamos<span> estratégias de Paid Media, </span> para que tu marca cumpla con los <span className='fondoV'>objetivos de venta</span>.</p>
+                <p>Tu<span> marca brillará </span> aún más con estrategias de pago en todo el <span className='fondoV'>ecosistema digital</span>.</p>
             </div>
             <br />
             <div class="boxMarketing2">
                 <div class="item">
-                    <p><span>SEM Googler ADS</span></p>
+                    <p><span>SEM</span></p>
                     <p>El arma perfecta para conseguir ventas, leads, notariedad de marca</p>
                 </div>
                 <div class="item">

@@ -14,10 +14,9 @@ function LetsTalk() {
         <>
             <div className="tituloLetsTalk">
                 <p className="titulo1">Sé parte de nuestro mundo</p>
-                <div>
-                    <p className="titulo2" onClick={selOpt}>Let´s Talk</p><span></span>
-                    <img src="./img/flecha-blanca.webp" alt="" />
-                </div>
+                <p className="titulo2" onClick={selOpt}>Let´s Talk</p><span></span>
+                <img src="./img/flechaNegraL.webp" alt="Imagen 2" class="imagen2LT" />
+                <img src="./img/flecha-blanca.webp" alt="Imagen 1" class="imagen1LT" />
             </div>
         </>
     )
