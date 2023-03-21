@@ -13,6 +13,19 @@ body {
   color: #000;
   background-color: #f9f9f9;
 }
+
+/*Flecha ultimos casos*/
+.flecha{
+  font-size: 1.5vw;
+  color: #FFF;
+}
+.slideflecha:hover .flecha{
+  color: #83de4e;
+}
+
+.flecha:hover{
+  color: #83de4e;
+}
 /*Slider Flechas*/
 .imagen-padreSlider {
   position: relative;
@@ -27,6 +40,7 @@ body {
 .imagen1Slide .imagen2Slider img {
   width: 3vw;
 }
+
 .imagen2Slider {
   position: absolute;
   top: 0;
@@ -34,11 +48,11 @@ body {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
+
 .slide-container:hover .imagen1Slide {
   transition: opacity 0.5s ease-in-out;
   opacity: 0;
 }
-
 
 .slide-container:hover .imagen2Slider {
   opacity: 1;
@@ -47,8 +61,12 @@ body {
 }
 /**/
 
+.imagen-slider{
+ width: 100vw;
+}
+
 .arriba{
-  height: 27vw;
+  height: 31vw;
 }
 
 .cookie-text{
@@ -224,26 +242,30 @@ body {
 
 /*Slider*/
 .slide-container{
-  padding: 2vw 2vw 2vw 10vw;
-  position: relative;
-  width: 64%;
+  padding-left: 8vw;
+  width: 75%;
 }
 
-.slider-image:hover p{
-  color: #000;
-}
-
-
-.slide-image {
-  width: 100%;
-  height: auto;
-  margin: 0 -2vw;
-}
 .main-caption {
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-right: 5vw;
+  line-height: 2.5rem;
+  letter-spacing: -1px;
+}
+
+.tituloMain{
+  height: 6.5vw;
+}
+
+.main-caption2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-right: 5vw;
+  letter-spacing: -1px;
+  padding-top: -2vw;
 }
 
 .slide-caption {
@@ -254,8 +276,7 @@ body {
 
 .sub-caption {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-style: italic;
+  font-size: 1.1rem;
   text-align: left;
 }
 
@@ -474,10 +495,6 @@ a {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
   }
-}
-
-.item {
-  padding: 1vw;
 }
 
 .item p{
@@ -970,6 +987,7 @@ li {
   gap: 3vw;
 }
 
+
 .imgBox img {
   width: 100%;
 }
@@ -1232,9 +1250,6 @@ li {
   flex-direction: row;
 }
 
-/* .serviciosRow .box:hover .tituloBox {
-  color: #93e54c;
-} */
 
 .testimonios {
   background-color: #25272c;

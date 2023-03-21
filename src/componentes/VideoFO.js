@@ -20,7 +20,7 @@ function VideoFO() {
         Tu navegador no soporta la etiqueta de video HTML5.
       </video>
       <div className="abajo">
-        <p>Desarrollo<span>, produccion y post produccion</span> de fotografías, videos y <span className='fondoV'>piezas audiovisuales</span>.</p>
+        <p>Desarrollo, <span>produccion y post produccion</span> de fotografías, videos y <span className='fondoV'>piezas audiovisuales</span>.</p>
           <br/>
       </div>
       <div class="boxMarketingFO">

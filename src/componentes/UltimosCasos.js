@@ -34,53 +34,65 @@ function UltimosCasos() {
           loop
         >
           <Carousel.Item>
-            <img width="100%" src="./img/exito1.png" alt="" />
-            <p>
-              <strong>Conversión</strong> del <br />
-              32% para clientes nuevos.
-              <span></span>
-            </p>
+            <div className="slideflecha">
+              <img width="100%" src="./img/exito1.png" alt="" />
+              <p>
+                <strong>Conversión</strong> del <br />
+                32% para clientes nuevos.
+                <a className="flecha" href="">   🡢</a>
+              </p>
+            </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src="./img/exito2.png" alt="" />
-            <p>
-              <strong>Conversión</strong> del <br />
-              32% para clientes nuevos.
-              <span></span>
-            </p>
+            <div className="slideflecha">
+              <img width="100%" src="./img/exito2.png" alt="" />
+              <p>
+                <strong>Conversión</strong> del <br />
+                32% para clientes nuevos.
+                <a className="flecha" href="">   🡢</a>
+              </p>
+            </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src="./img/exito3.png" alt="" />
-            <p>
-              <strong>Conversión</strong> del <br />
-              32% para clientes nuevos.
-              <span></span>
-            </p>
+            <div className="slideflecha">
+              <img width="100%" src="./img/exito3.png" alt="" />
+              <p>
+                <strong>Conversión</strong> del <br />
+                32% para clientes nuevos.
+                <a className="flecha" href="">   🡢</a>
+              </p>
+            </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src="./img/exito1.png" alt="" />
-            <p>
-              <strong>Conversión</strong> del <br />
-              32% para clientes nuevos.
-              <span></span>
-            </p>
+            <div className="slideflecha">
+              <img className="enlaceFlecha" width="100%" src="./img/exito1.png" alt="" />
+              <p className="enlaceFlecha">
+                <strong>Conversión</strong> del <br />
+                32% para clientes nuevos.
+                <a className="flecha" href="">   🡢</a>
+              </p>
+            </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src="./img/exito1.png" alt="" />
-            <p>
-              <strong>Conversión</strong> del <br />
-              32% para clientes nuevos.
-              <span></span>
-            </p>
+            <div className="slideflecha">
+              <img width="100%" src="./img/exito1.png" alt="" />
+              <p>
+                <strong>Conversión</strong> del <br />
+                32% para clientes nuevos.
+                <a className="flecha" href="">   🡢</a>
+              </p>
+            </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src="./img/exito1.png" alt="" />
-            <p>
-              <strong>Conversión
-              </strong> del <br />
-              32% para clientes nuevos.
-              <span></span>
-            </p>
+            <div className="slideflecha">
+              <img width="100%" src="./img/exito1.png" alt="" />
+              <p>
+                <strong>Conversión
+                </strong> del <br />
+                32% para clientes nuevos.
+                <a className="flecha" href="">   🡢</a>
+              </p>
+            </div>
           </Carousel.Item>
         </Carousel>
       </div>

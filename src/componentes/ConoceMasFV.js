@@ -32,9 +32,11 @@ const Slide = ({ imgSrc, altText, mainCaption, subCaption, linkTo }) => (
   <div className="slide-container">
     <a href={linkTo}>
       <div className="arriba">
-        <img className="slider-image" src={imgSrc} alt={altText} />
+        <img className="slider-image" src={imgSrc} alt={altText} width="360vw"/>
         <div className="slide-caption"></div>
-        <p className="main-caption">{mainCaption}</p>
+        <div className="tituloMain">
+          <p className="main-caption">{mainCaption}</p>
+        </div>
         <p className="sub-caption">{subCaption}</p>
       </div>
       <div class="imagen-padreSlider">

@@ -23,7 +23,6 @@ function VideoLoop() {
                 <p>La aventura<span> digital de tu negocio comienza aquí.</span> En nuestro mundo  enfocado en resultados, podrás <span className='fondoV'>viajar en modo automático</span></p>
             </div>
       <div ref={boxMarketingRef} className="boxMarketing">
-        
            <div class="item">
            <p><span>Social Media</span></p>
            <p>Con nuestro enfoque creativo y experiencia en Social Media, po- demos aumentar

@@ -73,9 +73,9 @@ function Formulario() {
             return true
         else
             return false
-        }
+    }
 
-        const handleFocusTel = (e) => {
+    const handleFocusTel = (e) => {
         let aux = e.target.closest('.input-group');
         if (validateTel(e.target.value)) {
             aux.classList.add("errorClass")
@@ -114,28 +114,28 @@ function Formulario() {
         if (!validateName(e.target[0].value) && !validateName(e.target[1].value) && !validateEmail(e.target[2].value) && !validateTel(e.target[3].value)) {
             const form = $(e.target);
             $.ajax({
-            type: "POST",
-            url: form.attr("action"),
-            data: form.serialize(),
-            success(data) {
-                NotificationManager.success('Datos enviados.', '',);
-                setName('')
-                setCity('')
-                setEmail('')
-                setTel('')
-                setCed('')
-                setReq('')
-                
-            }, 
-            error(data){
-                NotificationManager.success('Datos enviados.', '');
-                setName('')
-                setCity('')
-                setEmail('')
-                setTel('')
-                setCed('')
-                setReq('')
-            }
+                type: "POST",
+                url: form.attr("action"),
+                data: form.serialize(),
+                success(data) {
+                    NotificationManager.success('Datos enviados.', '',);
+                    setName('')
+                    setCity('')
+                    setEmail('')
+                    setTel('')
+                    setCed('')
+                    setReq('')
+
+                },
+                error(data) {
+                    NotificationManager.success('Datos enviados.', '');
+                    setName('')
+                    setCity('')
+                    setEmail('')
+                    setTel('')
+                    setCed('')
+                    setReq('')
+                }
             })
         } else {
             NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
@@ -144,16 +144,24 @@ function Formulario() {
 
     return (
         <>
-            <div id="contact" className="contactBanner">
-                <div className="title">Lets´s Talk</div>
-                <div className="desc">Sé parte de nuestro mundo.</div>
-            </div>
-            
-            <div className="formContainer">
+
+            <div class="containerFor">
+            <div class="column-leftFor">
+            <div className="tituloMarketing" id="Inicio">
+                <div className="iconotituloizquierda">
+
+                </div>
+                <div>
+                    <p>¿ Listo para hablar</p>
+                    <p><span>con nosotros ?</span></p>
+                </div>
+
+                <img src="./img/flecha-negra-abajo.webp" alt="" />
+                <div className="formContainer">
                 <div className="form-box">
                     <form action={url} method="POST" onSubmit={(ev) => handleSumbit(ev)}>
                         <div class="form-field">
-                            <input type="text" id="nombre_y_apellido" placeholder=" " name="nombre_y_apellido" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChange(e) }} value={nombre_y_apellido}/>
+                            <input type="text" id="nombre_y_apellido" placeholder=" " name="nombre_y_apellido" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChange(e) }} value={nombre_y_apellido} />
                             <label for="nombre_y_apellido">Nombre y Apellido</label>
                         </div>
                         <div class="form-field">
@@ -173,16 +181,25 @@ function Formulario() {
                             <label for="cedula">Cédula</label>
                         </div>
                         <div class="form-field">
-                            <textarea name='requerimeinto' id="requerimeinto" placeholder=" " onChange={(e) => { handleChangeReq(e) }}  value={requerimiento} ></textarea>
+                            <textarea name='requerimeinto' id="requerimeinto" placeholder=" " onChange={(e) => { handleChangeReq(e) }} value={requerimiento} ></textarea>
                             <label class="ltextarea" for="requerimeinto">Requerimiento</label>
                         </div>
                         <button className="nextBtn" type="submit"> Contactar </button>
-                        <input type="hidden" name="_captcha" value="false"/>
-                        <NotificationContainer/>
+                        <input type="hidden" name="_captcha" value="false" />
+                        <NotificationContainer />
                     </form>
-                </div>       
-                   
+                </div>
+
             </div>
+
+            </div>
+            </div>
+            <div class="column-rightFor">
+                
+            </div>
+            </div>
+
+           
         </>
     )
 }
