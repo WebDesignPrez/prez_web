@@ -4,28 +4,68 @@ import React, { useState, useEffect } from 'react';
 
 
 function UltimosCasos() {
-  const [numCols, setNumCols] = useState(3); // set the initial number of columns to 3
-
-  // update the number of columns based on the screen width
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth <= 768) { // adjust the breakpoint as needed
-        setNumCols(1);
-      } else {
-        setNumCols(3);
-      }
-    };
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
 
   return (
-    <>
-      <div className="tituloCasos" id="Ultimos-casos">
-        <p>Últimos casos</p>
+    < div className="">
+      <div className="noresponsive">
+        <div className="tituloCasos " id="Ultimos-casos">
+          <p>Últimos casos</p>
+        </div>
+        <div className="casosEBox ">
+          <Carousel cols={3} rows={1} gap={30} loop>
+            <Carousel.Item>
+              <img width="100%" src="./img/exito1.png" alt="" />
+              <p>
+                <strong>Conversión</strong> del <br />
+                32% para clientes nuevos.
+                <span></span>
+              </p>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="./img/exito2.png" alt="" />
+              <p>
+                <strong>Conversión</strong> del <br />
+                32% para clientes nuevos.
+                <span></span>
+              </p>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="./img/exito3.png" alt="" />
+              <p>
+                <strong>Conversión</strong> del <br />
+                32% para clientes nuevos.
+                <span></span>
+              </p>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="./img/exito1.png" alt="" />
+              <p>
+                <strong>Conversión</strong> del <br />
+                32% para clientes nuevos.
+                <span></span>
+              </p>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="./img/exito1.png" alt="" />
+              <p>
+                <strong>Conversión</strong> del <br />
+                32% para clientes nuevos.
+                <span></span>
+              </p>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="./img/exito1.png" alt="" />
+              <p>
+                <strong>Conversión
+                </strong> del <br />
+                32% para clientes nuevos.
+                <span></span>
+              </p>
+            </Carousel.Item>
+          </Carousel>
+        </div>
       </div>
+<<<<<<< HEAD
       <div className="casosEBox">
         <Carousel
           cols={numCols}
@@ -95,9 +135,44 @@ function UltimosCasos() {
             </div>
           </Carousel.Item>
         </Carousel>
+=======
+
+      <div className="responsive">
+        <div className="tituloCasos " id="Ultimos-casos">
+          <p>Últimos casos</p>
+        </div>
+        <div className="casosEBox">
+          <Carousel cols={1} rows={1} gap={10} loop>
+            <Carousel.Item>
+              <img width="100%" src="./img/exito1.png" alt="" />
+
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="./img/exito2.png" alt="" />
+
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="./img/exito3.png" alt="" />
+
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="./img/exito1.png" alt="" />
+
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="./img/exito1.png" alt="" />
+
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="./img/exito1.png" alt="" />
+
+            </Carousel.Item>
+          </Carousel>
+        </div>
+>>>>>>> 123ec932e46fd88f43c01735dea7300e874f4b79
       </div>
       <LetsTalk />
-    </>
+    </div>
   );
 }
 

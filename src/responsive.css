@@ -406,4 +406,17 @@
     .imagen1B, .imagen2B {
         width: 10vw;
     }
+
+    .responsive{
+        display: block !important;
+    }
+
+    .casosEBox {
+        padding: 0%;
+    }
+
+
+
+
+
 }

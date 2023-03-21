@@ -395,6 +395,10 @@ a {
   color: #94e54d;
 } */
 
+.responsive{
+  display: none !important; 
+}
+
 
 @media (max-width: 767px) {
   footer {
@@ -1400,9 +1404,7 @@ max-width: 4%;
   text-align: justify;
 }
 
-.responsive{
-  display: none;
-}
+
 
 @media only screen and (min-width: 768px) {
   .menuLateral {
