@@ -24,9 +24,11 @@ function Inicio() {
                 buttonText="Aceptar"
                 declineButtonText="Rechazar"
                 buttonWrapperClasses="cookie-buttons"
+                contentClasses="texto-cookies"
             >
                 <span class="cookie-text">Acepte el uso de cookies para mejorar su experiencia en este sitio web.</span>
             </CookieConsent>
+            
             <MenuLateralSinHome />
             <WhatsappIcon />
             <img className="logo" src="./img/logopr.png" alt="Logo" />
