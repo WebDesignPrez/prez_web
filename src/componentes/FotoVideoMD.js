@@ -10,7 +10,7 @@ function FotoVideoMD() {
     return (
         <div>
             <div className="abajo2">
-                <p>¡El <span className='fondoV'>Universo Digital</span>, ya no será un misterio. Preparemos motores y comencemos el viaje!</p>
+                <p>¡El <span className='fondoV'>Universo Digital</span>, ya no será un misterio. Preparemos motores y <span>comencemos el viaje!</span></p>
             </div>
             <div class="contenedor-imagenesMD">
                 <img src="./img/imagenIzquierda.jpg" alt="Imagen 1" class="imagen1" />
