@@ -10,6 +10,7 @@ import DesarrolloWeb from './paginas/DesarrolloWeb';
 import Leads from './paginas/Leads';
 import FotoVideo from './paginas/ProduccionFotoVideo';
 import Blog from './paginas/Blog';
+import Vehicentro from './paginas/Vehicentro';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           <Route path="/generacion-leads" element={<Leads />} />
           <Route path="/produccion-fotografia-video" element={<FotoVideo />} />
           <Route path="/blog" element={<Blog />} />
-
+          <Route path="/vehicentro" element={<Vehicentro />} />
       </Routes>
     </BrowserRouter>
 

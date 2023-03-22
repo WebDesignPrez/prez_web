@@ -25,7 +25,7 @@ function UltimosCasos() {
               <p>
                 <strong>Conversión</strong> del <br />
                 32% para clientes nuevos.
-                <a className="flecha" href="">   🡢</a>
+                <a className="flecha" href="">   →</a>
               </p>
             </div>
           </Carousel.Item>
@@ -35,7 +35,7 @@ function UltimosCasos() {
               <p>
                 <strong>Conversión</strong> del <br />
                 32% para clientes nuevos.
-                <a className="flecha" href="">   🡢</a>
+                <a className="flecha" href="">   →</a>
               </p>
             </div>
           </Carousel.Item>
@@ -45,7 +45,7 @@ function UltimosCasos() {
               <p>
                 <strong>Conversión</strong> del <br />
                 32% para clientes nuevos.
-                <a className="flecha" href="">   🡢</a>
+                <a className="flecha" href="">   →</a>
               </p>
             </div>
           </Carousel.Item>
@@ -55,7 +55,7 @@ function UltimosCasos() {
               <p className="enlaceFlecha">
                 <strong>Conversión</strong> del <br />
                 32% para clientes nuevos.
-                <a className="flecha" href="">   🡢</a>
+                <a className="flecha" href="">   →</a>
               </p>
             </div>
           </Carousel.Item>
@@ -65,7 +65,7 @@ function UltimosCasos() {
               <p>
                 <strong>Conversión</strong> del <br />
                 32% para clientes nuevos.
-                <a className="flecha" href="">   🡢</a>
+                <a className="flecha" href="">   →</a>
               </p>
             </div>
           </Carousel.Item>
@@ -76,7 +76,7 @@ function UltimosCasos() {
                 <strong>Conversión
                 </strong> del <br />
                 32% para clientes nuevos.
-                <a className="flecha" href="">   🡢</a>
+                <a className="flecha" href="">   →</a>
               </p>
             </div>
           </Carousel.Item>

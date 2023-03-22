@@ -26,7 +26,7 @@ function VideoPM() {
             <div ref={boxMarketingRef} class="pmedia boxMarketing">
                 <div class="item textservices">
                     <p><span>SEM</span></p>
-                    <p>El arma perfecta para conseguir ventas, leads, notariedad de marca</p>
+                    <p>Mayor visibilidad en motores de búsqueda como Google, Tranquilo aquí solo pagas por cuantas personas dieron click en tu página web.</p>
                 </div>
                 <div class="item imgservices">
                     <img src="./img/pm1.png" />
