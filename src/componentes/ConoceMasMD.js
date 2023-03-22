@@ -99,12 +99,10 @@ const ConoceMasMD = () => (
     <div className="slider-wrapper">
       <div className="slider-line"></div>
       <Slider {...single}>
-
         <div className="slide-container">
           <a href="/paid-media">
             <div className="arriba">
-              <img className="slider-image" src='./img/serv2.png' alt="Second slide"  />
-              <div className="slide-caption"></div>
+              <img className="slider-image" src='./img/serv2.png' alt="Second slide" />
               <div className="tituloMain">
                 <p className="main-caption">"Paid Media"</p>
               </div>
