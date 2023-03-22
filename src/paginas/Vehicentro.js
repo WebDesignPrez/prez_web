@@ -12,16 +12,9 @@ function Vehicentro() {
     return (
         <>
             <MenuLateral />
-            <img className="logo" src="./img/logopr.png" alt="Logo" />
-            <div className="tituloInicioVE" id="Inicio">
-                <p>Caso de éxito</p>
-            </div>
-            <div className="logoVehi">
+            <div className="LogoClienteCasoExito">
                 <img src="./img/logoVehicentro.png" alt="" />
-            </div>
-            <div className="arrowBoxVe">
-                <img src="./img/flecha-negra-abajo.webp" alt="" />
-            </div>
+	        </div>
             <VideoVH />
             <FotoVideoVH />
             <div class="tituloServiciosVH" ><p>Herramientas</p></div>
