@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import Servicios from '../componentes/Servicios';
 
 var settings = {
   dots: true,
@@ -54,14 +55,14 @@ const Slide = ({ imgSrc, altText, mainCaption, subCaption, linkTo }) => (
 
 const ConoceMasMD = () => (
   <>
-    <div className="slider-wrapper">
+    <div className="slider-wrapper noresponsive">
       <div className="slider-line"></div>
       <Slider {...settings}>
         <Slide
           imgSrc="./img/serv2.png"
           altText="Second slide"
-          mainCaption="Paid Media       "
-          subCaption="Estrategias de pauta en plataformas como Facebook ADS y Google ADS"
+          mainCaption="Paid Media"
+          subCaption="Tu marca brillará aún más con estrategias de pago en todo el ecosistema digital."
           linkTo="/paid-media"
         />
         <Slide
@@ -96,29 +97,8 @@ const ConoceMasMD = () => (
       <div className="slider-line"></div>
     </div>
 
-    <div className="slider-wrapper">
-      <div className="slider-line"></div>
-      <Slider {...single}>
-        <div className="slide-container">
-          <a href="/paid-media">
-            <div className="arriba">
-              <img className="slider-image" src='./img/serv2.png' alt="Second slide" />
-              <div className="tituloMain">
-                <p className="main-caption">"Paid Media"</p>
-              </div>
-              <p className="sub-caption">Estrategias de pauta en plataformas como Facebook ADS y Google ADS</p>
-            </div>
-            <div class="imagen-padreSlider">
-              <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1Slider" />
-              <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2Slider" />
-            </div>
-            <br />
-          </a>
-        </div>
-
-
-      </Slider>
-      <div className="slider-line"></div>
+    <div className="responsive">
+      <Servicios />
     </div>
   </>
 );

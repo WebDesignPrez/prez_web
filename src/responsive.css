@@ -465,4 +465,16 @@
     .boxMarketing {
         grid-template-rows: repeat(3, 1fr);
     }
+
+    .pmedia.boxMarketing {
+        grid-template-rows: repeat(1, 1fr) !important;
+    }
+
+    .item.textservices .image-row img {
+        padding-top: 0vw;
+        padding-left: 0vw;
+        width: 30% !important;
+        height: auto;
+    }
+
 }

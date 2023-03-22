@@ -97,18 +97,20 @@ function PiePagina() {
                             </nav>
                         </div>
                     </div>
-                    <div class="columna">
-                        <h3><a href="#Servicios">Servicios</a></h3>
-                        <nav>
-                            <ul>
-                                <li><a href="/marketing-digital">Marketing Digital</a></li>
-                                <li><a href="/paid-media">Paid Media</a></li>
-                                <li><a href="/branding-estratégico">Branding Estratégico</a></li>
-                                <li><a href="/desarrollo-web">Desarrollo Web/ e-commerce</a></li>
-                                <li><a href="/generacion-leads">Generación de Leads</a></li>
-                                <li><a href="/produccion-fotografia-video">Producción, fotográfica, audio y video</a></li>
-                            </ul>
-                        </nav>
+                    <div class="columna ">
+                        <div class="masEspacio">
+                            <h3><a href="#Servicios">Servicios</a></h3>
+                            <nav>
+                                <ul>
+                                    <li><a href="/marketing-digital">Marketing Digital</a></li>
+                                    <li><a href="/paid-media">Paid Media</a></li>
+                                    <li><a href="/branding-estratégico">Branding Estratégico</a></li>
+                                    <li><a href="/desarrollo-web">Desarrollo Web/ e-commerce</a></li>
+                                    <li><a href="/generacion-leads">Generación de Leads</a></li>
+                                    <li><a href="/produccion-fotografia-video">Producción, fotográfica, audio y video</a></li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                     <div class="columna">
                         <h3>Certificados</h3>
