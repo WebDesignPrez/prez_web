@@ -26,7 +26,7 @@ function VideoPM() {
             <div class="boxMarketing2">
                 <div class="item">
                     <p><span>SEM</span></p>
-                    <p>El arma perfecta para conseguir ventas, leads, notariedad de marca</p>
+                    <p>Mayor visibilidad en motores de búsqueda como Google, Tranquilo aquí solo pagas por cuantas personas dieron click en tu página web.</p>
                 </div>
                 <div class="item">
                     <img src="./img/pm1.png" />
@@ -34,7 +34,7 @@ function VideoPM() {
                 
                     <div class="item2">
                         <p><span>Social ADS</span></p>
-                        <p>Desarrollo de campañas para Social ads, en las que se promocionan tus productos o servicios de forma personalizada.</p>
+                        <p>Con los Social Ads, puedes conectar con tu audiencia ideal en las redes sociales y aumentar tu alcance, engagement y conversiones, todo mientras maximizas tu inversión publicitaria y obtienes resultados medibles en tiempo real.</p>
                         <div className='image-row'>
                             <img src="./img/pms1.png" />
                             <img src="./img/pms2.png" />
