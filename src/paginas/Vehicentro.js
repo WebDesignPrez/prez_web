@@ -3,7 +3,8 @@ import MenuLateral from "../componentes/MenuLateral";
 import PiePagina from "../componentes/PiePagina";
 import VideoVH from "../componentes/VideoVH";
 import FotoVideoVH from "../componentes/FotoVideoVH";
-import SliderComponent from "../componentes/SliderComponent";
+import HerramientasVH from "../componentes/HerramientasVH";
+import Testimonios from "../componentes/Testimonios";
 
 
 function Vehicentro() {
@@ -19,10 +20,10 @@ function Vehicentro() {
             <FotoVideoVH />
             <div class="tituloServiciosVH" ><p>Herramientas</p></div>
             <div class="tituloServiciosVH" ><p>Utilizadas</p></div>
+            <HerramientasVH/>
             <br/>
-            <SliderComponent/>
-            <br/>
-            <LetsTalk />
+            <LetsTalk/>
+            <Testimonios />
             <PiePagina />
         </>
     )
