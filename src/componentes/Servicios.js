@@ -92,7 +92,7 @@ function Servicios() {
                 <div className="lineaVertical"></div>
                 <div className="box" onClick={() => { selOpt('gl') }}>
                     <div className="imgBox">
-                        <img src="./img/leads.webp" alt="" />
+                        <img src="./img/generacionleads.png" alt="" />
                     </div>
                     <div className="tituloBox">Generación de <br></br>Leads</div>
                     <div className="descBox">Estrategias de redes sociales para alcanzar y convertir nuevos clientes</div>
