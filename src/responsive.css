@@ -492,4 +492,14 @@
         display: block;
         margin: 0 auto;
     }
+
+    .imagen-padreCE {
+        text-align: center;
+        margin: 0 0 10% 0;
+    }
+
+    .imagen1BCE, .imagen2BCE {
+        width: 9vw;
+    }
+
 }
