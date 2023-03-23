@@ -154,19 +154,17 @@ body {
 
 .imagen2LT {
   position: absolute;
-  top: 4;
-  left: 0;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
-.imagen-padreLT:hover .imagen1LT {
+.tituloLetsTalk:hover .imagen1LT {
   transition: opacity 0.5s ease-in-out;
   opacity: 0;
 }
 
 
-.imagen-padreLT:hover .imagen2LT {
+.tituloLetsTalk:hover .imagen2LT {
   opacity: 1;
   z-index: 1;
 }
@@ -254,12 +252,12 @@ body {
   transition: opacity 0.5s ease-in-out;
 }
 
-.slide-container:hover .imagen1Slide {
+.box-slider:hover .imagen1Slide {
   transition: opacity 0.5s ease-in-out;
   opacity: 0;
 }
 
-.slide-container:hover .imagen2Slider {
+.box-slider:hover .imagen2Slider {
   opacity: 1;
   z-index: 1;
 
@@ -554,6 +552,12 @@ body {
 .slider-wrapper {
   position: relative;
 }
+
+  .slider-wrapper.noresponsive{
+  padding: 0 0 0 8vw;
+  position: relative;
+  }
+
 
 .slider-line {
   position: absolute;
@@ -1420,10 +1424,18 @@ li {
   padding: 2vw 2vw 2vw 10vw;
   display: flex;
   flex-direction: row;
-
   gap: 3vw;
 }
+.box-slider {
+  padding: 0vw 3vw 0vw 2vw;
+  display: flex;
+  flex-direction: row;
+}
 
+
+.imgBox img {
+  width: 100%;
+}
 
 .imgBox img {
   width: 100%;
@@ -1437,6 +1449,18 @@ li {
   gap: 2vh;
 }
 
+.box-slider .box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2vh;
+}
+.imgBoxSlider {
+  width: 100%;
+  height: auto;
+}
+
 .serviciosRow .box .tituloBox {
   font-size: 2rem;
   font-weight: 500;
@@ -1445,7 +1469,19 @@ li {
   letter-spacing: -1px;
 }
 
+.box-slider .box .tituloBox {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-right: 5vw;
+  line-height: 2.5rem;
+  letter-spacing: -1px;
+}
+
 .serviciosRow .box .descBox {
+  font-size: 1.1rem;
+  text-align: left;
+}
+.box-slider .box .descBox {
   font-size: 1.1rem;
   text-align: left;
 }

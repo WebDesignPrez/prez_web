@@ -17,7 +17,7 @@ function LetsTalk() {
                 <p className="titulo2" onClick={selOpt}>Let´s Talk</p><span></span>
                 <div className="imagen-padreLT"> 
                 <img src="./img/flechaNegraL.webp" alt="Imagen 2" class="imagen2LT" />
-                <img src="./img/flecha-blanca.webp" alt="Imagen 1" class="imagen1LT" />    
+                <img src="./img/flechaBlancaListo.webp" alt="Imagen 1" class="imagen1LT" />    
                 </div>
             </div>
         </>

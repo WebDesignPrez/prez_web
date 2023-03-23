@@ -1,10 +1,3 @@
-* {
-    /*     box-sizing: border-box;
-        margin: 0;
-        padding: 0; */
-        /*  border: 1px solid red; */
-    }
-    /* Desplaso label*/
     .form-field {
         position: relative;
         margin: 20px 0;
@@ -166,14 +159,6 @@
         border-bottom: 2px solid black;
         outline: none;
         background-color: transparent;
-    }
-    
-    .userIcon::before {
-        /*     content: url(../public/images/user-solid_small.png);
-        transform: scale(0.35);
-        position: relative;
-        top: 5px;
-        left: -20px; */
     }
     
     .form-box .userIcon {

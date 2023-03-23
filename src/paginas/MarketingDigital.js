@@ -5,6 +5,7 @@ import ConoceMasMD from "../componentes/ConoceMasMD";
 import Testimonios from "../componentes/Testimonios";
 import VideoLoop from "../componentes/VideoLoop";
 import FotoVideoMD from "../componentes/FotoVideoMD";
+import Ejemplo from "../componentes/ejemplo";
 
 function MarketingDigital() {
     document.body.scrollTop = 0; // For Safari
@@ -18,6 +19,7 @@ function MarketingDigital() {
             <LetsTalk />
             <div class="tituloServicios" ><p>Conoce Más</p></div>
             <ConoceMasMD/>
+            <Ejemplo/>
             <br />
             <Testimonios />
             <PiePagina />
