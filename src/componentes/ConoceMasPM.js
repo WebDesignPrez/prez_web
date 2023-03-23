@@ -32,6 +32,7 @@ var single = {
   slidesToShow: 1,
   adaptiveHeight: true
 }
+
 const Slide = ({ imgSrc, altText, mainCaption, subCaption, linkTo }) => (
   <div className="slide-container">
     <a href={linkTo}>
@@ -95,9 +96,11 @@ const ConoceMasPM = () => (
       </Slider>
       <div className="slider-line"></div>
     </div>
+
     <div className="responsive">
       <Servicios />
     </div>
+
   </>
 );
 
