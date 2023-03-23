@@ -1,38 +1,43 @@
 import React from "react";
 import Slider from "react-slick";
+import Servicios from '../componentes/Servicios';
 
-const settings = {
+var settings = {
   dots: true,
   infinite: true,
-  speed: 1000,
+  speed: 500,
   slidesToShow: 3,
-  slidesToScroll: 3,  
+  slidesToScroll: 3,
   responsive: [
     {
       breakpoint: 1024,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2,
-        infinite: true,
-        dots: true
+        slidesToScroll: 2
       }
     },
     {
       breakpoint: 600,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1,
-        initialSlide: 1
+        slidesToScroll: 1
       }
     }
   ]
 };
+var single = {
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+}
 
 const Slide = ({ imgSrc, altText, mainCaption, subCaption, linkTo }) => (
   <div className="slide-container">
     <a href={linkTo}>
       <div className="arriba">
-        <img className="slider-image" src={imgSrc} alt={altText} width="360vw"/>
+        <img className="slider-image" src={imgSrc} alt={altText} width="360vw" />
         <div className="slide-caption"></div>
         <div className="tituloMain">
           <p className="main-caption">{mainCaption}</p>
@@ -49,47 +54,53 @@ const Slide = ({ imgSrc, altText, mainCaption, subCaption, linkTo }) => (
 );
 
 const SliderComponent = () => (
-  <div className="slider-wrapper">
-    <div className="slider-line"></div>
-    <Slider {...settings}>
-      <Slide
-        imgSrc="./img/serv1.png"
-        altText="First slide"
-        mainCaption="Marketing Digital"
-        subCaption="La aventura digital de tu negocio comienza aquí. En nuestro mundo enfocado en resultados, podrás viajar en modo automático."
-        linkTo="/marketing-digital"
-      />
-      <Slide
-        imgSrc="./img/serv2.png"
-        altText="Second slide"
-        mainCaption="Paid Media"
-        subCaption="Estrategias de pauta en plataformas como Facebook ADS y Google ADS"
-        linkTo="/paid-media"
-      />
-      <Slide
-        imgSrc="./img/serv3.png"
-        altText="Third slide"
-        mainCaption="Branding Estratégico"
-        subCaption="La identidad corporativa de tu marca. Encontramos lo que te hace único y se lo contamos al mundo."
-        linkTo="/branding-estratégico"
-      />
-      <Slide
-        imgSrc="./img/generacionleads.png"
-        altText="Fifth slide"
-        mainCaption="Generación de Leads"
-        subCaption="Estrategias de redes sociales para alcanzar y convertir nuevos clientes"
-        linkTo="/generacion-leads"
-      />
-      <Slide
-        imgSrc="./img/serv6.png"
-        altText="Sixth slide"
-        mainCaption="Producción fotográfica, audio y video"
-        subCaption="Desarrollo, producción y post producción de fotografías, videos y piezas audiovisuales."
-        linkTo="/produccion-fotografia-video"
-      />
-    </Slider>
-    <div className="slider-line"></div>
-  </div>
+  <>
+    <div className="slider-wrapper noresponsive">
+      <div className="slider-line"></div>
+      <Slider {...settings}>
+        <Slide
+          imgSrc="./img/serv1.png"
+          altText="First slide"
+          mainCaption="Marketing Digital"
+          subCaption="La aventura digital de tu negocio comienza aquí. En nuestro mundo enfocado en resultados, podrás viajar en modo automático."
+          linkTo="/marketing-digital"
+        />
+        <Slide
+          imgSrc="./img/serv2.png"
+          altText="Second slide"
+          mainCaption="Paid Media"
+          subCaption="Estrategias de pauta en plataformas como Facebook ADS y Google ADS"
+          linkTo="/paid-media"
+        />
+        <Slide
+          imgSrc="./img/serv3.png"
+          altText="Third slide"
+          mainCaption="Branding Estratégico"
+          subCaption="La identidad corporativa de tu marca. Encontramos lo que te hace único y se lo contamos al mundo."
+          linkTo="/branding-estratégico"
+        />
+        <Slide
+          imgSrc="./img/generacionleads.png"
+          altText="Fifth slide"
+          mainCaption="Generación de Leads"
+          subCaption="Estrategias de redes sociales para alcanzar y convertir nuevos clientes"
+          linkTo="/generacion-leads"
+        />
+        <Slide
+          imgSrc="./img/serv6.png"
+          altText="Sixth slide"
+          mainCaption="Producción fotográfica, audio y video"
+          subCaption="Desarrollo, producción y post producción de fotografías, videos y piezas audiovisuales."
+          linkTo="/produccion-fotografia-video"
+        />
+      </Slider>
+      <div className="slider-line"></div>
+    </div>
+
+    <div className="responsive">
+      <Servicios />
+    </div>
+  </>
 );
 
 export default SliderComponent;
