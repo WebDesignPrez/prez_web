@@ -229,6 +229,20 @@ body {
   color: #83de4e;
 }
 
+/*Flecha Lets Talk*/
+.flechaTL {
+  font-size: 4vw;
+  color: #fff;
+}
+
+.titulo2:hover .flechaTL {
+  color: #000;
+}
+
+.flechaTL:hover {
+  color: #000;
+}
+
 /*Slider Flechas*/
 .imagen-padreSlider {
   position: relative;
@@ -1487,6 +1501,13 @@ li {
   text-align: left;
 }
 
+.box-slider .box .descBox span{
+  font-size: 1rem !important;
+}
+.box-slider:hover .box .descBox span{
+  color: #83de4e;
+}
+
 .casosRow {
   display: flex;
   flex-direction: row;
@@ -1569,8 +1590,12 @@ li {
   display: inline;
 }
 
-.tituloLetsTalk .titulo2+span {
-  margin-left: 2.5vw;
+.tituloLetsTalk .titulo2 span{
+  color: #fff !important;
+}
+
+.tituloLetsTalk:hover .titulo2 span{
+  color: #fff;
 }
 
 .tituloLetsTalk img {
