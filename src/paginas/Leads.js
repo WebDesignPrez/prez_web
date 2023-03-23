@@ -3,7 +3,6 @@ import MenuLateral from "../componentes/MenuLateral";
 import PiePagina from "../componentes/PiePagina";
 import Testimonios from "../componentes/Testimonios";
 import ConoceMasGL from "../componentes/ConoceMasGL";
-import SliderComponent from "../componentes/SliderComponent";
 import FotoVideoLE from "../componentes/FotoVideoLE";
 import VideoLE from "../componentes/VideoLE";
 
@@ -14,12 +13,12 @@ function Leads() {
         <>
             <MenuLateral />
             <img className="logo" src="./img/logopr.png" alt="Logo" />
-            <VideoLE/>
-            <FotoVideoLE/>
+            <VideoLE />
+            <FotoVideoLE />
             <LetsTalk />
             <div class="tituloServicios" ><p>Conoce Más</p></div>
-            <ConoceMasGL/>
-            <br/>
+            <ConoceMasGL />
+            <br />
             <Testimonios />
             <PiePagina />
         </>

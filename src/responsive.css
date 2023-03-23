@@ -477,4 +477,8 @@
         height: auto;
     }
 
+    .boxMarketing.onecol{
+        grid-template-rows: repeat(1, 1fr) !important;
+    }
+
 }
