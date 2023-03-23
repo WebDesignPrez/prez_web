@@ -140,29 +140,35 @@ body {
 
 
 /*Flecha lets*/
-
-.imagen-padreLT {
-  margin-top: 2vw;
+.imagen-padreLT  {
+  position: relative;
+  display: inline-block;
+  width: 600vw;
+  padding-top: 2vw;
 }
 
-.imagen2LT img {
+.imagen1LT,
+.imagen2LT {
   width: 3vw;
-  height: 3vw;
 }
 
 .imagen2LT {
   position: absolute;
+  top: 4;
+  left: 0;
   opacity: 0;
-  transition: opacity 0s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
-.tituloLetsTalk:hover .imagen1LT {
-  transition: opacity 0s ease-in-out;
+.imagen-padreLT:hover .imagen1LT {
+  transition: opacity 0.5s ease-in-out;
   opacity: 0;
 }
 
-.tituloLetsTalk:hover .imagen2LT {
+
+.imagen-padreLT:hover .imagen2LT {
   opacity: 1;
+  z-index: 1;
 }
 
 /*FinFlecha lets*/
@@ -174,18 +180,20 @@ body {
 }
 
 .column-leftFor {
-  width: 70%;
+  width: 65%;
   background-color: #f9f9f9;
   padding: 1vw;
 }
 
 .column-rightFor {
-  width: 30%;
+  width: 35%;
+  height: 70vw;  
   background-color: #f9f9f9;
 }
 
 .column-rightFor video {
   left: 67vw;
+  height: 100%;
   padding-top: 0;
   padding-right: 0;
 }
@@ -419,7 +427,7 @@ body {
 
 .imagen1BCE,
 .imagen2BCE {
-  width: 3vw;
+  width: 4vw;
 }
 
 .imagen2BCE {
@@ -998,6 +1006,14 @@ a {
   height: auto;
   left: 18vw;
   padding-top: 12vw;
+}
+
+.imagenDerechaLT {
+  position: absolute;
+  max-height: 100%;
+  width: 40vw;
+  height: auto;
+
 }
 
 

@@ -216,7 +216,7 @@ function Formulario() {
 
                 </div>
                 <div class="column-rightFor">
-                    <video class="imagen2MD"
+                    <video
                         src="./img/adelante.mp4"
                         autoPlay
                         loop

@@ -100,7 +100,7 @@
         border: none;
         outline: none;
     }
-    
+
     .form-box input {
         height: 3vw;
         width: 155%;
@@ -125,10 +125,10 @@
     
     .form-box textarea {
         height: 10vw;
-        width: 47vw;
-        
+        width: 43vw;
     }
-    
+ 
+   
     .input-group {
         border: none;
         border-bottom: 2px solid black;
@@ -151,7 +151,7 @@
     .nextBtn {
         margin: 1rem 8rem 1rem 8rem;
         border-radius: 0.5vw;
-        background-color: #93e54c;
+        background-color: #22262b;
         color: #fff;
         display: inline-block;
     }
