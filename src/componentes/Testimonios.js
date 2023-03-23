@@ -6,9 +6,9 @@ function Testimonios() {
         nombre: "Andres Morales",
         cargo: "Gerente Inmobiliaria M&M"
     }, {
-        comentario: "to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
-        nombre: "Nombre 2",
-        cargo: "Director 3"
+        comentario: "Haber seleccionado a Prez Agencia de Marketing para que nos brinde apoyo en nuestra gestión comercial en el área de Educación continua, es porque al ser un grupo de jóvenes con ideas creativas, han hecho que los objetivos los vayamos cumpliendo. Ctt de Los Andes se siente complacido de contar con Prez Agencia de Marketing por tener un enfoque estratégico y solido que nos permiten medir el éxito de nuestra institución con resultados.",
+        nombre: "Ing. Roberto Cuesta",
+        cargo: "Director General CTT de los Andes"
     }, {
         comentario: "This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
         nombre: "Nombre 3",

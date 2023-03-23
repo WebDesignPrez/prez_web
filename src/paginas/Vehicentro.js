@@ -1,3 +1,4 @@
+import '../responsive.css';
 import LetsTalk from "../componentes/LetsTalk";
 import MenuLateral from "../componentes/MenuLateral";
 import PiePagina from "../componentes/PiePagina";
