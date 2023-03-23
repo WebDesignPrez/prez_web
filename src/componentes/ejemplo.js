@@ -43,12 +43,8 @@ const Slide = ({ imgSrc, mainCaption, subCaption, linkTo }) => (
                     {mainCaption}
                 </div>
                 <div className="descBox">
-                    {subCaption}
+                    {subCaption}<span>→</span>
                 </div>
-            </div>
-            <div class="imagen-padreSlider">
-                <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1Slider" />
-                <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2Slider" />
             </div>
         </a>
     </div>
