@@ -8,7 +8,7 @@ function Clientes() {
                 Clientes que viajan <br></br>con nosotros
             </div>
             <div className="clientesBox noresponsive">
-                <Carousel cols={5} rows={3} gap={10} loop>
+                <Carousel cols={5} rows={3} gap={10} autoplayTimeout={1000} loop>
                     <Carousel.Item>
                         <img width="100%" src="./img/logos/logo1.png" alt="" />
                     </Carousel.Item>

@@ -13,7 +13,7 @@ function UltimosCasos() {
       <div className="casosEBox noresponsive">
         <Carousel
           cols={3}
-          rows={2}
+          rows={1}
           gap={30}
           loop
         >
@@ -82,9 +82,7 @@ function UltimosCasos() {
             <div className="slideflecha">
               <img width="100%" src="./img/uninova.jpg" alt="" />
               <p>
-                <strong>Conversión
-                </strong> del <br />
-                32% para clientes nuevos.
+                <strong>Conversión</strong> del <br />32% para clientes nuevos.
                 <a className="flecha" href="">   →</a>
               </p>
             </div>
@@ -92,23 +90,11 @@ function UltimosCasos() {
           <Carousel.Item>
             <div className="slideflecha">
               <img width="100%" src="./img/maxilar.jpg" alt="" />
-              <p>
-                <strong>Conversión
-                </strong> del <br />
-                32% para clientes nuevos.
-                <a className="flecha" href="">   →</a>
-              </p>
             </div>
           </Carousel.Item>
           <Carousel.Item>
             <div className="slideflecha">
               <img width="100%" src="./img/hipnosis.jpg" alt="" />
-              <p>
-                <strong>Conversión
-                </strong> del <br />
-                32% para clientes nuevos.
-                <a className="flecha" href="">   →</a>
-              </p>
             </div>
           </Carousel.Item>
         </Carousel>

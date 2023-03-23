@@ -124,8 +124,8 @@ body {
 
 .LogoClienteCasoExito img {
   padding-left: 8vw;
-  max-width: 100%; /* Evita que la imagen se desborde del div */
-  max-height: 100%; /* Evita que la imagen se desborde del div */
+  max-width: 40%; /* Evita que la imagen se desborde del div */
+  max-height: 40%; /* Evita que la imagen se desborde del div */
 }
 
 
@@ -145,7 +145,7 @@ body {
   margin-top: 2vw;
 }
 
-.imagen1LT .imagen2LT img {
+.imagen2LT img {
   width: 3vw;
   height: 3vw;
 }
@@ -295,6 +295,17 @@ body {
   background: #94e54d;
 }
 
+.pmedia.boxMarketing {
+  padding: 2vw 0 2vw 12vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* crea 3 columnas con ancho flexible */
+  grid-template-rows: repeat(1, 1fr);
+  /* crea 3 filas con altura flexible */
+  background-color: #24262b
+    /* establece el color de fondo */
+}
+
 .boxMarketing2 {
   padding: 2vw 0 2vw 12vw;
   display: grid;
@@ -360,43 +371,47 @@ body {
     /* establece el color de fondo */
 }
 
-.item2 img {
+.item.textservices img {
   max-width: 70%;
 }
 
-.item2 {
+.item.textservices{
   padding: 1vw;
 }
 
-.item2 p {
+.item.textservices p {
   color: #fff;
   text-align: left;
   line-height: 1.5;
   font-size: 1.1rem;
 }
 
-.item2 p::selection {
+.item.textservices p::selection {
   background-color: #93e54c;
   color: #000;
 }
 
-.item2 span::selection {
+.item.textservices span::selection {
   background-color: #93e54c;
   color: #000;
 }
 
-.item2 span {
+.item.textservices span {
   line-height: 0.5;
   font-size: 2rem;
   font-weight: bold;
 }
 
-.item2 .image-row {
+.item.textservices .image-row {
   display: flex;
   justify-content: center;
-  margin-left: 11vw;
+  padding-left: 10vw;
 }
 
+.item.textservices .image-row img{
+  width: 25%;
+  height: auto;
+}
 .imagen-padreCE {
   position: relative;
   display: inline-block;
@@ -1449,7 +1464,7 @@ li {
 
 .tituloServicios {
   font-size: 3rem;
-  padding: 3vw 0 0vw 11vw;
+  padding: 3vw 0 0vw 4.5vw;
 }
 
 .tituloServicios p::selection {
@@ -1752,7 +1767,7 @@ li {
 }
 
 .tituloExito {
-  padding: 0.4vw 0 1vw 11vw;
+  padding: 0.4vw 0 1vw 5vw;
 }
 
 .sinespacio {
