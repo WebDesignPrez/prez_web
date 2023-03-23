@@ -24,7 +24,7 @@ function VideoVH() {
                     <div class="columnaVH"><img className='potencia' src="./img/lapotenciaLogo.png" alt="" /></div>
                 </div>
                 <div class="filaVH">
-                    <div class="columnaVH"><img className='sobre' src="./img/imagensobre.jpg" alt="" /></div>
+                    <div class="columnaVH"><img className='sobre' src="./img/imagenCamion.jpg" alt="" /></div>
                     <div class="columnaVH"><img className='uno' src="./img/numero1Logo.png" alt="" /></div>
                 </div>
             </div>

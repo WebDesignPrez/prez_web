@@ -12,8 +12,8 @@ function CasosExito() {
                         </div>
                     </div>
                     <div class="imagen-padreCE">
-                        <img src="./img/flechaBlancaListo.webp" alt="Imagen 1" class="imagen1BCE" />
-                        <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2BCE" />
+                        <a href="/vehicentro"><img src="./img/flechaBlancaListo.webp" alt="Imagen 1" class="imagen1BCE" /></a>
+                        <a href="/vehicentro"><img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2BCE" /></a>
                     </div>
                 </div>
                 <div className="casosImg">

@@ -1,7 +1,5 @@
 import LetsTalk from "../componentes/LetsTalk"
 import Carousel from 'better-react-carousel'
-import React, { useState, useEffect } from 'react';
-
 
 function UltimosCasos() {
 
@@ -15,13 +13,13 @@ function UltimosCasos() {
       <div className="casosEBox noresponsive">
         <Carousel
           cols={3}
-          rows={1}
+          rows={2}
           gap={30}
           loop
         >
           <Carousel.Item>
             <div className="slideflecha">
-              <img width="100%" src="./img/exito1.png" alt="" />
+              <img width="100%" src="./img/spe.jpg" alt="" />
               <p>
                 <strong>Conversión</strong> del <br />
                 32% para clientes nuevos.
@@ -51,7 +49,7 @@ function UltimosCasos() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="slideflecha">
-              <img className="enlaceFlecha" width="100%" src="./img/exito3.png" alt="" />
+              <img className="enlaceFlecha" width="100%" src="./img/musica.jpg" alt="" />
               <p className="enlaceFlecha">
                 <strong>Conversión</strong> del <br />
                 32% para clientes nuevos.
@@ -61,7 +59,7 @@ function UltimosCasos() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="slideflecha">
-              <img width="100%" src="./img/exito1.png" alt="" />
+              <img width="100%" src="./img/alis.jpg" alt="" />
               <p>
                 <strong>Conversión</strong> del <br />
                 32% para clientes nuevos.
@@ -71,7 +69,40 @@ function UltimosCasos() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="slideflecha">
-              <img width="100%" src="./img/exito1.png" alt="" />
+              <img width="100%" src="./img/uniandes.jpg" alt="" />
+              <p>
+                <strong>Conversión
+                </strong> del <br />
+                32% para clientes nuevos.
+                <a className="flecha" href="">   →</a>
+              </p>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="slideflecha">
+              <img width="100%" src="./img/uninova.jpg" alt="" />
+              <p>
+                <strong>Conversión
+                </strong> del <br />
+                32% para clientes nuevos.
+                <a className="flecha" href="">   →</a>
+              </p>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="slideflecha">
+              <img width="100%" src="./img/maxilar.jpg" alt="" />
+              <p>
+                <strong>Conversión
+                </strong> del <br />
+                32% para clientes nuevos.
+                <a className="flecha" href="">   →</a>
+              </p>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="slideflecha">
+              <img width="100%" src="./img/hipnosis.jpg" alt="" />
               <p>
                 <strong>Conversión
                 </strong> del <br />

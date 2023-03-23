@@ -81,7 +81,7 @@ const ConoceMasFV = () => (
         linkTo="/desarrollo-web"
       />
       <Slide
-        imgSrc="./img/serv5.png"
+        imgSrc="./img/generacionleads.png"
         altText="Fifth slide"
         mainCaption="Generación de Leads"
         subCaption="Estrategias de redes sociales para alcanzar y convertir nuevos clientes"
