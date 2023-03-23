@@ -18,7 +18,6 @@ function MarketingDigital() {
             <FotoVideoMD />
             <LetsTalk />
             <div class="tituloServicios" ><p>Conoce Más</p></div>
-            <ConoceMasMD/>
             <Ejemplo/>
             <br />
             <Testimonios />
