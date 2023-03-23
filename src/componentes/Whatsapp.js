@@ -2,6 +2,6 @@ import React from 'react';
 import { ElfsightWidget } from 'react-elfsight-widget';
 
 function Whatsapp() {
-  return <ElfsightWidget widgetID="0fe11f24-edb4-46d2-b047-3d9781700cca" />;
+  return <ElfsightWidget widgetID="80687d6d-844c-45f1-b15f-0230d9070940" />;
 }
 export default Whatsapp;

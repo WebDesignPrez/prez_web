@@ -67,7 +67,7 @@ function PiePagina() {
                         <p>Ambato</p>
                         <p>Virgen del Sol y Camino al Oriente</p>
                         <p><strong>Ambato - Ecuador</strong></p>
-                        <a className="cel" href="tel:0959792827"><strong>Cel: </strong>095 979 2827</a>
+                        <a className="cel" href="tel:0969471122"><strong>Cel: </strong>096 947 1122</a>
                         <div className="social">
                             <a href="https://www.facebook.com/agenciaprez" >
                                 <img class="cambiar-imagen-fb" src="./img/FaceNegra.webp" alt="facebook" />

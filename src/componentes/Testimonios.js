@@ -4,31 +4,38 @@ function Testimonios() {
     let testimoniosData = [{
         comentario: "Yo siempre he tenido en cuenta la buena atención, puntualidad y responsabilidad, pero lo que ustedes me ofrecieron fue mas que eso, siempre han aportado soluciones originales a los retos planteados, de una manera organizada y sobre todo muy creativos, por eso recomiendo a Prez Agencia de Marketing por su calidad y buen servicio.",
         nombre: "Andres Morales",
-        cargo: "Gerente Inmobiliaria M&M"
+        cargo: "Gerente Inmobiliaria M&M",
+        img: "./img/AndresMorales.png"
     }, {
         comentario: "Haber seleccionado a Prez Agencia de Marketing para que nos brinde apoyo en nuestra gestión comercial en el área de Educación continua, es porque al ser un grupo de jóvenes con ideas creativas, han hecho que los objetivos los vayamos cumpliendo. Ctt de Los Andes se siente complacido de contar con Prez Agencia de Marketing por tener un enfoque estratégico y solido que nos permiten medir el éxito de nuestra institución con resultados.",
         nombre: "Ing. Roberto Cuesta",
-        cargo: "Director General CTT de los Andes"
+        cargo: "Director General CTT de los Andes",
+        img: "./img/testimonial.webp."
     }, {
         comentario: "This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
         nombre: "Nombre 3",
-        cargo: "Director 4"
+        cargo: "Director 4",
+        img: "./img/testimonial.webp"
     }, {
         comentario: "He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
         nombre: "Nombre 4",
-        cargo: "Director 5"
+        cargo: "Director 5",
+        img: "./img/testimonial.webp"
     }, {
         comentario: "who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
         nombre: "Nombre 5",
-        cargo: "Director 6"
+        cargo: "Director 6",
+        img: "./img/testimonial.webp"
     }, {
         comentario: "amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
         nombre: "Nombre 6",
-        cargo: "Director 7"
+        cargo: "Director 7",
+        img: "./img/testimonial.webp"
     }, {
         comentario: "hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
         nombre: "Nombre 7",
-        cargo: "Director 8"
+        cargo: "Director 8",
+        img: "./img/testimonial.webp"
     }];
 
     let [contador, setContador] = useState(1);
@@ -103,7 +110,7 @@ function Testimonios() {
                             <img src="./img/quotes.png" alt="quotes" />
                             <p className="comentarioTestimonio">{data.comentario}</p>
                             <div className="fotoTestimonio">
-                                <img src=""  />
+                                <img src={data.img}  />
                                 <p className="sinespacio"><strong>{data.nombre}</strong><br></br>{data.cargo}</p>
                             </div>
                         </div>

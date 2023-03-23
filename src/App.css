@@ -228,6 +228,19 @@ body {
 .flecha:hover {
   color: #83de4e;
 }
+/*Flecha Lets Talk*/
+.flechaConoceMas {
+  font-size: 1.5vw;
+  color: #000;
+}
+
+.titulo2:hover .flechaConoceMas {
+  color: #83de4e;
+}
+
+.flechaConoceMas:hover {
+  color: #83de4e;
+}
 
 /*Flecha Lets Talk*/
 .flechaTL {

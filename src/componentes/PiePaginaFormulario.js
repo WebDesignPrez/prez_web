@@ -9,7 +9,7 @@ function PiePaginaFormulario() {
                         <p><strong>Ambato - Ecuador</strong></p>
                         <p>Mas información</p>
                         <p>info@agenciaprez.com</p>
-                        <a className="cel" href="tel:0959792827"><strong>Cel: </strong>095 979 2827</a>
+                        <a className="cel" href="tel:0969471122"><strong>Cel: </strong>096 947 1122</a>
                         <div className="social">
                             <a href="https://www.facebook.com/agenciaprez" >
                                 <img class="cambiar-imagen-fb" src="./img/FaceVerde.webp" alt="facebook" />
