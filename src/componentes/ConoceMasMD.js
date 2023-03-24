@@ -34,26 +34,25 @@ var single = {
   adaptiveHeight: true
 }
 const Slide = ({ imgSrc, altText, mainCaption, subCaption, linkTo }) => (
-  <div className="slide-container">
-    <a href={linkTo}>
-      <div className="arriba">
-        <img className="slider-image" src={imgSrc} alt={altText} width="360vw" />
-        <div className="slide-caption"></div>
-        <div className="tituloMain">
-          <p className="main-caption">{mainCaption}</p>
-        </div>
-        <p className="sub-caption">{subCaption}</p>
-        <span>→</span>
+  <div className="box-slider">
+  <a href={linkTo}>
+      <div className="box">
+          <img className="imgBoxSlider" src={imgSrc} />
+          <div className="tituloBox">
+              {mainCaption}
+          </div>
+          <div className="descBox">
+              {subCaption}
+              <a className="flechaConoceMas" href={linkTo}>   →</a>
+          </div>
       </div>
-      <br />
-    </a>
-  </div>
+  </a>
+</div>
 );
 
 const ConoceMasMD = () => (
   <>
     <div className="slider-wrapper noresponsive">
-      <div className="slider-line"></div>
       <Slider {...settings}>
         <Slide
           imgSrc="./img/serv2.png"
@@ -91,7 +90,6 @@ const ConoceMasMD = () => (
           linkTo="/produccion-fotografia-video"
         />
       </Slider>
-      <div className="slider-line"></div>
     </div>
 
     <div className="responsive">

@@ -44,7 +44,7 @@ const Slide = ({ imgSrc, mainCaption, subCaption, linkTo }) => (
                 </div>
                 <div className="descBox">
                     {subCaption}
-                    <a className="flechaConoceMas" href="">   →</a>
+                    <a className="flechaConoceMas" href={linkTo}>   →</a>
                 </div>
             </div>
         </a>

@@ -87,16 +87,6 @@ function UltimosCasos() {
               </p>
             </div>
           </Carousel.Item>
-          <Carousel.Item>
-            <div className="slideflecha">
-              <img width="100%" src="./img/maxilar.jpg" alt="" />
-            </div>
-          </Carousel.Item>
-          <Carousel.Item>
-            <div className="slideflecha">
-              <img width="100%" src="./img/hipnosis.jpg" alt="" />
-            </div>
-          </Carousel.Item>
         </Carousel>
       </div>
 
