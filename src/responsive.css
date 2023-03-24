@@ -456,7 +456,8 @@
         height: auto;
     }
 
-    .abajo, .abajo2 {
+    .abajo,
+    .abajo2 {
         width: auto;
         padding: 0 10vw;
         font-size: 1.4rem;
@@ -477,18 +478,18 @@
         height: auto;
     }
 
-    .boxMarketing.onecol{
+    .boxMarketing.onecol {
         grid-template-rows: repeat(1, 1fr) !important;
     }
 
-    .tituloServiciosVH p{
+    .tituloServiciosVH p {
         font-size: 2rem;
         padding: 2 2 2 2vw;
         color: #25272c;
         line-height: 0.01;
     }
 
-    .contenedor-imagenesVH{
+    .contenedor-imagenesVH {
         display: block;
         margin: 0 auto;
     }
@@ -498,8 +499,22 @@
         margin: 0 0 10% 0;
     }
 
-    .imagen1BCE, .imagen2BCE {
+    .imagen1BCE,
+    .imagen2BCE {
         width: 9vw;
     }
 
+    .containerFor {
+        flex-direction: column;
+    }
+    
+    .tituloFormulario {
+        display: flex;
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+
+
 }
+

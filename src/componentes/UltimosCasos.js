@@ -59,7 +59,7 @@ function UltimosCasos() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="slideflecha">
-              <img width="100%" src="./img/alis.jpg" alt="" />
+              <img width="100%" src="./img/home/alis.webp" alt="" />
               <p>
                 <strong>Conversión</strong> del <br />
                 32% para clientes nuevos.

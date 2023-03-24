@@ -3,12 +3,14 @@ import MenuLateral from '../componentes/MenuLateral'
 import PiePagina from '../componentes/PiePagina'
 import PiePaginaFormulario from '../componentes/PiePaginaFormulario'
 
-function Contacto(){
-    return(
+function Contacto() {
+    return (
         <>
-            <MenuLateral />               
-                <Formulario />
+            {/*<MenuLateral />*/}
+            <MenuLateral />
+            <Formulario />
             <PiePaginaFormulario />
+            { /*<PiePaginaFormulario />*/}
         </>
     )
 }
