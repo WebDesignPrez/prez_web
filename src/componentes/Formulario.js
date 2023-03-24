@@ -205,7 +205,7 @@ function Formulario() {
                                         <option value="Otro">Otro</option>
                                     </select>
                                 </div>
-                                <button className="nextBtn" type="submit"> Contactar </button>
+                                <button className="nextBtn" type="submit">Comenzar el viaje</button>
                                 <input type="hidden" name="_captcha" value="false" />
                                 <NotificationContainer />
                             </form>
