@@ -35,6 +35,7 @@ function PiePaginaFormulario() {
                                     <li><a href="/#Casos-exito">Casos de éxito</a></li>
                                     <li><a href="/#Ultimos-casos">Últimos casos</a></li>
                                     <li><a href="/#Testimonios"> Testimonios</a></li>
+                                    <li><a href="/about-us"> About Us</a></li>
                                 </ul>
                             </nav>
                         </div>

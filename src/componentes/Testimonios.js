@@ -10,32 +10,32 @@ function Testimonios() {
         comentario: "Haber seleccionado a Prez Agencia de Marketing para que nos brinde apoyo en nuestra gestión comercial en el área de Educación continua, es porque al ser un grupo de jóvenes con ideas creativas, han hecho que los objetivos los vayamos cumpliendo. Ctt de Los Andes se siente complacido de contar con Prez Agencia de Marketing por tener un enfoque estratégico y solido que nos permiten medir el éxito de nuestra institución con resultados.",
         nombre: "Ing. Roberto Cuesta",
         cargo: "Director General CTT de los Andes",
-        img: "./img/testimonial.webp."
+        img: "./img/testimonialDefecto.png"
     }, {
-        comentario: "This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
+        comentario: "Prez para el Cebi y Pollo Listo, ha sido la única empresa de marketing, que expresa de la mejor manera todos nuestros servicios de una forma muy creativa y diferente a nuestra competencia. Nos gusta su responsabilidad creatividad y sobretodo su compromiso.",
         nombre: "Nombre 3",
         cargo: "Director 4",
-        img: "./img/testimonial.webp"
+        img: "./img/testimonialDefecto.png"
     }, {
         comentario: "He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
         nombre: "Nombre 4",
         cargo: "Director 5",
-        img: "./img/testimonial.webp"
+        img: "./img/testimonialDefecto.png"
     }, {
         comentario: "who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
         nombre: "Nombre 5",
         cargo: "Director 6",
-        img: "./img/testimonial.webp"
+        img: "./img/testimonialDefecto.png"
     }, {
         comentario: "amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
         nombre: "Nombre 6",
         cargo: "Director 7",
-        img: "./img/testimonial.webp"
+        img: "./img/testimonialDefecto.png"
     }, {
         comentario: "hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
         nombre: "Nombre 7",
         cargo: "Director 8",
-        img: "./img/testimonial.webp"
+        img: "./img/testimonialDefecto.png"
     }];
 
     let [contador, setContador] = useState(1);

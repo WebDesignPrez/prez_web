@@ -13,6 +13,125 @@ body {
   color: #000;
   background-color: #f9f9f9;
 }
+/*About Us*/
+.nosotrosContenedor{
+  display: flex;
+  margin-left: 7.5vw;
+}
+.contenedorCultura{
+  width: 100%;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.contenedorImagenCultura{
+  width: 55%;
+}
+.imgCultura{
+  width: 100%;
+  height: 100%;
+  /* border: 3px solid #83de4e */
+}
+
+.contenedorTextoCultura{
+  width: 45%;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.nosotrosContenedor .tituloTextoAbout{
+  font-size: 2rem;
+  line-height: 2.3rem;
+}
+
+.contenedorTextoCultura p{
+  font-size: 1.1rem;
+}
+
+.contenedorCiudad{
+  width: 100%;
+  height: 65%;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.contenedorTextoCiudad{
+  width: 45%;
+  margin-right: 4%;
+  margin-top: 14%;
+  margin-bottom: 10%;
+}
+
+.contenedorImagenCiudad{
+  width: 55%;
+  display: flex;
+  margin-top: 9%;
+  margin-bottom: 9%;
+}
+
+.imgCiudad1{
+  width: 45%;
+  height: 100%;
+  /* border: 3px solid #83de4e; */
+}
+.imgCiudad2{
+  width: 45%;
+  height: 100%;
+  /* border: 3px solid #83de4e */
+}
+
+.contenedorTextoCiudad p{
+  font-size: 1.1rem;
+}
+
+.contenedorImagenCiudad a{
+  width: 5%;
+}
+
+.contenedorEstudio{
+  width: 100%;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.contenedorImagenEstudio{
+  width: 60%;
+}
+
+.imgEstudio{
+  width: 100%;
+  height: 90%;
+  /* border: 3px solid #83de4e */
+}
+
+.contenedorTextoEstudio{
+  width: 40%;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+.contenedorTextoEstudio p{
+  font-size: 1.1rem;
+}
+
+.textoAbout{
+  display: flex;
+  background-color: #83de4e;
+}
+
+
+
+
+/**/
 /*LetsTalk*/
 .contenedorLets{
   display: flex;
