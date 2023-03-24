@@ -26,10 +26,7 @@ function VideoBE() {
             <div ref={boxMarketingRef} class=" boxMarketing">
                 <div class="item textservices">
                     <p><span>Creación de marca</span></p>
-                    <p>Una marca es una identificación, que cuando se habla de aspectos comerciales, es la que representa
-                        una identidad simbólica de una empresa, producto o servicio, es decir el activo intangible más importante
-                        de la empresa.
-                    </p>
+                    <p>Tu marca en el centro del universo, representamos la esencia de tu empresa y conectamos emocionalmente con tu público objetivo.</p>
                 </div>
                 <div class="item imgservices">
                     <img src="./img/be4.png" />

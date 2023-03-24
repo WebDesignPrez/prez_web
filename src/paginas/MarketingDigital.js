@@ -12,13 +12,13 @@ function MarketingDigital() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     return (
         <>
-            <img className="logo" src="./img/logopr.png" alt="Logo" />
+            <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
             <MenuLateral />
             <VideoLoop />
             <FotoVideoMD />
             <LetsTalk />
             <div class="tituloServicios" ><p>Conoce Más</p></div>
-            <Ejemplo/>
+            <ConoceMasMD/>
             <br />
             <Testimonios />
             <PiePagina />

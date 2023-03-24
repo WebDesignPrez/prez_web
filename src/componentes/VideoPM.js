@@ -34,7 +34,7 @@ function VideoPM() {
 
                 <div class="item textservices">
                     <p><span>Social ADS</span></p>
-                    <p>Desarrollo de campañas para Social ads, en las que se promocionan tus productos o servicios de forma personalizada.</p>
+                    <p>Con Social Ads, puedes conectar con tu audiencia ideal en las redes sociales y aumentar tu alcance, engagement y conversiones, todo mientras maximizas tu inversión publicitaria y obtienes resultados medibles en tiempo real.</p>
                     <div className='image-row'>
                         <img src="./img/pms1.png" />
                         <img src="./img/pms2.png" />

@@ -12,7 +12,7 @@ function PaidMedia() {
     return (
         <>
             <MenuLateral />
-            <img className="logo" src="./img/logopr.png" alt="Logo" />
+            <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
             <VideoPM />
             <FotoVideoPM/> 
             <LetsTalk />

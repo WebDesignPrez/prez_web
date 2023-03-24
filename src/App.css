@@ -234,7 +234,7 @@ body {
   color: #000;
 }
 
-.titulo2:hover .flechaConoceMas {
+.box-slider:hover .flechaConoceMas {
   color: #83de4e;
 }
 
@@ -1875,7 +1875,7 @@ li {
 }
 
 .fotoTestimonio img {
-  max-width: 10%;
+  max-width: 20%;
   margin-right: 4%;
 }
 
