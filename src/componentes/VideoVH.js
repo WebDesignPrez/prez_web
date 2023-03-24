@@ -9,16 +9,17 @@ function VideoVH() {
 
     return (
         <>
-            <video
-                src="./img/tamaraPrez.mp4"
-                autoPlay
-                loop
-                muted
-                style={{ width: '100%', height: 'auto'}}
-                onClick={handleVideoClick}
-            >
-                Tu navegador no soporta la etiqueta de video HTML5.
-            </video>
+            <div className="videoInicioVH noresponsive">
+                <video
+                    src="./img/tamaraPrez.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    onClick={handleVideoClick}
+                >
+                    Tu navegador no soporta la etiqueta de video HTML5.
+                </video>
+            </div>
             <div class="contenedorVH">
                 <div class="filaVH">
                     <div class="columnaVH"><img className='potencia' src="./img/lapotenciaLogo.png" alt="" /></div>

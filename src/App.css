@@ -13,6 +13,31 @@ body {
   color: #000;
   background-color: #f9f9f9;
 }
+/*LetsTalk*/
+.contenedorLets{
+  display: flex;
+  background-color: #93e54c;
+  padding: 6vw 0 6vw 10vw;
+  line-height: 1;
+  position: relative;
+}
+/**/
+
+.imagenFlecha .flechaNegraLT {
+  display: block;
+}
+
+.imagenFlecha .flechaBlancaLT {
+  display: none;
+}
+
+.tituloLetsTalk:hover .flechaNegraLT {
+  display: none;
+}
+
+.tituloLetsTalk:hover .flechaBlancaLT {
+  display: block;
+}
 .potencia{
   padding: 0 0 0 30vw;
   width: 45%;
@@ -437,14 +462,18 @@ body {
 
 .item.textservices .image-row {
   display: flex;
-  justify-content: center;
-  padding-left: 10vw;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
-.item.textservices .image-row img{
-  width: 25%;
-  height: auto;
+.item.textservices .image-row img {
+  max-width: 6vw !important; /* establece un ancho máximo para las imágenes */
+  margin-right: -20vw !important; /* ajusta el espacio entre las imágenes */
+  padding: 0 0 0 0 !important;
 }
+
+
 .imagen-padreCE {
   position: relative;
   display: inline-block;
@@ -1331,14 +1360,20 @@ html {
   transition: opacity 0.5s;
 }
 
-.videoInicio {
-  background-color: #24262b;
+.videoInicio.noresponsive img,
+.videoInicio.noresponsive video {
+padding: 0vw 0vw 0vw 7.5vw;
+width: 92.5%;
 }
 
-.videoInicio img,
-.videoInicio video {
-  width: 80%;
-  padding: 2vw 0 2vw 15vw;
+.videoInicioVH.noresponsive{
+  background-color: #83de4e;
+}
+
+.videoInicioVH.noresponsive img,
+.videoInicioVH.noresponsive video {
+padding: 0vw 0vw 0vw 7.5vw;
+width: 92.4%;
 }
 
 .tituloInicio p span {
@@ -1575,8 +1610,20 @@ li {
   background-color: #93e54c;
   padding: 6vw 0 6vw 10vw;
   line-height: 1;
-
+  position: relative; /* agregar esta propiedad para que los elementos internos se puedan posicionar */
 }
+.tituloLetsTalk .imagenFlecha {
+  position: absolute; /* establecer la posición absoluta para mover los elementos internos */
+  top: 50%; /* mover hacia la mitad vertical */
+  right: 42%; /* mover hacia la derecha */
+  transform: translateY(-50%); /* ajustar la posición vertical después de haberla movido */
+}
+.tituloLetsTalk .flechaNegraLT,
+.tituloLetsTalk .flechaBlancaLT {
+  max-width: 15%;
+}
+
+
 
 .tituloLetsTalk:hover {
   cursor: pointer;

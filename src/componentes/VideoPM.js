@@ -36,11 +36,11 @@ function VideoPM() {
                     <p><span>Social ADS</span></p>
                     <p>Con Social Ads, puedes conectar con tu audiencia ideal en las redes sociales y aumentar tu alcance, engagement y conversiones, todo mientras maximizas tu inversión publicitaria y obtienes resultados medibles en tiempo real.</p>
                     <div className='image-row'>
-                        <img src="./img/pms1.png" />
-                        <img src="./img/pms2.png" />
-                        <img src="./img/pms3.png" />
-                        <img src="./img/pms4.png" />
-                        <img src="./img/pms5.png" />
+                        <img src="./img/pms1.png" className='imgSocial'/>
+                        <img src="./img/pms2.png" className='imgSocial'/>
+                        <img src="./img/pms3.png" className='imgSocial'/>
+                        <img src="./img/pms4.png" className='imgSocial'/>
+                        <img src="./img/pms5.png" className='imgSocial'/>
                     </div>
                 </div>
                 <div class="item imgservices">

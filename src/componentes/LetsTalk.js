@@ -14,7 +14,11 @@ function LetsTalk() {
         <>
             <div className="tituloLetsTalk">
                 <p className="titulo1">Sé parte de nuestro mundo</p>
-                <p className="titulo2" onClick={selOpt}>Let´s Talk</p><a className="flechaTL" href="">   →</a>
+                <p className="titulo2" onClick={selOpt}>Let´s Talk</p>
+                <div class="imagenFlecha">
+                        <a href="/lets-talk"><img src="./img/flechaBlancaListo.webp" alt="flechaBlancaLT" class="flechaNegraLT" /></a>
+                        <a href="/lets-talk"><img src="./img/flechaNegraL.webp" alt="flechaNegraLT" class="flechaBlancaLT" /></a>
+                    </div>
             </div>
                 
         </>

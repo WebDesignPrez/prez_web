@@ -1,97 +1,29 @@
-import React from "react";
-import Slider from "react-slick";
-import Servicios from '../componentes/Servicios';
+import { useNavigate } from "react-router-dom"
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 
+function Ejemplo() {
+    const navigate = useNavigate();
+    const selOpt = () => {
+        navigate("/lets-talk")
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
 
-var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-    ]
-};
-
-var single = {
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    adaptiveHeight: true
-}
-const Slide = ({ imgSrc, mainCaption, subCaption, linkTo }) => (
-    <div className="box-slider">
-        <a href={linkTo}>
-            <div className="box">
-                <img className="imgBoxSlider" src={imgSrc} />
-                <div className="tituloBox">
-                    {mainCaption}
+    return (
+        <>
+            <div className="contenedorLets">
+                <div className="letras">
+                    <p className="titulo1">Sé parte de nuestro mundo</p>
+                    <p className="titulo2" onClick={selOpt}>Let´s Talk</p>
                 </div>
-                <div className="descBox">
-                    {subCaption}
-                    <a className="flechaConoceMas" href={linkTo}>   →</a>
-                </div>
+                <div class="imagenFlechaLT">
+                        <a href="/lets-talk"><img src="./img/flechaBlancaListo.webp" alt="flechaBlancaLT2" class="flechaBlancaLT2" /></a>
+                        <a href="/lets-talk"><img src="./img/flechaNegraL.webp" alt="flechaNegraLT2" class="flechaNegraLT2" /></a>
+                    </div>
             </div>
-        </a>
-    </div>
-);
-
-
-const Ejemplo = () => (
-    <>
-        <div className="slider-wrapper noresponsive">
-            <Slider {...settings}>
-                <Slide
-                    imgSrc="./img/serv2.png"
-                    mainCaption="Paid Media"
-                    subCaption="Tu marca brillará aún más con estrategias de pago en todo el ecosistema digital."
-                    linkTo="/paid-media"
-                />
-                <Slide
-                    imgSrc="./img/serv3.png"
-                    mainCaption="Branding Estratégico"
-                    subCaption="La identidad corporativa de tu marca. Encontramos lo que te hace único y se lo contamos al mundo."
-                    linkTo="/branding-estratégico"
-                />
-                <Slide
-                    imgSrc="./img/serv4.png"
-                    mainCaption="Desarrollo Web / e-commerce"
-                    subCaption="Desarrollamos un sitio web funcional, elegante y vendedor para tu empresa"
-                    linkTo="/desarrollo-web"
-                />
-                <Slide
-                    imgSrc="./img/leadsCorre.png"
-                    mainCaption="Generación de Leads"
-                    subCaption="Tu marca brillará aún más con estrategias de pago en todo el ecosistema digital."
-                    linkTo="/generacion-leads"
-                />
-                <Slide
-                    imgSrc="./img/serv6.png"
-                    mainCaption="Producción fotográfica, audio y video"
-                    subCaption="Desarrollo, producción y post producción de fotografías, videos y piezas audiovisuales."
-                    linkTo="/produccion-fotografia-video"
-                />
-            </Slider>
-        </div>
-        <div className="responsive">
-            <Servicios />
-        </div>
-    </>
-);
-
-export default Ejemplo;
+                
+        </>
+    )
+}
+export default Ejemplo
