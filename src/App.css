@@ -43,12 +43,13 @@ body {
   width: 45%;
 }
 
-.sobre{
+.sobre {
   padding: 0 0 0 9vw;
-  width:40%;
+  width: 40%;
   position: absolute;
 }
-.uno{
+
+.uno {
   padding: 0 0 0 10vw;
   width: 75%;
 }
@@ -59,35 +60,45 @@ body {
 }
 
 .filaVH {
-  display: flex; /* Establecer el contenedor de filas como flexbox */
+  display: flex;
+  /* Establecer el contenedor de filas como flexbox */
 }
 
 .columnaVH {
-  flex: 1; /* Dividir el espacio disponible de manera equitativa entre todas las columnas */
-  padding: 1vw; /* Añadir un espacio de relleno alrededor del contenido */
+  flex: 1;
+  /* Dividir el espacio disponible de manera equitativa entre todas las columnas */
+  padding: 1vw;
+  /* Añadir un espacio de relleno alrededor del contenido */
 }
+
 .contenedorIn {
   padding-top: 11vw;
   background-color: #f9f9f9;
 }
+
 .filaIn {
-  display: flex; /* Establecer el contenedor de filas como flexbox */
+  display: flex;
+  /* Establecer el contenedor de filas como flexbox */
 }
 
 .columnaIn {
-  flex: 1; /* Dividir el espacio disponible de manera equitativa entre todas las columnas */
+  flex: 1;
+  /* Dividir el espacio disponible de manera equitativa entre todas las columnas */
 }
-.una{
+
+.una {
   padding: 0 0 0 10vw;
   width: 85%;
   height: auto;
 }
-.dos{
+
+.dos {
   padding: 0 0 0 6.5vw;
   width: 85%;
   height: auto;
 }
-.tres{
+
+.tres {
   padding: 0 0 0 3vw;
   width: 85%;
   height: auto;
@@ -139,9 +150,12 @@ body {
 }
 
 .LogoClienteCasoExito {
-  display: flex; /* Establece el contenedor como un contenedor flexible */
-  align-items: center; /* Centra los elementos verticalmente */
-  justify-content: center; /* Centra los elementos horizontalmente */
+  display: flex;
+  /* Establece el contenedor como un contenedor flexible */
+  align-items: center;
+  /* Centra los elementos verticalmente */
+  justify-content: center;
+  /* Centra los elementos horizontalmente */
   width: 100%;
   height: 100vh;
   background-color: #0d0d0f;
@@ -149,8 +163,10 @@ body {
 
 .LogoClienteCasoExito img {
   padding-left: 8vw;
-  max-width: 40%; /* Evita que la imagen se desborde del div */
-  max-height: 40%; /* Evita que la imagen se desborde del div */
+  max-width: 40%;
+  /* Evita que la imagen se desborde del div */
+  max-height: 40%;
+  /* Evita que la imagen se desborde del div */
 }
 
 
@@ -165,7 +181,7 @@ body {
 
 
 /*Flecha lets*/
-.imagen-padreLT  {
+.imagen-padreLT {
   position: relative;
   display: inline-block;
   width: 600vw;
@@ -210,7 +226,7 @@ body {
 
 .column-rightFor {
   width: 35%;
-  height: 70vw;  
+  height: 70vw;
   background-color: #f9f9f9;
 }
 
@@ -253,6 +269,7 @@ body {
 .flecha:hover {
   color: #83de4e;
 }
+
 /*Flecha Lets Talk*/
 .flechaConoceMas {
   font-size: 1.5vw;
@@ -385,6 +402,7 @@ body {
   background-color: #24262b
     /* establece el color de fondo */
 }
+
 .boxMarketingVH {
   padding: -1vw 0 0 12vw;
   display: grid;
@@ -433,7 +451,7 @@ body {
   max-width: 70%;
 }
 
-.item.textservices{
+.item.textservices {
   padding: 1vw;
 }
 
@@ -467,13 +485,10 @@ body {
   flex-wrap: nowrap;
 }
 
-.item.textservices .image-row img {
-  max-width: 6vw !important; /* establece un ancho máximo para las imágenes */
-  margin-right: -20vw !important; /* ajusta el espacio entre las imágenes */
-  padding: 0 0 0 0 !important;
+.item.textservices .image-row img{
+  width: 25%;
+  height: auto;
 }
-
-
 .imagen-padreCE {
   position: relative;
   display: inline-block;
@@ -609,10 +624,10 @@ body {
   position: relative;
 }
 
-  .slider-wrapper.noresponsive{
+.slider-wrapper.noresponsive {
   padding: 0 0 0 8vw;
   position: relative;
-  }
+}
 
 
 .slider-line {
@@ -808,6 +823,19 @@ a {
   display: none !important;
 }
 
+#rcc-confirm-button {
+  background-color: #93e54c !important;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  padding: 10px 10px !important;
+}
+
+#rcc-decline-button{
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  padding: 10px 10px !important;
+}
+
 
 @media (max-width: 767px) {
   footer {
@@ -998,6 +1026,7 @@ a {
   background-color: #f9f9f9;
   padding-top: 2vw;
 }
+
 .video1VH {
   position: absolute;
   z-index: 1;
@@ -1010,6 +1039,7 @@ a {
   height: auto;
   left: 18vw;
 }
+
 .video2VH {
   position: absolute;
   z-index: 2;
@@ -1488,6 +1518,7 @@ li {
   flex-direction: row;
   gap: 3vw;
 }
+
 .box-slider {
   padding: 0vw 3vw 0vw 2vw;
   display: flex;
@@ -1518,6 +1549,7 @@ li {
   justify-content: space-between;
   gap: 2vh;
 }
+
 .imgBoxSlider {
   width: 100%;
   height: auto;
@@ -1549,10 +1581,11 @@ li {
   text-align: left;
 }
 
-.box-slider .box .descBox span{
+.box-slider .box .descBox span {
   font-size: 1rem !important;
 }
-.box-slider:hover .box .descBox span{
+
+.box-slider:hover .box .descBox span {
   color: #83de4e;
 }
 
@@ -1650,11 +1683,11 @@ li {
   display: inline;
 }
 
-.tituloLetsTalk .titulo2 span{
+.tituloLetsTalk .titulo2 span {
   color: #fff !important;
 }
 
-.tituloLetsTalk:hover .titulo2 span{
+.tituloLetsTalk:hover .titulo2 span {
   color: #fff;
 }
 
@@ -1965,7 +1998,7 @@ li {
   text-align: justify;
 }
 
-.boxMarketing.onecol{
+.boxMarketing.onecol {
   grid-template-rows: repeat(1, 1fr) !important;
 }
 
