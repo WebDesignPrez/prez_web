@@ -1,83 +1,86 @@
     .form-field {
         position: relative;
         margin: 20px 0;
-      }
-    
-      .form-field label {
+    }
+
+    .form-field label {
         position: absolute;
         left: 5%;
         top: 50%;
         transform: translateY(-50%);
         pointer-events: none;
         transition: all 0.2s ease;
-      }
-    
-      .form-field input {
+    }
+
+    .form-field input {
         display: block;
         width: 100%;
         padding: 10px;
         font-size: 16px;
         border: 1px solid #ccc;
         transition: all 0.2s ease;
-      }
-      .form-field textarea {
+    }
+
+    .form-field textarea {
         display: block;
         width: 100%;
         padding: 10px;
         font-size: 25px;
         border: 1px solid #ccc;
         transition: all 0.2s ease;
-      }
-      .form-field .ltextarea {
+    }
+
+    .form-field .ltextarea {
         margin: -8vh 0 0 0;
-      }
-    
-      /* Estilos para el campo de formulario cuando está enfocado o lleno */
-      .form-field input:focus,
-      .form-field input:not(:placeholder-shown) {
+    }
+
+    /* Estilos para el campo de formulario cuando está enfocado o lleno */
+    .form-field input:focus,
+    .form-field input:not(:placeholder-shown) {
         border-color: #333;
-      }
-    
-      .form-field input:focus + label,
-      .form-field input:not(:placeholder-shown) + label {
+    }
+
+    .form-field input:focus+label,
+    .form-field input:not(:placeholder-shown)+label {
         font-size: 12px;
         top: 0;
         transform: translateY(-100%);
     }
-    
+
     .form-field textarea:focus,
-      .form-field textarea:not(:placeholder-shown) {
+    .form-field textarea:not(:placeholder-shown) {
         border-color: #333;
-      }
-    
-      .form-field textarea:focus + label,
-      .form-field textarea:not(:placeholder-shown) + label {
+    }
+
+    .form-field textarea:focus+label,
+    .form-field textarea:not(:placeholder-shown)+label {
         font-size: 12px;
         top: 0;
         transform: translateY(225%);
     }
+
     /* Desplaso label FIN*/
-    
+
     .form-box {
         margin: 0vw;
         padding: 2vw 3vw;
         position: relative;
         /* position:relative for .prevBtn and .nextBtn position:absolute; */
     }
-    
+
     .form-box h5 {
         font-size: 35px;
         text-align: center;
         color: #c41a2f;
         margin: 0 0 .5vh 0;
     }
-    
+
     .form-box label {
         display: block;
         text-align: center;
         font-size: 1.5vw;
     }
-    
+
     .form-box input,
     textarea,
     select {
@@ -86,7 +89,7 @@
         font-size: 1.7vw;
         margin-left: 2vw;
     }
-    
+
     .form-box input:focus,
     textarea:focus,
     select:focus {
@@ -102,34 +105,34 @@
         outline: none;
         background-color: transparent;
     }
-    
-    .form-box textarea{
+
+    .form-box textarea {
         width: 100%;
         border: none;
         border-bottom: 2px solid black;
         outline: none;
         background-color: transparent;
     }
-    
+
     .form-box select {
         height: 4.2vw;
         width: inherit;
     }
-    
+
     .form-box textarea {
         height: 10vw;
         width: 43vw;
     }
- 
-   
+
+
     .input-group {
         border: none;
         border-bottom: 2px solid black;
         outline: none;
         background-color: transparent;
     }
-    
-    .nextBtn {  
+
+    .nextBtn {
         width: 100%;
         height: 3.5vw;
         color: red;
@@ -137,37 +140,37 @@
         bottom: 0;
         cursor: pointer;
         font-size: 1.7vw;
-        text-justify: center; 
+        text-justify: center;
         margin: 1rem 8rem 1rem 8rem;
         border-radius: 0.5vw;
         background-color: #22262b;
         color: #fff;
     }
-    
+
     .nextBtn:hover {
-    
+
         transition: 1s background ease;
     }
-    
+
     .input-group {
         border: none;
         border-bottom: 2px solid black;
         outline: none;
         background-color: transparent;
     }
-    
+
     .form-box .userIcon {
         position: relative;
         top: 0.7vw;
         left: 1vw;
-    
+
     }
-    
+
     .form-box .userIcon img {
         width: 1.5vw;
         padding: 0vw;
     }
-    
+
     .input_title {
         text-align: left !important;
         margin: 0px !important;
@@ -175,46 +178,107 @@
         font-size: 1.7vw;
         height: 2.5vw;
     }
-    
+
     input[type=text] {
         color: #888;
     }
-    
+
     .errorClass {
         border-bottom: red !important;
     }
-    
-    
+
+
     @media only screen and (max-width: 768px) {
         .form-box select {
-            width: inherit;
+            width: -webkit-fill-available;
+        }
+
+        .form-box input {
+            width: 100%;
+        }
+
+        .nextBtn {
+            width: min-content;
+        }
+
+        .column-leftFor {
+            width: 97%;
+        }
+
+        .formContainer {
+            padding-left: 0 !important;
+        }
+
+        .formContainer>div {
+            width: 100% !important;
+        }
+
+        .form-box textarea {
+            height: 10vw;
+            width: 100%;
+        }
+
+        .form-box label {
+            font-size: 1rem;
+        }
+
+        .tituloFormulario p {
+            font-size: 2rem;
+        }
+
+        .nextBtn {
+            font-size: 1rem !important;
+        }
+
+        .form-box select {
+            height: 13.2vw;
+            font-size: 1.1rem !important;
+        }
+
+        .tituloFormulario{
+            margin-top: 10%;
+        }
+
+        .column-rightFor {
+            display: flex;
+            width: auto;
+            height: 165vw;
+            background-color: #f9f9f9;
+            justify-content: center;
+            margin-bottom: 10%;
+        }
+
+        .nextBtn {
+            height: 4rem !important;
+            width: 14rem !important;
+            margin: 0 !important;
         }
     }
-    
-    
+
+
     /*MODAL FORM*/
-    
+
     .modalForm .form-box {
         height: 90vh;
     }
-    
-    .formContainer{
+
+    .formContainer {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         padding-top: 0vw;
         padding-left: 7.5vw;
     }
-    
-    .formContainer > div{
+
+    .formContainer>div {
         width: 50%;
         text-align: center;
     }
-    
-    .formContainer .logosDist img{
+
+    .formContainer .logosDist img {
         width: 15%;
     }
-    
+
     .contactInfo {
         padding: 2vw 3vw;
         align-items: center;
@@ -222,111 +286,116 @@
         flex-direction: column;
         justify-content: space-around;
     }
-    
+
     .contactInfo h5 {
         font-size: 2.5vw;
         text-align: center;
         color: #3B4A89;
         margin: 0 0 0.5vh 0;
     }
-    
-    .contactInfo .title{
+
+    .contactInfo .title {
         font-weight: bold;
     }
-    
+
     .infoBox label {
         display: block;
         text-align: center;
         font-size: 2vw;
         margin: 0 0 2vh 0;
     }
-    
-    .contactInfo h2{
+
+    .contactInfo h2 {
         font-size: 1.3vw;
     }
-    
-    .contactInfo p, .contactInfo a{
+
+    .contactInfo p,
+    .contactInfo a {
         margin: 10px 0px;
         font-weight: 300;
         font-size: 2vw;
     }
-    
-    .contactInfo p.tel, .contactInfo a.tel, .contactInfo p.email{
-        color:#3B4A89;
+
+    .contactInfo p.tel,
+    .contactInfo a.tel,
+    .contactInfo p.email {
+        color: #3B4A89;
         display: block;
     }
-    
-    
-    
-    .contactInfo p span{
+
+
+
+    .contactInfo p span {
         position: relative;
     }
-    
-    .contactInfo p.tel span::before, .contactInfo a.tel span::before{
+
+    .contactInfo p.tel span::before,
+    .contactInfo a.tel span::before {
         content: url(../public/img/contactPhone.png);
         position: absolute;
         left: -3vw;
         transform: scale(0.7);
         top: -1px;
     }
-    
-    .contactInfo p.tel span::before, .contactInfo a.tel span::before{
+
+    .contactInfo p.tel span::before,
+    .contactInfo a.tel span::before {
         content: url(../public/img/contactPhone.png);
         position: absolute;
         left: -3vw;
         transform: scale(0.7);
         top: -1px;
     }
-    
-    .contactInfo p.email span::before{
+
+    .contactInfo p.email span::before {
         content: url(../public/img/contactEmail.png);
         position: absolute;
         left: -30px;
         transform: scale(0.7);
         top: -1px;
     }
-    
-    .logosDist{
+
+    .logosDist {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
     }
-    
-    .contactInfo .social{
+
+    .contactInfo .social {
         display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 4vw;
     }
-    
-    
-    .contactBanner{
+
+
+    .contactBanner {
         display: flex;
         flex-direction: row;
         text-align: center;
     }
-    
-    .contactBanner > div {
+
+    .contactBanner>div {
         display: flex;
         align-items: center;
         min-height: 15vw;
         justify-content: center;
         padding: 2vw 4vw;
     }
-    
-    .contactBanner .title{
+
+    .contactBanner .title {
         width: 35%;
         font-weight: lighter;
         font-size: 3vw;
         background-color: #1B1C1A;
         color: #fff;
     }
-    
-    .contactBanner .desc{
+
+    .contactBanner .desc {
         width: 65%;
         padding-right: 10vw;
         background-color: #272726;
         color: #92e65b;
         font-size: 2vw;
-      }
+    }

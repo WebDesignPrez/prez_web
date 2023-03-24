@@ -152,7 +152,7 @@ function Formulario() {
     }
 
     return (
-        <>
+        <div>
 
             <div class="containerFor">
                 <div class="column-leftFor">
@@ -160,8 +160,8 @@ function Formulario() {
                         <div className="iconotituloizquierda">
                         </div>
                         <div>
-                            <p>¿ Listo para hablar</p>
-                            <p><span>con nosotros ?</span></p>
+                            <p>¿Listo para hablar</p>
+                            <p><span>con nosotros?</span></p>
                         </div>
                     </div>
                     <div className="formContainer">
@@ -228,7 +228,7 @@ function Formulario() {
             </div>
 
 
-        </>
+        </div>
     )
 }
 /*NUEVA*/
