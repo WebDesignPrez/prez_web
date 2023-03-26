@@ -7,6 +7,7 @@ import VideoDE from "../componentes/VideoDE";
 import FotoVideoDE from "../componentes/FotoVideoDE";
 import VideoBL from "../componentes/VideoBL";
 import InicioAboutUs from "../componentes/InicioAboutUS";
+import PiePaginaFormulario from '../componentes/PiePaginaFormulario'
 
 function AboutUs() {
     document.body.scrollTop = 0; // For Safari
@@ -15,7 +16,7 @@ function AboutUs() {
         <>
             <MenuLateral />
             <InicioAboutUs/>
-            <PiePagina/>
+            <PiePaginaFormulario />
         </>
     )
 }

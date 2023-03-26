@@ -34,9 +34,7 @@ function VideoLE() {
         </div>
         <div class="item textservices">
           <p><span>Centralización y segmentación de contactos CRM</span></p>
-          <p>El rebranding es una estrategia de marteking que consiste en el cambio de nombre o marca, ya sea realizando
-            una variación del original o cambiando por completo a uno nuevo con el objetivo de mejorar el posicionamiento
-            de la marca.</p>
+          <p>Optimiza la gestión de tus contactos y mejora la segmentación de tu audiencia centralizando toda la información en un solo lugar.</p>
         </div>
         <div class="item imgservices">
           <img src="./img/le2.png" />

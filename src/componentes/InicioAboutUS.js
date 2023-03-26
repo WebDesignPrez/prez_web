@@ -6,8 +6,8 @@ function InicioAboutUs() {
                 <div className="iconotituloizquierda">
                 </div>
                 <div>
-                    <p>About</p>
-                    <p><span>Us</span></p>
+                    <p>Sobre</p>
+                    <p><span>Nosotros</span></p>
                 </div>
             </div>
             <div className="abajo">

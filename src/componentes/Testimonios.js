@@ -13,8 +13,8 @@ function Testimonios() {
         img: "./img/testimonialDefecto.png"
     }, {
         comentario: "Prez para el Cebi y Pollo Listo, ha sido la única empresa de marketing, que expresa de la mejor manera todos nuestros servicios de una forma muy creativa y diferente a nuestra competencia. Nos gusta su responsabilidad creatividad y sobretodo su compromiso.",
-        nombre: "Nombre 3",
-        cargo: "Director 4",
+        nombre: "Gino Moya",
+        cargo: "Gerente administrativo CEBI",
         img: "./img/testimonialDefecto.png"
     }, {
         comentario: "He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
@@ -112,6 +112,8 @@ function Testimonios() {
                             <div className="fotoTestimonio">
                                 <img src={data.img}  />
                                 <p className="sinespacio"><strong>{data.nombre}</strong><br></br>{data.cargo}</p>
+                                <br/>
+                                <br/>
                             </div>
                         </div>
                     ))

@@ -35,17 +35,14 @@ function VideoDE() {
                 </div>
                 <div class="item textservices">
                     <p><span>E-commerce</span></p>
-                    <p>El rebranding es una estrategia de marteking que consiste en el cambio de nombre o marca, ya sea realizando
-                        una variación del original o cambiando por completo a uno nuevo con el objetivo de mejorar el posicionamiento
-                        de la marca.</p>
+                    <p>No hay límites para lo que puedes vender en línea con nuestro servicio de E-commerce, "Crea una experiencia de compra en línea de otro mundo diseñado para cautivar a tus clientes."</p>
                 </div>
                 <div class="item imgservices">
                     <img src="./img/de2.png" />
                 </div>
                 <div class="item textservices">
                     <p><span>Apps Android / IOS</span></p>
-                    <p>La creación de percepción positiva a través de la estrategia está en un nivel más profundoi, en el que el clientes
-                        se identifica no solo con el estilo, sino también con las creencias de la marca lo que hace una conexión más fuerte.</p>
+                    <p>Desarrolla aplicaciones móviles de alto rendimiento y calidad con nuestro servicio de Apps, que te brinda la posibilidad de destacar en el universo móvil.</p>
                 </div>
                 <div class="item imgservices">
                     <img src="./img/de3.png" />

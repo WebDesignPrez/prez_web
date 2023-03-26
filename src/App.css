@@ -13,6 +13,14 @@ body {
   color: #000;
   background-color: #f9f9f9;
 }
+
+.image-row .imgSocial{
+  padding: 0vw 0vw 0vw 0vw !important;
+}
+
+.item.textservices p span{
+  line-height: 2.6rem;
+}
 /*About Us*/
 .nosotrosContenedor{
   display: flex;
@@ -1767,7 +1775,7 @@ li {
 .tituloLetsTalk .imagenFlecha {
   position: absolute; /* establecer la posición absoluta para mover los elementos internos */
   top: 50%; /* mover hacia la mitad vertical */
-  right: 42%; /* mover hacia la derecha */
+  right: 42vw; /* mover hacia la derecha */
   transform: translateY(-50%); /* ajustar la posición vertical después de haberla movido */
 }
 .tituloLetsTalk .flechaNegraLT,

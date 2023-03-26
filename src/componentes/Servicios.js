@@ -58,7 +58,7 @@ function Servicios() {
                         <img src="./img/paid-media.webp" alt="" />
                     </div>
                     <div className="tituloBox">Paid<br></br> Media</div>
-                    <div className="descBox">Estrategias de pauta en plataformas como Facebook ADS y Google ADS</div>
+                    <div className="descBox">Tu marca brillará aún más con estrategias de pago en todo el ecosistema digital.</div>
                     <div class="imagen-padre">
                         <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                         <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2B" />
@@ -70,7 +70,7 @@ function Servicios() {
                         <img src="./img/branding.webp" alt="" />
                     </div>
                     <div className="tituloBox">Branding <br></br>Estratégico</div>
-                    <div className="descBox">La identidad corporativa de tu marca. Encontramos lo que te hace único y se lo contamos al mundo.</div>
+                    <div className="descBox">Encontramos lo que te hace único y se lo contamos al mundo.</div>
                     <div class="imagen-padre">
                         <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                         <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2B" />

@@ -66,7 +66,7 @@ const ConoceMasPM = () => (
           imgSrc="./img/serv3.png"
           altText="Third slide"
           mainCaption="Branding Estratégico"
-          subCaption="La identidad corporativa de tu marca. Encontramos lo que te hace único y se lo contamos al mundo."
+          subCaption="Encontramos lo que te hace único y se lo contamos al mundo."
           linkTo="/branding-estratégico"
         />
         <Slide

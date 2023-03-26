@@ -26,24 +26,21 @@ function VideoBE() {
             <div ref={boxMarketingRef} class=" boxMarketing">
                 <div class="item textservices">
                     <p><span>Creación de marca</span></p>
-                    <p>Tu marca en el centro del universo, representamos la esencia de tu empresa y conectamos emocionalmente con tu público objetivo.</p>
+                    <p>Tu marca en el centro del universo, representamos la esencia de tu empresa y lo conectamos emocionalmente con tu público objetivo.</p>
                 </div>
                 <div class="item imgservices">
                     <img src="./img/be4.png" />
                 </div>
                 <div class="item textservices">
                     <p><span>Rebranding</span></p>
-                    <p>El rebranding es una estrategia de marteking que consiste en el cambio de nombre o marca, ya sea realizando
-                        una variación del original o cambiando por completo a uno nuevo con el objetivo de mejorar el posicionamiento
-                        de la marca.</p>
+                    <p>El rebranding consiste en el cambio de nombre o marca, ya sea realizando una variación del original o cambiando por completo a uno nuevo con el objetivo de mejorar el posicionamiento de la marca en este universo digital.</p>
                 </div>
                 <div class="item imgservices">
                     <img src="./img/be3.png" />
                 </div>
                 <div class="item textservices">
                     <p><span>Estrategia</span></p>
-                    <p>La creación de percepción positiva a través de la estrategia está en un nivel más profundoi, en el que el clientes
-                        se identifica no solo con el estilo, sino también con las creencias de la marca lo que hace una conexión más fuerte.</p>
+                    <p>La creación de percepción positiva a través de la estrategia está en un nivel más profundo, en el que el cliente se identifica no solo con el estilo, sino también con las creencias de la marca lo que hace una conexión más fuerte.</p>
                 </div>
                 <div class="item imgservices">
                     <img src="./img/be1.png" />
