@@ -13,9 +13,9 @@
     }
 
     .tituloInicio {
-        background-size: 100%;
+        background-size: 160%;
         width: 100%;
-        padding: 15vw 0 15vw 0vw;
+        padding: 0vw 0 15vw 0vw;
         transform: none;
         text-align: center;
 
@@ -36,7 +36,7 @@
         padding: 2vw 0 2vw 0vw;
         flex-direction: column;
         justify-content: center;
-        text-align: center;
+        text-align: left;
         align-items: center;
     }
 
@@ -245,8 +245,8 @@
     }
 
     .tituloInicio p {
-
-        font-size: 3rem;
+        font-size: 2.8rem;
+        line-height: 1.02;
     }
 
 
@@ -503,10 +503,11 @@
     .imagen2BCE {
         width: 9vw;
     }
+
     .containerFor {
         flex-direction: column;
     }
-    
+
     .tituloFormulario {
         display: flex;
         width: 100%;
@@ -533,7 +534,37 @@
         font-size: 1.2rem;
         font-weight: 500;
       }
-      
+          .menuLateral .burger span:first-child {
+        margin-bottom: 1.7vw;
+    }
+
+    .menuLateral .burger span {
+        height: 0.5vw;
+    }
+
+    .menuLateral {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .menuLateralActive .logomovil {
+        display: none !important;
+        max-width: 25%;
+        z-index: 19 !important;
+    }
+
+    .logomovil {
+        display: block !important;
+        max-width: 33.33%;
+        z-index: 19 !important;
+        text-align: center;
+    }
+
+    .logomovil img{
+        max-width: 75%;
+        vertical-align: -webkit-baseline-middle;
+    }
+
       .imagenFlechaLT{
         width: 10%;
       }
@@ -550,4 +581,20 @@
         padding-top: 6vw;
         width: 8vw;
       }
+    .mainMenuActive {
+        z-index: 20;
+    }
+
+    .linkBoxSinHome {
+        margin: 20vw 15vw;
+        font-size: 2rem;
+    }
+    .menuLateral .burger{
+        width: 33.33%;
+        align-items: flex-start;
+        padding-right:0;
+    }
+}
+.logomovil {
+    display: none;
 }
