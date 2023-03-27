@@ -1,4 +1,5 @@
-export const ButtonList = function(props) {
+import React from "react";
+function ButtonList(props) {
     const categories = props.categories;
     const filterCategory = props.filterCategory;
     
@@ -10,3 +11,4 @@ export const ButtonList = function(props) {
         )
     );
 };
+export default ButtonList

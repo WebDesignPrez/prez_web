@@ -93,6 +93,7 @@ function PiePagina() {
                                     <li><a href="/#Ultimos-casos">Últimos casos</a></li>
                                     <li><a href="/#Testimonios"> Testimonios</a></li>
                                     <li><a href="/about-us"> About Us</a></li>
+                                    <li><a href="/blog"> Blog</a></li>
                                 </ul>
                             </nav>
                         </div>

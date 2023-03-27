@@ -1,10 +1,12 @@
-export const ArticleList = function(props) {
+import React from "react";
+
+function ArticleList(props) {
     const articles = props.articles;
     
     return (
         React.createElement('div', {className: 'article-list'},
             articles.map(article => (
-                React.createElement('div', {className: 'article-container', key: article.id},
+                React.createElement('div', {className: 'article-container2', key: article.id},
                     React.createElement('div', {className: 'img-container'},
                         React.createElement('img', {src: article.image, alt: article.title})
                     ),
@@ -21,3 +23,4 @@ export const ArticleList = function(props) {
         )
     );
 };
+export default ArticleList
