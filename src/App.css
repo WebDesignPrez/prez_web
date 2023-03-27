@@ -14,6 +14,14 @@ body {
   background-color: #f9f9f9;
 }
 
+.slideflecha p{
+  font-size: 1.2vw;
+  line-height: 1.5vw; 
+}
+.slideflecha strong{
+  font-size: 1.2vw;
+  line-height: 1.5vw; 
+}
 .image-row .imgSocial{
   padding: 0vw 0vw 0vw 0vw !important;
 }
@@ -26,6 +34,18 @@ body {
   display: flex;
   margin-left: 7.5vw;
 }
+.nosotrosContenedor.negro{
+  background-color: #22262b;
+}
+
+.nosotrosContenedor.negro p{
+  color: #ffffff;
+}
+
+.nosotrosContenedor.negro strong{
+  color: #ffffff;
+} 
+
 .contenedorCultura{
   width: 100%;
   display: flex;
@@ -85,12 +105,12 @@ body {
 .imgCiudad1{
   width: 45%;
   height: 100%;
-  /* border: 3px solid #83de4e; */
+  border: 3px solid #83de4e;
 }
 .imgCiudad2{
   width: 45%;
   height: 100%;
-  /* border: 3px solid #83de4e */
+  border: 3px solid #83de4e
 }
 
 .contenedorTextoCiudad p{
@@ -132,39 +152,161 @@ body {
 }
 
 .textoAbout{
-  display: flex;
-  background-color: #83de4e;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 6%;
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
 
+.nosotrosContenedor.separador .textoAbout p {
+  line-height: 1.2;
+  font-size: 1.7vw;
+}
 
+.nosotrosContenedor.separador .textoAbout span {
+  line-height: 1.2;
+  font-size: 1.7vw;
+  font-weight: bold;
+}
 
+strong.fondoV {
+  background-color: #83de4e;
+  font-weight: normal;
+}
 
-/**/
+.contenedorImagenesValores{
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 100%;
+  display: flex;
+}
+
+.imagenValores{
+ width: 33%;
+ margin-right: 3vw;
+}
+
+.imagenValoresFin{
+  width: 33%;
+  margin-right: 3vw;
+ }
+
+.imagenValores p{
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: solid #83de4e 0.4vh;
+ }
+ .imagenValoresFin p{
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: solid #83de4e 0.4vh;
+ }
+
+.imgValores{
+ width: 100%;
+ margin-top: 1vw;
+ height: auto;
+}
+
+.divididoDos{
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: flex;
+  margin-bottom: 1%;
+}
+
+.componente{
+  width: 50%;
+  height: 100%;
+  background-color: #22262b;
+  margin-right: 1%;
+}
+
+.componente img{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: auto;
+  align-items: center;
+  border: 3px solid #83de4e;
+  
+}
+.componente .tituloP{
+  color: #ffffff;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: 700;
+}
+.componente .textoComponente{
+  color: #ffffff;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: 200;
+  font-size: 1.3vw;
+}
+
+/*Fin About Us*/
+
 /*LetsTalk*/
 .contenedorLets{
   display: flex;
   background-color: #93e54c;
-  padding: 6vw 0 6vw 10vw;
+  padding-left: 7.7%;
+}
+
+.letras{
+  width: 26%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 1%;
+  text-align: right;
   line-height: 1;
-  position: relative;
+}
+.letras p.titulo1 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.imagenFlechaLT{
+  width: 70%;
+}
+
+.letras p.titulo2 {
+  margin: 0;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  border-bottom: solid #fff 0.2vh;
+  display: inline;
+}
+.imagenFlechaLT img{
+  width: 4vw;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.imagenFlechaLT .flechaBlancaLT2 {
+  display: block;
+}
+
+.imagenFlechaLT .flechaNegraLT2 {
+  display: none;
+}
+
+.contenedorLets:hover .flechaBlancaLT2 {
+  display: none;
+}
+
+.contenedorLets:hover .flechaNegraLT2 {
+  display: block;
 }
 /**/
 
-.imagenFlecha .flechaNegraLT {
-  display: block;
-}
 
-.imagenFlecha .flechaBlancaLT {
-  display: none;
-}
-
-.tituloLetsTalk:hover .flechaNegraLT {
-  display: none;
-}
-
-.tituloLetsTalk:hover .flechaBlancaLT {
-  display: block;
-}
 .potencia{
   padding: 0 0 0 30vw;
   width: 45%;
@@ -1530,7 +1672,7 @@ width: 92.5%;
 .videoInicioVH.noresponsive img,
 .videoInicioVH.noresponsive video {
 padding: 0vw 0vw 0vw 7.5vw;
-width: 92.4%;
+width: 93%;
 }
 
 .tituloInicio p span {
@@ -1548,7 +1690,7 @@ width: 92.4%;
 
 .tituloMarketing p span {
   color: #FFF;
-  background-color: #93e54c;
+  background-color: #83de4e;
 
 }
 

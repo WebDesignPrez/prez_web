@@ -31,7 +31,7 @@ function InicioAboutUs() {
             </div>
             <br />
             <br />
-            <div className="nosotrosContenedor">
+            <div className="nosotrosContenedor negro">
                 <div className="contenedorCiudad">
                     <div className="contenedorTextoCiudad">
                         <strong className="tituloTextoAbout">Nuestra ciudad</strong>
@@ -62,7 +62,7 @@ function InicioAboutUs() {
             </div>
             <br />
             <br />
-            <div className="nosotrosContenedor">
+            <div className="nosotrosContenedor negro">
                 <div className="contenedorCiudad">
                     <div className="contenedorTextoCiudad">
                         <strong className="tituloTextoAbout">La vida fuera del trabajo</strong>
@@ -76,15 +76,79 @@ function InicioAboutUs() {
                     </div>
                 </div>
             </div>
-            {/* 
+            <div className="nosotrosContenedor separador">
+                <div className="textoAbout">
+                    <span>Lo que realmente importa</span>
+                    <p>Nuestros valores le dan una idea de quiénes somos y si seremos una buena opción para su marca. Estos son los <strong className='fondoV'>valores que nos unen como equipo</strong> y que queremos compartir contigo como Socio.</p>
+                </div>
+            </div>
             <div className="nosotrosContenedor">
-                    <div className="textoAbout">
-                        <span>Lo que realmente importa</span>
-                        <p>Nuestros valores le dan una idea de quiénes somos y si seremos una buena opción para su marca. Estos son los valores que nos unen como Equipo y que queremos<span className='fondoV'> compartir contigo como Socio</span>.</p>
+                <div className="contenedorImagenesValores">
+                    <div className="imagenValores">
+                        <span>Creatividad</span>
+                        <img className="imgValores" src="./img/nosotros/imagenValores1.png" />
                     </div>
-            </div> */}
+                    <div className="imagenValores">
+                        <span>Disciplina</span>
+                        <img className="imgValores" src="./img/nosotros/imagenValores2.png" />
+                    </div>
+                    <div className="imagenValoresFin">
+                        <span>Excelencia</span>
+                        <img className="imgValores" src="./img/nosotros/imagenValores3.png" />
+                    </div>
+                </div>
+            </div>
+            <div className="nosotrosContenedor">
+                <div className="contenedorImagenesValores">
+                    <div className="imagenValores">
+                        <span>Alegría</span>
+                        <img className="imgValores" src="./img/nosotros/imagenValores4.png" />
+                    </div>
+                    <div className="imagenValores">
+                        <span>Respeto</span>
+                        <img className="imgValores" src="./img/nosotros/imagenValores5.png" />
+                    </div>
+                    <div className="imagenValoresFin">
+                        <span>Ambición</span>
+                        <img className="imgValores" src="./img/nosotros/imagenValores6.png" />
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div className="nosotrosContenedor">
+                <div className="divididoDos">
+                    <div className="componente">
+                        <p className="tituloP">Nuestra Historia</p>
+                        <img src="./img/nosotros/componente1.jpg" />
+                        <p className="textoComponente">Cake (formerly Digital Cake) is an agency founded by retailers for retailers. The founders have been there, done that, and sold the shoes, having set up Cloggs back in 2001 when the online world was just getting going.</p>
+                        <p className="textoComponente">Now, we have 20 years of experience we can bring to our clients, no matter whether they’re e-commerce savvy, launching a start-up, scaling an online brand, and all the things in-between.</p>
+                    </div>
+                    <div className="componente">
+                    <p className="tituloP">Nuestro Equipo</p>
+                        <img src="./img/nosotros/componente2.jpg" />
+                        <p className="textoComponente">We’re problem solvers, creative thinkers, and innovators. Come and meet the Cakers, the special ingredient in our mix—it’s our people that make us the agency you want to turn to for e-commerce success.</p>
+                        <p className="textoComponente">With their collection of expertise across all channels and disciplines, their unique personalities, passions, and quirks, you’ll feel like you’re taking that next step for your business with friends.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="nosotrosContenedor">
+                <div className="divididoDos">
+                    <div className="componente">
+                    <p className="tituloP">Haz el bien</p>
+                        <img src="./img/nosotros/componente3.jpg" />
+                        <p className="textoComponente">What does it mean to “‘do good”? For Cake, it means many things… Contributing to our local Jewellery Quarter community. Progressing towards an eco-friendly office we can be proud to call home. Inspiring and encouraging a healthy, balanced lifestyle for our team in and out of work. Sharing our knowledge and passion with the people around us—particularly focused on empowering women in the industry! That’s just the beginning.</p>
+                    </div>
+                    <div className="componente">
+                    <p className="tituloP">Carreras</p>
+                        <img src="./img/nosotros/componente4.jpg" />
+                        <p className="textoComponente">We’re always looking for creative, fun, respectful, and ambitious people. Guided by our company values, we take pride in providing a place to work hard and play hard.We offer personal development plans, an employee loyalty bonus scheme, mental health support, and so much more. The more you improve professionally and help Cake grow, the more rewards may come your way. We grow and develop together.</p>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <br/>
         </>
     )
-
 }
 export default InicioAboutUs

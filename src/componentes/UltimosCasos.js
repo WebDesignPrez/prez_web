@@ -31,7 +31,7 @@ function UltimosCasos() {
             <div className="slideflecha">
               <img width="100%" src="./img/home/admisiones-cebi.webp" alt="" />
               <p>
-              <strong>CEBI</strong>, Unidad educativa de alto rendimiento, Incremento de engagement en la comunidad Cebiniana y manejo de prospectos para Admisiones <br/>2023
+              <strong>CEBI</strong>, Unidad educativa de alto rendimiento, <strong>Incremento de engagement</strong> en la comunidad Cebiniana y manejo de prospectos para Admisiones <br/>2023
                 <a className="flecha" href="">   →</a>
               </p>
             </div>
@@ -40,7 +40,7 @@ function UltimosCasos() {
             <div className="slideflecha">
               <img width="100%" src="./img/home/salguero-creditos.webp" alt="" />
               <p>
-              Generación de clientes potenciales, 48 ventas a través del canal digital en el transcurso de un año y medio.
+              Generación de clientes potenciales, <strong>48 ventas</strong> a través del canal digital en el transcurso de un año y medio.
                 <a className="flecha" href="">   →</a>
               </p>
             </div>

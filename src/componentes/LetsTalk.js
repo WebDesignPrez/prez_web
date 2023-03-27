@@ -12,15 +12,17 @@ function LetsTalk() {
 
     return (
         <>
-            <div className="tituloLetsTalk">
-                <p className="titulo1">Sé parte de nuestro mundo</p>
-                <p className="titulo2" onClick={selOpt}>Let´s Talk</p>
-                <div class="imagenFlecha">
-                        <a href="/lets-talk"><img src="./img/flechaBlancaListo.webp" alt="flechaBlancaLT" class="flechaNegraLT" /></a>
-                        <a href="/lets-talk"><img src="./img/flechaNegraL.webp" alt="flechaNegraLT" class="flechaBlancaLT" /></a>
-                    </div>
+            <div className="contenedorLets">
+                <div className="letras">
+                    <p className="titulo1">Sé parte de nuestro mundo</p>
+                    <p className="titulo2" onClick={selOpt}>Let´s Talk</p>
+                </div>
+                <div class="imagenFlechaLT">
+                    <a href="/lets-talk"><img src="./img/flechaBlancaListo.webp" alt="flechaBlancaLT2" class="flechaBlancaLT2" /></a>
+                    <a href="/lets-talk"><img src="./img/flechaNegraL.webp" alt="flechaNegraLT2" class="flechaNegraLT2" /></a>
+                </div>
             </div>
-                
+
         </>
     )
 }

@@ -16,6 +16,7 @@ function AboutUs() {
         <>
             <MenuLateral />
             <InicioAboutUs/>
+            <LetsTalk />
             <PiePaginaFormulario />
         </>
     )
