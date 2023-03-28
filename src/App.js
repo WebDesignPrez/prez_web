@@ -12,6 +12,7 @@ import FotoVideo from './paginas/ProduccionFotoVideo';
 import Blog from './paginas/Blog';
 import Vehicentro from './paginas/Vehicentro';
 import AboutUs from './paginas/AboutUs';
+import Blog1 from './paginas/Blog1';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/vehicentro" element={<Vehicentro />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/blog1" element={<Blog1 />} />
       </Routes>
     </BrowserRouter>
 
