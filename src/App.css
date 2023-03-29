@@ -17,27 +17,42 @@ body {
 .blogTitulo{
   display: flex;
   margin-left: 7.5vw;
-  width: 100%;
+  width: 70%;
+  justify-content: center;
+  background-color: #25272c;
+  margin-left: 5%;
+}
+.blogTitulo p{
+  font-size: 2vw;
+   font-weight: bold; 
+   color: #f9f9f9;
 }
 
 .blogContenedor{
   display: flex;
   margin-left: 7.5vw;
   width: 100%;
-  height: 30vw;
 }
 
 .blogPrincipal{
-  display: flex;
-  background-color: #24262b;
-  width: 70%;
-  
-}
-.blogDerecha{
-  display: flex;
   background-color: #f9f9f9;
+  width: 70%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.blogImg{
+  margin-left: 7.5vw;
+  display: flex;
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
+  background-color: #f9f9f9;
+  width: 70%;
+  height: 50vh; /* Ajustar altura al 50% del viewport */
+}
+
+.blogDerecha{
   width: 30%;
-  
 }
 
 /**/

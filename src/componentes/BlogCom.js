@@ -6,7 +6,6 @@ import ConoceMasDW from "../componentes/ConoceMasDW";
 import VideoDE from "../componentes/VideoDE";
 import FotoVideoDE from "../componentes/FotoVideoDE";
 import VideoBL from "../componentes/VideoBL";
-
 import { useState } from 'react';
 import ArticleList from "../componentes/ArticleLists";
 import ButtonList from "../componentes/ButtonList";

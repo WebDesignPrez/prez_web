@@ -6,8 +6,9 @@ const data = [
 		title: 'Using Vanilla Extract with next-themes',
 		category: 'Javascript',
 		description: 'How to apply vanilla extract themes to Next.js apps',
-		date: 'Published on Dec 17, 2021',
-		ReadingTime: '5 min read',
+		date: 'Dic 17, 2021',
+		ReadingTime: '5 minutos',
+		textBlog: 'Styling with vanilla extract is a great way to manage your CSS in large projects. Not only does it provide a way to organize your styles, it also allows you to use dynamic theming with libraries like next-themes. In this post, we will explore how to use vanilla extract to create a themeable Next.js app. We will cover the basics of setting up vanilla extract, creating themes, and using next-themes to switch between them. By the end of this post, you will be able to create a themeable Next.js app that is easy to maintain and customize.'
 	},
 	{
 		id: 2,
@@ -17,8 +18,9 @@ const data = [
 		category: 'CSS',
 		description:
 			'Quick tip for styling Radix Primitives with plain CSS, CSS Modules, Vanilla Extract and more',
-		date: 'Published on Dec 14, 2021',
-		ReadingTime: '3 min read',
+		date: 'Dic 14, 2021',
+		ReadingTime: '3 minutos',
+		textBlog: 'If you take accessibility seriously (you should), Radix UI by Modulz is a really great library that takes care of all the hard things about building accessible components: Styling a primitive out of the box is super easy as all primitives accept className as a prop'
 	},
 	{
 		id: 3,

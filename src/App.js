@@ -13,6 +13,7 @@ import Blog from './paginas/Blog';
 import Vehicentro from './paginas/Vehicentro';
 import AboutUs from './paginas/AboutUs';
 import Blog1 from './paginas/Blog1';
+import Blog2 from './paginas/Blog2';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/vehicentro" element={<Vehicentro />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/blog1" element={<Blog1 />} />
+          <Route path="/blog2" element={<Blog2 />} />
       </Routes>
     </BrowserRouter>
 

@@ -1,13 +1,11 @@
 import data from "../data/data";
-import { useState } from 'react';
-import ButtonList from "./ButtonList";
 
-function BlogPosts() {
-    const item = data.find((item) => item.id === 1);
+function Blog2Info() {
+    const item = data.find((item) => item.id === 2);
 
     return (
         <>
-            <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
+             <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
             <div className="blogTitulo">
                 <p>{item.title}</p>
             </div>
@@ -32,4 +30,4 @@ function BlogPosts() {
     );
 }
 
-export default BlogPosts;
+export default Blog2Info;
