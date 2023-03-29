@@ -5,14 +5,32 @@
 
 
 body {
-  font-weight: 400;
-  font-size: 1.6vw;
-  line-height: 1.5;
-  margin: 0;
-  overflow-x: hidden;
-  color: #000;
-  background-color: #f9f9f9;
+  font-weight: 400 !important; 
+  font-size: 1.6vw !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+  overflow-x: hidden !important;
+  color: #000 !important;
+  background-color: #f9f9f9 !important;
 }
+
+.card {
+  border: 1px solid #25272c;
+  border-radius: 0.25rem;
+  margin-right: 9vw;
+}
+.card-header {
+  background-color: #25272c;
+  color: #f9f9f9;
+  font-weight: bold; 
+  font-size: 1.4vw;
+}
+.card-title,
+.card-text {
+  color: #000;
+  text-align: center;
+}
+
 /*Blog Noticia*/
 .blogTitulo{
   display: flex;
@@ -40,6 +58,9 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
+.blogPrincipal strong{
+  color: #83de4e;
+}
 
 .blogImg{
   margin-left: 7.5vw;
@@ -54,6 +75,7 @@ body {
 .blogDerecha{
   width: 30%;
 }
+
 
 /**/
 .slideflecha p{
@@ -2254,6 +2276,7 @@ li {
 
 .sinespacio {
   margin: 0;
+  font-size: 1.2vw;
 }
 
 .fotoTestimonio {
@@ -2266,8 +2289,11 @@ li {
 }
 
 .fotoTestimonio img {
-  max-width: 20%;
-  margin-right: 4%;
+  width: 20%;
+  margin-right: 2%;
+}
+.fotoTestimonio p {
+ width: 78%;
 }
 
 .comentarioTestimonio {
