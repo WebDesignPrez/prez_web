@@ -1,11 +1,16 @@
-function Blog1Info() {
-    return (
-        <>
-            <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
-            <div className="">
+import data from "../data/data";
 
-            </div>
-        </>
-    )
+function BlogPosts() {
+    const item = data.find((item) => item.id === 2);
+
+    return (
+        <div>
+            <h1>{item.title}</h1>
+            <img src={item.image} alt={item.title} />
+            <p>{item.description}</p>
+            {/* ... rest of the information */}
+        </div>
+    );
 }
-export default Blog1Info
+
+export default BlogPosts;

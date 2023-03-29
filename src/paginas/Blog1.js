@@ -9,7 +9,7 @@ function Blog1() {
     return (
         <>
             <MenuLateral />
-            <Blog1Info/>
+            <Blog1Info />
             <PiePaginaFormulario />
         </>
     )

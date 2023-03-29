@@ -13,7 +13,34 @@ body {
   color: #000;
   background-color: #f9f9f9;
 }
+/*Blog Noticia*/
+.blogTitulo{
+  display: flex;
+  margin-left: 7.5vw;
+  width: 100%;
+}
 
+.blogContenedor{
+  display: flex;
+  margin-left: 7.5vw;
+  width: 100%;
+  height: 30vw;
+}
+
+.blogPrincipal{
+  display: flex;
+  background-color: #24262b;
+  width: 70%;
+  
+}
+.blogDerecha{
+  display: flex;
+  background-color: #f9f9f9;
+  width: 30%;
+  
+}
+
+/**/
 .slideflecha p{
   font-size: 1.2vw;
   line-height: 1.5vw; 
