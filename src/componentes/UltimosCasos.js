@@ -1,5 +1,6 @@
 import LetsTalk from "../componentes/LetsTalk"
 import Carousel from 'better-react-carousel'
+import styles from '../carusel.css';
 
 function UltimosCasos() {
 
