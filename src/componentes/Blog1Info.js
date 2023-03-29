@@ -1,13 +1,12 @@
 import data from "../data/data";
-import { useState } from 'react';
-import ButtonList from "./ButtonList";
+import Card from 'react-bootstrap/Card';
+import '../Card.css'
 
 function BlogPosts() {
     const item = data.find((item) => item.id === 1);
 
     return (
         <>
-            <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
             <div className="blogTitulo">
                 <p>{item.title}</p>
             </div>
@@ -20,12 +19,32 @@ function BlogPosts() {
                     <p>{item.textBlog}</p>
                 </div>
                 <div className="blogDerecha">
-                    <strong>Categoría: </strong>
-                    <p>{item.category}</p>
-                    <strong>Fecha de publicación: </strong>
-                    <p>{item.date}</p>
-                    <strong>Tiempo de lectura: </strong>
-                    <p>{item.ReadingTime}</p>
+                    <div class="card">
+                        <div class="card-header">
+                            Categoría
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">{item.category}</h5>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="card">
+                        <div class="card-header">
+                            Fecha de publicación
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">{item.date}</h5>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="card">
+                        <div class="card-header">
+                            Tiempo de lectura
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">{item.ReadingTime}</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

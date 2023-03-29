@@ -19,7 +19,7 @@ function Testimonios() {
     }, {
         comentario: "Desde el primer momento PREZ agencia de marketing nos hizo sentir como en casa en un ambiente cordial amigable y sobretodo muy técnico. Su gerente Martín Flores, nos explicaba de una forma muy didáctica todos los pasos a seguir en la planificación para el logro de los objetivos y resultados deseados, yo quiero agradecer de manera especial a esta agencia por que no sólo fue el servicio de marketing sino una exhaustiva planeación estratégica con una visión 360.",
         nombre: "Dr. JuanPa Vargas",
-        cargo: "Mentor y Psicólogo",
+        cargo: "Mentor Psicológico",
         img: "./img/juampa.png"
     }, {
         comentario: "who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
@@ -111,9 +111,8 @@ function Testimonios() {
                             <p className="comentarioTestimonio">{data.comentario}</p>
                             <div className="fotoTestimonio">
                                 <img src={data.img}  />
-                                <p className="sinespacio"><strong>{data.nombre}</strong><br></br>{data.cargo}</p>
                                 <br/>
-                                <br/>
+                                <p className="sinespacio"><strong>{data.nombre}</strong><br/>{data.cargo}</p>
                             </div>
                         </div>
                     ))
