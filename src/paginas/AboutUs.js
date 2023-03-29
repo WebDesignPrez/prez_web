@@ -1,11 +1,5 @@
 import LetsTalk from "../componentes/LetsTalk";
 import MenuLateral from "../componentes/MenuLateral";
-import PiePagina from "../componentes/PiePagina";
-import Testimonios from "../componentes/Testimonios";
-import ConoceMasDW from "../componentes/ConoceMasDW";
-import VideoDE from "../componentes/VideoDE";
-import FotoVideoDE from "../componentes/FotoVideoDE";
-import VideoBL from "../componentes/VideoBL";
 import InicioAboutUs from "../componentes/InicioAboutUS";
 import PiePaginaFormulario from '../componentes/PiePaginaFormulario'
 

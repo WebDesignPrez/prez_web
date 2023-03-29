@@ -317,14 +317,12 @@ strong.fondoV {
 .contenedorLets{
   display: flex;
   background-color: #93e54c;
-  padding-left: 7.7%;
+  padding: 0 0 0 9.5vw;
 }
 
 .letras{
-  width: 26%;
   padding-top: 5%;
   padding-bottom: 5%;
-  padding-right: 1%;
   text-align: right;
   line-height: 1;
 }
@@ -336,7 +334,7 @@ strong.fondoV {
 }
 
 .imagenFlechaLT{
-  width: 70%;
+  width: 60%;
 }
 
 .letras p.titulo2 {
@@ -348,7 +346,7 @@ strong.fondoV {
   display: inline;
 }
 .imagenFlechaLT img{
-  width: 4vw;
+  width: 3.5vw;
   margin-top: 10%;
   margin-left: 2%;
 }
@@ -1945,7 +1943,7 @@ li {
 
 .tituloCasos {
   font-size: 3rem;
-  padding: 3vw 0 0vw 5vw;
+  padding: 3vw 0 0vw 4.5vw;
   background-color: #25272c;
   color: #fff;
 }
@@ -2184,7 +2182,7 @@ li {
 .testimonios {
   background-color: #25272c;
   color: #fff;
-  padding: 2vw 0vw 1vw 15vw;
+  padding: 2vw 0vw 1vw 9.5vw;
   display: flex;
   justify-content: space-between;
 }
@@ -2192,7 +2190,7 @@ li {
 .testimoniosContainer {
   background-color: #25272c;
   color: #fff;
-  padding: 2vw 5vw 3vw 15vw;
+  padding: 2vw 5vw 3vw 9.5vw;
   overflow: hidden;
 }
 
@@ -2395,5 +2393,10 @@ li {
 
   .textoRotar {
     display: none;
+  }
+
+  .tituloMarketing p span {
+    font-size: 20vw;
+  
   }
 }

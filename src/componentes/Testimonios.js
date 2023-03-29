@@ -21,22 +21,8 @@ function Testimonios() {
         nombre: "Dr. JuanPa Vargas",
         cargo: "Mentor Psicológico",
         img: "./img/juampa.png"
-    }, {
-        comentario: "who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
-        nombre: "Nombre 5",
-        cargo: "Director 6",
-        img: "./img/testimonialDefecto.png"
-    }, {
-        comentario: "amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
-        nombre: "Nombre 6",
-        cargo: "Director 7",
-        img: "./img/testimonialDefecto.png"
-    }, {
-        comentario: "hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS",
-        nombre: "Nombre 7",
-        cargo: "Director 8",
-        img: "./img/testimonialDefecto.png"
-    }];
+    }, 
+];
 
     let [contador, setContador] = useState(1);
     let total = testimoniosData.length

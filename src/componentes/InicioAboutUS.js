@@ -109,7 +109,7 @@ function InicioAboutUs() {
                         <img className="imgValores" src="./img/nosotros/imagenValores5.png" />
                     </div>
                     <div className="imagenValoresFin">
-                        <span>Ambición</span>
+                        <span>Crecimiento</span>
                         <img className="imgValores" src="./img/nosotros/imagenValores6.png" />
                     </div>
                 </div>

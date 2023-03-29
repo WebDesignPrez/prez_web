@@ -33,7 +33,7 @@ function App() {
           <Route path="/produccion-fotografia-video" element={<FotoVideo />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/vehicentro" element={<Vehicentro />} />
-          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/nosotros" element={<AboutUs />} />
           <Route path="/blog1" element={<Blog1 />} />
           <Route path="/blog2" element={<Blog2 />} />
       </Routes>

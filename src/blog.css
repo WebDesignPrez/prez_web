@@ -143,8 +143,8 @@ img {
 	}
 
 	.article-list {
+		padding: 0 2vw 2vw 2vw;
 		grid-template-columns: 1fr;
-		gap: 45px;
 	}
 
 	.article-container {
@@ -157,7 +157,7 @@ img {
 	}
 
 	.article-container h2 {
-		font-size: 18px;
+		font-size: 5vw;
 	}
 
 	.article-container p {
