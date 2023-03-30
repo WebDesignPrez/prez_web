@@ -2,13 +2,14 @@ const data = [
 	{
 		id: 1,
 		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Fvanilla-extract-with-next-themes%2Fimage.png&w=1080&q=75',
-		title: 'Using Vanilla Extract with next-themes',
-		category: 'Javascript',
-		description: 'How to apply vanilla extract themes to Next.js apps',
-		date: 'Dic 17, 2021',
-		ReadingTime: '5 minutos',
-		textBlog: 'Styling with vanilla extract is a great way to manage your CSS in large projects. Not only does it provide a way to organize your styles, it also allows you to use dynamic theming with libraries like next-themes. In this post, we will explore how to use vanilla extract to create a themeable Next.js app. We will cover the basics of setting up vanilla extract, creating themes, and using next-themes to switch between them. By the end of this post, you will be able to create a themeable Next.js app that is easy to maintain and customize.'
+			'./img/blogs/Blog1Inicio.jpg',
+		title: 'Importancia de ChatGPT enfocada al marketing',
+		category: 'ChatGPT',
+		description: 'ChatGPT mejora el marketing al interactuar personalizada y automatizadamente con los clientes',
+		date: 'Abril 03, 2023',
+		ReadingTime: '3 minutos',
+		textBlog: 'ChatGPT es una herramienta importante para el marketing debido a que es capaz de interactuar con los clientes potenciales de una manera más personalizada y automatizada. Algunas de las formas en que ChatGPT puede ser útil en el marketing incluyen:',
+		textBlog2: ''
 	},
 	{
 		id: 2,
