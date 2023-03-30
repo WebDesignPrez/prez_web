@@ -2,6 +2,7 @@ import LetsTalk from "../componentes/LetsTalk";
 import MenuLateral from "../componentes/MenuLateral";
 import InicioAboutUs from "../componentes/InicioAboutUS";
 import PiePaginaFormulario from '../componentes/PiePaginaFormulario'
+import JefesFotos from "../componentes/JefesFotos";
 
 function AboutUs() {
     document.body.scrollTop = 0; // For Safari
@@ -9,7 +10,8 @@ function AboutUs() {
     return (
         <>
             <MenuLateral />
-            <InicioAboutUs/>
+            <InicioAboutUs />
+            <JefesFotos />
             <LetsTalk />
             <PiePaginaFormulario />
         </>
