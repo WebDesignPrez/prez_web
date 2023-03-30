@@ -63,10 +63,10 @@ function PiePagina() {
                 <div class="footer-container">
                     <div class="columna">
                         <img className="logoP" src="./img/logo-prezagencia.png" alt="Logo Prez" />
-                        <p><strong>Oficina</strong></p>
+                        <h3>Oficina</h3>
                         <p>Virgen del Sol y Camino al Oriente</p>
                         <p><strong>Ambato - Ecuador</strong></p>
-                        <a className="cel" href="tel:0969471122"><strong>Cel: </strong>096 947 1122</a>
+                        <a className="cel" href="tel:0959792827"><strong>Cel: </strong>‎ 095 979 2827</a>
                         <div className="social">
                             <a href="https://www.facebook.com/agenciaprez" >
                                 <img class="cambiar-imagen-fb" src="./img/FaceNegra.webp" alt="facebook" />
@@ -92,8 +92,8 @@ function PiePagina() {
                                     <li><a href="/#Casos-exito">Casos de éxito</a></li>
                                     <li><a href="/#Ultimos-casos">Últimos casos</a></li>
                                     <li><a href="/#Testimonios"> Testimonios</a></li>
-                                    <li><a href="/about-us"> About Us</a></li>
-                                    <li><a href="/blog"> Blog</a></li>
+                                    {/*<li><a href="/about-us"> About Us</a></li>
+                                    <li><a href="/blog"> Blog</a></li>*/}
                                 </ul>
                             </nav>
                         </div>

@@ -112,7 +112,7 @@ function Testimonios() {
                             <div className="fotoTestimonio">
                                 <img src={data.img}  />
                                 <br/>
-                                <p className="sinespacio"><strong>{data.nombre}</strong><br/>{data.cargo}</p>
+                                <p className="sinespacio titulotestimonio"><strong>{data.nombre}</strong><br/><span className="subtitulotestimonio">{data.cargo}</span></p>
                             </div>
                         </div>
                     ))
