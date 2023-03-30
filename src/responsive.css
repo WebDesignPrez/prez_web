@@ -376,7 +376,7 @@
         display: flex;
         width: 100%;
         justify-content: left;
-    
+
     }
 
     .social img {
@@ -390,7 +390,7 @@
 
     .columna .masEspacio nav {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     footer h3,
@@ -401,13 +401,13 @@
     }
 
     .columna ul li a {
-        font-size: 1.3rem;
+        font-size: 1rem;
         text-align: left;
     }
 
     .certificadoI {
-        width: 65%;
-        margin-top: 10%;
+        width: 49%;
+        margin-top: 5%;
     }
 
     footer {
@@ -482,6 +482,7 @@
 
     .pmedia.boxMarketing {
         grid-template-rows: repeat(1, 1fr) !important;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .item.textservices .image-row img {
@@ -704,16 +705,34 @@
         width: 20%;
         margin-right: 5%;
     }
+
     .fotoTestimonio p {
         width: 75%;
     }
+
     .logoP {
         max-width: 35%;
     }
 
     .logoP {
         display: flex;
-      }
+    }
+
+    .footer-container .columna ul li {
+        text-align: left;
+        font-size: 1rem;
+
+        line-height: 1.5;
+    }
+
+    .certificadoI {
+        display: block;
+        float: left;
+    }
+    .footer-container {
+        margin: 0 4%;
+        flex-direction: column;
+    }
 }
 
 

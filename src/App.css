@@ -1249,13 +1249,6 @@ a {
     width: 75%;
   }
 
-  .certificadoI {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
-
   .menos-espacio {
     margin-top: 0.5em;
     margin-bottom: 0.01em;
@@ -1264,9 +1257,7 @@ a {
 
 
 @media (max-width: 767px) {
-  .footer-container {
-    flex-direction: column;
-  }
+
 
   .columna {
     flex-basis: 100%;
