@@ -102,7 +102,7 @@
     }
 
     .testimoniosBox .box {
-        width: 55vw;
+        width: 76vw;
     }
 
     .testimoniosContainer {
@@ -251,8 +251,9 @@
 
 
     .tituloServicios p {
-        line-height: 41px;
-        font-size: 1.9rem;
+        line-height: 1.17;
+        font-size: 2rem;
+        letter-spacing: 0em;
         padding: 0vw 0 4vw 0vw;
     }
 
@@ -268,12 +269,12 @@
     }
 
     .tituloCasos p {
-        font-size: 1.9rem;
+        font-size: 2rem;
         text-align: center;
     }
 
     .testimonios .titulo {
-        font-size: 1.9rem;
+        font-size: 2rem;
 
     }
 
@@ -288,7 +289,7 @@
 
     .clientesTitulo {
         padding: 15vw 0vw 9vw 0vw;
-        font-size: 1.9rem;
+        font-size: 2rem;
         line-height: 34px;
     }
 
@@ -319,7 +320,7 @@
     }
 
     .casosDesc {
-        font-size: 1.6rem;
+        font-size: 1.25rem;
         line-height: 2rem;
         text-align: center;
     }
@@ -329,7 +330,7 @@
     }
 
     .piePagina .titulo {
-        font-size: 1.9rem;
+        font-size: 2rem;
     }
 
     .arrowBox img {
@@ -351,7 +352,7 @@
     }
 
     .comentarioTestimonio {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .testimonios .controls .contador {
@@ -359,18 +360,28 @@
     }
 
     footer p {
-        font-size: 1.4rem;
-        text-align: center;
+        font-size: 1rem;
+        text-align: left;
     }
 
     .social a {
         display: flex;
-        justify-content: center;
+        justify-content: left;
+        max-width: 15%
+    }
+
+    .cel {
+        font-size: 1rem;
+        margin-left: 0;
+        display: flex;
+        width: 100%;
+        justify-content: left;
+    
     }
 
     .social img {
-        max-width: 50%;
-        margin: 50% 0 0 0;
+        max-width: 40%;
+        margin: 10% 0 0 0;
     }
 
     .columna .masEspacio {
@@ -384,12 +395,14 @@
 
     footer h3,
     footer h3 a {
-        font-size: 1.8rem !important;
+        font-size: 1.30rem !important;
         margin: 10% 0 0 0;
+        text-align: left;
     }
 
     .columna ul li a {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+        text-align: left;
     }
 
     .certificadoI {
@@ -626,22 +639,83 @@
 
     .carousel-caption h3 {
         margin: 0;
-        line-height: 1;
+        line-height: 1.17;
         font-size: 2rem;
+        letter-spacing: 0em;
 
     }
 
     .carousel-caption p {
         margin: 8% 0;
         line-height: 1;
-        font-size: 1.3rem;
-
+        font-size: 1.25rem;
+        letter-spacing: 0em;
+        line-height: 160%;
     }
 
-    .visually-hidden{
+    .visually-hidden {
         display: none !important;
     }
+
+    .margencarusel.responsive.ultimoscasoscarusel {
+        background-color: #25272c;
+        margin: 0;
+        color: white;
+    }
+
+    .margencarusel.responsive.ultimoscasoscarusel p,
+    .margencarusel.responsive.ultimoscasoscarusel .imagen-padre {
+        color: white;
+        margin: 0 8% 6% 8%;
+    }
+
+    .margencarusel.responsive.ultimoscasoscarusel .carousel-caption {
+        margin: 0;
+        min-height: 220px;
+    }
+
+    .block-page-title__description-with-arrow .c-item__text {
+        font-size: 1rem;
+    }
+
+    .line-container {
+        display: inline-grid;
+        margin-top: 8%;
+        margin-bottom: 1%;
+    }
+
+    .line {
+        left: 0vw;
+    }
+
+    .titulotestimonio {
+        font-size: 1rem;
+    }
+
+    .subtitulotestimonio {
+        font-size: .875rem;
+    }
+
+    .fotoTestimonio p {
+        line-height: 15px;
+    }
+
+    .fotoTestimonio img {
+        width: 20%;
+        margin-right: 5%;
+    }
+    .fotoTestimonio p {
+        width: 75%;
+    }
+    .logoP {
+        max-width: 35%;
+    }
+
+    .logoP {
+        display: flex;
+      }
 }
+
 
 .logomovil {
     display: none;

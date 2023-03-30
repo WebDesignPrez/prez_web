@@ -63,7 +63,7 @@ function PiePagina() {
                 <div class="footer-container">
                     <div class="columna">
                         <img className="logoP" src="./img/logo-prezagencia.png" alt="Logo Prez" />
-                        <p><strong>Oficina</strong></p>
+                        <h3>Oficina</h3>
                         <p>Virgen del Sol y Camino al Oriente</p>
                         <p><strong>Ambato - Ecuador</strong></p>
                         <a className="cel" href="tel:0959792827"><strong>Cel: </strong>095 979 2827</a>

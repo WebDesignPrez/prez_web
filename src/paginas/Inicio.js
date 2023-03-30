@@ -12,9 +12,12 @@ import WhatsappIcon from '../componentes/Whatsapp';
 import SliderComponent from '../componentes/SliderComponent';
 import CookieConsent, { Cookies } from "react-cookie-consent";
 import Ejemplo from '../componentes/ejemplo';
+import LetsTalk from '../componentes/LetsTalk';
 
 
 function Inicio() {
+
+    //DATOS CLIENTES
 
 
     return (
@@ -37,8 +40,16 @@ function Inicio() {
                 <p>En nuestro mundo</p>
                 <p>no hay <span>imposibles,</span></p>
                 <p>let's travel <span>together.</span></p>
+
+                {/* FLECHA VIEJA 
                 <div className="arrowBox">
                     <img src="./img/flecha-negra-abajo.webp" alt="" />
+                </div>*/}
+
+                {/* NUEVA FLECHA 3 */}
+
+                <div class="line-container arrowBox">
+                    <div class="line"></div>
                 </div>
             </div>
             {/* <div className='boxVideoInicio'>
@@ -59,6 +70,7 @@ function Inicio() {
             <br />
             <CasosExito />
             <UltimosCasos />
+            <LetsTalk />
             <Clientes />
             <Testimonios />
             <PiePagina />

@@ -5,7 +5,7 @@
 
 
 body {
-  font-weight: 400 !important; 
+  font-weight: 400 !important;
   font-size: 1.6vw !important;
   line-height: 1.5 !important;
   margin: 0 !important;
@@ -18,9 +18,16 @@ body {
   margin-right: 8vw;
 }
 
+.card-header {
+  background-color: #25272c;
+  color: #f9f9f9;
+  font-weight: bold;
+  font-size: 1.4vw;
+
 .card.derechaC{
   margin-left: auto;
 }
+
 .card.centroC{
   margin: 0 auto;
 }
@@ -49,83 +56,90 @@ body {
   z-index: 1;
 }
 
-.blogTitulo{
+.blogTitulo {
   display: flex;
   width: 100%;
   justify-content: center;
 }
-.blogTitulo p{
+
+.blogTitulo p {
   font-size: 2vw;
    font-weight: bold; 
-   color: #fff;
+   color: #f9f9f9;
 }
 
-.blogContenedor{
+.blogContenedor {
   display: flex;
   margin-left: 7.5vw;
   width: 100%;
 }
 
-.blogPrincipal{
+.blogPrincipal {
   background-color: #f9f9f9;
   width: 60%;
   margin-left: 5%;
   margin-right: 5%;
 }
 .blogPrincipal strong{
-  background-color: #83de4e;
-  color: #000;
+  color: #83de4e;
 }
 
-.blogImg{
+.blogImg {
   margin-left: 7.5vw;
   display: flex;
-  align-items: center; /* Centrar verticalmente */
-  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;
+  /* Centrar verticalmente */
+  justify-content: center;
+  /* Centrar horizontalmente */
   background-color: #f9f9f9;
   width: 70%;
-  height: 50vh; /* Ajustar altura al 50% del viewport */
+  height: 50vh;
+  /* Ajustar altura al 50% del viewport */
 }
 
 .blogDerecha{
-  width: 40%;
+  width: 30%;
 }
 
 
 /**/
-.slideflecha p{
+.slideflecha p {
   font-size: 1.2vw;
-  line-height: 1.5vw; 
+  line-height: 1.5vw;
 }
-.slideflecha strong{
+
+.slideflecha strong {
   font-size: 1.2vw;
-  line-height: 1.5vw; 
+  line-height: 1.5vw;
 }
-.image-row .imgSocial{
+
+.image-row .imgSocial {
   padding: 0vw 0vw 0vw 0vw !important;
 }
 
-.item.textservices p span{
+.item.textservices p span {
   line-height: 2.6rem;
 }
+
 /*About Us*/
-.nosotrosContenedor{
+.nosotrosContenedor {
   display: flex;
   margin-left: 7.5vw;
 }
-.nosotrosContenedor.negro{
+
+.nosotrosContenedor.negro {
   background-color: #22262b;
 }
 
-.nosotrosContenedor.negro p{
+.nosotrosContenedor.negro p {
   color: #ffffff;
 }
 
-.nosotrosContenedor.negro strong{
+.nosotrosContenedor.negro strong {
   color: #ffffff;
-} 
+}
 
-.contenedorCultura{
+.contenedorCultura {
   width: 100%;
   display: flex;
   margin-left: 5%;
@@ -133,16 +147,17 @@ body {
 
 }
 
-.contenedorImagenCultura{
+.contenedorImagenCultura {
   width: 55%;
 }
-.imgCultura{
+
+.imgCultura {
   width: 100%;
   height: 100%;
   /* border: 3px solid #83de4e */
 }
 
-.contenedorTextoCultura{
+.contenedorTextoCultura {
   width: 45%;
   margin-right: 4%;
   margin-left: 4%;
@@ -150,16 +165,16 @@ body {
   margin-bottom: 10%;
 }
 
-.nosotrosContenedor .tituloTextoAbout{
+.nosotrosContenedor .tituloTextoAbout {
   font-size: 2rem;
   line-height: 2.3rem;
 }
 
-.contenedorTextoCultura p{
+.contenedorTextoCultura p {
   font-size: 1.1rem;
 }
 
-.contenedorCiudad{
+.contenedorCiudad {
   width: 100%;
   height: 65%;
   display: flex;
@@ -167,57 +182,58 @@ body {
   margin-right: 5%;
 }
 
-.contenedorTextoCiudad{
+.contenedorTextoCiudad {
   width: 45%;
   margin-right: 4%;
   margin-top: 14%;
   margin-bottom: 10%;
 }
 
-.contenedorImagenCiudad{
+.contenedorImagenCiudad {
   width: 55%;
   display: flex;
   margin-top: 9%;
   margin-bottom: 9%;
 }
 
-.imgCiudad1{
+.imgCiudad1 {
   width: 45%;
   height: 100%;
   border: 3px solid #83de4e;
 }
-.imgCiudad2{
+
+.imgCiudad2 {
   width: 45%;
   height: 100%;
   border: 3px solid #83de4e
 }
 
-.contenedorTextoCiudad p{
+.contenedorTextoCiudad p {
   font-size: 1.1rem;
 }
 
-.contenedorImagenCiudad a{
+.contenedorImagenCiudad a {
   width: 5%;
 }
 
-.contenedorEstudio{
+.contenedorEstudio {
   width: 100%;
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
 }
 
-.contenedorImagenEstudio{
+.contenedorImagenEstudio {
   width: 60%;
 }
 
-.imgEstudio{
+.imgEstudio {
   width: 100%;
   height: 90%;
   /* border: 3px solid #83de4e */
 }
 
-.contenedorTextoEstudio{
+.contenedorTextoEstudio {
   width: 40%;
   margin-right: 4%;
   margin-left: 4%;
@@ -226,11 +242,11 @@ body {
 }
 
 
-.contenedorTextoEstudio p{
+.contenedorTextoEstudio p {
   font-size: 1.1rem;
 }
 
-.textoAbout{
+.textoAbout {
   width: 100%;
   margin-left: 5%;
   margin-right: 6%;
@@ -254,41 +270,42 @@ strong.fondoV {
   font-weight: normal;
 }
 
-.contenedorImagenesValores{
+.contenedorImagenesValores {
   margin-left: 5%;
   margin-right: 5%;
   width: 100%;
   display: flex;
 }
 
-.imagenValores{
- width: 33%;
- margin-right: 3vw;
-}
-
-.imagenValoresFin{
+.imagenValores {
   width: 33%;
   margin-right: 3vw;
- }
-
-.imagenValores p{
-  font-size: 2rem;
-  font-weight: 700;
-  border-bottom: solid #83de4e 0.4vh;
- }
- .imagenValoresFin p{
-  font-size: 2rem;
-  font-weight: 700;
-  border-bottom: solid #83de4e 0.4vh;
- }
-
-.imgValores{
- width: 100%;
- margin-top: 1vw;
- height: auto;
 }
 
-.divididoDos{
+.imagenValoresFin {
+  width: 33%;
+  margin-right: 3vw;
+}
+
+.imagenValores p {
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: solid #83de4e 0.4vh;
+}
+
+.imagenValoresFin p {
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: solid #83de4e 0.4vh;
+}
+
+.imgValores {
+  width: 100%;
+  margin-top: 1vw;
+  height: auto;
+}
+
+.divididoDos {
   width: 100%;
   margin-left: 3%;
   margin-right: 3%;
@@ -296,29 +313,31 @@ strong.fondoV {
   margin-bottom: 1%;
 }
 
-.componente{
+.componente {
   width: 50%;
   height: 100%;
   background-color: #22262b;
   margin-right: 1%;
 }
 
-.componente img{
+.componente img {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
   height: auto;
   align-items: center;
   border: 3px solid #83de4e;
-  
+
 }
-.componente .tituloP{
+
+.componente .tituloP {
   color: #ffffff;
   margin-left: 5%;
   margin-right: 5%;
   font-weight: 700;
 }
-.componente .textoComponente{
+
+.componente .textoComponente {
   color: #ffffff;
   margin-left: 5%;
   margin-right: 5%;
@@ -329,18 +348,20 @@ strong.fondoV {
 /*Fin About Us*/
 
 /*LetsTalk*/
-.contenedorLets{
+.contenedorLets {
   display: flex;
   background-color: #93e54c;
   padding: 0 0 0 9.5vw;
 }
 
 .letras{
+  width: 26%;
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: right;
   line-height: 1;
 }
+
 .letras p.titulo1 {
   margin: 0;
   color: #fff;
@@ -349,7 +370,7 @@ strong.fondoV {
 }
 
 .imagenFlechaLT{
-  width: 60%;
+  width: 70%;
 }
 
 .letras p.titulo2 {
@@ -361,7 +382,7 @@ strong.fondoV {
   display: inline;
 }
 .imagenFlechaLT img{
-  width: 3.5vw;
+  width: 4vw;
   margin-top: 10%;
   margin-left: 2%;
 }
@@ -381,10 +402,11 @@ strong.fondoV {
 .contenedorLets:hover .flechaNegraLT2 {
   display: block;
 }
+
 /**/
 
 
-.potencia{
+.potencia {
   padding: 0 0 0 30vw;
   width: 45%;
 }
@@ -831,10 +853,11 @@ strong.fondoV {
   flex-wrap: nowrap;
 }
 
-.item.textservices .image-row img{
+.item.textservices .image-row img {
   width: 25%;
   height: auto;
 }
+
 .imagen-padreCE {
   position: relative;
   display: inline-block;
@@ -1176,7 +1199,7 @@ a {
   padding: 10px 10px !important;
 }
 
-#rcc-decline-button{
+#rcc-decline-button {
   font-family: 'Montserrat';
   font-size: 1rem;
   padding: 10px 10px !important;
@@ -1224,13 +1247,6 @@ a {
 
   .social img {
     width: 75%;
-  }
-
-  .logoP {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
   }
 
   .certificadoI {
@@ -1738,18 +1754,18 @@ html {
 
 .videoInicio.noresponsive img,
 .videoInicio.noresponsive video {
-padding: 0vw 0vw 0vw 7.5vw;
-width: 92.5%;
+  padding: 0vw 0vw 0vw 7.5vw;
+  width: 92.5%;
 }
 
-.videoInicioVH.noresponsive{
+.videoInicioVH.noresponsive {
   background-color: #83de4e;
 }
 
 .videoInicioVH.noresponsive img,
 .videoInicioVH.noresponsive video {
-padding: 0vw 0vw 0vw 7.5vw;
-width: 93%;
+  padding: 0vw 0vw 0vw 7.5vw;
+  width: 93%;
 }
 
 .tituloInicio p span {
@@ -1989,14 +2005,21 @@ li {
   background-color: #93e54c;
   padding: 6vw 0 6vw 10vw;
   line-height: 1;
-  position: relative; /* agregar esta propiedad para que los elementos internos se puedan posicionar */
+  position: relative;
+  /* agregar esta propiedad para que los elementos internos se puedan posicionar */
 }
+
 .tituloLetsTalk .imagenFlecha {
-  position: absolute; /* establecer la posición absoluta para mover los elementos internos */
-  top: 50%; /* mover hacia la mitad vertical */
-  right: 42vw; /* mover hacia la derecha */
-  transform: translateY(-50%); /* ajustar la posición vertical después de haberla movido */
+  position: absolute;
+  /* establecer la posición absoluta para mover los elementos internos */
+  top: 50%;
+  /* mover hacia la mitad vertical */
+  right: 42vw;
+  /* mover hacia la derecha */
+  transform: translateY(-50%);
+  /* ajustar la posición vertical después de haberla movido */
 }
+
 .tituloLetsTalk .flechaNegraLT,
 .tituloLetsTalk .flechaBlancaLT {
   max-width: 15%;
@@ -2305,8 +2328,9 @@ li {
   width: 20%;
   margin-right: 2%;
 }
+
 .fotoTestimonio p {
- width: 78%;
+  width: 78%;
 }
 
 .comentarioTestimonio {
@@ -2352,7 +2376,77 @@ li {
   grid-template-rows: repeat(1, 1fr) !important;
 }
 
+/*nueva flecha 3*/
+.line-container {
+  width: 1px;
+  height: 44px;
+  position: relative;
+  margin-bottom: 100px;
 
+}
+
+.line {
+  position: absolute;
+  width: 4px;
+  height: 0px;
+  background-color: #22262b;
+  top: 0;
+  bottom: initial;
+  animation: line-animation 2.5s ease-in-out 0s infinite normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 2vw;
+}
+
+.line::before {
+  content: ' ';
+  width: 25px;
+  height: 25px;
+  border-right: 5px solid #22262b;
+  border-bottom: 5px solid #22262b;
+  transform: rotate(45deg);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  animation: arrow-animation 2.5s ease-in-out 0s infinite normal;
+}
+
+@keyframes line-animation {
+  0% {
+    height: 0px;
+    top: 0px;
+    opacity: 0;
+  }
+
+  50% {
+    height: 44px;
+    top: 0px;
+    opacity: 1;
+  }
+
+  100% {
+    height: 0px;
+    top: 44px;
+    opacity: 0;
+  }
+}
+
+@keyframes arrow-animation {
+  0% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+}
 
 
 @media only screen and (min-width: 768px) {
