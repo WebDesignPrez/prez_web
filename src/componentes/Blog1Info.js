@@ -55,7 +55,7 @@ function BlogPosts() {
                             </div>
                         </div>
                     </a>
-                    <br/>
+                    <br />
                 </div>
             </div>
         </>
