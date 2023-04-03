@@ -9,6 +9,7 @@ function Contacto() {
         <>
             {/*<MenuLateral />*/}
             <MenuLateral />
+            {/* <Formulario/> */}
             <FormularioBitrix/>
             <PiePaginaFormulario />
             { /*<PiePaginaFormulario />*/}
