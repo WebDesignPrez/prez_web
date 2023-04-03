@@ -737,6 +737,80 @@
         flex-direction: column;
     }
 
+    /*Footer2*/
+    #footer2 p {
+        font-size: 1rem !important;
+        text-align: left;
+    }
+
+    #footer2 .social a {
+        display: flex;
+        justify-content: left;
+        max-width: 15%
+    }
+
+    #footer2 .cel {
+        font-size: 1rem;
+        margin-left: 0;
+        display: flex;
+        width: 100%;
+        justify-content: left;
+
+    }
+
+    #footer2 .social img {
+        max-width: 40%;
+        margin: 10% 0 0 0;
+    }
+
+    #footer2 .columna .masEspacio {
+        margin: 0;
+    }
+
+    #footer2 .columna .masEspacio nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #footer2 h3,
+    #footer2 h3 a {
+        font-size: 1.30rem !important;
+        margin: 10% 0 0 0 !important; 
+        text-align: left !important;
+    }
+
+    #footer2 .columna ul li a {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    #footer2 .certificadoI {
+        width: 49%;
+        margin-top: 5%;
+    }
+
+    #footer2 {
+        padding: 15vw 2vw 15vw 2vw;
+    }
+    #footer2 .footer-container .columna ul li {
+        text-align: left;
+        font-size: 1rem;
+
+        line-height: 1.5;
+    }
+
+    #footer2 .certificadoI {
+        display: block;
+        float: left;
+    }
+
+    #footer2 .footer-container {
+        margin: 0 4%;
+        flex-direction: column;
+    }
+
+    /*Fin*/
+
     .LogoClienteCasoExito img {
         padding-left: 0vw;
         max-width: 75%;
