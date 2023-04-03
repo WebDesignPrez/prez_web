@@ -1,4 +1,6 @@
 import React, { useRef } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import styles from '../carusel.css';
 
 function VideoVH() {
     const boxMarketingRef = useRef(null);
@@ -24,17 +26,47 @@ function VideoVH() {
                 <div class="filaVH">
                     <div class="columnaVH"><img className='potencia' src="./img/lapotenciaLogo.png" alt="" /></div>
                 </div>
-                <div class="filaVH">
-                    <div class="columnaVH"><img className='sobre' src="./img/imagenCamion.jpg" alt="" /></div>
-                    <div class="columnaVH"><img className='uno' src="./img/numero1Logo.png" alt="" /></div>
+                <div class="filaVH moviluno">
+                    <div class="columnaVH "><img className='sobre' src="./img/imagenCamion.jpg" alt="" /></div>
+                    <div class="columnaVH "><img className='uno' src="./img/numero1Logo.png" alt="" /></div>
                 </div>
             </div>
-            <div class="contenedorIn">
+            <div class="contenedorIn noresponsive">
                 <div class="filaIn">
                     <div class="columnaIn"><img className='una' src="./img/imagenuna.jpg" alt="Imagen 1" /></div>
                     <div class="columnaIn"><img className='dos' src="./img/imagendos.jpg" alt="Imagen 2" /></div>
                     <div class="columnaIn"><img className='tres' src="./img/imagentres.jpg" alt="Imagen 3" /></div>
                 </div>
+            </div>
+
+            <div className='responsive'>
+                <Carousel interval={3000} className={styles}>
+                    <Carousel.Item >
+                        <img
+                            className="d-block w-100"
+                            src="./img/imagenuna.jpg"
+                            alt="First slide"
+                        />
+                    </Carousel.Item>
+
+                    <Carousel.Item >
+                        <img
+                            className="d-block w-100"
+                            src="./img/imagendos.jpg"
+                            alt="Second slide"
+                        />
+                    </Carousel.Item>
+
+                    <Carousel.Item >
+                        <img
+                            className="d-block w-100"
+                            src="./img/imagentres.jpg"
+                            alt="Third slide"
+                        />
+                    </Carousel.Item>
+
+
+                </Carousel>
             </div>
         </>
 

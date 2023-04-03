@@ -29,29 +29,34 @@ function HerramientasVH() {
 
     return (
         <>
-            <div id="Servicios" className="serviciosRow">
+            <div id="Servicios" className="serviciosRow serviciosclientes">
                 <div className="box" onClick={() => { selOpt('md') }}>
                     <div className="imgBox">
                         <img src="./img/herramientas1.png" alt="" />
                     </div>
                     <div className="tituloBox">Marketing<br></br> Digital</div>
                 </div>
+
                 <div className="lineaVertical"></div>
+
                 <div className="box" onClick={() => { selOpt('pm') }}>
                     <div className="imgBox">
                         <img src="./img/herramientas2.png" alt="" />
                     </div>
                     <div className="tituloBox">Paid<br></br> Media</div>
                 </div>
+
                 <div className="lineaVertical"></div>
+
                 <div className="box" onClick={() => { selOpt('gl') }}>
                     <div className="imgBox">
                         <img src="./img/herramientas3.png" alt="" />
                     </div>
                     <div className="tituloBox">Generación de <br></br>Leads</div>
                 </div>
-            </div>
-            <div className="serviciosRow">
+
+                <div className="lineaVertical"></div>
+                
                 <div className="box" onClick={() => { selOpt('dw') }}>
                     <div className="imgBox">
                         <img src="./img/herramientas5.png" alt="" />
@@ -67,7 +72,7 @@ function HerramientasVH() {
                 </div>
                 <div className="lineaVertical"></div>
                 <div className="box">
-                </div>  
+                </div>
             </div>
         </>
     )

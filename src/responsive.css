@@ -606,7 +606,8 @@
 
     .linkBoxSinHome {
         margin: 20vw 15vw;
-        font-size: 2rem;
+        font-size: 1.8rem;
+        font-weight: 600;
     }
 
     .menuLateral .burger {
@@ -730,11 +731,62 @@
         display: block;
         float: left;
     }
+
     .footer-container {
         margin: 0 4%;
         flex-direction: column;
     }
+
+    .LogoClienteCasoExito img {
+        padding-left: 0vw;
+        max-width: 75%;
+        margin: 20% 0 0 0;
+    }
+
+    .LogoClienteCasoExito {
+        height: max-content;
+        align-items: flex-start;
+    }
+
+    .potencia {
+        width: 100%;
+        padding: 0;
+    }
+
+    .filaVH.moviluno {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre {
+        position: inherit;
+        padding: 0 8vw;
+        width: 80%;
+    }
+
+    .serviciosRow.serviciosclientes .box .tituloBox {
+
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .serviciosRow.serviciosclientes .box {
+        max-width: 48%;
+    }
+
+    .serviciosRow.serviciosclientes {
+        flex-direction: row;
+    }
+
+    .lineaVertical {
+        display: none
+    }
+
+    ;
 }
+
+
 
 
 .logomovil {
