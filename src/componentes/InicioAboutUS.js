@@ -146,8 +146,6 @@ function InicioAboutUs() {
                     </div>
                 </div>
             </div>
-            <br/>
-            <br/>
         </>
     )
 }

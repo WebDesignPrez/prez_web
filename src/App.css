@@ -14,6 +14,55 @@ body {
   background-color: #f9f9f9 !important;
 }
 
+.modal{
+  color: #fff;
+}
+/*Color*/
+
+/* header */
+.btn h1 {
+  color: #55acee;
+  text-align: center;
+}
+
+/* button div */
+#buttons {
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* start da css for da buttons */
+.btn {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+  color: #000;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 10px);
+  -webkit-transform: translate(0px, 10px);
+  box-shadow: 0px 1px 0px 1px;
+}
+
+.green {
+  background-color: #93e54c;
+  box-shadow: 3px 6px 0px 0px #88d544;
+}
+
+.green:hover {
+  background-color: #22262b;
+  color: #fff;
+}
+
+/* FIN Color*/
+
+
+
 .card.derecha{
   margin-right: 8vw;
 }
@@ -2498,9 +2547,30 @@ li {
   .textoRotar {
     display: none;
   }
-
+  .inicioBlog{
+    margin: 0 auto !important;
+    display: block !important;
+  }
+  .tituloMarketing{
+    width: 50%;
+    padding: 0 0 0 0;
+  }
   .tituloMarketing p span {
     font-size: 20vw;
-  
+    margin-left: 67%
+  }
+
+  .blogContenedor {
+    display: block;
+    width: 95%;
+  }
+  .blogContenedor p{
+    font-size: 4vw;
+  }
+  .blogPrincipal {
+    background-color: #f9f9f9;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
