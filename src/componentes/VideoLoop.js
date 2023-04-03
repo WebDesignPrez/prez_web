@@ -9,12 +9,7 @@ function VideoLoop() {
 
   return (
     <div className='videoloop '>
-      <video className='videoserviciosinicio'
-        src="./img/iconoMarketing.mp4"
-        autoPlay
-        loop
-        muted
-        style={{ width: '60%', height: 'auto', marginLeft: '22vw' }}
+      <video preload="none" autoPlay={true} playsInline={true} controls loop muted className='videoserviciosinicio' src="./img/iconoMarketing.mp4"   style={{ width: '60%', height: 'auto', marginLeft: '22vw' }}
         onClick={handleVideoClick}
       >
         Tu navegador no soporta la etiqueta de video HTML5.

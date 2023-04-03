@@ -9,11 +9,8 @@ function VideoPM() {
 
     return (
         <div className='videoloop'>
-            <video className='videoserviciosinicio'
+            <video  preload="none" autoPlay={true} playsInline={true} controls loop muted className='videoserviciosinicio'
                 src="./img/IconoPaidMedia.mp4"
-                autoPlay
-                loop
-                muted
                 style={{ width: '60%', height: 'auto', marginLeft: '22vw' }}
                 onClick={handleVideoClick}
             >

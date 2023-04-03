@@ -14,11 +14,8 @@ function FotoVideoDE() {
             </div>
             <div class="contenedor-imagenesMD">
                 <img src="./img/imagenIzquierda.jpg" alt="Imagen 1" class="imagen1" />
-                <video class="imagen2MD"
+                <video preload="none" autoPlay={true} playsInline={true} controls loop muted class="imagen2MD"
                     src="./img/adelante.mp4"
-                    autoPlay
-                    loop
-                    muted
                     style={{ width: '60%', height: '70vw', marginLeft: '22vw' }}
                     onClick={handleVideoClick}
                 >

@@ -9,11 +9,8 @@ function VideoBE() {
 
     return (
         <div className='videoloop '>
-            <video className='videoserviciosinicio'
-                src="./img/IconoBranding.mp4"
-                autoPlay
-                loop
-                muted
+            <video preload="none" autoPlay={true} playsInline={true} controls loop muted className='videoserviciosinicio'
+                src="./img/IconoBranding.mp4" 
                 style={{ width: '60%', height: 'auto', marginLeft: '22vw' }}
                 onClick={handleVideoClick}
             >
