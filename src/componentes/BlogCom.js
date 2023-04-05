@@ -11,6 +11,7 @@ import ArticleList from "../componentes/ArticleLists";
 import ButtonList from "../componentes/ButtonList";
 import data from '../data/data';
 import '../blog.css';
+import '../App.css';
 
 function BlogCom() {
     const allCategories = [
@@ -35,21 +36,26 @@ function BlogCom() {
         <>
             <img className="logo" src="./img/logopr.png" alt="Logo" />
             <div className="inicioBlog">
-                <div className="tituloMarketing" id="Inicio">
+                <div className="tituloMarketing blog" id="Inicio">
                     <div className="iconotituloizquierda">
                     </div>
                     <div>
                         <p><span>Blog</span></p>
                     </div>
                 </div>
-
-                <div className="abajo">
-                    <p>Te invitamos a despegar hacia el futuro de la información y descubrir un<span> universo lleno de noticias novedosas </span><span className='fondoV'>con nuestra plataforma de blogs.</span>.</p>
+                <div className="abajo blog">
+                    <p>Descubre noticias novedosas en nuestra plataforma de<span> blogs y despega hacia el </span><span className='fondoV'>futuro de la información</span>.</p>
+                </div>
+                <div className="contenedorLinea">
+                    <div class="line-container arrowBox">
+                        <div class="line"></div>
+                    </div>
                 </div>
             </div>
             <ButtonList categories={categories} filterCategory={filterCategory} />
 
             <ArticleList articles={articles} />
+            <br/>
         </>
     );
 }

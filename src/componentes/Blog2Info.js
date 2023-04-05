@@ -4,7 +4,6 @@ function Blog2Info() {
     const item = data.find((item) => item.id === 2);
 
     const item2 = data.find((item) => item.id === 1);
-    const item3 = data.find((item) => item.id === 3);
 
     const handleMouseMove = (event) => {
         const bg = document.querySelector('.fullscreen-bg');
@@ -22,14 +21,25 @@ function Blog2Info() {
                     <div className="blogTitulo">
                         <p>{item.title}</p>
                     </div>
-                    <p><strong>Categoría:</strong> {item.category}</p>
-                    <p><strong>Fecha de publicación:</strong> {item.date}</p>
+                    <div className="blogCategoria">
+                        <p><strong>Categoría:</strong> {item.category}</p>
+                    </div>
+                    <div className="blogFecha">
+                        <p><strong>Fecha de publicación:</strong> {item.date}</p>
+                    </div>
                 </div>
             </div>
             <div className="blogContenedor">
                 <div className="blogPrincipal">
                     <p><strong>Descripción: </strong>{item.description}</p>
                     <p>{item.textBlog}</p>
+                    <p>{item.textBlog2}</p>
+                    <p>{item.textBlog3}</p>
+                    <p>{item.textBlog4}</p>
+                    <p>{item.textBlog5}</p>
+                    <p>{item.textBlog6}</p>
+                    <p>{item.textBlog7}</p>
+                    <p>{item.textBlog8}</p>
                 </div>
                 <div className="blogDerecha">
                     <br />
@@ -38,15 +48,6 @@ function Blog2Info() {
                             <div class="card-img" style={{ backgroundImage: `url(${item2.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
                             <div class="card-title">
                                 <h2>{item2.title}</h2>
-                            </div>
-                        </div>
-                    </a>
-                    <br />
-                    <a href="./blog3">
-                        <div class="card">
-                            <div class="card-img" style={{ backgroundImage: `url(${item3.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-                            <div class="card-title">
-                                <h2>{item3.title}</h2>
                             </div>
                         </div>
                     </a>

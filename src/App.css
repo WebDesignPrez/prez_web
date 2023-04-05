@@ -134,9 +134,12 @@ body {
 
 .blogPrincipal {
   background-color: #f9f9f9;
-  width: 60%;
+  width: 55%;
   margin-left: 5%;
   margin-right: 5%;
+}
+.blogPrincipal p{
+  font-size: 1.4vw;
 }
 .blogPrincipal strong{
   color: #83de4e;
@@ -1673,6 +1676,10 @@ html {
   position: relative;
 }
 
+.contenedorLinea{
+  padding: 0 0 0 24vw;
+}
+
 .tituloInicio p::selection {
   background-color: #93e54c;
   color: #000;
@@ -1692,6 +1699,10 @@ html {
   transform: translateX(-15%);
   position: relative;
 }
+.tituloMarketing {
+  padding: 5vw 0 0 47vw !important;
+}
+
 
 
 .abajo {
@@ -1701,6 +1712,12 @@ html {
   line-height: 1.2;
   padding-bottom: 3vw;
   text-align: justify;
+}
+
+
+.abajo.blog{
+  padding-bottom: 0vw;
+  padding-top: -4vw !important;
 }
 
 .abajo2 {
@@ -2348,7 +2365,9 @@ li {
   background-color: #555;
 }
 
-
+.inicioBlog{ 
+  height: 25vh;
+}
 .logoPie img {
   max-width: 20%;
 }
@@ -2365,6 +2384,15 @@ li {
 .tituloExito {
   padding: 0.4vw 0 1vw 5vw;
 }
+
+.columna li a:hover{
+  color: #93e54c;
+}
+
+#footer2 .columna li a:hover{
+  color: #93e54c;
+}
+
 
 .sinespacio {
   margin: 0;
@@ -2561,7 +2589,9 @@ li {
   }
   .inicioBlog{
     margin: 0 auto !important;
+    padding: 0 0 0 0 !important;
     display: block !important;
+    height: 45vh  !important;
   }
   .tituloMarketing{
     width: 50%;
@@ -2571,18 +2601,44 @@ li {
     font-size: 20vw;
     margin-left: 67%
   }
+  .tituloMarketing.blog p span {
+    padding: 0 0 0 0 !important;
+    margin: 0 0 0 0 !important;
+  }
+  .tituloMarketing.blog{
+    padding: 3vw 0 0 40vw !important;
+    margin: 0 0 0 0 !important;
+  }
 
   .blogContenedor {
     display: block;
-    width: 95%;
+    width: 92% !important;
+    margin-left: 7vw;
   }
   .blogContenedor p{
     font-size: 4vw;
+    margin-left: 0vw !important;
   }
   .blogPrincipal {
     background-color: #f9f9f9;
     width: 80%;
     margin-left: 5%;
     margin-right: 5%;
+  }
+  .blogTitulo{
+    padding-top: 20vw;
+    padding-bottom: 0vw;
+  }
+  .blogTitulo p {
+    font-size: 6vw;
+  }
+  .blogCategoria{
+    padding-top: 0vw;
+  }
+  .blogCategoria p{
+    font-size: 3vw;
+  }
+  .blogFecha p{
+    font-size: 3vw;
   }
 }
