@@ -14,6 +14,11 @@ body {
   background-color: #f9f9f9 !important;
 }
 
+.formularioBi{
+  margin-top: 3vw;
+  margin-left: 4vw;
+}
+
 .modal{
   color: #fff;
 }
