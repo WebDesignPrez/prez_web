@@ -216,11 +216,9 @@ function Formulario() {
 
                 </div>
                 <div class="column-rightFor">
-                    <video
+                    <video  preload="none" autoPlay={true} playsInline={true} controls={false} loop muted  
                         src="./img/adelante.mp4"
-                        autoPlay
-                        loop
-                        muted
+                        
                     >
                         Tu navegador no soporta la etiqueta de video HTML5.
                     </video>
