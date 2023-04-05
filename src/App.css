@@ -15,8 +15,12 @@ body {
 }
 
 .formularioBi{
-  margin-top: 3vw;
-  margin-left: 4vw;
+  margin-top: 4.5vw;
+  margin-left: 3vw;
+ 
+}
+.formularioBi p{
+ font-size: 3vw;
 }
 
 .modal{
@@ -644,6 +648,9 @@ strong.fondoV {
   width: 65%;
   background-color: #f9f9f9;
   padding: 1vw;
+}
+.column-leftFor form{
+  font-size: 5vw;
 }
 
 .column-rightFor {
