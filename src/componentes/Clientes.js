@@ -10,7 +10,7 @@ function Clientes() {
                 Clientes que viajan <br></br>con nosotros
             </div>
             <div className="clientesBox noresponsive">
-                <Carousel cols={5} rows={3} gap={10} autoPlay={1000} loop>
+                <Carousel cols={5} rows={3} gap={10} autoplay={2550} interval={200} loop>
                     <Carousel.Item>
                         <img width="100%" src="./img/logos/logo1.png" alt="" />
                     </Carousel.Item>
@@ -111,7 +111,7 @@ function Clientes() {
             </div>
             
             <div className="clientesBox responsive">
-                <Carousel cols={1} rows={1} gap={0} autoPlay={true} interval={5000} loop>
+                <Carousel cols={1} rows={1} gap={0} autoplay={1650} interval={200} loop={true}>
                     <Carousel.Item>
                         <img width="100%" src="./img/logos/logo1.png" alt="" />
                     </Carousel.Item>

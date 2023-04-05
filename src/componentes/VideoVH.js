@@ -12,11 +12,8 @@ function VideoVH() {
     return (
         <>
             <div className="videoInicioVH noresponsive">
-                <video
+                <video preload="none" autoPlay={true} playsInline={true} controls={false} loop muted 
                     src="./img/tamaraPrez.mp4"
-                    autoPlay
-                    loop
-                    muted
                     onClick={handleVideoClick}
                 >
                     Tu navegador no soporta la etiqueta de video HTML5.

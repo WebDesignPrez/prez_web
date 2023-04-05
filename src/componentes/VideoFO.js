@@ -9,7 +9,7 @@ function VideoFO() {
 
   return (
     <div className='videoloop'>
-      <video preload="none" autoPlay={true} playsInline={true} controls loop muted className='videoserviciosinicio'
+      <video preload="none" autoPlay={true} playsInline={true} controls={false} loop muted className='videoserviciosinicio'
         src="./img/IconoFotosVideos.mp4"
         style={{ width: '60%', height: 'auto', marginLeft: '22vw' }}
         onClick={handleVideoClick}
