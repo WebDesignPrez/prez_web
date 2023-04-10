@@ -13,6 +13,7 @@ import SliderComponent from '../componentes/SliderComponent';
 import CookieConsent, { Cookies } from "react-cookie-consent";
 import Ejemplo from '../componentes/ejemplo';
 import LetsTalk from '../componentes/LetsTalk';
+import { Helmet } from "react-helmet";
 
 
 function Inicio() {
@@ -22,6 +23,13 @@ function Inicio() {
 
     return (
         <>
+            <Helmet>
+                <title>Prez agencia de marketing digital | Servicios de marketing en línea</title>
+                <meta name="description" content="Somos una agencia de marketing digital especializada en aumentar la visibilidad y las ventas de tu empresa en línea. ¡Contáctanos hoy mismo para obtener una estrategia personalizada!" />
+                <meta name="keywords" content="marketing digital, agencia de marketing, SEO, SEM, redes sociales, publicidad en línea"></meta>
+                <meta name="robots" content="index, follow"></meta>
+                <meta name='author' content="Prez agencia de marketing digital"></meta>
+            </Helmet>
             <CookieConsent
                 enableDeclineButton
                 flipButtons

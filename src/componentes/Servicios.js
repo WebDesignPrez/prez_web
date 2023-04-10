@@ -39,8 +39,8 @@ function Servicios() {
                     <div className="imgBox">
                         <img src="./img/marketing-digital.webp" alt="" />
                     </div>
-                    <div className="tituloBox">Marketing<br></br> Digital</div>
-                    <div className="descBox">La aventura digital de tu negocio comienza aquí. En nuestro mundo enfocado en resultados, podrás viajar en modo automático.</div>
+                    <div className="tituloBox"><h1>Marketing<br></br> Digital</h1></div>
+                    <div className="descBox"><p>La aventura digital de tu negocio comienza aquí. En nuestro mundo enfocado en resultados, podrás viajar en modo automático.</p></div>
                     <div class="imagen-padre">
                         <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                         <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2B" />
@@ -51,8 +51,8 @@ function Servicios() {
                     <div className="imgBox">
                         <img src="./img/paid-media.webp" alt="" />
                     </div>
-                    <div className="tituloBox">Paid<br></br> Media</div>
-                    <div className="descBox">Tu marca brillará aún más con estrategias de pago en todo el ecosistema digital.</div>
+                    <div className="tituloBox"><h2>Paid<br></br> Media</h2></div>
+                    <div className="descBox"><p>Tu marca brillará aún más con estrategias de pago en todo el ecosistema digital.</p></div>
                     <div class="imagen-padre">
                         <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                         <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2B" />
@@ -63,8 +63,8 @@ function Servicios() {
                     <div className="imgBox">
                         <img src="./img/branding.webp" alt="" />
                     </div>
-                    <div className="tituloBox">Branding <br></br>Estratégico</div>
-                    <div className="descBox">Encontramos lo que te hace único y se lo contamos al mundo.</div>
+                    <div className="tituloBox"><h2>Branding <br></br>Estratégico</h2></div>
+                    <div className="descBox"><p>Encontramos lo que te hace único y se lo contamos al mundo.</p></div>
                     <div class="imagen-padre">
                         <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                         <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2B" />
@@ -76,8 +76,8 @@ function Servicios() {
                     <div className="imgBox">
                         <img src="./img/desarrollo-web.webp" alt="" />
                     </div>
-                    <div className="tituloBox">Desarrollo Web <br></br>/ e-commerce</div>
-                    <div className="descBox">Desarrollamos un sitio web funcional, elegante y vendedor para tu empresa</div>
+                    <div className="tituloBox"><h2>Desarrollo Web <br></br>/ e-commerce</h2></div>
+                    <div className="descBox"><p>Desarrollamos un sitio web funcional, elegante y vendedor para tu empresa</p></div>
                     <div class="imagen-padre">
                         <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                         <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2B" />
@@ -88,8 +88,8 @@ function Servicios() {
                     <div className="imgBox">
                         <img src="./img/generacionleads.png" alt="" />
                     </div>
-                    <div className="tituloBox">Generación de <br></br>Leads</div>
-                    <div className="descBox">Estrategias de redes sociales para alcanzar y convertir nuevos clientes</div>
+                    <div className="tituloBox"><h2>Generación de <br></br>Leads</h2></div>
+                    <div className="descBox"><p>Estrategias de redes sociales para alcanzar y convertir nuevos clientes</p></div>
                     <div class="imagen-padre">
                         <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                         <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2B" />
@@ -100,8 +100,8 @@ function Servicios() {
                     <div className="imgBox">
                         <img src="./img/produccion.webp" alt="" />
                     </div>
-                    <div className="tituloBox">Producción, <br></br>fotográfica, audio y video</div>
-                    <div className="descBox">Desarrollo, producción y post producción de fotografías, videos y piezas audiovisuales.</div>
+                    <div className="tituloBox"><h2>Producción, <br></br>fotográfica, audio y video</h2></div>
+                    <div className="descBox"><p>Desarrollo, producción y post producción de fotografías, videos y piezas audiovisuales.</p></div>
                     <div class="imagen-padre">
                         <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                         <img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2B" />

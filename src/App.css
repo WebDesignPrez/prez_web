@@ -14,14 +14,15 @@ body {
   background-color: #f9f9f9 !important;
 }
 
-.formularioBi{
+.formularioBi {
   margin-top: 3vw;
   margin-left: 4vw;
 }
 
-.modal{
+.modal {
   color: #fff;
 }
+
 /*Color*/
 
 /* header */
@@ -68,7 +69,7 @@ body {
 
 
 
-.card.derecha{
+.card.derecha {
   margin-right: 8vw;
 }
 
@@ -78,19 +79,21 @@ body {
   font-weight: bold;
   font-size: 1.4vw;
 }
-.card.derechaC{
+
+.card.derechaC {
   margin-left: auto;
 }
 
-.card.centroC{
+.card.centroC {
   margin: 0 auto;
 }
-.card.izquierdaC{
+
+.card.izquierdaC {
   margin-right: auto;
 }
 
 /*Blog Noticia*/
-.contenedorTextoImagen{
+.contenedorTextoImagen {
   padding-left: 7.5vw;
   position: absolute;
   top: 30%;
@@ -100,6 +103,7 @@ body {
   color: white;
   text-align: center;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -118,8 +122,8 @@ body {
 
 .blogTitulo p {
   font-size: 2vw;
-   font-weight: bold; 
-   color: #f9f9f9;
+  font-weight: bold;
+  color: #f9f9f9;
 }
 
 .blogContenedor {
@@ -134,7 +138,8 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
-.blogPrincipal strong{
+
+.blogPrincipal strong {
   color: #83de4e;
 }
 
@@ -151,7 +156,7 @@ body {
   /* Ajustar altura al 50% del viewport */
 }
 
-.blogDerecha{
+.blogDerecha {
   width: 30%;
 }
 
@@ -408,7 +413,7 @@ strong.fondoV {
   padding: 0 0 0 9.5vw;
 }
 
-.letras{
+.letras {
   width: 26%;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -423,7 +428,7 @@ strong.fondoV {
   font-weight: 500;
 }
 
-.imagenFlechaLT{
+.imagenFlechaLT {
   width: 70%;
 }
 
@@ -435,7 +440,8 @@ strong.fondoV {
   border-bottom: solid #fff 0.2vh;
   display: inline;
 }
-.imagenFlechaLT img{
+
+.imagenFlechaLT img {
   width: 4vw;
   margin-top: 10%;
   margin-left: 2%;
@@ -1259,9 +1265,7 @@ a {
   padding: 10px 10px !important;
 }
 
-.serviciosRow.serviciosclientes{
-
-}
+.serviciosRow.serviciosclientes {}
 
 
 @media (max-width: 767px) {
@@ -1656,7 +1660,7 @@ html {
 }
 
 .tituloInicio {
-  background-image: url(../public/img/astronauta.webp);
+  background-image: url(../public/img/home/agencia-de-marketing-prez-astronauta-vamos-a-viajar-juntos.webp);
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -2463,6 +2467,32 @@ li {
   animation: arrow-animation 2.5s ease-in-out 0s infinite normal;
 }
 
+
+.tituloBox h1,
+.tituloBox h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding-right: 0;
+  line-height: 2.5rem;
+  letter-spacing: -1px;
+}
+
+.tituloCasos h3 {
+  background-color: #25272c;
+  border: none;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0 2vw 0 0;
+  padding: 2vw 0 1vw 5vw;
+}
+
+.tituloCasos.flecha h3 {
+  border-top: 0.2vh solid #fff;
+}
+
 @keyframes line-animation {
   0% {
     height: 0px;
@@ -2552,14 +2582,17 @@ li {
   .textoRotar {
     display: none;
   }
-  .inicioBlog{
+
+  .inicioBlog {
     margin: 0 auto !important;
     display: block !important;
   }
-  .tituloMarketing{
+
+  .tituloMarketing {
     width: 50%;
     padding: 0 0 0 0;
   }
+
   .tituloMarketing p span {
     font-size: 20vw;
     margin-left: 67%
@@ -2569,9 +2602,11 @@ li {
     display: block;
     width: 95%;
   }
-  .blogContenedor p{
+
+  .blogContenedor p {
     font-size: 4vw;
   }
+
   .blogPrincipal {
     background-color: #f9f9f9;
     width: 80%;
