@@ -19,7 +19,7 @@ function App() {
   return (
     <BrowserRouter basename='/'>
       <Helmet>
-        <title>Prez - Agencia de Marketing</title>
+        <title>Prez - A gencia de Marketing</title>
         <meta name="description" content="Prez" />
       </Helmet>
       <Routes>
