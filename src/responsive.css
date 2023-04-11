@@ -857,7 +857,15 @@
         display: none
     }
 
-    ;
+    .tituloCasos h3, .clientesTitulo h3, .testimonios .titulo h3{
+        font-size: 2.8rem;
+        line-height: 1.02;
+    }
+
+    .letras {
+        line-height: 2.6rem;
+    }
+
 }
 
 

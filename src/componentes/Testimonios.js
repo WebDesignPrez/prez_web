@@ -80,7 +80,7 @@ function Testimonios() {
     return (
         <>
             <div className="testimonios">
-                <div className="titulo">Testimonios</div>
+                <div className="titulo"><h3>Testimonios</h3></div>
                 <div className="controls">
                     <span className="anterior" onClick={() => { handleContadorMin() }}></span>
                     <span className="contador">{contador}/{total}</span>

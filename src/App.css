@@ -14,13 +14,25 @@ body {
   background-color: #f9f9f9 !important;
 }
 
-.formularioBi{
+.tituloInicio {
+  background-image: url(../public/img/home/agencia-de-marketing-prez-astronauta-vamos-a-viajar-juntos.webp);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 15vw 0 15vw 50vw;
+  transform: translateX(-15%);
+  position: relative;
+}
+
+.formularioBi {
   margin-top: 4.5vw;
   margin-left: 3vw;
- 
+
 }
-.formularioBi p{
- font-size: 3vw;
+
+.formularioBi p {
+  font-size: 3vw;
 }
 
 .modal {
@@ -142,10 +154,12 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
-.blogPrincipal p{
+
+.blogPrincipal p {
   font-size: 1.4vw;
 }
-.blogPrincipal strong{
+
+.blogPrincipal strong {
   color: #83de4e;
 }
 
@@ -420,7 +434,7 @@ strong.fondoV {
 }
 
 .letras {
-  width: 26%;
+  width: min-content;
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: left;
@@ -435,7 +449,10 @@ strong.fondoV {
 }
 
 .imagenFlechaLT {
-  width: 70%;
+  display: flex;
+  align-items: center;
+  left: 2%;
+  margin: 0 0 0 4%;
 }
 
 .letras p.titulo2 {
@@ -657,7 +674,8 @@ strong.fondoV {
   background-color: #f9f9f9;
   padding: 1vw;
 }
-.column-leftFor form{
+
+.column-leftFor form {
   font-size: 5vw;
 }
 
@@ -1668,18 +1686,9 @@ html {
   transform: translateX(1rem);
 }
 
-.tituloInicio {
-  background-image: url(../public/img/home/agencia-de-marketing-prez-astronauta-vamos-a-viajar-juntos.webp);
-  background-size: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  padding: 15vw 0 15vw 50vw;
-  transform: translateX(-15%);
-  position: relative;
-}
 
-.contenedorLinea{
+
+.contenedorLinea {
   padding: 0 0 0 24vw;
 }
 
@@ -1702,6 +1711,7 @@ html {
   transform: translateX(-15%);
   position: relative;
 }
+
 .tituloMarketing {
   padding: 5vw 0 0 47vw !important;
 }
@@ -1718,7 +1728,7 @@ html {
 }
 
 
-.abajo.blog{
+.abajo.blog {
   padding-bottom: 0vw;
   padding-top: -4vw !important;
 }
@@ -2368,9 +2378,10 @@ li {
   background-color: #555;
 }
 
-.inicioBlog{ 
+.inicioBlog {
   height: 25vh;
 }
+
 .logoPie img {
   max-width: 20%;
 }
@@ -2388,11 +2399,11 @@ li {
   padding: 0.4vw 0 1vw 5vw;
 }
 
-.columna li a:hover{
+.columna li a:hover {
   color: #93e54c;
 }
 
-#footer2 .columna li a:hover{
+#footer2 .columna li a:hover {
   color: #93e54c;
 }
 
@@ -2527,6 +2538,26 @@ li {
   border-top: 0.2vh solid #fff;
 }
 
+.clientesTitulo h3 {
+  margin: 0;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 5.3rem;
+  padding: 0;
+  text-align: center;
+}
+
+.testimonios .titulo h3 {
+  background-color: #25272c;
+  border: none;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0 2vw 0 0;
+  padding: 0;
+
+}
+
 @keyframes line-animation {
   0% {
     height: 0px;
@@ -2608,7 +2639,7 @@ li {
     -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
     white-space: nowrap;
-    margin-bottom: 7vw;
+    margin-bottom: 14vh;
   }
 }
 
@@ -2622,7 +2653,7 @@ li {
     margin: 0 auto !important;
     padding: 0 0 0 0 !important;
     display: block !important;
-    height: 45vh  !important;
+    height: 45vh !important;
   }
 
   .tituloMarketing {
@@ -2634,11 +2665,13 @@ li {
     font-size: 20vw;
     margin-left: 67%
   }
+
   .tituloMarketing.blog p span {
     padding: 0 0 0 0 !important;
     margin: 0 0 0 0 !important;
   }
-  .tituloMarketing.blog{
+
+  .tituloMarketing.blog {
     padding: 3vw 0 0 40vw !important;
     margin: 0 0 0 0 !important;
   }
@@ -2660,20 +2693,25 @@ li {
     margin-left: 5%;
     margin-right: 5%;
   }
-  .blogTitulo{
+
+  .blogTitulo {
     padding-top: 20vw;
     padding-bottom: 0vw;
   }
+
   .blogTitulo p {
     font-size: 6vw;
   }
-  .blogCategoria{
+
+  .blogCategoria {
     padding-top: 0vw;
   }
-  .blogCategoria p{
+
+  .blogCategoria p {
     font-size: 3vw;
   }
-  .blogFecha p{
+
+  .blogFecha p {
     font-size: 3vw;
   }
 }
