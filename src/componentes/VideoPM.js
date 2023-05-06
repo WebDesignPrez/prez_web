@@ -9,7 +9,7 @@ function VideoPM() {
 
     return (
         <div className='videoloop'>
-            <video  preload="none" autoPlay={true} playsInline={true} controls={false} loop muted className='videoserviciosinicio'
+            <video preload="none" autoPlay={true} playsInline={true} controls={false} loop muted className='videoserviciosinicio'
                 src="./img/IconoPaidMedia.mp4"
                 style={{ width: '60%', height: 'auto', marginLeft: '22vw' }}
                 onClick={handleVideoClick}
@@ -33,11 +33,11 @@ function VideoPM() {
                     <p><span>Social ADS</span></p>
                     <p>Con Social Ads, puedes conectar con tu audiencia ideal en las redes sociales y aumentar tu alcance, engagement y conversiones, todo mientras maximizas tu inversión publicitaria y obtienes resultados medibles en tiempo real.</p>
                     <div className='image-row'>
-                        <img src="./img/pms1.png" className='imgSocial'/>
-                        <img src="./img/pms2.png" className='imgSocial'/>
-                        <img src="./img/pms3.png" className='imgSocial'/>
-                        <img src="./img/pms4.png" className='imgSocial'/>
-                        <img src="./img/pms5.png" className='imgSocial'/>
+                        <img src="./img/pms1.png" className='imgSocial' />
+                        <img src="./img/pms2.png" className='imgSocial' />
+                        <img src="./img/pms3.png" className='imgSocial' />
+                        <img src="./img/pms4.png" className='imgSocial' />
+                        <img src="./img/pms5.png" className='imgSocial' />
                     </div>
                 </div>
                 <div class="item imgservices">

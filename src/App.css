@@ -2579,11 +2579,20 @@ li {
     -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
     white-space: nowrap;
-    margin-bottom: 7vw;
+    margin-bottom: 0vw;
   }
 }
 
 @media only screen and (max-width: 768px) {
+
+  .line-container.bajar {
+    padding-top: 30vw;
+  
+  }
+
+  .tituloInicio{
+    height: 70vh;
+  }
 
   .textoRotar {
     display: none;
@@ -2641,5 +2650,11 @@ li {
   }
   .blogFecha p{
     font-size: 3vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ocultar-en-escritorio {
+    display: none;
   }
 }

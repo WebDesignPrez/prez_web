@@ -15,7 +15,7 @@ function LetsTalk() {
             <div className="contenedorLets">
                 <div className="letras">
                     <p className="titulo1">Sé parte de nuestro mundo</p>
-                    <p className="titulo2" onClick={selOpt}>Comencemos el viaje</p>
+                    <p className="titulo2" onClick={selOpt}>Let's Talk</p>
                 </div>
                 <div class="imagenFlechaLT">
                     <a href="/lets-talk"><img src="./img/flechaBlancaListo.webp" alt="flechaBlancaLT2" class="flechaBlancaLT2" /></a>

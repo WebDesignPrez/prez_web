@@ -1,16 +1,28 @@
 
 import Carousel from 'better-react-carousel'
-
+import { useState } from 'react';
 
 
 function Clientes() {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handleDragEnd = (currentIndex) => {
+    setCurrentIndex(currentIndex);
+  };
+
+  const handleTransitionEnd = () => {
+    if (currentIndex === 0) {
+      setCurrentIndex(0);
+    }
+  };
+
     return (
         < div >
             <div className="clientesTitulo" id="Clientes">
                 Clientes que viajan <br></br>con nosotros
             </div>
             <div className="clientesBox noresponsive">
-                <Carousel cols={5} rows={3} gap={10} autoplay={2550} interval={200} loop>
+                <Carousel cols={5} rows={3} gap={10} autoplay={2550} loop>
                     <Carousel.Item>
                         <img width="100%" src="./img/logos/logo1.png" alt="" />
                     </Carousel.Item>
