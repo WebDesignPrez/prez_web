@@ -20,7 +20,7 @@ function VideoFO() {
         <p>Desarrollo, <span>producción y post producción</span> de fotografías, videos y <span className='fondoV'>piezas audiovisuales</span>.</p>
           <br/>
       </div>
-      <div class="boxMarketing">
+      <div class="boxMarketingFO">
         <div class="item textservices">
           <p><span>Producción de fotografía</span></p>
           <p>Crea una conexión emocional con tu audiencia a través de imágenes de alta calidad y estilo visual único.
