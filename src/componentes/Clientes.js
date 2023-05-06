@@ -1,4 +1,5 @@
 import Carousel from 'better-react-carousel'
+import { useState, useEffect, useRef } from "react";
 
 let clientes = [
     "./img/logos/veicentro-cliente-agencia-de-marketing-prez.webp",
@@ -34,6 +35,8 @@ let clientes = [
     "./img/logos/vaes-cliente-agencia-de-marketing-prez.webp",
     "./img/logos/drjuanpavargas-cliente-agencia-de-marketing-prez.webp"
 ]
+
+
 
 let logos = clientes.map(function (cliente) {
     return <Carousel.Item>
