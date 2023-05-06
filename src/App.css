@@ -14,18 +14,31 @@ body {
   background-color: #f9f9f9 !important;
 }
 
-.formularioBi{
-  margin-top: 4.5vw;
-  margin-left: 3vw;
- 
-}
-.formularioBi p{
- font-size: 3vw;
+.tituloInicio {
+  background-image: url(../public/img/home/agencia-de-marketing-prez-astronauta-vamos-a-viajar-juntos.webp);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 15vw 0 15vw 50vw;
+  transform: translateX(-15%);
+  position: relative;
 }
 
-.modal{
+.formularioBi {
+  margin-top: 4.5vw;
+  margin-left: 3vw;
+
+}
+
+.formularioBi p {
+  font-size: 3vw;
+}
+
+.modal {
   color: #fff;
 }
+
 /*Color*/
 
 /* header */
@@ -72,7 +85,7 @@ body {
 
 
 
-.card.derecha{
+.card.derecha {
   margin-right: 8vw;
 }
 
@@ -82,19 +95,21 @@ body {
   font-weight: bold;
   font-size: 1.4vw;
 }
-.card.derechaC{
+
+.card.derechaC {
   margin-left: auto;
 }
 
-.card.centroC{
+.card.centroC {
   margin: 0 auto;
 }
-.card.izquierdaC{
+
+.card.izquierdaC {
   margin-right: auto;
 }
 
 /*Blog Noticia*/
-.contenedorTextoImagen{
+.contenedorTextoImagen {
   padding-left: 7.5vw;
   position: absolute;
   top: 30%;
@@ -104,6 +119,7 @@ body {
   color: white;
   text-align: center;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -122,8 +138,8 @@ body {
 
 .blogTitulo p {
   font-size: 2vw;
-   font-weight: bold; 
-   color: #f9f9f9;
+  font-weight: bold;
+  color: #f9f9f9;
 }
 
 .blogContenedor {
@@ -138,10 +154,12 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
-.blogPrincipal p{
+
+.blogPrincipal p {
   font-size: 1.4vw;
 }
-.blogPrincipal strong{
+
+.blogPrincipal strong {
   color: #83de4e;
 }
 
@@ -158,7 +176,7 @@ body {
   /* Ajustar altura al 50% del viewport */
 }
 
-.blogDerecha{
+.blogDerecha {
   width: 30%;
 }
 
@@ -415,8 +433,8 @@ strong.fondoV {
   padding: 0 0 0 9.5vw;
 }
 
-.letras{
-  width: 26%;
+.letras {
+  width: min-content;
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: left;
@@ -430,8 +448,11 @@ strong.fondoV {
   font-weight: 500;
 }
 
-.imagenFlechaLT{
-  width: 70%;
+.imagenFlechaLT {
+  display: flex;
+  align-items: center;
+  left: 2%;
+  margin: 0 0 0 4%;
 }
 
 .letras p.titulo2 {
@@ -442,7 +463,8 @@ strong.fondoV {
   border-bottom: solid #fff 0.2vh;
   display: inline;
 }
-.imagenFlechaLT img{
+
+.imagenFlechaLT img {
   width: 4vw;
   margin-top: 13%;
   margin-left: 4%;
@@ -652,7 +674,8 @@ strong.fondoV {
   background-color: #f9f9f9;
   padding: 1vw;
 }
-.column-leftFor form{
+
+.column-leftFor form {
   font-size: 5vw;
 }
 
@@ -1269,9 +1292,7 @@ a {
   padding: 10px 10px !important;
 }
 
-.serviciosRow.serviciosclientes{
-
-}
+.serviciosRow.serviciosclientes {}
 
 
 @media (max-width: 767px) {
@@ -1665,18 +1686,9 @@ html {
   transform: translateX(1rem);
 }
 
-.tituloInicio {
-  background-image: url(../public/img/astronautaBajado.webp);
-  background-size: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  padding: 15vw 0 15vw 50vw;
-  transform: translateX(-15%);
-  position: relative;
-}
 
-.contenedorLinea{
+
+.contenedorLinea {
   padding: 0 0 0 24vw;
 }
 
@@ -1699,6 +1711,7 @@ html {
   transform: translateX(-15%);
   position: relative;
 }
+
 .tituloMarketing {
   padding: 5vw 0 0 47vw !important;
 }
@@ -1715,7 +1728,7 @@ html {
 }
 
 
-.abajo.blog{
+.abajo.blog {
   padding-bottom: 0vw;
   padding-top: -4vw !important;
 }
@@ -2365,9 +2378,10 @@ li {
   background-color: #555;
 }
 
-.inicioBlog{ 
+.inicioBlog {
   height: 25vh;
 }
+
 .logoPie img {
   max-width: 20%;
 }
@@ -2385,11 +2399,11 @@ li {
   padding: 0.4vw 0 1vw 5vw;
 }
 
-.columna li a:hover{
+.columna li a:hover {
   color: #93e54c;
 }
 
-#footer2 .columna li a:hover{
+#footer2 .columna li a:hover {
   color: #93e54c;
 }
 
@@ -2498,6 +2512,52 @@ li {
   animation: arrow-animation 2.5s ease-in-out 0s infinite normal;
 }
 
+
+.tituloBox h1,
+.tituloBox h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding-right: 0;
+  line-height: 2.5rem;
+  letter-spacing: -1px;
+}
+
+.tituloCasos h3 {
+  background-color: #25272c;
+  border: none;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0 2vw 0 0;
+  padding: 2vw 0 1vw 5vw;
+}
+
+.tituloCasos.flecha h3 {
+  border-top: 0.2vh solid #fff;
+}
+
+.clientesTitulo h3 {
+  margin: 0;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 5.3rem;
+  padding: 0;
+  text-align: center;
+}
+
+.testimonios .titulo h3 {
+  background-color: #25272c;
+  border: none;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0 2vw 0 0;
+  padding: 0;
+
+}
+
 @keyframes line-animation {
   0% {
     height: 0px;
@@ -2597,25 +2657,30 @@ li {
   .textoRotar {
     display: none;
   }
-  .inicioBlog{
+
+  .inicioBlog {
     margin: 0 auto !important;
     padding: 0 0 0 0 !important;
     display: block !important;
-    height: 45vh  !important;
+    height: 45vh !important;
   }
-  .tituloMarketing{
+
+  .tituloMarketing {
     width: 50%;
     padding: 0 0 0 0;
   }
+
   .tituloMarketing p span {
     font-size: 20vw;
     margin-left: 67%
   }
+
   .tituloMarketing.blog p span {
     padding: 0 0 0 0 !important;
     margin: 0 0 0 0 !important;
   }
-  .tituloMarketing.blog{
+
+  .tituloMarketing.blog {
     padding: 3vw 0 0 40vw !important;
     margin: 0 0 0 0 !important;
   }
@@ -2625,30 +2690,37 @@ li {
     width: 92% !important;
     margin-left: 7vw;
   }
-  .blogContenedor p{
+
+  .blogContenedor p {
     font-size: 4vw;
     margin-left: 0vw !important;
   }
+
   .blogPrincipal {
     background-color: #f9f9f9;
     width: 80%;
     margin-left: 5%;
     margin-right: 5%;
   }
-  .blogTitulo{
+
+  .blogTitulo {
     padding-top: 20vw;
     padding-bottom: 0vw;
   }
+
   .blogTitulo p {
     font-size: 6vw;
   }
-  .blogCategoria{
+
+  .blogCategoria {
     padding-top: 0vw;
   }
-  .blogCategoria p{
+
+  .blogCategoria p {
     font-size: 3vw;
   }
-  .blogFecha p{
+
+  .blogFecha p {
     font-size: 3vw;
   }
 }

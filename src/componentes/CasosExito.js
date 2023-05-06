@@ -1,14 +1,14 @@
 function CasosExito() {
     return (
         <><div className="tituloCasos tituloExito" >
-            <p>Clientes en Órbita</p>
+            <h3>Clientes en Órbita</h3>
         </div>
             <div className="casosRow" id="Casos-exito">
                 <div className="casosBox">
                     <div className="casoHeader">
-                        <img src="./img/vehicentro-logo-blanco.png" alt="Vehicentro" />
+                        <img src="./img/home/logo-vehicentro-clientes-con-exito-marketing.webp" alt="Vehicentro" />
                         <div className="casosDesc">
-                            <strong>Número 1 en ventas</strong> de cabezales en Ecuador en el año 2020 / 21 / 22
+                            <p><strong>Número 1 en ventas</strong> de cabezales en Ecuador en el año 2020 / 21 / 22</p>
                         </div>
                     </div>
                     <div class="imagen-padreCE">
@@ -17,7 +17,7 @@ function CasosExito() {
                     </div>
                 </div>
                 <div className="casosImg">
-                    <img src="./img/vehicentro-web.webp" alt="Vehicentro" />
+                    <img src="./img/home/clientes-con-exto-de-agencia-de-marketing-prez-ambato-ecuador.webp" alt="Vehicentro" />
                 </div>
             </div>
         </>

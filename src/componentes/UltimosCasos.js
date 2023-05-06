@@ -8,38 +8,38 @@ let clientes = [
   {
     id: 1,
     url: "#",
-    imagen: "./img/spe.jpg",
+    imagen: "./img/home/speedy-cliente-prez-markreting-en-ambato.webp",
     descripcion: <p><b>Speedy Internet</b>, marca con presencia en 5 provincias de Ecuador. <br />
       <strong>Conversión</strong> de clientes potenciales hasta el 32%.</p>
   },
   {
     id: 2,
     url: "#",
-    imagen: "./img/home/admisiones-cebi.webp",
+    imagen: "./img/home/cebi-cliente-prez-markreting-en-ambato.webp",
     descripcion: <p><strong>CEBI</strong>, Unidad educativa de alto rendimiento, <strong>Incremento de engagement</strong> en la comunidad Cebiniana y manejo de prospectos para Admisiones <br />2023</p>
   },
   {
     id: 3,
     url: "#",
-    imagen: "./img/home/salguero-creditos.webp",
+    imagen: "./img/home/salguero-cliente-prez-markreting-en-ambato.webp",
     descripcion: <p>Generación de clientes potenciales, <strong>48 ventas</strong> a través del canal digital en el transcurso de un año y medio.</p>
   },
   {
     id: 4,
     url: "#",
-    imagen: "./img/musica.jpg",
+    imagen: "./img/home/vaes-cliente-prez-markreting-en-ambato.webp",
     descripcion: <p>100k suscriptores, <strong>VAES</strong> agrupación internacional de música gospel. Manejo de imagen y estrategias de Growth.</p>
   },
   {
     id: 5,
     url: "#",
-    imagen: "./img/home/alis.webp",
+    imagen: "./img/home/alis-cliente-prez-markreting-en-ambato.webp",
     descripcion: <p><strong>Ali's Parrilladas y Pizzería</strong>. Creación de contenido para redes sociales.</p>
   },
   {
     id: 6,
     url: "#",
-    imagen: "./img/uniandes.jpg",
+    imagen: "./img/home/uniandes-cliente-prez-markreting-en-ambato.webp",
     descripcion: <p><strong>UNIANDES</strong>, Una de las universidades más grandes del País. Generación de clientes potenciales para Pregrados y Postgrados a nivel nacional</p>
   }
 ]
@@ -51,8 +51,8 @@ function UltimosCasos() {
   return (
     <>
       <div className="">
-        <div className="tituloCasos " id="Ultimos-casos">
-          <p>Últimos casos</p>
+        <div className="tituloCasos flecha" id="Ultimos-casos">
+          <h3>Últimos casos</h3>
         </div>
       </div>
       <div className="casosEBox noresponsive">
