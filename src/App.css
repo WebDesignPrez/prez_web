@@ -192,6 +192,13 @@ body {
   line-height: 1.5vw;
 }
 
+.slideflecha a {
+  width: 2rem;
+}
+
+
+
+
 .image-row .imgSocial {
   padding: 0vw 0vw 0vw 0vw !important;
 }
@@ -484,6 +491,53 @@ strong.fondoV {
 }
 
 .contenedorLets:hover .flechaNegraLT2 {
+  display: block;
+}
+
+.sliderFlecha:hover .flechaBlancaLT2 {
+  display: none;
+}
+
+.sliderFlecha:hover .flechaNegraLT2 {
+  display: block;
+}
+
+/**/
+.imagenFlechaUC {
+  display: flex;
+  align-items: center;
+  left: 2%;
+  margin: 0 0 0 4%;
+}
+
+
+.imagenFlechaUC img {
+  width: 4vw;
+  margin-top: 13%;
+  margin-left: 4%;
+}
+
+.imagenFlechaUC .flechaBlancaUC {
+  display: block;
+}
+
+.imagenFlechaUC .flechaNegraLUC {
+  display: none;
+}
+
+.imagenFlechaUC:hover .flechaBlancaUC {
+  display: none;
+}
+
+.imagenFlechaUC:hover .flechaNegraUC {
+  display: block;
+}
+
+.imagenFlechaUC:hover .flechaBlancaUC {
+  display: none;
+}
+
+.imagenFlechaUC:hover .flechaNegraUC {
   display: block;
 }
 
@@ -971,6 +1025,37 @@ strong.fondoV {
 
 
 .casosBox .imagen-padreCE:hover .imagen2BCE {
+  opacity: 1;
+  z-index: 1;
+
+}
+
+/**/
+.imagen-padreUC {
+  position: relative;
+  display: inline-block;
+  width: 4vh;
+}
+
+.imagen1UC,
+.imagen2UC {
+  width: 4vw;
+}
+
+.imagen2UC {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.imagen-padreUC:hover .imagen1UC {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.imagen-padreUC:hover .imagen2UC {
   opacity: 1;
   z-index: 1;
 

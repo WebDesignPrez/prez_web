@@ -66,8 +66,15 @@ function UltimosCasos() {
             <div className="slideflecha">
               <img width="100%" src={clientes[0].imagen} alt="" />
               <p>
-                {clientes[0].descripcion}
-                <a className="flecha" href={clientes[0].url}>   →</a>
+                <div className="rodeo">
+                  {clientes[0].descripcion}
+                  <a className="flecha" href={clientes[0].url}>
+                    <div class="imagen-padreUC">
+                      <a href="/vehicentro"><img src="./img/flechaBlancaListo.webp" alt="Imagen 1" class="imagen1UC" /></a>
+                      <a href="/vehicentro"><img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2UC" /></a>
+                    </div>
+                  </a>
+                </div>
               </p>
             </div>
           </Carousel.Item>
@@ -76,7 +83,12 @@ function UltimosCasos() {
               <img width="100%" src={clientes[1].imagen} alt="" />
               <p>
                 {clientes[1].descripcion}
-                <a className="flecha" href={clientes[1].url}>   →</a>
+                <a className="flecha" href={clientes[1].url}>
+                  <div class="imagen-padreUC">
+                    <a href="/vehicentro"><img src="./img/flechaBlancaListo.webp" alt="Imagen 1" class="imagen1UC" /></a>
+                    <a href="/vehicentro"><img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2UC" /></a>
+                  </div>
+                </a>
               </p>
             </div>
           </Carousel.Item>
@@ -85,7 +97,12 @@ function UltimosCasos() {
               <img width="100%" src={clientes[2].imagen} alt="" />
               <p>
                 {clientes[2].descripcion}
-                <a className="flecha" href={clientes[2].url}>   →</a>
+                <a className="flecha" href={clientes[2].url}>
+                  <div class="imagen-padreUC">
+                    <a href="/vehicentro"><img src="./img/flechaBlancaListo.webp" alt="Imagen 1" class="imagen1UC" /></a>
+                    <a href="/vehicentro"><img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2UC" /></a>
+                  </div>
+                </a>
               </p>
             </div>
           </Carousel.Item>
@@ -94,7 +111,12 @@ function UltimosCasos() {
               <img className="enlaceFlecha" width="100%" src={clientes[3].imagen} alt="" />
               <p className="enlaceFlecha">
                 {clientes[3].descripcion}
-                <a className="flecha" href={clientes[3].url}>   →</a>
+                <a className="flecha" href={clientes[3].url}>
+                  <div class="imagen-padreUC">
+                    <a href="/vehicentro"><img src="./img/flechaBlancaListo.webp" alt="Imagen 1" class="imagen1UC" /></a>
+                    <a href="/vehicentro"><img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2UC" /></a>
+                  </div>
+                </a>
               </p>
             </div>
           </Carousel.Item>
@@ -103,7 +125,12 @@ function UltimosCasos() {
               <img width="100%" src={clientes[4].imagen} alt="" />
               <p>
                 {clientes[4].descripcion}
-                <a className="flecha" href={clientes[4].url}>   →</a>
+                <a className="flecha" href={clientes[4].url}>
+                  <div class="imagen-padreUC">
+                    <a href="/vehicentro"><img src="./img/flechaBlancaListo.webp" alt="Imagen 1" class="imagen1UC" /></a>
+                    <a href="/vehicentro"><img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2UC" /></a>
+                  </div>
+                </a>
               </p>
             </div>
           </Carousel.Item>
@@ -112,7 +139,12 @@ function UltimosCasos() {
               <img width="100%" src={clientes[5].imagen} alt="" />
               <p>
                 {clientes[5].descripcion}
-                <a className="flecha" href={clientes[5].url}>   →</a>
+                <a className="flecha" href={clientes[5].url}>
+                  <div class="imagen-padreUC">
+                    <a href="/vehicentro"><img src="./img/flechaBlancaListo.webp" alt="Imagen 1" class="imagen1UC" /></a>
+                    <a href="/vehicentro"><img src="./img/flechaVerdeListo.webp" alt="Imagen 2" class="imagen2UC" /></a>
+                  </div>
+                </a>
               </p>
             </div>
           </Carousel.Item>
