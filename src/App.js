@@ -23,19 +23,19 @@ function App() {
         <meta name="description" content="Prez" />
       </Helmet>
       <Routes>
-          <Route path="/" element={<Inicio />} />
-          <Route path="/marketing-digital" element={<MarketingDigital />} />
-          <Route path="/paid-media" element={<PaidMedia />} />
-          <Route path="/lets-talk" element={<Contacto />} />
-          <Route path="/branding-estratégico" element={<BrandingE />} />
-          <Route path="/desarrollo-web" element={<DesarrolloWeb />} />
-          <Route path="/generacion-leads" element={<Leads />} />
-          <Route path="/produccion-fotografia-video" element={<FotoVideo />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/vehicentro" element={<Vehicentro />} />
-          <Route path="/nosotros" element={<AboutUs />} />
-          <Route path="/blog1" element={<Blog1 />} />
-          <Route path="/blog2" element={<Blog2 />} />
+        <Route path="/" element={<Inicio />} />
+        <Route path="/marketing-digital" element={<MarketingDigital />} />
+        <Route path="/paid-media" element={<PaidMedia />} />
+        <Route path="/lets-talk" element={<Contacto />} />
+        <Route path="/branding-estratégico" element={<BrandingE />} />
+        <Route path="/desarrollo-web" element={<DesarrolloWeb />} />
+        <Route path="/generacion-leads" element={<Leads />} />
+        <Route path="/produccion-fotografia-video" element={<FotoVideo />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/vehicentro" element={<Vehicentro />} />
+        <Route path="/nosotros" element={<AboutUs />} />
+        <Route path="/blog1" element={<Blog1 />} />
+        <Route path="/blog2" element={<Blog2 />} />
       </Routes>
     </BrowserRouter>
 
