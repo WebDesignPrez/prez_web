@@ -2649,13 +2649,31 @@ li {
 
 @media only screen and (max-width: 768px) {
 
+  .testimonios .titulo h3{
+    font-size: 5rem;
+  }
+
+  .tituloCasos.tituloExito h3{
+    font-size: 2rem;
+  }
+
+  .contenedorLets .letras .titulo2{
+    font-size: 2rem;
+    
+  }
+
+  .clientesTitulo .clientesLetras{
+    font-size: 2rem;
+  }
+
+  .tituloCasos.flecha h3{
+    padding-top: 3vh;
+    font-size: 2rem;
+  }
+
   .line-container.bajar {
     padding-top: 30vw;
 
-  }
-
-  .tituloInicio {
-    height: 70vh;
   }
 
   .textoRotar {
