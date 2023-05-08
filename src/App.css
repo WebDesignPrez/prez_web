@@ -2649,6 +2649,10 @@ li {
 
 @media only screen and (max-width: 768px) {
 
+  .tituloInicio{
+    height: ;
+  }
+
   .testimonios .titulo h3{
     font-size: 5rem;
   }
@@ -2669,6 +2673,10 @@ li {
   .tituloCasos.flecha h3{
     padding-top: 3vh;
     font-size: 2rem;
+  }
+
+  .tituloServicios .serviciosLetras p{
+    font-size: 5rem;
   }
 
   .line-container.bajar {
