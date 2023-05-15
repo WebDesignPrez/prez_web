@@ -49,9 +49,11 @@ function Clientes() {
         < div >
             <div className="clientesTitulo" id="Clientes">
                 <h3 className='clientesLetras'>Clientes que viajan <br></br>con nosotros</h3>
+      {/*           <h3 className='clientesLetras'>{window.innerWidth} x {window.innerHeight} <br></br>con nosotros</h3> */}
             </div>
             <div className="clientesBox noresponsive">
-                <Carousel cols={5} rows={3} gap={10} autoplay={8000} interval={200} loop>
+                {/* <Carousel cols={5} rows={3} gap={10} autoplay={8000} interval={200} loop> */}
+                <Carousel cols={5} rows={3} gap={10} loop>
                     {logos}
                 </Carousel>
             </div>

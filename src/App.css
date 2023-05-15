@@ -2392,10 +2392,9 @@ li {
 }
 
 
-.testimonios {
+.testimonios{
   background-color: #25272c;
   color: #fff;
-  padding: 2vw 0vw 1vw 9.5vw;
   display: flex;
   justify-content: space-between;
 }
@@ -2403,7 +2402,7 @@ li {
 .testimoniosContainer {
   background-color: #25272c;
   color: #fff;
-  padding: 2vw 5vw 3vw 9.5vw;
+  padding: 0 0 3vw 9.5vw;
   overflow: hidden;
 }
 
@@ -2412,10 +2411,11 @@ li {
   align-items: center;
   gap: 1vw;
   margin-right: 5vw;
-  margin-top: 1vw;
 }
 
-.testimonios .titulo {
+.testimonios .titulo p{
+  padding-left: 9.5vw;
+  line-height: 0.0;
   font-size: 6rem;
   font-weight: 700;
 }
@@ -2619,11 +2619,24 @@ li {
   color: #fff;
   font-size: 5rem;
   font-weight: 700;
+  line-height: 0;
   margin: 4vw 2vw 4vw 0;
   padding: 2vw 0 1vw 5vw;
 }
 
-.tituloCasos.flecha h3 {
+.tituloUltimosCasos{
+  background-color: #25272c;
+  padding: 2vw 0 1vw 9.5vw;
+}
+
+.tituloUltimosCasos h3 {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.tituloUltimosCasos {
   border-top: 0.2vh solid #fff;
 }
 
@@ -2734,9 +2747,9 @@ li {
 
 @media only screen and (max-width: 768px) {
 
-  .tituloInicio{
+  /* .tituloInicio{
     height: ;
-  }
+  } */
 
   .testimonios .titulo h3{
     font-size: 5rem;
@@ -2845,3 +2858,26 @@ li {
     display: none;
   }
 }
+
+/* Martin Mac */
+@media only screen and (max-width: 1450px) {
+.letras  {
+   width: 24vw;
+
+}
+
+}
+
+/* Tablet vertical */
+@media only screen and (max-width: 1370px) {
+  .letras  {
+     width: 25vw;
+  
+  }
+  }
+/* Tablet Horizontal */
+  @media only screen and (max-width: 1025px) {
+    .letras  {
+       width: 33vw;
+    }
+    }

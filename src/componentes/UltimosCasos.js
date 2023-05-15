@@ -51,7 +51,7 @@ function UltimosCasos() {
   return (
     <>
       <div className="">
-        <div className="tituloCasos flecha" id="Ultimos-casos">
+        <div className="tituloUltimosCasos flecha" id="Ultimos-casos">
           <h3>Últimos casos</h3>
         </div>
       </div>
