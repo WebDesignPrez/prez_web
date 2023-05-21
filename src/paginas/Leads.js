@@ -5,12 +5,14 @@ import Testimonios from "../componentes/Testimonios";
 import ConoceMasGL from "../componentes/ConoceMasGL";
 import FotoVideoLE from "../componentes/FotoVideoLE";
 import VideoLE from "../componentes/VideoLE";
+import WhatsappIcon from '../componentes/Whatsapp';
 
 function Leads() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     return (
         <>
+            <WhatsappIcon />
             <MenuLateral />
             <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
             <VideoLE />

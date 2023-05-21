@@ -6,12 +6,14 @@ import ConoceMasFV from "../componentes/ConoceMasFV";
 import SliderComponent from "../componentes/SliderComponent";
 import VideoFO from "../componentes/VideoFO";
 import FotoVideoFO from "../componentes/FotoVideoFO";
+import WhatsappIcon from '../componentes/Whatsapp';
 
 function FotoVideo() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     return (
         <>
+            <WhatsappIcon />
             <MenuLateral />
             <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
             <VideoFO />

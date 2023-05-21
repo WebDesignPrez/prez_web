@@ -5,12 +5,14 @@ import Testimonios from "../componentes/Testimonios";
 import ConoceMasBE from "../componentes/ConoceMasBE";
 import VideoBE from "../componentes/VideoBE";
 import FotoVideoBE from "../componentes/FotoVideoBE";
+import WhatsappIcon from '../componentes/Whatsapp';
 
 function BrandingE() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     return (
-        <>
+        <>  
+            <WhatsappIcon />
             <MenuLateral />
             <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
             <VideoBE/>

@@ -5,12 +5,14 @@ import ConoceMasPD from "../componentes/ConoceMasPM";
 import Testimonios from "../componentes/Testimonios";
 import VideoPM from "../componentes/VideoPM";
 import FotoVideoPM from "../componentes/FotoVideoPM";
+import WhatsappIcon from '../componentes/Whatsapp';
 
 function PaidMedia() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     return (
         <>
+            <WhatsappIcon />
             <MenuLateral />
             <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
             <VideoPM />

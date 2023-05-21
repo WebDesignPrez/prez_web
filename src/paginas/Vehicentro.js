@@ -6,6 +6,7 @@ import VideoVH from "../componentes/VideoVH";
 import FotoVideoVH from "../componentes/FotoVideoVH";
 import HerramientasVH from "../componentes/HerramientasVH";
 import Testimonios from "../componentes/Testimonios";
+import WhatsappIcon from '../componentes/Whatsapp';
 
 
 function Vehicentro() {
@@ -13,6 +14,7 @@ function Vehicentro() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     return (
         <>
+            <WhatsappIcon />
             <MenuLateral />
             <div className="LogoClienteCasoExito">
                 <img src="./img/logoVehicentro.png" alt="" />

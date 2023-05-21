@@ -6,12 +6,14 @@ import Testimonios from "../componentes/Testimonios";
 import VideoLoop from "../componentes/VideoLoop";
 import FotoVideoMD from "../componentes/FotoVideoMD";
 import Ejemplo from "../componentes/ejemplo";
+import WhatsappIcon from '../componentes/Whatsapp';
 
 function MarketingDigital() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     return (
         <>
+            <WhatsappIcon />
             <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
             <MenuLateral />
             <VideoLoop />
