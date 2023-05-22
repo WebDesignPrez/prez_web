@@ -8,7 +8,7 @@ function Whatsapp() {
      <div class="fixed-tabs-Whats">
                 <div class="aba-whatsphone">
                     <div class="aba-whatsphone-icone">
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=593959792827">Viaja<br/><strong>Con nosotros</strong></a>
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=593959792827">Let's travel <br/><strong>together</strong></a>
                     </div>
                 </div>
             </div>
