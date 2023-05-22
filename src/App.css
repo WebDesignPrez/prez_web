@@ -2681,7 +2681,7 @@ li {
   transition: 0.7s ease;
 }
 .aba-whatsphone:hover {
-  width: 280px;
+  width: 200px;
   transition: 0.9s ease;
 }
 .aba-whatsphone-icone {
@@ -2692,14 +2692,40 @@ li {
     background-size: 44px;
     background-position: 16px 7px;
 }
-.aba-whatsphone-icone a {
+.as{
+  transform: translate(5%, -20%);
+}
+
+@media only screen and (max-width: 1440px) {
+  .as{
+    transform: translate(5%, 0%);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .as{
+    transform: translate(5%, 25%);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .as{
+    transform: translate(5%, 25%);
+  }
+}
+@media only screen and (max-width: 1537px) {
+  .as{
+    transform: translate(5%, 0%);
+  }
+}
+.as a {
   color: #fff;
   font-size: 1rem;
   line-height: 5px;
   margin-left: 70px;
   text-decoration: none;
 }
-.aba-whatsphone-icone a strong {
+.as a strong {
   display: block;
   color: #93e54c;
   font-size: 21px;
