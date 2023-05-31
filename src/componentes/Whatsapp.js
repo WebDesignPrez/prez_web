@@ -9,7 +9,7 @@ function Whatsapp() {
                 <div class="aba-whatsphone">
                     <div class="aba-whatsphone-icone">
                         <div className='as'>
-                            <a target="_blank" href="https://api.whatsapp.com/send?phone=593959792827">Let's travel <br/><strong>together</strong></a>
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=593959792827">Let's travel <br/><br/><br/><br/> <strong>together</strong></a>
                         </div>
                     </div>
                 </div>

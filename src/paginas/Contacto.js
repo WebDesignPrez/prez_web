@@ -24,7 +24,6 @@ function Contacto() {
             {/* <Formulario/> */}
             <FormularioBitrix />
             <PiePaginaFormulario />
-            { /*<PiePaginaFormulario />*/}
         </>
     )
 }

@@ -51,9 +51,11 @@ function Inicio() {
       <WhatsappIcon />
       <img className="logo" src="./img/logopr.png" alt="Logo" />
       <div className="tituloInicio" id="Inicio">
-        <p>En nuestro mundo</p>
-        <p>no hay <span>imposibles,</span></p>
-        <p>let's travel <span>together.</span></p>
+        <div className='conteLetrasInicio'>
+          <p>En nuestro mundo</p>
+          <p>no hay <span>imposibles,</span></p>
+          <p>let's travel <span>together.</span></p>
+        </div>
 
         {/* FLECHA VIEJA 
                 <div className="arrowBox">

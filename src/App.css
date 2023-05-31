@@ -1169,6 +1169,7 @@ strong.fondoV {
 .slider-wrapper.noresponsive {
   padding: 0 0 0 8vw;
   position: relative;
+  height: max-content;
 }
 
 
@@ -1224,6 +1225,7 @@ body ::selection {
 .footer-container {
   display: flex;
   justify-content: space-between;
+  height: max-content;
 }
 
 .columna {
@@ -1232,6 +1234,7 @@ body ::selection {
 
 .social {
   margin-top: 2vw;
+  margin-bottom: 2vw;
   display: flex;
   justify-content: left;
 }
@@ -2395,6 +2398,7 @@ li {
 .testimonios{
   background-color: #25272c;
   color: #fff;
+  
   display: flex;
   justify-content: space-between;
 }
@@ -2693,7 +2697,7 @@ li {
     background-position: 16px 7px;
 }
 .as{
-  transform: translate(5%, -20%);
+  transform: translate(6%, 75%);
 }
 
 @media only screen and (max-width: 1440px) {
@@ -2715,7 +2719,7 @@ li {
 }
 @media only screen and (max-width: 1537px) {
   .as{
-    transform: translate(5%, 0%);
+    transform: translate(5%, 75%);
   }
 }
 .as a {
@@ -2819,9 +2823,13 @@ li {
 
 @media only screen and (max-width: 768px) {
 
-  /* .tituloInicio{
-    height: ;
-  } */
+  .tituloInicio{
+    height: 40%;
+  }
+
+  .tituloInicio .conteLetrasInicio{
+    padding-top: 15vw;
+  }
 
   .testimonios .titulo h3{
     font-size: 5rem;
@@ -2829,6 +2837,11 @@ li {
 
   .tituloCasos.tituloExito h3{
     font-size: 2rem;
+    
+  }
+  .tituloCasos.tituloExito {
+    padding-bottom: 10vw;
+    
   }
 
   .contenedorLets .letras .titulo2{
@@ -2841,16 +2854,26 @@ li {
   }
 
   .tituloCasos.flecha h3{
-    padding-top: 3vh;
+    
     font-size: 2rem;
   }
+
+  .tituloUltimosCasos.ultimo{
+    height: max-content;
+
+  }
+  .tituloUltimosCasos.ultimo h3{
+    font-size: 2rem;
+    
+  }
+ 
 
   .tituloServicios .serviciosLetras p{
     font-size: 5rem;
   }
 
   .line-container.bajar {
-    padding-top: 30vw;
+    padding-top: 8vw;
 
   }
 
@@ -2923,6 +2946,28 @@ li {
   .blogFecha p {
     font-size: 3vw;
   }
+  .tituloUltimosCasos{
+    background-color: #25272c;
+    padding: 0vw 0 0vw 0vw !important;
+  }
+  
+  .tituloUltimosCasos h3 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 0 !important;
+    line-height: 0;
+  }
+  
+  .tituloUltimosCasos {
+    border-top: 0.2vh solid #fff;
+  }
+
+  .testimonios .titulo p {
+    padding-left: 0.5vw;
+    line-height: 0.0;
+    font-size: 2.5rem !important; 
+    font-weight: 700 !important;
+}
 }
 
 @media only screen and (min-width: 768px) {

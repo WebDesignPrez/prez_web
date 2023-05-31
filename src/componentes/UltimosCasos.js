@@ -50,11 +50,11 @@ function UltimosCasos() {
 
   return (
     <>
-      <div className="">
-        <div className="tituloUltimosCasos flecha" id="Ultimos-casos">
+
+        <div className="tituloUltimosCasos ultimo">
           <h3>Últimos casos</h3>
         </div>
-      </div>
+
       <div className="casosEBox noresponsive">
         <Carousel
           cols={3}
