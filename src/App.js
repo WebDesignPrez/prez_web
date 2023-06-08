@@ -14,6 +14,7 @@ import Vehicentro from './paginas/Vehicentro';
 import AboutUs from './paginas/AboutUs';
 import Blog1 from './paginas/Blog1';
 import Blog2 from './paginas/Blog2';
+import Agradecimiento from './paginas/Agradecimiento';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/nosotros" element={<AboutUs />} />
         <Route path="/blog1" element={<Blog1 />} />
         <Route path="/blog2" element={<Blog2 />} />
+        <Route path="/agradecimiento" element={<Agradecimiento />} />
       </Routes>
     </BrowserRouter>
 

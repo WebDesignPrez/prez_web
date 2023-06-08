@@ -23,7 +23,7 @@ function MarketingDigital() {
                 <meta name='author' content="Prez agencia de marketing digital"></meta>
             </Helmet>
             <WhatsappIcon />
-            <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
+            <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador" /></a>
             <MenuLateral />
             <VideoLoop />
             <FotoVideoMD />

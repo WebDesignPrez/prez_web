@@ -26,7 +26,7 @@ function Vehicentro() {
             <WhatsappIcon />
             <MenuLateral />
             <div className="LogoClienteCasoExito">
-                <img src="./img/logoVehicentro.png" alt="" />
+                <img src="./img/logoVehicentro.png" alt="logo Vehicentro" />
 	        </div>
             <VideoVH />
             <FotoVideoVH />

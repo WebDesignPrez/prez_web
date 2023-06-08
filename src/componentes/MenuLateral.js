@@ -46,16 +46,16 @@ function MenuLateralSinHome() {
                 </div>
                 <div class="container">
                     <a href="https://www.facebook.com/agenciaprez" >
-                        <img src="img/FaceVerde.webp" alt="FB" />
+                        <img src="img/FaceVerde.webp" alt="Logo Facebook" />
                     </a>
                     <a href="https://www.instagram.com/prez_agencia/" >
-                        <img src="img/InstaVerde.webp" alt="Instagram" />
+                        <img src="img/InstaVerde.webp" alt="Logo Instagram" />
                     </a>
                     <a>
-                        <img src="img/TiktokVerde.webp" alt="Tiktok" />
+                        <img src="img/TiktokVerde.webp" alt="Logo Tiktok" />
                     </a>
                     <a>
-                        <img src="img/InVerde.webp" alt="In" />
+                        <img src="img/InVerde.webp" alt="Logo LinkedIn" />
                     </a>
                 </div>
             </div>
@@ -65,7 +65,7 @@ function MenuLateralSinHome() {
                 <a className="burger" onClick={handleToggle}> <span></span> <span></span> </a>
                 <div className="textoRotar"><a className="linkDecor" onClick={selOpt}>Let's Talk</a></div>
                 <div className="logomovil"><a href="./#">
-                    <img  src="./img/logopr.png" alt="Logo"></img>
+                    <img  src="./img/logopr.png" alt="Logo Agencia Prez"></img>
                 </a></div>
             </div>
         </>

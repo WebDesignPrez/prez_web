@@ -49,7 +49,7 @@ function Inicio() {
 
       <MenuLateralSinHome />
       <WhatsappIcon />
-      <img className="logo" src="./img/logopr.png" alt="Logo" />
+      <img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador" />
       <div className="tituloInicio" id="Inicio">
         <div className='conteLetrasInicio'>
           <p>En nuestro mundo</p>
@@ -72,6 +72,7 @@ function Inicio() {
         <div className='videoloop'>
           <video preload="none" autoPlay={true} playsInline={true} controls={false} loop muted className='videoserviciosinicio'
             src="./img/videoInicio.mp4"
+            alt="Video Equipo Prez Agencia de Marketing Ambato Ecuador"
             style={{ width: '75%', height: 'auto', marginLeft: '22vw' }}
             onClick={handleVideoClick}
           >
@@ -83,6 +84,7 @@ function Inicio() {
         <div className="videoInicio noresponsive">
           <video
             src="./img/videoInicio.mp4"
+            alt="Video Equipo Prez Agencia de Marketing Ambato Ecuador"
             autoPlay
             loop
             muted

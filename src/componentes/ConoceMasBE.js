@@ -37,7 +37,7 @@ const Slide = ({ imgSrc, altText, mainCaption, subCaption, linkTo }) => (
   <div className="box-slider">
         <a href={linkTo}>
             <div className="box">
-                <img className="imgBoxSlider" src={imgSrc} />
+                <img className="imgBoxSlider" src={imgSrc}  alt={altText}/>
                 <div className="tituloBox">
                     {mainCaption}
                 </div>
@@ -56,35 +56,35 @@ const ConoceMasBE = () => (
       <Slider {...settings}>
         <Slide
           imgSrc="./img/serv1.png"
-          altText="First slide"
+          altText="Marketing Digital Agencia Marketing Ambato - Prez"
           mainCaption="Marketing Digital"
           subCaption="La aventura digital de tu negocio comienza aquí. En nuestro mundo enfocado en resultados, podrás viajar en modo automático."
           linkTo="/marketing-digital"
         />
         <Slide
           imgSrc="./img/serv2.png"
-          altText="Second slide"
-          mainCaption="Paid Media       "
+          altText="Paid Media Prez"
+          mainCaption="Paid Media Agencia Marketing Ambato - Prez"
           subCaption="Tu marca brillará aún más con estrategias de pago en todo el ecosistema digital."
           linkTo="/paid-media"
         />
         <Slide
           imgSrc="./img/serv4.png"
-          altText="Fourth slide"
+          altText="Desarrollo Web / e-commerce Agencia Marketing Ambato - Prez"
           mainCaption="Desarrollo Web / e-commerce"
           subCaption="Desarrollamos un sitio web funcional, elegante y vendedor para tu empresa"
           linkTo="/desarrollo-web"
         />
         <Slide
           imgSrc="./img/generacionleads.png"
-          altText="Fifth slide"
+          altText="Generación de Leads Agencia Marketing Ambato - Prez"
           mainCaption="Generación de Leads"
           subCaption="Estrategias de redes sociales para alcanzar y convertir nuevos clientes"
           linkTo="/generacion-leads"
         />
         <Slide
           imgSrc="./img/serv6.png"
-          altText="Sixth slide"
+          altText="Producción fotográfica, audio y video Agencia Marketing Ambato - Prez"
           mainCaption="Producción fotográfica, audio y video"
           subCaption="Desarrollo, producción y post producción de fotografías, videos y piezas audiovisuales."
           linkTo="/produccion-fotografia-video"

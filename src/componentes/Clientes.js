@@ -40,7 +40,7 @@ let clientes = [
 
 let logos = clientes.map(function (cliente) {
     return <Carousel.Item>
-        <img width="100%" src={cliente} />
+        <img width="100%" src={cliente} alt='Clientes de Prez'/>
     </Carousel.Item>
 })
 

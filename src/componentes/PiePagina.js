@@ -62,24 +62,24 @@ function PiePagina() {
       <footer>
         <div class="footer-container">
           <div class="columna">
-            <img className="logoP" src="./img/logo-prezagencia.png" alt="Logo Prez" />
+            <img className="logoP" src="./img/logo-prezagencia.png" alt="Logo Agencia Marketing Ambato - Prez" />
             <h3>Oficina</h3>
             <p>Virgen del Sol y Camino al Oriente</p>
             <p><strong>Ambato - Ecuador</strong></p>
             <a className="cel" href="tel:0959792827"><strong>Cel: </strong>095 979 2827</a>
             <div className="social">
               <a href="https://www.facebook.com/agenciaprez" target="_blank" rel="noreferrer" >
-                <img class="cambiar-imagen-fb" src="./img/FaceNegra.webp" alt="facebook" />
+                <img class="cambiar-imagen-fb" src="./img/FaceNegra.webp" alt="Logo Facebook negro" />
               </a>
 
               <a href="https://www.instagram.com/prez_agencia/" target="_blank" rel="noreferrer">
-                <img class="cambiar-imagen-insta" src="./img/InstaNegro.webp" alt="instagram" />
+                <img class="cambiar-imagen-insta" src="./img/InstaNegro.webp" alt="Logo Instagram negro" />
               </a>
               <a>
-                <img class="cambiar-imagen-in" src="./img/InNegra.webp" alt="linkedin" />
+                <img class="cambiar-imagen-in" src="./img/InNegra.webp" alt="Logo linkedin negro" />
               </a>
               <a href="https://www.tiktok.com/@prezagenciamarketing" target="_blank" rel="noreferrer">
-                <img class="cambiar-imagen-tiktok" src="./img/TiktokNegra.webp" alt="tiktok" />
+                <img class="cambiar-imagen-tiktok" src="./img/TiktokNegra.webp" alt="Logo tiktok" />
               </a>
             </div>
           </div>
@@ -115,7 +115,7 @@ function PiePagina() {
           </div>
           <div class="columna">
             <h3>Certificados</h3>
-            <img className="certificadoI" src="./img/meta-logo.webp" alt="Certificado" />
+            <img className="certificadoI" src="./img/meta-logo.webp" alt="Certificado Meta Agencia Marketing Ambato - Prez" />
           </div>
         </div>
       </footer>

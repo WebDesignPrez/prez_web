@@ -45,16 +45,16 @@ function MenuLateralSinHome() {
                 </div>
                 <div class="container">
                     <a href="https://www.facebook.com/agenciaprez" >
-                        <img src="img/FaceVerde.webp" alt="FB" />
+                        <img src="img/FaceVerde.webp" alt="Logo Facebook" />
                     </a>
                     <a href="https://www.instagram.com/prez_agencia/" >
-                        <img src="img/InstaVerde.webp" alt="Instagram" />
+                        <img src="img/InstaVerde.webp" alt="Logo Instagram" />
                     </a>
                     <a>
-                        <img src="img/TiktokVerde.webp" alt="Tiktok" />
+                        <img src="img/TiktokVerde.webp" alt="Logo Tiktok" />
                     </a>
                     <a>
-                        <img src="img/InVerde.webp" alt="In" />
+                        <img src="img/InVerde.webp" alt="Logo " />
                     </a>
                 </div>
             </div>

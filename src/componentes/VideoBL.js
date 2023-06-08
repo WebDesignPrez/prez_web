@@ -11,6 +11,7 @@ function VideoBL() {
     <div>
       <video
         src="./img/IconoDesarrollo.mp4"
+        alt="Video Desarrollo"
         autoPlay
         loop
         muted

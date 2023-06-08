@@ -23,7 +23,7 @@ function Leads() {
             </Helmet>
             <WhatsappIcon />
             <MenuLateral />
-            <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo" /></a>
+            <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador" /></a>
             <VideoLE />
             <FotoVideoLE />
             <LetsTalk />

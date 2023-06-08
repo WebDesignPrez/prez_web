@@ -2700,6 +2700,65 @@ li {
   transform: translate(6%, 75%);
 }
 
+.contenedorAgradecimiento{
+  height: 100%;
+  margin-left: 6.3vw;
+  display: flex;
+}
+
+.letrasAgradecimiento{
+  	width: 50%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.letrasAgradecimiento p{
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.letrasAgradecimiento span{
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  background-color: #83de4e;
+
+}
+.imagenAgradecimiento{
+    width: 50%;
+    height: 100%;
+    background-color: #000;
+}
+
+.imagenAgradecimiento img{
+  padding-top: 12%;
+}
+
+/* LAPTOP */
+@media only screen and (max-width: 1537px) {
+  .imagenAgradecimiento img{
+    padding-top: 4%;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .imagenAgradecimiento img  {
+    padding-top: 3.3% !important;
+  
+  }
+}
+/* @media only screen and (max-width: 2140px) {
+  .imagenAgradecimiento img  {
+    padding-top: 23.4%;
+  
+  }
+} */
+
 @media only screen and (max-width: 1440px) {
   .as{
     transform: translate(5%, 0%);
@@ -2823,6 +2882,30 @@ li {
 
 @media only screen and (max-width: 768px) {
 
+  .contenedorAgradecimiento{
+    margin-left: 0vw;
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+  }
+
+  .imagenAgradecimiento{
+    width: 100%;
+  }
+  .letrasAgradecimiento{
+    width: 100%;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  
+  .letrasAgradecimiento span{
+    font-size: 2rem !important;
+  }
+
+  .letrasAgradecimiento p{
+    font-size: 2rem !important;
+  }
+
   .tituloInicio{
     height: 40%;
   }
@@ -2907,6 +2990,148 @@ li {
     padding: 3vw 0 0 40vw !important;
     margin: 0 0 0 0 !important;
   }
+
+/*   Nosotros Movil */
+
+  .espacioNosotros{
+    padding-top: 10vw;
+  }
+
+  .tituloMarketing.nosotros p {
+    font-size: 10vw;
+  }
+  .tituloMarketing.nosotros p span {
+    font-size: 10vw;
+    margin-left: 67%
+  }
+
+  .tituloMarketing.nosotros p span {
+    padding: 0 0 0 0 !important;
+    margin: 0 0 0 0 !important;
+  }
+
+  .tituloMarketing.nosotros {
+    padding: 3vw 0 0 20vw !important;
+    margin: 0 0 0 0 !important;
+  }
+
+  .abajo.nosotros{
+    text-align: left !important;
+  }
+
+  .contenedorCultura {
+    width: 100%;
+    display: block;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .nosotrosContenedor {
+    display: block;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+  }
+
+  .contenedorImagenCultura {
+    width: 100% !important;
+  }
+
+  .imgCultura {
+    width: 100vw !important;
+    height: auto !important;
+  }
+
+  .contenedorTextoCultura {
+    width: 100% !important;
+    margin-left: 0vw !important;
+  }
+
+  .contenedorTextoCultura p {
+    font-size: 1.1rem;
+  }
+  .nosotrosContenedor .tituloTextoAbout {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+  }
+
+  .contenedorCiudad {
+    width: 100%;
+    height: max-content;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%; 
+  }
+  
+  .contenedorTextoCiudad {
+    width: 90%;
+    margin-top: 14%;
+    margin-bottom: 10%;
+  }
+  
+  .contenedorImagenCiudad {
+    width: 100%;
+    display: block;
+    margin-top: 9%;
+    margin-bottom: 9%;
+  }
+  
+  .imgCiudad1 {
+    width: 85%;
+    height: auto;
+    border: 3px solid #83de4e;
+    margin-bottom: 5%;
+  }
+  
+  .imgCiudad2 {
+    width: 85%;
+    height: auto;
+    border: 3px solid #83de4e
+  }
+  
+  .contenedorTextoCiudad p {
+    font-size: 1.1rem;
+  }
+  
+  .contenedorImagenCiudad a {
+    width: 5%;
+  }
+
+  .contenedorEstudio {
+    width: 100%;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .contenedorImagenEstudio {
+    width: 90%;
+    
+  }
+  
+  .imgEstudio {
+    width: 100%;
+    height: auto; 
+    /* border: 3px solid #83de4e */
+  }
+  
+  .contenedorTextoEstudio {
+    width: 90%;
+    margin-right: 4%;
+    margin-left: 0% !important;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+  
+  .contenedorTextoEstudio p {
+    font-size: 1.1rem;
+  }
+
+  .nosotrosContenedor.negro {
+    padding-top: 1px;
+  }
+
+  /* FIN Nosotros Movil */
 
   .blogContenedor {
     display: block;

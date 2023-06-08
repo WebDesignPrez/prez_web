@@ -4,7 +4,7 @@ function PiePaginaFormulario() {
             <footer id="footer2">
                 <div class="footer-container">
                     <div class="columna">
-                        <img className="logoP" src="./img/prezBlanco.png" alt="Logo Prez" />
+                        <img className="logoP" src="./img/prezBlanco.png" alt="Logo Agencia Marketing Ambato - Prez" />
                         <p>Virgen del Sol y Camino al Oriente</p>
                         <p><strong>Ambato - Ecuador</strong></p>
                         <p>Mas información</p>
@@ -12,17 +12,17 @@ function PiePaginaFormulario() {
                         <a className="cel" href="tel:0959792827"><strong>Cel: </strong>095 979 2827</a>
                         <div className="social">
                             <a href="https://www.facebook.com/agenciaprez" >
-                                <img class="cambiar-imagen-fb" src="./img/FaceVerde.webp" alt="facebook" />
+                                <img class="cambiar-imagen-fb" src="./img/FaceVerde.webp" alt="Logo facebook negro" />
                             </a>
 
                             <a href="https://www.instagram.com/prez_agencia/">
-                                <img class="cambiar-imagen-insta" src="./img/InstaVerde.webp" alt="instagram" />
+                                <img class="cambiar-imagen-insta" src="./img/InstaVerde.webp" alt="Logo instagram negro" />
                             </a>
                             <a>
-                                <img class="cambiar-imagen-in" src="./img/InVerde.webp" alt="linkedin" />
+                                <img class="cambiar-imagen-in" src="./img/InVerde.webp" alt="Logo linkedin negro" />
                             </a>
                             <a>
-                                <img class="cambiar-imagen-tiktok" src="./img/TiktokVerde.webp" alt="tiktok" />
+                                <img class="cambiar-imagen-tiktok" src="./img/TiktokVerde.webp" alt="Logo tiktok negro" />
                             </a>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ function PiePaginaFormulario() {
                     </div>
                     <div class="columna">
                         <h3>Certificados</h3>
-                        <img className="certificadoI" src="./img/meta-logo.webp" alt="Certificado" />
+                        <img className="certificadoI" src="./img/meta-logo.webp" alt="Certificado Meta Agencia Marketing Ambato - Prez" />
                     </div>
                 </div>
             </footer>

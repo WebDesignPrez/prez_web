@@ -32,6 +32,7 @@ function FornularioBitrix() {
             <div class="column-rightFor">
                 <video
                     src="./img/adelante.mp4"
+                    alt="video Formulario"
                     autoPlay
                     loop
                     muted
