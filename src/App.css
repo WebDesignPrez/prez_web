@@ -3131,6 +3131,56 @@ li {
     padding-top: 1px;
   }
 
+  .nosotrosContenedor.separador.valores span{
+    font-size: 1.2rem;
+  } 
+  .nosotrosContenedor.separador.valores p{
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .contenedorImagenesValores{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .imagenValores{
+    width: 80%;
+
+  }
+
+  .imagenValores span{
+    font-size: 1.2rem;
+  }
+
+  .imagenValoresFin span{
+    font-size: 1.2rem;
+  }
+
+  .imagenValoresFin{
+    width: 80%;
+  }
+
+  .divididoDos{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .componente{
+    width: 95%;
+    margin-bottom: 1rem;
+  }
+
+  .tituloP{
+    font-size: 1.2rem;
+  }
+
+  .componente .textoComponente {
+    font-size: 1.2rem;
+  }
+
+            
+
   /* FIN Nosotros Movil */
 
   .blogContenedor {

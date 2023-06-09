@@ -74,8 +74,8 @@ function InicioAboutUs() {
                     </div>
                 </div>
             </div>
-            <div className="nosotrosContenedor separador">
-                <div className="textoAbout">
+            <div className="nosotrosContenedor separador valores">
+                <div className="textoAbout valoresp">
                     <span>Lo que realmente importa</span>
                     <p>Nuestros valores le dan una idea de quiénes somos y si seremos una buena opción para su marca. Estos son los <strong className='fondoV'>valores que nos unen como equipo</strong> y que queremos compartir contigo como Socio.</p>
                 </div>

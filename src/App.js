@@ -28,7 +28,7 @@ function App() {
         <Route path="/marketing-digital" element={<MarketingDigital />} />
         <Route path="/paid-media" element={<PaidMedia />} />
         <Route path="/lets-talk" element={<Contacto />} />
-        <Route path="/branding-estratégico" element={<BrandingE />} />
+        <Route path="/branding-estrategico" element={<BrandingE />} />
         <Route path="/desarrollo-web" element={<DesarrolloWeb />} />
         <Route path="/generacion-leads" element={<Leads />} />
         <Route path="/produccion-fotografia-video" element={<FotoVideo />} />

@@ -63,8 +63,8 @@ const ConoceMasBE = () => (
         />
         <Slide
           imgSrc="./img/serv2.png"
-          altText="Paid Media Prez"
-          mainCaption="Paid Media Agencia Marketing Ambato - Prez"
+          altText="Paid Media Agencia Marketing Ambato - Prez"
+          mainCaption="Paid Media"
           subCaption="Tu marca brillará aún más con estrategias de pago en todo el ecosistema digital."
           linkTo="/paid-media"
         />
