@@ -29,12 +29,41 @@ function Inicio() {
   return (
     <>
       <Helmet>
-        <title>Prez Agencia de marketing digital </title>
-        <meta name="title" content="Prez Agencia de marketing digital | Servicios de marketing en línea" />
-        <meta name="description" content="Somos una agencia de marketing digital especializada en aumentar la visibilidad y las ventas de tu empresa en línea. ¡Contáctanos hoy mismo para obtener una estrategia personalizada!" />
-        <meta name="keywords" content="marketing digital, agencia de marketing, SEO, SEM, redes sociales, publicidad en línea, Ambato, Ecuador, agencia de marketing digital"></meta>
+        <meta name='author' content="Prez agencia de marketing digital, Anthony Perez"></meta>
+        <title>Prez Agencia de Marketing Digital - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video</title>
+        <meta name="description" content="Prez Agencia de Marketing Digital ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
+        <meta name="keywords" content="Prez Agencia de Marketing Digital, Marketing Digital, Paid Media, Desarrollo Web, e-commerce, Producción Fotográfica, Audio, Video, SEO, servicios de marketing digital, agencia de marketing digital"></meta>
         <meta name="robots" content="index, follow"></meta>
-        <meta name='author' content="Prez agencia de marketing digital"></meta>
+        <meta property="og:locale" content="es_EC"></meta>
+        <meta property="og:type" content="website"></meta>
+        <meta property="og:title" content="Prez Agencia de Marketing Digital - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video"></meta>
+        <meta property="og:description" content="Prez Agencia de Marketing Digital ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
+        <meta property="og:url" content="https://agenciaprez.com/"></meta>
+        <meta property="og:site_name" content="Prez Agencia de Marketing Digital"></meta>
+        <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
+        <meta property="og:image" content="https://agenciaprez.com/static/media/agencia-de-marketing-prez-astronauta-vamos-a-viajar-juntos.bbd8bc42af29fd00ed7c.webp"></meta>
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:description" content="Prez Agencia de Marketing Digital ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
+        <meta name="twitter:label1" content="Tiempo de lectura"></meta>
+        <meta name="twitter:data1" content="5 minutos"></meta>
+        <meta name="googlebot" content="index, follow"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta name="format-detection" content="telephone=no"></meta>
+        <link rel="canonical" href="https://agenciaprez.com/"></meta>
+        <link rel="alternate" hreflang="es_EC" href="https://agenciaprez.com"></meta>
+        <link rel="shortcut icon" href="https://agenciaprez.com/imagesLogo/favicon.ico"></meta>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://agenciaprez.com/imagesLogo/favicon.ico"></meta>
+        <link rel="icon" type="image/png" sizes="32x32" href="https://agenciaprez.com/imagesLogo/favicon.ico"></meta>
+        <link rel="icon" type="image/png" sizes="16x16" href="https://agenciaprez.com/imagesLogo/favicon.ico"></meta>
+        <link rel="manifest" href="https://www.prezmarketing.com/site.webmanifest"></meta>
+        <meta name="msapplication-TileColor" content="#93e54c"></meta>
+        <meta name="theme-color" content="#ffffff"></meta>
+        <meta name="robots" content="index, follow"></meta>
+        <meta name="googlebot" content="index, follow"></meta>
+        <meta name="google" content="nositelinkssearchbox"></meta>
+        <meta name="google" content="notranslate"></meta>
+        <meta name="google-site-verification" content="google-site-verification-code"></meta>
+        <meta name="google" content="index,follow"></meta>
       </Helmet>
       <CookieConsent
         enableDeclineButton
