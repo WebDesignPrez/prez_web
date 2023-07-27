@@ -49,13 +49,13 @@ function Inicio() {
         <meta name="googlebot" content="index, follow"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="format-detection" content="telephone=no"></meta>
-        <link rel="canonical" href="https://agenciaprez.com/"></meta>
-        <link rel="alternate" hreflang="es_EC" href="https://agenciaprez.com"></meta>
-        <link rel="shortcut icon" href="https://agenciaprez.com/imagesLogo/favicon.ico"></meta>
-        <link rel="apple-touch-icon" sizes="180x180" href="https://agenciaprez.com/imagesLogo/favicon.ico"></meta>
-        <link rel="icon" type="image/png" sizes="32x32" href="https://agenciaprez.com/imagesLogo/favicon.ico"></meta>
-        <link rel="icon" type="image/png" sizes="16x16" href="https://agenciaprez.com/imagesLogo/favicon.ico"></meta>
-        <link rel="manifest" href="https://www.prezmarketing.com/site.webmanifest"></meta>
+        <link rel="canonical" href="https://agenciaprez.com/"></link>
+        <link rel="alternate" hreflang="es_EC" href="https://agenciaprez.com"></link>
+        <link rel="shortcut icon" href="https://agenciaprez.com/imagesLogo/favicon.ico"></link>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://agenciaprez.com/imagesLogo/favicon.ico"></link>
+        <link rel="icon" type="image/png" sizes="32x32" href="https://agenciaprez.com/imagesLogo/favicon.ico"></link>
+        <link rel="icon" type="image/png" sizes="16x16" href="https://agenciaprez.com/imagesLogo/favicon.ico"></link>
+        <link rel="manifest" href="https://www.prezmarketing.com/site.webmanifest"></link>
         <meta name="msapplication-TileColor" content="#93e54c"></meta>
         <meta name="theme-color" content="#ffffff"></meta>
         <meta name="robots" content="index, follow"></meta>
