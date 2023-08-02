@@ -15,7 +15,7 @@ function Servicios() {
                 navigate("/paid-media")
                 break;
             case "be":
-                navigate("/branding-estratégico")
+                navigate("/branding-estrategico")
                 break;
             case "dw":
                 navigate("/desarrollo-web")
