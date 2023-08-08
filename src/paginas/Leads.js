@@ -35,7 +35,7 @@ function Leads() {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <meta name="format-detection" content="telephone=no"></meta>
                 <link rel="canonical" href="https://agenciaprez.com/generacion-leads" />
-                <link rel="alternate" hreflang="es_EC" href="https://agenciaprez.com/generacion-leads/" />
+                <link rel="alternate" hreflang="es_EC" href="https://agenciaprez.com/generacion-leads" />
                 <link rel="shortcut icon" href="https://agenciaprez.com/img/generacionleads.png" />
                 <link rel="apple-touch-icon" sizes="180x180" href="https://agenciaprez.com/img/generacionleads.png" />
                 <link rel="icon" type="image/png" sizes="32x32" href="https://agenciaprez.com/img/generacionleads.png" />

@@ -35,8 +35,8 @@ function MarketingDigital() {
                 <meta name="googlebot" content="index, follow" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="format-detection" content="telephone=no" />
-                <link rel="canonical" href="https://agenciaprez.com/marketing-digital/" />
-                <link rel="alternate" hreflang="es_EC" href="https://agenciaprez.com/marketing-digital/" />
+                <link rel="canonical" href="https://agenciaprez.com/marketing-digital" />
+                <link rel="alternate" hreflang="es_EC" href="https://agenciaprez.com/marketing-digital" />
                 <link rel="shortcut icon" href="https://agenciaprez.com/imagesLogo/favicon.ico" />
                 <link rel="apple-touch-icon" sizes="180x180" href="https://agenciaprez.com/imagesLogo/favicon.ico" />
                 <link rel="icon" type="image/png" sizes="32x32" href="https://agenciaprez.com/imagesLogo/favicon.ico" />
