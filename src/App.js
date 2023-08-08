@@ -1,7 +1,7 @@
-import React from 'react';
-import { Route, Routes, BrowserRouter, Navigate } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+
 import Inicio from './paginas/Inicio';
+import { Route, Routes, BrowserRouter } from "react-router-dom"
+import { Helmet } from "react-helmet"
 import MarketingDigital from './paginas/MarketingDigital';
 import PaidMedia from './paginas/PaidMedia';
 import Contacto from './paginas/Contacto';
@@ -38,15 +38,10 @@ function App() {
         <Route path="/blog1" element={<Blog1 />} />
         <Route path="/blog2" element={<Blog2 />} />
         <Route path="/agradecimiento" element={<Agradecimiento />} />
-        {/* Agregar redirecciones usando Navigate */}
-        <Route path="/marketing-digital/" element={<Navigate to="/marketing-digital" />} />
-        <Route path="/paid-media/" element={<Navigate to="/paid-media" />} />
-        {/* Repite el patrón para otras rutas */}
-        {/* ... */}
       </Routes>
     </BrowserRouter>
+
   );
 }
 
 export default App;
-
