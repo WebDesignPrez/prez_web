@@ -15,7 +15,7 @@ function AboutUs() {
                 <title>Agencia Prez - Acerca de Nosotros</title>
                 <meta name="title" content="Agencia Prez - Acerca de Nosotros" />
                 <meta name="description" content="En Agencia Prez, somos una agencia de marketing digital dedicada a ayudar a las empresas a alcanzar su máximo potencial en línea. Nuestro equipo de expertos en marketing trabaja en estrecha colaboración con nuestros clientes para crear estrategias personalizadas que impulsen su crecimiento y éxito. Descubre quiénes somos y cómo podemos ayudarte a lograr tus objetivos de marketing." />
-                <meta name="keywords" content="agencia prez, acerca de nosotros, marketing digital, estrategias personalizadas, crecimiento empresarial"></meta>
+                <meta name="keywords" content="Marketing digital, Agencia de marketing, Ambato, Ecuador,agencia prez, acerca de nosotros, marketing digital, estrategias personalizadas, crecimiento empresarial"></meta>
                 <meta name="robots" content="index, follow"></meta>
                 <meta name='author' content="Prez agencia de marketing digital"></meta>
             </Helmet>

@@ -49,6 +49,7 @@ function DesarrolloWeb() {
                 <meta name="google" content="notranslate"></meta>
                 <meta name="google-site-verification" content="google-site-verification-code"></meta>
                 <meta name="google" content="index,follow"></meta>
+                
             </Helmet>
             <WhatsappIcon />
             <MenuLateral />

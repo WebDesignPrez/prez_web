@@ -15,6 +15,7 @@ import AboutUs from './paginas/AboutUs';
 import Blog1 from './paginas/Blog1';
 import Blog2 from './paginas/Blog2';
 import Agradecimiento from './paginas/Agradecimiento';
+import { Navigate } from "react-router-dom";
 
 function App() {
   return (
@@ -29,10 +30,10 @@ function App() {
         <Route path="/paid-media" element={<PaidMedia />} />
         <Route path="/lets-talk" element={<Contacto />} />
         <Route path="/branding-estrategico" element={<BrandingE />} />
-        <Route path="/desarrollo-web" element={<DesarrolloWeb />} />
+        <Route path="/desarrollo-web" element={<DesarrolloWeb />} /> 
+          <Route path="/blog" element={<Blog />} />
         <Route path="/generacion-leads" element={<Leads />} />
         <Route path="/produccion-fotografia-video" element={<FotoVideo />} />
-        <Route path="/blog" element={<Blog />} />
         <Route path="/vehicentro" element={<Vehicentro />} />
         <Route path="/nosotros" element={<AboutUs />} />
         <Route path="/blog1" element={<Blog1 />} />

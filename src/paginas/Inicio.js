@@ -32,7 +32,7 @@ function Inicio() {
         <meta name='author' content="Prez agencia de marketing digital, Anthony Perez"></meta>
         <title>Prez Agencia de Marketing Digital - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video</title>
         <meta name="description" content="Prez Agencia de Marketing Digital ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
-        <meta name="keywords" content="Prez Agencia de Marketing Digital, Marketing Digital, Paid Media, Desarrollo Web, e-commerce, Producción Fotográfica, Audio, Video, SEO, servicios de marketing digital, agencia de marketing digital"></meta>
+        <meta name="keywords" content="Marketing digital, Agencia de marketing, Ambato, Ecuador, Paid Media, Desarrollo Web, e-commerce, Producción Fotográfica, Audio, Video, SEO, servicios de marketing digital, agencia de marketing digital"></meta>
         <meta name="robots" content="index, follow"></meta>
         <meta property="og:locale" content="es_EC"></meta>
         <meta property="og:type" content="website"></meta>
@@ -48,7 +48,7 @@ function Inicio() {
         <meta name="twitter:data1" content="5 minutos"></meta>
         <meta name="googlebot" content="index, follow"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <meta name="format-detection" content="telephone=no"></meta>
+        <meta name="format-detection" content="telephone=+593959792827"></meta>
         <link rel="canonical" href="https://agenciaprez.com"></link>
         <link rel="alternate" hreflang="es_EC" href="https://agenciaprez.com"></link>
         <link rel="shortcut icon" href="https://agenciaprez.com/imagesLogo/favicon.ico"></link>

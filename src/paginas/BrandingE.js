@@ -17,7 +17,7 @@ function BrandingE() {
             <meta name="author" content="Prez Agencia de Marketing Digital, Anthony Perez"/>
 <title>Prez Agencia de Marketing Digital - Branding Estratégico y Video</title>
 <meta name="description" content="Ofrecemos servicios profesionales de Branding Estratégico y Video para ayudarte a crear y fortalecer tu marca. Nuestro equipo te guiará en la Creación de Marca y Rebranding, desarrollando una estrategia sólida para reflejar la personalidad de la marca y establecer el tono de voz adecuado."/>
-<meta name="keywords" content="Branding Estratégico, Video, Creación de marca, Rebranding, Estrategia, Personalidad de la marca, Tono de voz, Agencia de marketing, Ambato, Ecuador"/>
+<meta name="keywords" content="Marketing digital, Agencia de marketing, Ambato, Ecuador, Branding Estratégico, Video, Creación de marca, Rebranding, Estrategia, Personalidad de la marca, Tono de voz, Agencia de marketing, Ambato, Ecuador"/>
 <meta name="robots" content="index, follow"/>
 <meta property="og:locale" content="es_EC"/>
 <meta property="og:type" content="website"/>
