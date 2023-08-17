@@ -30,9 +30,9 @@ function Inicio() {
     <>
       <Helmet>
         <meta name='author' content="Prez agencia de marketing digital, Anthony Perez"></meta>
-        <title>Prez Agencia de Marketing Digital - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video</title>
+        <title>Prez Agencia de Marketing - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video</title>
         <meta name="description" content="Prez Agencia de Marketing Digital ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
-        <meta name="keywords" content="Marketing digital, Agencia de marketing, Ambato, Ecuador, Paid Media, Desarrollo Web, e-commerce, Producción Fotográfica, Audio, Video, SEO, servicios de marketing digital, agencia de marketing digital"></meta>
+        <meta name="keywords" content="Agencia de marketing, Prez, Agencia Prez, Marketing digital, Ambato, Ecuador, Paid Media, Desarrollo Web, e-commerce, Producción Fotográfica, Audio, Video, SEO, servicios de marketing digital, agencia de marketing digital"></meta>
         <meta name="robots" content="index, follow"></meta>
         <meta property="og:locale" content="es_EC"></meta>
         <meta property="og:type" content="website"></meta>
@@ -110,18 +110,6 @@ function Inicio() {
         </div>
       </div>
       <div className='boxVideoInicio'>
-        <div className="videoInicio noresponsive">
-          <video
-            src="./img/videoInicio.mp4"
-            alt="Video Equipo Prez Agencia de Marketing Ambato Ecuador"
-            autoPlay
-            loop
-            muted
-            style={{}}
-          >
-            Tu navegador no soporta la etiqueta de video HTML5.
-          </video>
-        </div>
       </div>
       <div class="tituloServicios" ><p>Nuestros Servicios</p></div>
       <Servicios />

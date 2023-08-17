@@ -47,6 +47,13 @@ let clientes = [
     imagen: "./img/home/uniandes-cliente-prez-markreting-en-ambato.webp",
     alt:"Banner UNIANDES Agencia Prez",
     descripcion: <p><strong>UNIANDES</strong>, Una de las universidades más grandes del País. Generación de clientes potenciales para Pregrados y Postgrados a nivel nacional</p>
+  },
+  {
+    id: 7,
+    url: "/vehicentro",
+    imagen: "./img/home/vecicentroLead.webp",
+    alt:"Banner VEHICENTRO Agencia Prez",
+    descripcion: <p><strong>VEHICENTRO</strong> número 1 en ventas en cabezales en Ecuador en el año 2020/21/22</p>
   }
 ]
 
@@ -162,6 +169,19 @@ function UltimosCasos() {
       {/*Segundo carusel*/}
       <div className="margencarusel responsive ultimoscasoscarusel">
         <Carousel2 interval={3000} className={styles}>
+        <Carousel2.Item >
+            <img
+              className="d-block w-100"
+              src={clientes[6].imagen}
+              alt="Slider Vehicentro"
+            />
+            <Carousel2.Caption>
+              {clientes[6].descripcion}
+              <div class="imagen-padre">
+                <img src="./img/flechaBlancaListo.webp" alt={clientes[0].alt} class="imagen1B" />
+              </div>
+            </Carousel2.Caption>
+          </Carousel2.Item>
           <Carousel2.Item >
             <img
               className="d-block w-100"

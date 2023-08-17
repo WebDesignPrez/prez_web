@@ -14,21 +14,21 @@ function DesarrolloWeb() {
     return (
         <>
             <Helmet>
-                <meta name='author' content="Prez agencia de marketing digital, Anthony Perez"></meta>
-                <title>Prez Agencia de Marketing Digital - Desarrollo Web</title>
-                <meta name="description" content="Ofrecemos servicios profesionales de desarrollo web para ayudar a tu empresa a crear una presencia en línea efectiva. Desarrollamos sitios web personalizados y optimizados para mejorar tu visibilidad y alcanzar tus objetivos en línea."></meta>
-                <meta name="keywords" content="Desarrollo web, Marketing digital, Agencia de marketing, Ambato, Ecuador, Diseño web, Estrategias digitales, Posicionamiento web, SEO, SEM, Redes sociales, Gestión de contenido, Email marketing, Analítica web, E-commerce, Branding, Campañas publicitarias, Creatividad digital, Marketing de contenidos, Experiencia de usuario (UX), Optimización de conversión (CRO)."></meta>
+                <meta name='author' content="Prez agencia de marketing, Anthony Perez"></meta>
+                <title>Prez Agencia de Marketing - Desarrollo Web</title>
+                <meta name="description" content="Ofrecemos servicios profesionales de desarrollo web para ayudar a tu empresa a crear una presencia en línea efectiva. Desarrollamos sitios web personalizados y optimizados para mejorar tu visibilidad y alcanzar tus objetivos en línea, desarrollamos tu pagina web en la ciudad de Ambato"></meta>
+                <meta name="keywords" content="Prez, Agencia de markering Ambato, Pagina web Ambato, Desarrollo web, Marketing, Agencia de marketing, Ambato, Ecuador, Diseño web, Estrategias digitales, Posicionamiento web, SEO, SEM, Redes sociales, Gestión de contenido, Email marketing, Analítica web, E-commerce, Branding, Campañas publicitarias, Creatividad digital, Marketing de contenidos, Experiencia de usuario (UX), Optimización de conversión (CRO)"></meta>
                 <meta name="robots" content="index, follow"></meta>
                 <meta property="og:locale" content="es_EC"></meta>
                 <meta property="og:type" content="website"></meta>
                 <meta property="og:title" content="Icono desarrollo web Agencia Prez"></meta>
-                <meta property="og:description" content="Ofrecemos servicios profesionales de desarrollo web para ayudar a tu empresa a crear una presencia en línea efectiva. Desarrollamos sitios web personalizados y optimizados para mejorar tu visibilidad y alcanzar tus objetivos en línea."></meta>
+                <meta property="og:description" content="Ofrecemos servicios profesionales de desarrollo web para ayudar a tu empresa a crear una presencia en línea efectiva. Desarrollamos sitios web personalizados y optimizados para mejorar tu visibilidad y alcanzar tus objetivos en línea, desarrollamos tu pagina web en la ciudad de Ambato"></meta>
                 <meta property="og:url" content="https://agenciaprez.com/desarrollo-web"></meta>
                 <meta property="og:site_name" content="Prez Agencia de Marketing Digital"></meta>
                 <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
                 <meta property="og:image" content="https://agenciaprez.com/img/desarrollo-web.webp"></meta>
                 <meta name="twitter:card" content="summary_large_image"></meta>
-                <meta name="twitter:description" content="Ofrecemos servicios profesionales de desarrollo web para ayudar a tu empresa a crear una presencia en línea efectiva. Desarrollamos sitios web personalizados y optimizados para mejorar tu visibilidad y alcanzar tus objetivos en línea."></meta>
+                <meta name="twitter:description" content="Ofrecemos servicios profesionales de desarrollo web para ayudar a tu empresa a crear una presencia en línea efectiva. Desarrollamos sitios web personalizados y optimizados para mejorar tu visibilidad y alcanzar tus objetivos en línea, desarrollamos tu pagina web en la ciudad de Ambato"></meta>
                 <meta name="twitter:label1" content="Tiempo de lectura"></meta>
                 <meta name="twitter:data1" content="5 minutos"></meta>
                 <meta name="googlebot" content="index, follow"></meta>
@@ -49,7 +49,6 @@ function DesarrolloWeb() {
                 <meta name="google" content="notranslate"></meta>
                 <meta name="google-site-verification" content="google-site-verification-code"></meta>
                 <meta name="google" content="index,follow"></meta>
-                
             </Helmet>
             <WhatsappIcon />
             <MenuLateral />

@@ -63,7 +63,12 @@
     }
 
     .tituloCasos {
+        display: none;
         padding: 3vw 0 0vw 1vw;
+    }
+
+    .casosRow{
+        display: none;
     }
 
     .tituloCasos p {
