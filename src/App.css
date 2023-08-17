@@ -1928,7 +1928,7 @@ html {
 }
 
 .videoInicio.noresponsive img,
-.videoInicio.noresponsive video {
+.videoInicio.noresponsive {
   padding: 0vw 0vw 0vw 7.5vw;
   width: 92.5%;
 }

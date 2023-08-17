@@ -15,6 +15,8 @@ import Ejemplo from '../componentes/ejemplo';
 import LetsTalk from '../componentes/LetsTalk';
 import React, { useRef } from 'react';
 import { Helmet } from "react-helmet";
+import YouTube from 'react-youtube';
+import { useState } from 'react';
 
 
 function Inicio() {
@@ -24,6 +26,9 @@ function Inicio() {
   const handleVideoClick = () => {
     boxMarketingRef.current.scrollIntoView({ behavior: 'smooth' });
   };
+
+  const [youtubeID] = useState('fzqRvDhStvY')
+
 
 
   return (
@@ -111,16 +116,7 @@ function Inicio() {
       </div>
       <div className='boxVideoInicio'>
         <div className="videoInicio noresponsive">
-          <video
-            src="./img/videoInicio.mp4"
-            alt="Video Equipo Prez Agencia de Marketing Ambato Ecuador"
-            autoPlay
-            loop
-            muted
-            style={{}}
-          >
-            Tu navegador no soporta la etiqueta de video HTML5.
-          </video>
+       
         </div>
       </div>
       <div class="tituloServicios" ><p>Nuestros Servicios</p></div>
