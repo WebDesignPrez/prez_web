@@ -110,6 +110,18 @@ function Inicio() {
         </div>
       </div>
       <div className='boxVideoInicio'>
+        <div className="videoInicio noresponsive">
+          <video
+            src="./img/videoInicio.mp4"
+            alt="Video Equipo Prez Agencia de Marketing Ambato Ecuador"
+            autoPlay
+            loop
+            muted
+            style={{}}
+          >
+            Tu navegador no soporta la etiqueta de video HTML5.
+          </video>
+        </div>
       </div>
       <div class="tituloServicios" ><p>Nuestros Servicios</p></div>
       <Servicios />
