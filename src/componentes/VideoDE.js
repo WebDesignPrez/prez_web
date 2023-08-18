@@ -21,7 +21,7 @@ function VideoDE() {
                 <p>Desarrollamos<span> un sitio web funcional</span>, elegante y vendedor <span className='fondoV'>para tu empreasa</span>.</p>
             </div>
             <br/>
-            <div ref={boxMarketingRef}  class="boxMarketingDE">
+            <div ref={boxMarketingRef}  class="boxMarketingDe">
                 <div class="item textservices">
                     <p><span>Diseño y desarrollo Web</span></p>
                     <p>Una marca es una identificación, que cuando se habla de aspectos comerciales, es la que representa una identidad

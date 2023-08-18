@@ -56,9 +56,7 @@ function DesarrolloWeb() {
             <VideoDE />
             <FotoVideoDE />
             <LetsTalk />
-            <div class="tituloServicios" ><p>Conoce Más</p></div>
             <ConoceMasDW />
-            <br />
             <Testimonios />
             <PiePagina />
         </>

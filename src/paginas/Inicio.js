@@ -1,36 +1,32 @@
 import '../App.css';
 import '../responsive.css';
-import CasosExito from '../componentes/CasosExito';
-import Clientes from '../componentes/Clientes';
+//import CasosExito from '../componentes/CasosExito';
+//import Clientes from '../componentes/Clientes';
 import MenuLateral from "../componentes/MenuLateral"
 import PiePagina from '../componentes/PiePagina';
-import Servicios from '../componentes/Servicios';
-import Testimonios from '../componentes/Testimonios';
-import UltimosCasos from '../componentes/UltimosCasos';
+//import Servicios from '../componentes/Servicios';
+//import Testimonios from '../componentes/Testimonios';
+//import UltimosCasos from '../componentes/UltimosCasos';
 import MenuLateralSinHome from '../componentes/MenuLateralSinHome';
 import WhatsappIcon from '../componentes/Whatsapp';
 import SliderComponent from '../componentes/SliderComponent';
 import CookieConsent, { Cookies } from "react-cookie-consent";
 import Ejemplo from '../componentes/ejemplo';
-import LetsTalk from '../componentes/LetsTalk';
+//import LetsTalk from '../componentes/LetsTalk';
 import React, { useRef } from 'react';
 import { Helmet } from "react-helmet";
-import YouTube from 'react-youtube';
-import { useState } from 'react';
+import { useState, lazy, Suspense } from 'react';
+//import VideoHome from '../componentes/VideoHome';
 
+const VideoHome = lazy(() => import('../componentes/VideoHome'));
+const Servicios = lazy(() => import('../componentes/Servicios'));
+const CasosExito = lazy(() => import('../componentes/CasosExito'));
+const UltimosCasos = lazy(() => import('../componentes/UltimosCasos'));
+const LetsTalk = lazy(() => import('../componentes/LetsTalk'));
+const Clientes  = lazy(() => import('../componentes/Clientes'));
+const Testimonios = lazy(() => import('../componentes/Testimonios'));
 
 function Inicio() {
-
-  const boxMarketingRef = useRef(null);
-
-  const handleVideoClick = () => {
-    boxMarketingRef.current.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  const [youtubeID] = useState('fzqRvDhStvY')
-
-
-
   return (
     <>
       <Helmet>
@@ -80,54 +76,39 @@ function Inicio() {
       >
         <span class="cookie-text">Acepte el uso de cookies para mejorar su experiencia en este sitio web.</span>
       </CookieConsent>
+    
+      
+        <MenuLateralSinHome />
+        <WhatsappIcon />
+        <img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador" />
+        <div className="tituloInicio" id="Inicio">
+          <div className='conteLetrasInicio'>
+            <p>En nuestro mundo</p>
+            <p>no hay <span>imposibles,</span></p>
+            <p>let's travel <span>together.</span></p>
+          </div>
 
-      <MenuLateralSinHome />
-      <WhatsappIcon />
-      <img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador" />
-      <div className="tituloInicio" id="Inicio">
-        <div className='conteLetrasInicio'>
-          <p>En nuestro mundo</p>
-          <p>no hay <span>imposibles,</span></p>
-          <p>let's travel <span>together.</span></p>
-        </div>
+          {/* FLECHA VIEJA 
+                  <div className="arrowBox">
+                      <img src="./img/flecha-negra-abajo.webp" alt="" />
+                  </div>*/}
 
-        {/* FLECHA VIEJA 
-                <div className="arrowBox">
-                    <img src="./img/flecha-negra-abajo.webp" alt="" />
-                </div>*/}
+          {/* NUEVA FLECHA 3 */}
 
-        {/* NUEVA FLECHA 3 */}
-
-        <div class="line-container arrowBox bajar">
-          <div class="line"></div>
+          <div class="line-container arrowBox bajar">
+            <div class="line"></div>
+          </div>
         </div>
-      </div>
-      <div className='boxVideoInicio ocultar-en-escritorio'>
-        <div className='videoloop'>
-          <video preload="none" autoPlay={true} playsInline={true} controls={false} loop muted className='videoserviciosinicio'
-            src="./img/videoInicio.mp4"
-            alt="Video Equipo Prez Agencia de Marketing Ambato Ecuador"
-            style={{ width: '75%', height: 'auto', marginLeft: '22vw' }}
-            onClick={handleVideoClick}
-          >
-            Tu navegador no soporta la etiqueta de video HTML5.
-          </video>
-        </div>
-      </div>
-      <div className='boxVideoInicio'>
-        <div className="videoInicio noresponsive">
-       
-        </div>
-      </div>
-      <div class="tituloServicios" ><p>Nuestros Servicios</p></div>
-      <Servicios />
-      <br />
-      <CasosExito />
-      <UltimosCasos />
-      <LetsTalk />
-      <Clientes />
-      <Testimonios />
-      <PiePagina />
+      <Suspense fallback={<div><p>Cargando...</p></div>}>
+        <VideoHome />
+        <Servicios />
+        <CasosExito />
+        <UltimosCasos />
+        <LetsTalk />
+        <Clientes />
+        <Testimonios />
+        <PiePagina />
+      </Suspense>
 
     </>
   )

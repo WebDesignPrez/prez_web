@@ -176,9 +176,11 @@ function UltimosCasos() {
               alt="Slider Vehicentro"
             />
             <Carousel2.Caption>
+            <div className="contenedorMovilDes">
               {clientes[6].descripcion}
+              </div>
               <div class="imagen-padre">
-                <img src="./img/flechaBlancaListo.webp" alt={clientes[0].alt} class="imagen1B" />
+                <img src="./img/flechaBlancaListo.webp" alt={clientes[6].alt} class="imagen1B" />
               </div>
             </Carousel2.Caption>
           </Carousel2.Item>
@@ -189,7 +191,9 @@ function UltimosCasos() {
               alt="First slide"
             />
             <Carousel2.Caption>
+            <div className="contenedorMovilDes">
               {clientes[0].descripcion}
+              </div>
               <div class="imagen-padre">
                 <img src="./img/flechaBlancaListo.webp" alt={clientes[0].alt} class="imagen1B" />
               </div>
@@ -203,7 +207,9 @@ function UltimosCasos() {
               alt="Second slide"
             />
             <Carousel2.Caption>
+            <div className="contenedorMovilDes">
               {clientes[1].descripcion}
+              </div>
               <div class="imagen-padre">
                 <img src="./img/flechaBlancaListo.webp" alt={clientes[1].alt} class="imagen1B" />
               </div>
@@ -217,7 +223,9 @@ function UltimosCasos() {
               alt="Third slide"
             />
             <Carousel2.Caption>
+              <div className="contenedorMovilDes">
               {clientes[2].descripcion}
+              </div>
               <div class="imagen-padre">
                 <img src="./img/flechaBlancaListo.webp" alt={clientes[2].alt} class="imagen1B" />
               </div>
@@ -231,7 +239,9 @@ function UltimosCasos() {
               alt="Fourth slide"
             />
             <Carousel2.Caption>
+            <div className="contenedorMovilDes">
               {clientes[3].descripcion}
+              </div>
               <div class="imagen-padre">
                 <img src="./img/flechaBlancaListo.webp" alt={clientes[3].alt} class="imagen1B" />
               </div>
@@ -245,10 +255,13 @@ function UltimosCasos() {
               alt="Fifth slide"
             />
             <Carousel2.Caption>
+            <div className="contenedorMovilDes">
               {clientes[4].descripcion}
+              </div>
               <div class="imagen-padre">
                 <img src="./img/flechaBlancaListo.webp" alt={clientes[4].alt} class="imagen1B" />
               </div>
+              
             </Carousel2.Caption>
           </Carousel2.Item>
 
@@ -259,10 +272,13 @@ function UltimosCasos() {
               alt="Susxth slide"
             />
             <Carousel2.Caption>
+            <div className="contenedorMovilDes">
               {clientes[5].descripcion}
+              </div>
               <div class="imagen-padre">
                 <img src="./img/flechaBlancaListo.webp" alt={clientes[5].alt} class="imagen1B" />
               </div>
+              
             </Carousel2.Caption>
           </Carousel2.Item>
         </Carousel2>

@@ -460,7 +460,7 @@ strong.fondoV {
   display: flex;
   align-items: center;
   left: 2%;
-  margin: 0 0 0 4%;
+  margin: 0 0 0 0;
 }
 
 .letras p.titulo2 {
@@ -475,7 +475,6 @@ strong.fondoV {
 .imagenFlechaLT img {
   width: 4vw;
   margin-top: 13%;
-  margin-left: 4%;
 }
 
 .imagenFlechaLT .flechaBlancaLT2 {
@@ -929,7 +928,7 @@ strong.fondoV {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   /* crea 3 columnas con ancho flexible */
-  grid-template-rows: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   /* crea 3 filas con altura flexible */
   background-color: #24262b
     /* establece el color de fondo */
@@ -1474,8 +1473,9 @@ a {
   /* crea 4 columnas con ancho flexible */
   grid-template-rows: repeat(3, 1fr);
   /* crea 3 filas con altura flexible */
-  background-color: #24262b
-    /* establece el color de fondo */
+  background-color: #24262b;
+  height:auto;
+
 }
 
 @media screen and (max-width: 767px) {
@@ -1928,7 +1928,7 @@ html {
 }
 
 .videoInicio.noresponsive img,
-.videoInicio.noresponsive {
+.videoInicio.noresponsive video{
   padding: 0vw 0vw 0vw 7.5vw;
   width: 92.5%;
 }

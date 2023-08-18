@@ -408,6 +408,7 @@
         font-size: 1rem;
         text-align: left;
     }
+   
 
     .certificadoI {
         width: 49%;
@@ -482,6 +483,7 @@
 
     .boxMarketing {
         grid-template-rows: repeat(3, 1fr);
+        height: max-content;
     }
 
     .pmedia.boxMarketing {
@@ -499,6 +501,28 @@
     .boxMarketing.onecol {
         grid-template-rows: repeat(1, 1fr) !important;
     }
+
+    .boxMarketingDE {
+        padding: 2vw 0 2vw 12vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* crea 3 columnas con ancho flexible */
+        grid-template-rows: repeat(1, 1fr);
+        /* crea 3 filas con altura flexible */
+        background-color: #24262b
+          /* establece el color de fondo */
+      }
+
+      .boxMarketingFO {
+        padding: 2vw 0 2vw 4vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* crea 3 columnas con ancho flexible */
+        grid-template-rows: repeat(1, 1fr);
+        /* crea 3 filas con altura flexible */
+        background-color: #24262b
+          /* establece el color de fondo */
+      }
 
     .tituloServiciosVH p {
         font-size: 2rem;
@@ -868,6 +892,15 @@
     .letras {
         line-height: 2.6rem;
     }
+
+    .fondo{
+        background-color: #21262b;
+        
+      }
+      
+      .tituloServicios p{
+        color: #fff
+      }
 
 }
 

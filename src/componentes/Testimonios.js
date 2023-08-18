@@ -6,25 +6,25 @@ function Testimonios() {
         nombre: "Andres Morales",
         alt:"Cliente Prez Andres Morales",
         cargo: "Gerente Inmobiliaria M&M",
-        img: "./img/AndresMorales.png"
+        img: "./img/cliente2.webp"
     }, {
         comentario: "Haber seleccionado a Prez Agencia de Marketing para que nos brinde apoyo en nuestra gestión comercial en el área de Educación continua, es porque al ser un grupo de jóvenes con ideas creativas, han hecho que los objetivos los vayamos cumpliendo, Ctt de los Andes se siente complacido de contar con Prez Agencia de Marketing por tener un enfoque estratégico y sólido que nos permiten medir el éxito de nuestra institución con resultados.",
         nombre: "Ing. Roberto Cuesta",
         alt:"Cliente Prez Ing. Roberto Cuesta",
         cargo: "Director General CTT de los Andes",
-        img: "./img/cctCliente.png"
+        img: "./img/cliente1.webp"
     }, {
         comentario: "Prez para el Cebi y Pollo Listo, ha sido la única empresa de marketing, que expresa de la mejor manera todos nuestros servicios de una forma muy creativa y diferente a nuestra competencia. Nos gusta su responsabilidad creatividad y sobretodo su compromiso.",
         nombre: "Gino Moya",
         alt:"Cliente Prez Gino Moya",
         cargo: "Gerente administrativo CEBI",
-        img: "./img/gino.png"
+        img: "./img/cliente3.webp"
     }, {
         comentario: "Desde el primer momento PREZ agencia de marketing nos hizo sentir como en casa en un ambiente cordial amigable y sobretodo muy técnico. Su gerente Martín Flores, nos explicaba de una forma muy didáctica todos los pasos a seguir en la planificación para el logro de los objetivos y resultados deseados, yo quiero agradecer de manera especial a esta agencia por que no sólo fue el servicio de marketing sino una exhaustiva planeación estratégica con una visión 360.",
         nombre: "Dr. JuanPa Vargas",
         alt:"Cliente Prez Dr. JuanPa Varga",
         cargo: "Mentor Psicológico",
-        img: "./img/juampa.png"
+        img: "./img/cliente5.webp"
     }, 
 ];
 

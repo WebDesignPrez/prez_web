@@ -57,9 +57,7 @@ function MarketingDigital() {
             <VideoLoop />
             <FotoVideoMD />
             <LetsTalk />
-            <div class="tituloServicios" ><p>Conoce Más</p></div>
             <ConoceMasMD />
-            <br />
             <Testimonios />
             <PiePagina />
         </>

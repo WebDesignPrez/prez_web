@@ -57,9 +57,7 @@ function PaidMedia() {
             <VideoPM />
             <FotoVideoPM/> 
             <LetsTalk />
-            <div class="tituloServicios" ><p>Conoce Más</p></div>
             <ConoceMasPD />
-            <br />
             <Testimonios />
             <PiePagina />
         </>

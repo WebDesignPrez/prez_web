@@ -57,9 +57,7 @@ function FotoVideo() {
             <VideoFO />
             <FotoVideoFO />
             <LetsTalk />
-            <div class="tituloServicios" ><p>Conoce Más</p></div>
             <ConoceMasFV />
-            <br />
             <Testimonios />
             <PiePagina />
         </>

@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom"
+import { NavLink, useNavigate } from "react-router-dom"
 import Carousel from 'react-bootstrap/Carousel';
 import styles from '../carusel.css';
 
@@ -32,8 +32,8 @@ function Servicios() {
     }
 
     return (
-        <>
-
+        <div className="fondo">
+            <div class="tituloServicios" ><p>Nuestros Servicios</p></div>
             <div id="Servicios" className="serviciosRow noresponsive">
                 <div className="box" onClick={() => { selOpt('md') }}>
                     <div className="imgBox">
@@ -112,7 +112,7 @@ function Servicios() {
 
             {/*Segundo carusel*/}
             <div className="margencarusel responsive ">
-                <Carousel interval={3000} className={styles}>
+                {/* <Carousel interval={3000} className={styles}>
                     <Carousel.Item onClick={() => { selOpt('md') }}>
                         <img 
                             className="d-block w-100"
@@ -120,8 +120,11 @@ function Servicios() {
                             alt="First slide"
                         />
                         <Carousel.Caption>
+                            <div className="contenedorMovilDes2">
+
                             <h3>Marketing Digital</h3>
                             <p>La aventura digital de tu negocio comienza aquí. En nuestro mundo enfocado en resultados, podrás viajar en modo automático.</p>
+                            </div>
                             <div class="imagen-padre">
                                 <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                             </div>
@@ -135,8 +138,12 @@ function Servicios() {
                             alt="Second slide"
                         />
                         <Carousel.Caption>
+                        <div className="contenedorMovilDes2">
                             <h3>Paid Media</h3>
+                            <div className="espacioTexto">
                             <p>Tu marca brillará aún más con estrategias de pago en todo el ecosistema digital.</p>
+                            </div>
+                            </div>
                             <div class="imagen-padre">
                                 <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                             </div>
@@ -150,8 +157,12 @@ function Servicios() {
                             alt="Third slide"
                         />
                         <Carousel.Caption>
+                        <div className="contenedorMovilDes2">
                             <h3>Branding Estratégico</h3>
+                            <div className="espacioTexto">
                             <p>Encontramos lo que te hace único y se lo contamos al mundo.</p>
+                            </div>
+                            </div>
                             <div class="imagen-padre">
                                 <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                             </div>
@@ -165,8 +176,10 @@ function Servicios() {
                             alt="Fourth slide"
                         />
                         <Carousel.Caption>
+                        <div className="contenedorMovilDes2">
                             <h3>Desarrollo Web / e-commerce</h3>
                             <p>Desarrollamos un sitio web funcional, elegante y vendedor para tu empresa.</p>
+                            </div>
                             <div class="imagen-padre">
                                 <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                             </div>
@@ -180,8 +193,10 @@ function Servicios() {
                             alt="Fifth slide"
                         />
                         <Carousel.Caption>
+                        <div className="contenedorMovilDes2">
                             <h3>Generación de Leads</h3>
                             <p>Estrategias de redes sociales para alcanzar y convertir nuevos clientes.</p>
+                            </div>
                             <div class="imagen-padre">
                                 <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                             </div>
@@ -195,17 +210,56 @@ function Servicios() {
                             alt="Susxth slide"
                         />
                         <Carousel.Caption>
+                        <div className="contenedorMovilDes2">
                             <h3>Producción, fotográfica, audio y video</h3>
                             <p>Desarrollo, producción y post producción de fotografías, videos y piezas audiovisuales.</p>
+                            </div>
                             <div class="imagen-padre">
                                 <img src="./img/flechaNegraL.webp" alt="Imagen 1" class="imagen1B" />
                             </div>
                         </Carousel.Caption>
                     </Carousel.Item>
-                </Carousel>
+                </Carousel> */}
+                <div className="contenedorServiciosAfuera">
+                    <div className="contenedorServicios">
+                        <div className="contenedorServiciosIzquierda">
+                        <NavLink to="/marketing-digital"><img className="" src="./img/MarketingSERVICIOS.webp" /></NavLink>
+                        </div>
+                        <div className="contenedorServiciosDerecha">
+                        <NavLink to="/paid-media">
+                            <img className="" src="./img/PaidSERVICIOS.webp" />
+                        </NavLink>
+                        </div>
+                    </div>
+                    <div className="contenedorServicios">
+                        <div className="contenedorServiciosIzquierda">
+                        <NavLink to="/branding-estrategico">
+                            <img className="" src="./img/BrandingSERVICIOS.webp" />
+                        </NavLink>
+                        </div>
+                        <div className="contenedorServiciosDerecha">
+                        <NavLink to="/desarrollo-web">
+                            <img className="" src="./img/ServicioWeb.webp" />
+                        </NavLink>
+                        </div>
+                    </div>
+                    <div className="contenedorServicios">
+                        <div className="contenedorServiciosIzquierda">
+                        <NavLink to="/generacion-leads">
+                            <img className="" src="./img/Leads2SERVICIOS.webp" />
+                        </NavLink>
+                        </div>
+                        <div className="contenedorServiciosDerecha">
+                        <NavLink to="/produccion-fotografia-video">
+                            <img className="" src="./img/FotoSERVICIOS.webp" />
+                        </NavLink>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            
-        </>
+
+        </div>
     )
 }
 export default Servicios

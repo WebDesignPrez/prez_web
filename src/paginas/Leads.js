@@ -3,10 +3,15 @@ import MenuLateral from "../componentes/MenuLateral";
 import PiePagina from "../componentes/PiePagina";
 import Testimonios from "../componentes/Testimonios";
 import ConoceMasGL from "../componentes/ConoceMasGL";
-import FotoVideoLE from "../componentes/FotoVideoLE";
-import VideoLE from "../componentes/VideoLE";
+//import FotoVideoLE from "../componentes/FotoVideoLE";
+//import VideoLE from "../componentes/VideoLE";
 import WhatsappIcon from '../componentes/Whatsapp';
 import { Helmet } from "react-helmet";
+import { lazy, Suspense } from "react";
+
+
+const VideoLE = lazy(() => import('../componentes/VideoLE'));
+const FotoVideoLE = lazy(() => import('../componentes/FotoVideoLE'));
 
 function Leads() {
     document.body.scrollTop = 0; // For Safari
@@ -53,6 +58,7 @@ function Leads() {
             <WhatsappIcon />
             <MenuLateral />
             <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador" /></a>
+            <Suspense fallback={<div><p>Cargando...</p></div>}>
             <VideoLE />
             <FotoVideoLE />
             <LetsTalk />
@@ -61,6 +67,7 @@ function Leads() {
             <br />
             <Testimonios />
             <PiePagina />
+            </Suspense>
         </>
     )
 }
