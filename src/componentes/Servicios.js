@@ -227,7 +227,7 @@ function Servicios() {
                         </div>
                         <div className="contenedorServiciosDerecha">
                         <NavLink to="/paid-media">
-                            <img className="" src="./img/PaidSERVICIOS.webp" />
+                            <img className="" src="./img/paidSERVICIOS.webp" />
                         </NavLink>
                         </div>
                     </div>
@@ -239,14 +239,14 @@ function Servicios() {
                         </div>
                         <div className="contenedorServiciosDerecha">
                         <NavLink to="/desarrollo-web">
-                            <img className="" src="./img/ServicioWeb.webp" />
+                            <img className="" src="./img/DesarrolloSERVICIOS.webp" />
                         </NavLink>
                         </div>
                     </div>
                     <div className="contenedorServicios">
                         <div className="contenedorServiciosIzquierda">
                         <NavLink to="/generacion-leads">
-                            <img className="" src="./img/Leads2SERVICIOS.webp" />
+                            <img className="" src="./img/LeadsSERVICIOS.webp" />
                         </NavLink>
                         </div>
                         <div className="contenedorServiciosDerecha">
