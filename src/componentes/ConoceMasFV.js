@@ -53,6 +53,7 @@ const Slide = ({ imgSrc, altText, mainCaption, subCaption, linkTo }) => (
 const ConoceMasFV = () => (
   <>
     <div className="slider-wrapper noresponsive">
+    <br></br>
       <Slider {...settings}>
         <Slide
           imgSrc="./img/serv1.png"
@@ -73,7 +74,7 @@ const ConoceMasFV = () => (
           altText="Branding Estratégico Agencia Marketing Ambato - Prez"
           mainCaption="Branding Estratégico"
           subCaption="Encontramos lo que te hace único y se lo contamos al mundo."
-          linkTo="/branding-estratégico"
+          linkTo="/branding-estrategico"
         />
         <Slide
           imgSrc="./img/serv4.png"
@@ -90,6 +91,7 @@ const ConoceMasFV = () => (
           linkTo="/generacion-leads"
         />
       </Slider>
+      <br></br>
     </div>
 
 <div className="responsive">

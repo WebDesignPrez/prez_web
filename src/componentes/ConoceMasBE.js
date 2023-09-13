@@ -53,6 +53,7 @@ const Slide = ({ imgSrc, altText, mainCaption, subCaption, linkTo }) => (
 const ConoceMasBE = () => (
   <>
     <div className="slider-wrapper noresponsive">
+      <br></br>
       <Slider {...settings}>
         <Slide
           imgSrc="./img/serv1.png"
@@ -90,6 +91,7 @@ const ConoceMasBE = () => (
           linkTo="/produccion-fotografia-video"
         />
       </Slider>
+      <br></br>
     </div>
 
     <div className="responsive">

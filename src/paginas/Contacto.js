@@ -21,8 +21,8 @@ function Contacto() {
             <WhatsappIcon />
             {/*<MenuLateral />*/}
             <MenuLateral />
-            {/* <Formulario/> */}
-            <FormularioBitrix />
+            <Formulario/>
+            {/* <FormularioBitrix /> */}
             <PiePaginaFormulario />
         </>
     )

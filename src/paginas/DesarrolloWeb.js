@@ -7,6 +7,7 @@ import VideoDE from "../componentes/VideoDE";
 import FotoVideoDE from "../componentes/FotoVideoDE";
 import WhatsappIcon from '../componentes/Whatsapp';
 import { Helmet } from "react-helmet";
+import ConoceMasMD from "../componentes/ConoceMasBE";
 
 function DesarrolloWeb() {
     document.body.scrollTop = 0; // For Safari
@@ -56,7 +57,9 @@ function DesarrolloWeb() {
             <VideoDE />
             <FotoVideoDE />
             <LetsTalk />
-            <ConoceMasDW />
+
+            <ConoceMasMD />
+
             <Testimonios />
             <PiePagina />
         </>

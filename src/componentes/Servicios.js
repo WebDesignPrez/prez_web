@@ -227,7 +227,7 @@ function Servicios() {
                         </div>
                         <div className="contenedorServiciosDerecha">
                         <NavLink to="/paid-media">
-                            <img className="" src="./img/PaidSERVICIOS.webp4" />
+                            <img className="" src="./img/PaidSERVICIOS.webp" />
                         </NavLink>
                         </div>
                     </div>
