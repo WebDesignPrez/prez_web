@@ -7,7 +7,7 @@ import 'react-notifications/lib/notifications.css';
 
 function Formulario() {
     let redireccion = "lets-talk"
-    let url = "https://formsubmit.co/martin@agenciaprez.com"
+    let url = "https://formsubmit.co/bf355d6178d6edc2bc2cc39a4217ed2b"
     let [nombre_y_apellido, setName] = useState('');
     let [ciudad, setCity] = useState('');
     let [email, setEmail] = useState('');
