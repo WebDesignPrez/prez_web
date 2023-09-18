@@ -1474,7 +1474,7 @@ a {
   grid-template-rows: repeat(3, 1fr);
   /* crea 3 filas con altura flexible */
   background-color: #24262b;
-  height:auto;
+  height: auto;
 
 }
 
@@ -1928,7 +1928,7 @@ html {
 }
 
 .videoInicio.noresponsive img,
-.videoInicio.noresponsive video{
+.videoInicio.noresponsive video {
   padding: 0vw 0vw 0vw 7.5vw;
   width: 92.5%;
 }
@@ -2068,6 +2068,17 @@ li {
 .imgBox img {
   width: 100%;
 }
+
+
+.service-content {
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+
 
 .imgBox img {
   width: 100%;
@@ -2395,10 +2406,10 @@ li {
 }
 
 
-.testimonios{
+.testimonios {
   background-color: #25272c;
   color: #fff;
-  
+
   display: flex;
   justify-content: space-between;
 }
@@ -2417,7 +2428,7 @@ li {
   margin-right: 5vw;
 }
 
-.testimonios .titulo p{
+.testimonios .titulo p {
   padding-left: 9.5vw;
   line-height: 0.0;
   font-size: 6rem;
@@ -2628,7 +2639,7 @@ li {
   padding: 2vw 0 1vw 5vw;
 }
 
-.tituloUltimosCasos{
+.tituloUltimosCasos {
   background-color: #25272c;
   padding: 2vw 0 1vw 9.5vw;
 }
@@ -2672,11 +2683,12 @@ li {
   z-index: 100;
 }
 
-.descuentoimg{
+.descuentoimg {
   width: 72%;
   height: auto;
   margin-left: 10%;
 }
+
 .aba-whatsphone {
   background: #22262b;
   height: 65px;
@@ -2684,45 +2696,48 @@ li {
   border-radius: 30px 0 0 30px;
   transition: 0.7s ease;
 }
+
 .aba-whatsphone:hover {
   width: 200px;
   transition: 0.9s ease;
 }
+
 .aba-whatsphone-icone {
   background-image: url(data:image/png;base64,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);
-    background-repeat: no-repeat;
-    width: 280px;
-    height: 280px;
-    background-size: 44px;
-    background-position: 16px 7px;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 280px;
+  background-size: 44px;
+  background-position: 16px 7px;
 }
-.as{
+
+.as {
   transform: translate(6%, 75%);
 }
 
-.contenedorAgradecimiento{
+.contenedorAgradecimiento {
   height: 100%;
   margin-left: 6.3vw;
   display: flex;
 }
 
-.letrasAgradecimiento{
-  	width: 50%;
-    height: 100%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    padding-left: 2%;
-    padding-right: 2%;
+.letrasAgradecimiento {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-.letrasAgradecimiento p{
+.letrasAgradecimiento p {
   font-size: 3rem;
   font-weight: 700;
   font-style: italic;
 }
 
-.letrasAgradecimiento span{
+.letrasAgradecimiento span {
   font-size: 3rem;
   font-weight: 700;
   font-style: italic;
@@ -2730,28 +2745,31 @@ li {
   background-color: #83de4e;
 
 }
-.imagenAgradecimiento{
-    width: 50%;
-    height: 100%;
-    background-color: #000;
+
+.imagenAgradecimiento {
+  width: 50%;
+  height: 100%;
+  background-color: #000;
 }
 
-.imagenAgradecimiento img{
+.imagenAgradecimiento img {
   padding-top: 12%;
 }
 
 /* LAPTOP */
 @media only screen and (max-width: 1537px) {
-  .imagenAgradecimiento img{
+  .imagenAgradecimiento img {
     padding-top: 4%;
   }
 }
+
 @media only screen and (max-width: 1450px) {
-  .imagenAgradecimiento img  {
+  .imagenAgradecimiento img {
     padding-top: 3.3% !important;
-  
+
   }
 }
+
 /* @media only screen and (max-width: 2140px) {
   .imagenAgradecimiento img  {
     padding-top: 23.4%;
@@ -2760,27 +2778,29 @@ li {
 } */
 
 @media only screen and (max-width: 1440px) {
-  .as{
+  .as {
     transform: translate(5%, 0%);
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .as{
+  .as {
     transform: translate(5%, 25%);
   }
 }
 
 @media only screen and (max-width: 1000px) {
-  .as{
+  .as {
     transform: translate(5%, 25%);
   }
 }
+
 @media only screen and (max-width: 1537px) {
-  .as{
+  .as {
     transform: translate(5%, 75%);
   }
 }
+
 .as a {
   color: #fff;
   font-size: 1rem;
@@ -2788,6 +2808,7 @@ li {
   margin-left: 70px;
   text-decoration: none;
 }
+
 .as a strong {
   display: block;
   color: #93e54c;
@@ -2882,76 +2903,79 @@ li {
 
 @media only screen and (max-width: 768px) {
 
-  .contenedorAgradecimiento{
+  .contenedorAgradecimiento {
     margin-left: 0vw;
     width: 100%;
     height: max-content;
     flex-direction: column;
   }
 
-  .imagenAgradecimiento{
+  .imagenAgradecimiento {
     width: 100%;
   }
-  .letrasAgradecimiento{
+
+  .letrasAgradecimiento {
     width: 100%;
     padding-right: 0%;
     padding-left: 0%;
   }
-  
-  .letrasAgradecimiento span{
+
+  .letrasAgradecimiento span {
     font-size: 2rem !important;
   }
 
-  .letrasAgradecimiento p{
+  .letrasAgradecimiento p {
     font-size: 2rem !important;
   }
 
-  .tituloInicio{
+  .tituloInicio {
     height: 40%;
   }
 
-  .tituloInicio .conteLetrasInicio{
+  .tituloInicio .conteLetrasInicio {
     padding-top: 15vw;
   }
 
-  .testimonios .titulo h3{
+  .testimonios .titulo h3 {
     font-size: 5rem;
   }
 
-  .tituloCasos.tituloExito h3{
+  .tituloCasos.tituloExito h3 {
     font-size: 2rem;
-    
+
   }
+
   .tituloCasos.tituloExito {
     padding-bottom: 10vw;
-    
+
   }
 
-  .contenedorLets .letras .titulo2{
+  .contenedorLets .letras .titulo2 {
     font-size: 2rem;
-    
+
   }
 
-  .clientesTitulo .clientesLetras{
-    font-size: 2rem;
-  }
-
-  .tituloCasos.flecha h3{
-    
+  .clientesTitulo .clientesLetras {
     font-size: 2rem;
   }
 
-  .tituloUltimosCasos.ultimo{
+  .tituloCasos.flecha h3 {
+
+    font-size: 2rem;
+  }
+
+  .tituloUltimosCasos.ultimo {
     height: max-content;
 
   }
-  .tituloUltimosCasos.ultimo h3{
-    font-size: 2rem;
-    
-  }
- 
 
-  .tituloServicios .serviciosLetras p{
+  .tituloUltimosCasos.ultimo h3 {
+    font-size: 2rem;
+
+  }
+
+
+  .tituloServicios .serviciosLetras p {
     font-size: 5rem;
   }
 
@@ -2991,15 +3015,16 @@ li {
     margin: 0 0 0 0 !important;
   }
 
-/*   Nosotros Movil */
+  /*   Nosotros Movil */
 
-  .espacioNosotros{
+  .espacioNosotros {
     padding-top: 10vw;
   }
 
   .tituloMarketing.nosotros p {
     font-size: 10vw;
   }
+
   .tituloMarketing.nosotros p span {
     font-size: 10vw;
     margin-left: 67%
@@ -3015,7 +3040,7 @@ li {
     margin: 0 0 0 0 !important;
   }
 
-  .abajo.nosotros{
+  .abajo.nosotros {
     text-align: left !important;
   }
 
@@ -3049,6 +3074,7 @@ li {
   .contenedorTextoCultura p {
     font-size: 1.1rem;
   }
+
   .nosotrosContenedor .tituloTextoAbout {
     font-size: 1.5rem;
     line-height: 2.3rem;
@@ -3059,39 +3085,39 @@ li {
     height: max-content;
     display: block;
     margin-left: 5%;
-    margin-right: 5%; 
+    margin-right: 5%;
   }
-  
+
   .contenedorTextoCiudad {
     width: 90%;
     margin-top: 14%;
     margin-bottom: 10%;
   }
-  
+
   .contenedorImagenCiudad {
     width: 100%;
     display: block;
     margin-top: 9%;
     margin-bottom: 9%;
   }
-  
+
   .imgCiudad1 {
     width: 85%;
     height: auto;
     border: 3px solid #83de4e;
     margin-bottom: 5%;
   }
-  
+
   .imgCiudad2 {
     width: 85%;
     height: auto;
     border: 3px solid #83de4e
   }
-  
+
   .contenedorTextoCiudad p {
     font-size: 1.1rem;
   }
-  
+
   .contenedorImagenCiudad a {
     width: 5%;
   }
@@ -3102,18 +3128,18 @@ li {
     margin-left: 5%;
     margin-right: 5%;
   }
-  
+
   .contenedorImagenEstudio {
     width: 90%;
-    
+
   }
-  
+
   .imgEstudio {
     width: 100%;
-    height: auto; 
+    height: auto;
     /* border: 3px solid #83de4e */
   }
-  
+
   .contenedorTextoEstudio {
     width: 90%;
     margin-right: 4%;
@@ -3121,8 +3147,8 @@ li {
     margin-top: 10%;
     margin-bottom: 10%;
   }
-  
-  
+
+
   .contenedorTextoEstudio p {
     font-size: 1.1rem;
   }
@@ -3131,47 +3157,48 @@ li {
     padding-top: 1px;
   }
 
-  .nosotrosContenedor.separador.valores span{
+  .nosotrosContenedor.separador.valores span {
     font-size: 1.2rem;
-  } 
-  .nosotrosContenedor.separador.valores p{
+  }
+
+  .nosotrosContenedor.separador.valores p {
     text-align: left;
     font-size: 1.2rem;
   }
 
-  .contenedorImagenesValores{
+  .contenedorImagenesValores {
     width: 100%;
     flex-direction: column;
   }
 
-  .imagenValores{
+  .imagenValores {
     width: 80%;
 
   }
 
-  .imagenValores span{
+  .imagenValores span {
     font-size: 1.2rem;
   }
 
-  .imagenValoresFin span{
+  .imagenValoresFin span {
     font-size: 1.2rem;
   }
 
-  .imagenValoresFin{
+  .imagenValoresFin {
     width: 80%;
   }
 
-  .divididoDos{
+  .divididoDos {
     width: 100%;
     flex-direction: column;
   }
 
-  .componente{
+  .componente {
     width: 95%;
     margin-bottom: 1rem;
   }
 
-  .tituloP{
+  .tituloP {
     font-size: 1.2rem;
   }
 
@@ -3179,7 +3206,7 @@ li {
     font-size: 1.2rem;
   }
 
-            
+
 
   /* FIN Nosotros Movil */
 
@@ -3221,18 +3248,19 @@ li {
   .blogFecha p {
     font-size: 3vw;
   }
-  .tituloUltimosCasos{
+
+  .tituloUltimosCasos {
     background-color: #25272c;
     padding: 0vw 0 0vw 0vw !important;
   }
-  
+
   .tituloUltimosCasos h3 {
     color: #fff;
     font-size: 1rem;
     font-weight: 0 !important;
     line-height: 0;
   }
-  
+
   .tituloUltimosCasos {
     border-top: 0.2vh solid #fff;
   }
@@ -3240,9 +3268,9 @@ li {
   .testimonios .titulo p {
     padding-left: 0.5vw;
     line-height: 0.0;
-    font-size: 2.5rem !important; 
+    font-size: 2.5rem !important;
     font-weight: 700 !important;
-}
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -3253,23 +3281,24 @@ li {
 
 /* Martin Mac */
 @media only screen and (max-width: 1450px) {
-.letras  {
-   width: 24vw;
+  .letras {
+    width: 24vw;
 
-}
+  }
 
 }
 
 /* Tablet vertical */
 @media only screen and (max-width: 1370px) {
-  .letras  {
-     width: 25vw;
-  
+  .letras {
+    width: 25vw;
+
   }
-  }
+}
+
 /* Tablet Horizontal */
-  @media only screen and (max-width: 1025px) {
-    .letras  {
-       width: 33vw;
-    }
-    }
+@media only screen and (max-width: 1025px) {
+  .letras {
+    width: 33vw;
+  }
+}
