@@ -16,6 +16,7 @@ import Ejemplo from '../componentes/ejemplo';
 import React, { useRef } from 'react';
 import { Helmet } from "react-helmet";
 import { useState, lazy, Suspense } from 'react';
+import Formulario from '../componentes/Formulario';
 //import VideoHome from '../componentes/VideoHome';
 
 const VideoHome = lazy(() => import('../componentes/VideoHome'));
@@ -104,6 +105,7 @@ function Inicio() {
         <Servicios />
         <CasosExito />
         <UltimosCasos />
+        <Formulario />
         <LetsTalk />
         <Clientes />
         <Testimonios />

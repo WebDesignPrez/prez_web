@@ -136,9 +136,12 @@
     }
 
     .nextBtn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
         width: 100%;
         height: 3.5vw;
-        color: red;
         border: 0;
         bottom: 0;
         cursor: pointer;
@@ -402,3 +405,20 @@
         color: #92e65b;
         font-size: 2vw;
     }
+
+
+    /* Loader */
+
+    .loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #92e65b; /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
