@@ -17,6 +17,7 @@ import React, { useRef } from 'react';
 import { Helmet } from "react-helmet";
 import { useState, lazy, Suspense } from 'react';
 import Formulario from '../componentes/Formulario';
+import PiePaginaFormulario from '../componentes/PiePaginaFormulario';
 //import VideoHome from '../componentes/VideoHome';
 
 const VideoHome = lazy(() => import('../componentes/VideoHome'));
@@ -107,9 +108,10 @@ function Inicio() {
         <UltimosCasos />
         <Formulario />
         <LetsTalk />
-        <Clientes />
         <Testimonios />
-        <PiePagina />
+        <Clientes />
+
+        <PiePaginaFormulario />
       </Suspense>
 
     </>
