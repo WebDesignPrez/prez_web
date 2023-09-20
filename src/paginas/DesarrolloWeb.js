@@ -28,7 +28,6 @@ function DesarrolloWeb() {
         <meta property="og:url" content="https://agenciaprez.com/desarrollo-web"></meta>
         <meta property="og:site_name" content="Prez Agencia de Marketing Digital"></meta>
         <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
-        <meta property="og:image" content="https://agenciaprez.com/img/desarrollo-web.webp"></meta>
         <meta name="twitter:card" content="summary_large_image"></meta>
         <meta name="twitter:description" content="Ofrecemos servicios profesionales de desarrollo web para ayudar a tu empresa a crear una presencia en línea efectiva. Desarrollamos sitios web personalizados y optimizados para mejorar tu visibilidad y alcanzar tus objetivos en línea, desarrollamos tu pagina web en la ciudad de Ambato"></meta>
         <meta name="twitter:label1" content="Tiempo de lectura"></meta>
@@ -38,10 +37,6 @@ function DesarrolloWeb() {
         <meta name="format-detection" content="telephone=no"></meta>
         <link rel="canonical" href="https://agenciaprez.com/desarrollo-web"></link>
         <link rel="alternate" hreflang="es_EC" href="https://agenciaprez.com/desarrollo-web"></link>
-        <link rel="shortcut icon" href="https://agenciaprez.com/img/desarrollo-web.webp"></link>
-        <link rel="apple-touch-icon" sizes="180x180" href="https://agenciaprez.com/img/desarrollo-web.webp"></link>
-        <link rel="icon" type="image/png" sizes="32x32" href="https://agenciaprez.com/img/desarrollo-web.webp"></link>
-        <link rel="icon" type="image/png" sizes="16x16" href="https://agenciaprez.com/img/desarrollo-web.webp"></link>
         <link rel="manifest" href="https://www.prezmarketing.com/site.webmanifest"></link>
         <meta name="msapplication-TileColor" content="#93e54c"></meta>
         <meta name="theme-color" content="#ffffff"></meta>

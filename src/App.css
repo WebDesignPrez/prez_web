@@ -2716,16 +2716,19 @@ li {
 }
 
 .contenedorAgradecimiento {
+  background-color: #000;
+  color: #fff;
   height: 100%;
   margin-left: 6.3vw;
   display: flex;
+  align-items: center;
 }
 
 .letrasAgradecimiento {
   width: 50%;
   height: 100%;
   display: flex;
-  text-align: center;
+  text-align: left;
   align-items: center;
   padding-left: 2%;
   padding-right: 2%;

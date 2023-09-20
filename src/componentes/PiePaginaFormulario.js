@@ -66,7 +66,7 @@ function PiePaginaFormulario() {
 
             }}>
               <img className="certificadoI" src="./img/meta-logo.webp" alt="Certificado Meta Agencia Marketing Ambato - Prez" />
-              <img className="certificadoI" src="./img/google-search-logo.webp" alt="Certificado Meta Agencia Marketing Ambato - Prez" />
+              <img className="certificadoI" src="./img/googleAds.webp" alt="Certificado Meta Agencia Marketing Ambato - Prez" />
             </div>
           </div>
         </div>
