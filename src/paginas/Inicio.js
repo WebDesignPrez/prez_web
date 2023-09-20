@@ -16,6 +16,8 @@ import Ejemplo from '../componentes/ejemplo';
 import React, { useRef } from 'react';
 import { Helmet } from "react-helmet";
 import { useState, lazy, Suspense } from 'react';
+import Formulario from '../componentes/Formulario';
+import PiePaginaFormulario from '../componentes/PiePaginaFormulario';
 //import VideoHome from '../componentes/VideoHome';
 
 const VideoHome = lazy(() => import('../componentes/VideoHome'));
@@ -23,7 +25,7 @@ const Servicios = lazy(() => import('../componentes/Servicios'));
 const CasosExito = lazy(() => import('../componentes/CasosExito'));
 const UltimosCasos = lazy(() => import('../componentes/UltimosCasos'));
 const LetsTalk = lazy(() => import('../componentes/LetsTalk'));
-const Clientes  = lazy(() => import('../componentes/Clientes'));
+const Clientes = lazy(() => import('../componentes/Clientes'));
 const Testimonios = lazy(() => import('../componentes/Testimonios'));
 
 function Inicio() {
@@ -76,38 +78,40 @@ function Inicio() {
       >
         <span class="cookie-text">Acepte el uso de cookies para mejorar su experiencia en este sitio web.</span>
       </CookieConsent>
-    
-      
-        <MenuLateralSinHome />
-        <WhatsappIcon />
-        <img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador" />
-        <div className="tituloInicio" id="Inicio">
-          <div className='conteLetrasInicio'>
-            <p>En nuestro mundo</p>
-            <p>no hay <span>imposibles,</span></p>
-            <p>let's travel <span>together.</span></p>
-          </div>
 
-          {/* FLECHA VIEJA 
+
+      <MenuLateralSinHome />
+      <WhatsappIcon />
+      <img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador" />
+      <div className="tituloInicio" id="Inicio">
+        <div className='conteLetrasInicio'>
+          <p>En nuestro mundo</p>
+          <p>no hay <span>imposibles,</span></p>
+          <p>let's travel <span>together.</span></p>
+        </div>
+
+        {/* FLECHA VIEJA 
                   <div className="arrowBox">
                       <img src="./img/flecha-negra-abajo.webp" alt="" />
                   </div>*/}
 
-          {/* NUEVA FLECHA 3 */}
+        {/* NUEVA FLECHA 3 */}
 
-          <div class="line-container arrowBox bajar">
-            <div class="line"></div>
-          </div>
+        <div class="line-container arrowBox bajar">
+          <div class="line"></div>
         </div>
+      </div>
       <Suspense fallback={<div><p>Cargando...</p></div>}>
         <VideoHome />
         <Servicios />
         <CasosExito />
         <UltimosCasos />
+        <Formulario />
         <LetsTalk />
-        <Clientes />
         <Testimonios />
-        <PiePagina />
+        <Clientes />
+
+        <PiePaginaFormulario />
       </Suspense>
 
     </>
