@@ -22,25 +22,25 @@ function Contacto() {
             {/*<MenuLateral />*/}
             <MenuLateral />
             <div className='sky'>
-    <section class="wrapper">
-          <div id="stars"></div>
-          <div id="stars2"></div>
-          <div id="stars3"></div>
-          <div className='contenedorAgradecimiento'>
-          <div className="tituloInicio2" id="Inicio">
-        <div className='conteLetrasInicio'>
-          <p>Gracias por contactarnos</p>
-          <p>un asesor se comunicará</p>
-          <p><span>pronto contigo</span></p>
-        </div>
-      </div>
-                <div className='imagenAgradecimiento'>
-                    <img src='./img/astronauta.png' alt="Astronauta Prez Agencia de Marketing Ambato - Ecuador"/>
-                </div>
+                <section class="wrapper">
+                    <div id="stars"></div>
+                    <div id="stars2"></div>
+                    <div id="stars3"></div>
+                    <div className='contenedorAgradecimiento'>
+                        <div className="tituloInicio2" id="Inicio">
+                            <div className='conteLetrasInicio'>
+                                <p>Gracias por contactarnos</p>
+                                <p>un asesor se comunicará</p>
+                                <p><span>pronto contigo</span></p>
+                            </div>
+                        </div>
+                        <div className='imagenAgradecimiento'>
+                            <img src='./img/astronauta.png' alt="Astronauta Prez Agencia de Marketing Ambato - Ecuador" />
+                        </div>
+                    </div>
+                </section>
             </div>
-        </section>
-</div>
-           
+
             <PiePaginaFormulario />
         </>
     )

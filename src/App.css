@@ -3510,6 +3510,18 @@ li {
     flex-direction: column;
   }
 
+  .sky{
+    height: 100vh !important;
+  }
+
+  .tituloInicio2{
+    text-align: center;
+  }
+
+  .conteLetrasInicio p{
+    font-size: 2rem ;
+  }
+
   .imagenAgradecimiento {
     width: 100%;
   }
