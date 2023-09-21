@@ -7,31 +7,35 @@ function MenuLateralSinHome() {
     const [isActive, setActive] = useState(false);
     const handleToggle = () => {
         setActive(!isActive);
-    }
+        // Aplicar una clase al cuerpo para evitar el scroll cuando el menú está activo
+        if (!isActive) {
+            document.body.classList.add("no-scroll");
+        } else {
+            document.body.classList.remove("no-scroll");
+        }
+    };
 
     const navigate = useNavigate();
 
     const selOpt = () => {
-        navigate("/lets-talk")
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
+        navigate("/lets-talk");
+        // También puedes manejar el scroll aquí si es necesario
+        window.scrollTo(0, 0);
+    };
 
     const closeMenu = () => {
-        console.log(location.pathname)
+        console.log(location.pathname);
 
         navigate("/");
-        handleToggle()
-    }
+        handleToggle();
+    };
 
-    const topFunction = () => {
-        navigate("/");
-        if (isActive) {
-            handleToggle()
-        }
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+    useEffect(() => {
+        // Limpia la clase al cuerpo cuando el componente se desmonta
+        return () => {
+            document.body.classList.remove("no-scroll");
+        };
+    }, []);
 
     return (
         <>
