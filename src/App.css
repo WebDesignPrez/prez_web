@@ -1952,7 +1952,7 @@ html {
 }
 
 .videoInicioVH.noresponsive {
-  background-color: #83de4e;
+  background-color: #0d0d0f;
 }
 
 .videoInicioVH.noresponsive img,
@@ -2777,6 +2777,13 @@ li {
   height: 100vh;
   overflow: hidden;
   background: radial-gradient(ellipse at bottom, #131111 0%, #07080c 100%);
+}
+
+.contenedorInformacion{
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  justify-content: space-between;
 }
 
 .contenedorAgradecimiento {
