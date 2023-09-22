@@ -1257,9 +1257,6 @@ body ::selection {
   height: auto;
 }
 
-.certificadoI {
-  width: 70%;
-}
 
 nav {
   display: flex;
@@ -1338,7 +1335,11 @@ footer a {
 }
 
 .certificadoI {
-  width: 30%;
+  width: 40%;
+}
+
+.certificadoII {
+  width: 35%;
 }
 
 nav {
