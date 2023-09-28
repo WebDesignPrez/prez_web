@@ -11,7 +11,7 @@ function VideoDE() {
     <div className='videoloop '>
       <video preload="none" autoPlay={true} playsInline={true} controls={false} loop muted className='videoserviciosinicio'
         src="./img/IconoDesarrollo.mp4"
-        alt="Animación Desarrollo Web Agencia Marketing Ambato - Prez"
+        alt="Animación Desarrollo Web Agencia Marketing Ambato - Prez, Agencia de marketing"
         style={{ width: '60%', height: 'auto', marginLeft: '22vw' }}
         onClick={handleVideoClick}
       >
@@ -29,21 +29,21 @@ function VideoDE() {
           </p>
         </div>
         <div class="item imgservices">
-          <img src="./img/de1.png" alt='Diseño y desarrollo Web Agencia Marketing Ambato - Prez' />
+          <img src="./img/de1.png" alt='Diseño y desarrollo Web Agencia Marketing Ambato - Prez, Agencia de marketing' />
         </div>
         <div class="item textservices">
           <p><span>E-commerce</span></p>
           <p>No hay límites para lo que puedes vender en línea con nuestro servicio de E-commerce, "Crea una experiencia de compra en línea de otro mundo diseñado para cautivar a tus clientes."</p>
         </div>
         <div class="item imgservices">
-          <img src="./img/de2.png" alt='E-commerce Agencia Marketing Ambato - Prez' />
+          <img src="./img/de2.png" alt='E-commerce Agencia Marketing Ambato - Prez, Agencia de marketing' />
         </div>
         <div class="item textservices">
           <p><span>Apps Android / IOS</span></p>
           <p>Desarrolla aplicaciones móviles de alto rendimiento y calidad con nuestro servicio de Apps, que te brinda la posibilidad de destacar en el universo móvil.</p>
         </div>
         <div class="item imgservices">
-          <img src="./img/de3.png" alt='Apps Android / IOS Agencia Marketing Ambato - Prez' />
+          <img src="./img/de3.png" alt='Apps Android / IOS Agencia Marketing Ambato - Prez, Agencia de marketing' />
         </div>
       </div>
     </div>

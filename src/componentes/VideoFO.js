@@ -11,7 +11,7 @@ function VideoFO() {
     <div className='videoloop'>
       <video preload="none" autoPlay={true} playsInline={true} controls={false} loop muted className='videoserviciosinicio'
         src="./img/IconoFotosVideos.mp4"
-        alt="Animación Prodección fotografia, audio y video Agencia Marketing Ambato - Prez"
+        alt="Animación Prodección fotografia, audio y video Agencia Marketing Ambato - Prez, Agencia de marketing"
         style={{ width: '60%', height: 'auto', marginLeft: '22vw' }}
         onClick={handleVideoClick}
       >
@@ -28,21 +28,21 @@ function VideoFO() {
           </p>
         </div>
         <div class="item imgservices">
-          <img src="./img/fo1.png"  alt="Producción de fotografía Agencia Marketing Ambato - Prez" />
+          <img src="./img/fo1.png"  alt="Producción de fotografía Agencia Marketing Ambato - Prez, Agencia de marketing" />
         </div>
         <div class="item textservices">
           <p><span>Producción de video</span></p>
           <p>Crea contenido audiovisual que cuente la historia de tu marca y genere una mayor conexión con tu audiencia con nuestro servicio de Producción de video, diseñado para destacar en este universo digital.</p>
         </div>
         <div class="item imgservices">
-          <img src="./img/fo2.png" alt="Producción de video Agencia Marketing Ambato - Prez" />
+          <img src="./img/fo2.png" alt="Producción de video Agencia Marketing Ambato - Prez, Agencia de marketing" />
         </div>
         <div class="item textservices">
           <p><span>Audiomarketing</span></p>
           <p>Convierte tu marca en una experiencia sonora única y diferenciada con nuestro servicio de Audiomarketing, diseñado para destacar en el mercado auditivo.</p>
         </div>
         <div class="item imgservices">
-          <img src="./img/fo3.png" alt="Audiomarketing Agencia Marketing Ambato - Prez" />
+          <img src="./img/fo3.png" alt="Audiomarketing Agencia Marketing Ambato - Prez, Agencia de marketing" />
         </div>
       </div>
     </div>

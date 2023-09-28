@@ -35,7 +35,7 @@ function Contacto() {
                             </div>
                         </div>
                         <div className='imagenAgradecimiento'>
-                            <img src='./img/astronauta.png' alt="Astronauta Prez Agencia de Marketing Ambato - Ecuador" />
+                            <img src='./img/astronauta.png' alt="Astronauta Prez Agencia de Marketing Ambato - Ecuador, Agencia de marketing" />
                         </div>
                     </div>
                 </section>

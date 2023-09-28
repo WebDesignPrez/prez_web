@@ -4,7 +4,8 @@ function PiePaginaFormulario() {
       <footer id="footer2">
         <div class="footer-container">
           <div class="columna">
-            <img className="logoP" src="./img/prezBlanco.png" alt="Logo Agencia Marketing Ambato - Prez" />
+            <img className="logoP" src="./img/prezBlanco.png" alt="Logo Agencia Marketing Ambato - Prez, Agencia de marketing" />
+            <h1 className="footerh1">Agencia de Marketing</h1>
             <p>Virgen del Sol y Camino al Oriente</p>
             <p><strong>Ambato - Ecuador</strong></p>
             <p>Mas información</p>
@@ -12,17 +13,17 @@ function PiePaginaFormulario() {
             <a className="cel" href="tel:0959792827"><strong>Cel: </strong>095 979 2827</a>
             <div className="social">
               <a href="https://www.facebook.com/agenciaprez" >
-                <img class="cambiar-imagen-fb" src="./img/FaceVerde.webp" alt="Logo facebook negro" />
+                <img class="cambiar-imagen-fb" src="./img/FaceVerde.webp" alt="Logo facebook negro, Agencia de marketing" />
               </a>
 
               <a href="https://www.instagram.com/prez_agencia/">
-                <img class="cambiar-imagen-insta" src="./img/InstaVerde.webp" alt="Logo instagram negro" />
+                <img class="cambiar-imagen-insta" src="./img/InstaVerde.webp" alt="Logo instagram negro, Agencia de marketing" />
               </a>
               <a>
-                <img class="cambiar-imagen-in" src="./img/InVerde.webp" alt="Logo linkedin negro" />
+                <img class="cambiar-imagen-in" src="./img/InVerde.webp" alt="Logo linkedin negro, Agencia de marketing" />
               </a>
               <a>
-                <img class="cambiar-imagen-tiktok" src="./img/TiktokVerde.webp" alt="Logo tiktok negro" />
+                <img class="cambiar-imagen-tiktok" src="./img/TiktokVerde.webp" alt="Logo tiktok negro, Agencia de marketing" />
               </a>
             </div>
           </div>
@@ -65,8 +66,8 @@ function PiePaginaFormulario() {
               flexWrap: 'wrap',
 
             }}>
-              <img className="certificadoI" src="./img/meta-logo.webp" alt="Certificado Meta Agencia Marketing Ambato - Prez" />
-              <img className="certificadoI" src="./img/partnerNewLogo.png" alt="Certificado Meta Agencia Marketing Ambato - Prez" />
+              <img className="certificadoI" src="./img/meta-logo.webp" alt="Certificado Meta Agencia Marketing Ambato - Prez, Agencia de marketing" />
+              <img className="certificadoI" src="./img/partnerNewLogo.png" alt="Certificado Meta Agencia Marketing Ambato - Prez, Agencia de marketing" />
             </div>
           </div>
         </div>

@@ -54,7 +54,7 @@ function BrandingE() {
       </Helmet>
       <WhatsappIcon />
       <MenuLateral />
-      <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador" /></a>
+      <a href="./#"><img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador, Agencia de marketing" /></a>
       <VideoBE />
       <FotoVideoBE />
       <Formulario />

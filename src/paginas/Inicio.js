@@ -33,20 +33,20 @@ function Inicio() {
     <>
       <Helmet>
         <meta name='author' content="Prez agencia de marketing digital, Anthony Perez"></meta>
-        <title>Prez Agencia de Marketing - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video</title>
-        <meta name="description" content="Prez Agencia de Marketing Digital ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
-        <meta name="keywords" content="Agencia de marketing, Prez, Agencia Prez, Marketing digital, Ambato, Ecuador, Paid Media, Desarrollo Web, e-commerce, Producción Fotográfica, Audio, Video, SEO, servicios de marketing digital, agencia de marketing digital"></meta>
+        <title>Prez Agencia de Marketing Ambato - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video</title>
+        <meta name="description" content="Prez Agencia de Marketing Ambato, Agencia de marketing ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
+        <meta name="keywords" content="Agencia de marketing, Agencia de marketing Ambato, Prez, Agencia Prez, Marketing digital, Ambato, Ecuador, Paid Media, Desarrollo Web, e-commerce, Producción Fotográfica, Audio, Video, SEO, servicios de marketing digital, agencia de marketing digital"></meta>
         <meta name="robots" content="index, follow"></meta>
         <meta property="og:locale" content="es_EC"></meta>
         <meta property="og:type" content="website"></meta>
-        <meta property="og:title" content="Prez Agencia de Marketing Digital - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video"></meta>
-        <meta property="og:description" content="Prez Agencia de Marketing Digital ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
+        <meta property="og:title" content="Prez Agencia de Marketing Digital, Agencia de marketing - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video"></meta>
+        <meta property="og:description" content="Prez Agencia de Marketing Digital, Agencia de marketing ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
         <meta property="og:url" content="https://agenciaprez.com"></meta>
         <meta property="og:site_name" content="Prez Agencia de Marketing Digital"></meta>
         <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
         <meta property="og:image" content="https://agenciaprez.com/static/media/agencia-de-marketing-prez-astronauta-vamos-a-viajar-juntos.bbd8bc42af29fd00ed7c.webp"></meta>
         <meta name="twitter:card" content="summary_large_image"></meta>
-        <meta name="twitter:description" content="Prez Agencia de Marketing Digital ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
+        <meta name="twitter:description" content="Prez Agencia de Marketing Digital, Agencia de marketing ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
         <meta name="twitter:label1" content="Tiempo de lectura"></meta>
         <meta name="twitter:data1" content="5 minutos"></meta>
         <meta name="googlebot" content="index, follow"></meta>
@@ -82,7 +82,7 @@ function Inicio() {
 
       <MenuLateralSinHome />
       <WhatsappIcon />
-      <img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador" />
+      <img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador, Agencia de marketing" />
       <div className="tituloInicio" id="Inicio">
         <div className='conteLetrasInicio'>
           <p>En nuestro mundo</p>

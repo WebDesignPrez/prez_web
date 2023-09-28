@@ -13,11 +13,11 @@ function FotoVideoPM() {
                 <p>¡El <span className='fondoV'>Universo Digital</span>, ya no será un misterio. Preparemos motores y comencemos el viaje!</p>
             </div>
             <div class="contenedor-imagenesMD">
-                <img src="./img/imagenIzquierda.jpg" alt="Paid Media atras" class="imagen1" />
+                <img src="./img/imagenIzquierda.jpg" alt="Paid Media atras, Agencia de marketing" class="imagen1" />
                 <video preload="none" autoPlay={true} playsInline={true} controls={false} loop muted class="imagen2MD" src="./img/adelante.mp4" 
                     style={{ width: '60%', height: '70vw', marginLeft: '22vw' }}
                     onClick={handleVideoClick}
-                    alt="Branding Estratégico adelante"
+                    alt="Branding Estratégico adelante, Agencia de marketing"
                 >
                     Tu navegador no soporta la etiqueta de video HTML5.
                 </video>

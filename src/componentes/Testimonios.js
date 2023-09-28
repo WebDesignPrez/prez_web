@@ -4,25 +4,25 @@ function Testimonios() {
     let testimoniosData = [{
         comentario: "Yo siempre he tenido en cuenta la buena atención, puntualidad y responsabilidad, pero lo que ustedes me ofrecieron fue más que eso, siempre han aportado soluciones originales a los retos planteados, de una manera organizada y sobre todo muy creativos, por eso recomiendo a Prez Agencia de Marketing por su calidad y buen servicio.",
         nombre: "Andres Morales",
-        alt:"Cliente Prez Andres Morales",
+        alt:"Cliente Prez, Agencia de marketing Andres Morales",
         cargo: "Gerente Inmobiliaria M&M",
         img: "./img/cliente2.webp"
     }, {
         comentario: "Haber seleccionado a Prez Agencia de Marketing para que nos brinde apoyo en nuestra gestión comercial en el área de Educación continua, es porque al ser un grupo de jóvenes con ideas creativas, han hecho que los objetivos los vayamos cumpliendo, Ctt de los Andes se siente complacido de contar con Prez Agencia de Marketing por tener un enfoque estratégico y sólido que nos permiten medir el éxito de nuestra institución con resultados.",
         nombre: "Ing. Roberto Cuesta",
-        alt:"Cliente Prez Ing. Roberto Cuesta",
+        alt:"Cliente Prez, Agencia de marketing Ing. Roberto Cuesta",
         cargo: "Director General CTT de los Andes",
         img: "./img/cliente1.webp"
     }, {
         comentario: "Prez para el Cebi y Pollo Listo, ha sido la única empresa de marketing, que expresa de la mejor manera todos nuestros servicios de una forma muy creativa y diferente a nuestra competencia. Nos gusta su responsabilidad creatividad y sobretodo su compromiso.",
         nombre: "Gino Moya",
-        alt:"Cliente Prez Gino Moya",
+        alt:"Cliente Prez, Agencia de marketing Gino Moya",
         cargo: "Gerente administrativo CEBI",
         img: "./img/cliente3.webp"
     }, {
         comentario: "Desde el primer momento PREZ agencia de marketing nos hizo sentir como en casa en un ambiente cordial amigable y sobretodo muy técnico. Su gerente Martín Flores, nos explicaba de una forma muy didáctica todos los pasos a seguir en la planificación para el logro de los objetivos y resultados deseados, yo quiero agradecer de manera especial a esta agencia por que no sólo fue el servicio de marketing sino una exhaustiva planeación estratégica con una visión 360.",
         nombre: "Dr. JuanPa Vargas",
-        alt:"Cliente Prez Dr. JuanPa Varga",
+        alt:"Cliente Prez, Agencia de marketing Dr. JuanPa Varga",
         cargo: "Mentor Psicológico",
         img: "./img/cliente5.webp"
     }, 

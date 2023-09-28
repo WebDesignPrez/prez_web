@@ -56,35 +56,35 @@ const SliderComponent = () => (
       <Slider {...settings}>
         <Slide
           imgSrc="./img/serv1.png"
-          altText="Marketing Digital Agencia Marketing Ambato - Prez"
+          altText="Marketing Digital Agencia Marketing Ambato - Prez, Agencia de marketing"
           mainCaption="Marketing Digital"
           subCaption="La aventura digital de tu negocio comienza aquí. En nuestro mundo enfocado en resultados, podrás viajar en modo automático."
           linkTo="/marketing-digital"
         />
         <Slide
           imgSrc="./img/serv2.png"
-          altText="Paid Media Agencia Marketing Ambato - Prez"
+          altText="Paid Media Agencia Marketing Ambato - Prez, Agencia de marketing"
           mainCaption="Paid Media"
           subCaption="Tu marca brillará aún más con estrategias de pago en todo el ecosistema digital."
           linkTo="/paid-media"
         />
         <Slide
           imgSrc="./img/serv3.png"
-          altText="Branding Estratégico Agencia Marketing Ambato - Prez"
+          altText="Branding Estratégico Agencia Marketing Ambato - Prez, Agencia de marketing"
           mainCaption="Branding Estratégico"
           subCaption="Encontramos lo que te hace único y se lo contamos al mundo."
           linkTo="/branding-estrategico"
         />
         <Slide
           imgSrc="./img/serv4.png"
-          altText="Desarrollo Web / e-commerce Agencia Marketing Ambato - Prez"
+          altText="Desarrollo Web / e-commerce Agencia Marketing Ambato - Prez, Agencia de marketing"
           mainCaption="Desarrollo Web / e-commerce"
           subCaption="Desarrollamos un sitio web funcional, elegante y vendedor para tu empresa"
           linkTo="/desarrollo-web"
         />
         <Slide
           imgSrc="./img/serv6.png"
-          altText="Producción fotográfica, audio y video Agencia Marketing Ambato - Prez"
+          altText="Producción fotográfica, audio y video Agencia Marketing Ambato - Prez, Agencia de marketing"
           mainCaption="Producción fotográfica, audio y video"
           subCaption="Desarrollo, producción y post producción de fotografías, videos y piezas audiovisuales."
           linkTo="/produccion-fotografia-video"

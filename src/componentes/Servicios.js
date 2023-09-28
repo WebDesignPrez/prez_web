@@ -42,16 +42,16 @@ function Servicios() {
 
         <div className="box" onClick={() => { selOpt('md') }}>
           <div className="imgBox">
-            <img src="./img/marketing-digital.webp" alt="Marketing Digital Agencia Marketing Ambato - Prez" />
+            <img src="./img/marketing-digital.webp" alt="Marketing Digital Agencia Marketing Ambato - Prez, Agencia de marketing" />
           </div>
 
 
           <div className="service-content">
-            <div className="tituloBox"><h1>Marketing<br></br> Digital</h1></div>
+            <div className="tituloBox"><h2>Marketing<br></br>Digital</h2></div>
             <div className="descBox"><p>La aventura digital de tu negocio comienza aquí. En nuestro mundo enfocado en resultados, podrás viajar en modo automático.</p></div>
             <div class="imagen-padre">
-              <img src="./img/flechaNegraL.webp" alt="Flecha Negra Prez" class="imagen1B" />
-              <img src="./img/flechaVerdeListo.webp" alt="Flecha Verde Prez" class="imagen2B" />
+              <img src="./img/flechaNegraL.webp" alt="Flecha Negra Prez, Agencia de marketing" class="imagen1B" />
+              <img src="./img/flechaVerdeListo.webp" alt="Flecha Verde Prez, Agencia de marketing" class="imagen2B" />
             </div>
           </div>
         </div>
@@ -63,15 +63,15 @@ function Servicios() {
 
         <div className="box" onClick={() => { selOpt('pm') }}>
           <div className="imgBox">
-            <img src="./img/paid-media.webp" alt="Paid Media Agencia Marketing Ambato - Prez" />
+            <img src="./img/paid-media.webp" alt="Paid Media Agencia Marketing Ambato - Prez, Agencia de marketing" />
           </div>
 
           <div className="service-content">
             <div className="tituloBox"><h2>Paid<br></br> Media</h2></div>
             <div className="descBox"><p>Tu marca brillará aún más con estrategias de pago en todo el ecosistema digital.</p></div>
             <div class="imagen-padre">
-              <img src="./img/flechaNegraL.webp" alt="Flecha Negra Prez" class="imagen1B" />
-              <img src="./img/flechaVerdeListo.webp" alt="Flecha Verde Prez" class="imagen2B" />
+              <img src="./img/flechaNegraL.webp" alt="Flecha Negra Prez, Agencia de marketing" class="imagen1B" />
+              <img src="./img/flechaVerdeListo.webp" alt="Flecha Verde Prez, Agencia de marketing" class="imagen2B" />
             </div>
           </div>
         </div>
@@ -82,15 +82,15 @@ function Servicios() {
 
         <div className="box" onClick={() => { selOpt('be') }}>
           <div className="imgBox">
-            <img src="./img/branding.webp" alt="Branding Estratégico Agencia Marketing Ambato - Prez" />
+            <img src="./img/branding.webp" alt="Branding Estratégico Agencia Marketing Ambato - Prez, Agencia de marketing" />
           </div>
 
           <div className="service-content">
             <div className="tituloBox"><h2>Branding <br></br>Estratégico</h2></div>
             <div className="descBox"><p>Encontramos lo que te hace único y se lo contamos al mundo.</p></div>
             <div class="imagen-padre">
-              <img src="./img/flechaNegraL.webp" alt="Flecha Negra Prez" class="imagen1B" />
-              <img src="./img/flechaVerdeListo.webp" alt="Flecha Verde Prez" class="imagen2B" />
+              <img src="./img/flechaNegraL.webp" alt="Flecha Negra Prez, Agencia de marketing" class="imagen1B" />
+              <img src="./img/flechaVerdeListo.webp" alt="Flecha Verde Prez, Agencia de marketing" class="imagen2B" />
             </div>
           </div>
         </div>
@@ -99,15 +99,15 @@ function Servicios() {
       <div className="serviciosRow noresponsive">
         <div className="box" onClick={() => { selOpt('dw') }}>
           <div className="imgBox">
-            <img src="./img/desarrollo-web.webp" alt="Desarrollo Web / e-comerce Agencia Marketing Ambato - Prez" />
+            <img src="./img/desarrollo-web.webp" alt="Desarrollo Web / e-comerce Agencia Marketing Ambato - Prez, Agencia de marketing" />
           </div>
 
           <div className="service-content">
             <div className="tituloBox"><h2>Desarrollo Web <br></br>/ e-commerce</h2></div>
             <div className="descBox"><p>Desarrollamos un sitio web funcional, elegante y vendedor para tu empresa</p></div>
             <div class="imagen-padre">
-              <img src="./img/flechaNegraL.webp" alt="Flecha Negra Prez" class="imagen1B" />
-              <img src="./img/flechaVerdeListo.webp" alt="Flecha Verde Prez" class="imagen2B" />
+              <img src="./img/flechaNegraL.webp" alt="Flecha Negra Prez, Agencia de marketing" class="imagen1B" />
+              <img src="./img/flechaVerdeListo.webp" alt="Flecha Verde Prez, Agencia de marketing" class="imagen2B" />
             </div>
           </div>
         </div>
@@ -118,15 +118,15 @@ function Servicios() {
 
         <div className="box" onClick={() => { selOpt('gl') }}>
           <div className="imgBox">
-            <img src="./img/generacionleads.png" alt="Generacion de Leads Agencia Marketing Ambato - Prez" />
+            <img src="./img/generacionleads.png" alt="Generacion de Leads Agencia Marketing Ambato - Prez, Agencia de marketing" />
           </div>
 
           <div className="service-content">
             <div className="tituloBox"><h2>Generación de <br></br>Leads</h2></div>
             <div className="descBox"><p>Estrategias de redes sociales para alcanzar y convertir nuevos clientes</p></div>
             <div class="imagen-padre">
-              <img src="./img/flechaNegraL.webp" alt="Flecha Negra Prez" class="imagen1B" />
-              <img src="./img/flechaVerdeListo.webp" alt="Flecha Verde Prez" class="imagen2B" />
+              <img src="./img/flechaNegraL.webp" alt="Flecha Negra Prez, Agencia de marketing" class="imagen1B" />
+              <img src="./img/flechaVerdeListo.webp" alt="Flecha Verde Prez, Agencia de marketing" class="imagen2B" />
             </div>
           </div>
         </div>
@@ -144,8 +144,8 @@ function Servicios() {
             <div className="tituloBox"><h2>Producción, fotográfica, audio y video</h2></div>
             <div className="descBox"><p>Desarrollo, producción y post producción de fotografías, videos y piezas audiovisuales.</p></div>
             <div class="imagen-padre">
-              <img src="./img/flechaNegraL.webp" alt="Flecha Negra Prez" class="imagen1B" />
-              <img src="./img/flechaVerdeListo.webp" alt="Flecha Verde Prez" class="imagen2B" />
+              <img src="./img/flechaNegraL.webp" alt="Flecha Negra Prez, Agencia de marketing" class="imagen1B" />
+              <img src="./img/flechaVerdeListo.webp" alt="Flecha Verde Prez, Agencia de marketing" class="imagen2B" />
             </div>
           </div>
 
@@ -273,35 +273,35 @@ function Servicios() {
         <div className="contenedorServiciosAfuera">
           <div className="contenedorServicios">
             <div className="contenedorServiciosIzquierda">
-              <NavLink to="/marketing-digital"><img className="" src="./img/MarketingSERVICIOS.webp" /></NavLink>
+              <NavLink to="/marketing-digital"><img className="" src="./img/MarketingSERVICIOS.webp" alt="markeying digital , Agencia de marketing"/></NavLink>
             </div>
             <div className="contenedorServiciosDerecha">
               <NavLink to="/paid-media">
-                <img className="" src="./img/PaidSERVICIOS.webp" />
+                <img className="" src="./img/PaidSERVICIOS.webp" alt="Paid Media, Agencia de marketing" />
               </NavLink>
             </div>
           </div>
           <div className="contenedorServicios">
             <div className="contenedorServiciosIzquierda">
               <NavLink to="/branding-estrategico">
-                <img className="" src="./img/BrandingSERVICIOS.webp" />
+                <img className="" src="./img/BrandingSERVICIOS.webp" alt="Branding Estrategico, Agencia de marketing" />
               </NavLink>
             </div>
             <div className="contenedorServiciosDerecha">
               <NavLink to="/desarrollo-web">
-                <img className="" src="./img/DesarrolloSERVICIOS.webp" />
+                <img className="" src="./img/DesarrolloSERVICIOS.webp" alt="Desarrollo Web, Agencia de marketing" />
               </NavLink>
             </div>
           </div>
           <div className="contenedorServicios">
             <div className="contenedorServiciosIzquierda">
               <NavLink to="/generacion-leads">
-                <img className="" src="./img/LeadsSERVICIOS.webp" />
+                <img className="" src="./img/LeadsSERVICIOS.webp" alt="Generacion leads, Agencia de marketing" />
               </NavLink>
             </div>
             <div className="contenedorServiciosDerecha">
               <NavLink to="/produccion-fotografia-video">
-                <img className="" src="./img/FotoSERVICIOS.webp" />
+                <img className="" src="./img/FotoSERVICIOS.webp" about="produccion fotografica video, Agencia de marketing" />
               </NavLink>
             </div>
           </div>

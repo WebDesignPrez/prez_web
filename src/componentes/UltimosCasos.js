@@ -9,7 +9,7 @@ let clientes = [
     id: 1,
     url: "",
     imagen: "./img/home/speedy-cliente-prez-markreting-en-ambato.webp",
-    alt: "Banner Speddy Internet Cliente Agencia Prez",
+    alt: "Banner Speddy Internet Cliente Agencia Prez, Agencia de marketing",
     descripcion: <p><b>Speedy Internet</b>, marca con presencia en 5 provincias de Ecuador. <br />
       <strong>Conversión</strong> de clientes potenciales hasta el 32%.</p>
   },
@@ -17,42 +17,42 @@ let clientes = [
     id: 2,
     url: "",
     imagen: "./img/home/cebi-cliente-prez-markreting-en-ambato.webp",
-    alt: "Banner CEBI Cliente Agencia Prez",
+    alt: "Banner CEBI Cliente Agencia Prez, Agencia de marketing",
     descripcion: <p><strong>CEBI</strong>, Unidad educativa de alto rendimiento, <strong>Incremento de engagement</strong> en la comunidad Cebiniana y manejo de prospectos para Admisiones <br />2023</p>
   },
   {
     id: 3,
     url: "",
     imagen: "./img/home/salguero-cliente-prez-markreting-en-ambato.webp",
-    alt: "Banner Salguero Constructora Cliente Agencia Prez",
+    alt: "Banner Salguero Constructora Cliente Agencia Prez, Agencia de marketing",
     descripcion: <p>Generación de clientes potenciales, <strong>48 ventas</strong> a través del canal digital en el transcurso de un año y medio.</p>
   },
   {
     id: 4,
     url: "",
     imagen: "./img/home/vaes.jpg",
-    alt: "Banner VAES Cliente Agencia Prez",
+    alt: "Banner VAES Cliente Agencia Prez, Agencia de marketing",
     descripcion: <p>100k suscriptores, <strong>VAES</strong> agrupación internacional de música gospel. Manejo de imagen y estrategias de Growth.</p>
   },
   {
     id: 5,
     url: "",
     imagen: "./img/home/alis-cliente-prez-markreting-en-ambato.webp",
-    alt: "Banner Ali's Parrilladas y Pizzería Cliente Agencia Prez",
+    alt: "Banner Ali's Parrilladas y Pizzería Cliente Agencia Prez, Agencia de marketing",
     descripcion: <p><strong>Ali's Parrilladas y Pizzería</strong>. Creación de contenido para redes sociales.</p>
   },
   {
     id: 6,
     url: "",
     imagen: "./img/home/uniandes-cliente-prez-markreting-en-ambato.webp",
-    alt: "Banner UNIANDES Agencia Prez",
+    alt: "Banner UNIANDES Agencia Prez, Agencia de marketing",
     descripcion: <p><strong>UNIANDES</strong>, Una de las universidades más grandes del País. Generación de clientes potenciales para Pregrados y Postgrados a nivel nacional</p>
   },
   {
     id: 7,
     url: "/vehicentro",
     imagen: "./img/home/vecicentroLead.webp",
-    alt: "Banner VEHICENTRO Agencia Prez",
+    alt: "Banner VEHICENTRO Agencia Prez, Agencia de marketing",
     descripcion: <p><strong>VEHICENTRO</strong> número 1 en ventas en cabezales en Ecuador en el año 2020/21/22</p>
   }
 ]
