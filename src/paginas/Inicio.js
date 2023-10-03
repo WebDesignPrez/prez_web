@@ -29,6 +29,7 @@ const Clientes = lazy(() => import('../componentes/Clientes'));
 const Testimonios = lazy(() => import('../componentes/Testimonios'));
 
 function Inicio() {
+  const mostrarElemento = false;
   return (
     <>
       <Helmet>
@@ -81,6 +82,12 @@ function Inicio() {
 
 
       <MenuLateralSinHome />
+      <div hidden>
+          <p>Bienvenido a nuestra <span class="keyword">Agencia de Marketing Ambato</span>, una <span class="keyword">agencia de marketing</span> líder en la región. Como una reconocida <span class="keyword">agencia de marketing</span>, nos enorgullece ofrecer servicios de alta calidad para impulsar tu negocio.</p>
+          <p>Nuestra <span class="keyword">agencia de marketing en Ambato</span> se especializa en estrategias de <span class="keyword">marketing</span> digital que son efectivas y personalizadas para cada cliente. En <span class="location">Ambato</span>, somos conocidos por nuestra experiencia en <span class="keyword">marketing</span> en línea y nuestro enfoque centrado en el cliente.</p>
+          <p>En <span class="location">Ambato</span>, confían en nuestra <span class="keyword">Agencia de Marketing Ambato</span> para mejorar su visibilidad en línea y aumentar sus conversiones. Nuestros servicios de <span class="keyword">marketing</span> incluyen SEO, publicidad en redes sociales, diseño web y mucho más.</p>
+          <p>Si estás buscando una <span class="keyword">agencia de marketing en Ambato</span> que te ayude a alcanzar tus objetivos comerciales, no busques más. En <span class="location">Ambato</span>, somos la <span class="keyword">agencia de marketing</span> de elección para empresas que buscan resultados reales y un enfoque personalizado.</p>
+      </div>
       <WhatsappIcon />
       <img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador, Agencia de marketing" />
       <div className="tituloInicio" id="Inicio">
