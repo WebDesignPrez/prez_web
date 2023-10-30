@@ -68,8 +68,8 @@ function PiePagina() {
               flexWrap: 'wrap',
 
             }}>
-              <img className="certificadoI" src="./img/meta-logo.webp" alt="Certificado Meta Agencia Marketing Ambato - Prez" />
-              <img className="certificadoI" src="./img/google-search-logo.webp" alt="Certificado Meta Agencia Marketing Ambato - Prez" />
+              <img className="certificadoI" src="./img/meta-logo.webp" alt="Certificado Meta Agencia Marketing Ambato - Prez, Agencia de marketing" />
+              <img className="certificadoI" src="./img/partnerNewLogo.png" alt="Certificado Meta Agencia Marketing Ambato - Prez, Agencia de marketing" />
             </div>
           </div>
 

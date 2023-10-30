@@ -29,24 +29,25 @@ const Clientes = lazy(() => import('../componentes/Clientes'));
 const Testimonios = lazy(() => import('../componentes/Testimonios'));
 
 function Inicio() {
+  const mostrarElemento = false;
   return (
     <>
       <Helmet>
         <meta name='author' content="Prez agencia de marketing digital, Anthony Perez"></meta>
-        <title>Prez Agencia de Marketing - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video</title>
-        <meta name="description" content="Prez Agencia de Marketing Digital ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
-        <meta name="keywords" content="Agencia de marketing, Prez, Agencia Prez, Marketing digital, Ambato, Ecuador, Paid Media, Desarrollo Web, e-commerce, Producción Fotográfica, Audio, Video, SEO, servicios de marketing digital, agencia de marketing digital"></meta>
+        <title>Prez Agencia de Marketing Ambato - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video</title>
+        <meta name="description" content="Prez Agencia de Marketing Ambato, Agencia de marketing ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
+        <meta name="keywords" content="Agencia de marketing, Agencia de marketing Ambato, Prez, Agencia Prez, Marketing digital, Ambato, Ecuador, Paid Media, Desarrollo Web, e-commerce, Producción Fotográfica, Audio, Video, SEO, servicios de marketing digital, agencia de marketing digital"></meta>
         <meta name="robots" content="index, follow"></meta>
         <meta property="og:locale" content="es_EC"></meta>
         <meta property="og:type" content="website"></meta>
-        <meta property="og:title" content="Prez Agencia de Marketing Digital - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video"></meta>
-        <meta property="og:description" content="Prez Agencia de Marketing Digital ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
+        <meta property="og:title" content="Prez Agencia de Marketing Digital, Agencia de marketing - Servicios SEO, Paid Media, Desarrollo Web, Producción Fotográfica, Audio y Video"></meta>
+        <meta property="og:description" content="Prez Agencia de Marketing Digital, Agencia de marketing ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
         <meta property="og:url" content="https://agenciaprez.com"></meta>
         <meta property="og:site_name" content="Prez Agencia de Marketing Digital"></meta>
         <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
         <meta property="og:image" content="https://agenciaprez.com/static/media/agencia-de-marketing-prez-astronauta-vamos-a-viajar-juntos.bbd8bc42af29fd00ed7c.webp"></meta>
         <meta name="twitter:card" content="summary_large_image"></meta>
-        <meta name="twitter:description" content="Prez Agencia de Marketing Digital ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
+        <meta name="twitter:description" content="Prez Agencia de Marketing Digital, Agencia de marketing ofrece servicios de Marketing Digital, Paid Media, Desarrollo Web / e-commerce, Producción Fotográfica, Audio y Video. Mejora tu presencia en línea y aumenta tu visibilidad con nuestras soluciones de SEO y estrategias de marketing digital efectivas."></meta>
         <meta name="twitter:label1" content="Tiempo de lectura"></meta>
         <meta name="twitter:data1" content="5 minutos"></meta>
         <meta name="googlebot" content="index, follow"></meta>
@@ -81,8 +82,14 @@ function Inicio() {
 
 
       <MenuLateralSinHome />
+      <div hidden>
+          <p>Bienvenido a nuestra <span class="keyword">Agencia de Marketing Ambato</span>, una <span class="keyword">agencia de marketing</span> líder en la región. Como una reconocida <span class="keyword">agencia de marketing</span>, nos enorgullece ofrecer servicios de alta calidad para impulsar tu negocio.</p>
+          <p>Nuestra <span class="keyword">agencia de marketing en Ambato</span> se especializa en estrategias de <span class="keyword">marketing</span> digital que son efectivas y personalizadas para cada cliente. En <span class="location">Ambato</span>, somos conocidos por nuestra experiencia en <span class="keyword">marketing</span> en línea y nuestro enfoque centrado en el cliente.</p>
+          <p>En <span class="location">Ambato</span>, confían en nuestra <span class="keyword">Agencia de Marketing Ambato</span> para mejorar su visibilidad en línea y aumentar sus conversiones. Nuestros servicios de <span class="keyword">marketing</span> incluyen SEO, publicidad en redes sociales, diseño web y mucho más.</p>
+          <p>Si estás buscando una <span class="keyword">agencia de marketing en Ambato</span> que te ayude a alcanzar tus objetivos comerciales, no busques más. En <span class="location">Ambato</span>, somos la <span class="keyword">agencia de marketing</span> de elección para empresas que buscan resultados reales y un enfoque personalizado.</p>
+      </div>
       <WhatsappIcon />
-      <img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador" />
+      <img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador, Agencia de marketing" />
       <div className="tituloInicio" id="Inicio">
         <div className='conteLetrasInicio'>
           <p>En nuestro mundo</p>

@@ -124,7 +124,7 @@
 
     .form-box textarea {
         height: 10vw;
-        width: 43vw;
+        width: 90% !important;
     }
 
 
@@ -195,12 +195,8 @@
 
 
     @media only screen and (max-width: 768px) {
-        .form-box select {
-            width: -webkit-fill-available;
-        }
-
         .form-box input {
-            width: 100%;
+            width: 90%;
         }
 
         .nextBtn {
@@ -213,6 +209,9 @@
 
         .formContainer {
             padding-left: 0 !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .formContainer>div {
@@ -221,7 +220,7 @@
 
         .form-box textarea {
             height: 10vw;
-            width: 100%;
+            width: 80%;
         }
 
         .form-box label {
@@ -239,6 +238,8 @@
         .form-box select {
             height: 13.2vw;
             font-size: 1.1rem !important;
+            width: 82%;
+            margin: 0% !important;
         }
 
         .tituloFormulario{
@@ -257,8 +258,21 @@
         .nextBtn {
             height: 4rem !important;
             width: 14rem !important;
-            margin: 0 !important;
+            margin: 1rem 2rem 1rem 5rem;
         }
+
+        .form-field{
+            width: 100%;
+        }
+
+        .formContainer{
+            display: flex;
+            align-items: start;
+        }
+
+
+        
+        
     }
 
 

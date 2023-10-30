@@ -7,31 +7,35 @@ function MenuLateralSinHome() {
     const [isActive, setActive] = useState(false);
     const handleToggle = () => {
         setActive(!isActive);
-    }
+        // Aplicar una clase al cuerpo para evitar el scroll cuando el menú está activo
+        if (!isActive) {
+            document.body.classList.add("no-scroll");
+        } else {
+            document.body.classList.remove("no-scroll");
+        }
+    };
 
     const navigate = useNavigate();
 
     const selOpt = () => {
-        navigate("/lets-talk")
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
+        navigate("/lets-talk");
+        // También puedes manejar el scroll aquí si es necesario
+        window.scrollTo(0, 0);
+    };
 
     const closeMenu = () => {
-        console.log(location.pathname)
+        console.log(location.pathname);
 
         navigate("/");
-        handleToggle()
-    }
+        handleToggle();
+    };
 
-    const topFunction = () => {
-        navigate("/");
-        if (isActive) {
-            handleToggle()
-        }
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+    useEffect(() => {
+        // Limpia la clase al cuerpo cuando el componente se desmonta
+        return () => {
+            document.body.classList.remove("no-scroll");
+        };
+    }, []);
 
     return (
         <>
@@ -46,16 +50,16 @@ function MenuLateralSinHome() {
                 </div>
                 <div class="container">
                     <a href="https://www.facebook.com/agenciaprez" >
-                        <img src="img/FaceVerde.webp" alt="Logo Facebook" />
+                        <img src="img/FaceVerde.webp" alt="Logo Facebook, Agencia de marketing" />
                     </a>
                     <a href="https://www.instagram.com/prez_agencia/" >
-                        <img src="img/InstaVerde.webp" alt="Logo Instagram" />
+                        <img src="img/InstaVerde.webp" alt="Logo Instagram, Agencia de marketing" />
                     </a>
                     <a>
-                        <img src="img/TiktokVerde.webp" alt="Logo Tiktok" />
+                        <img src="img/TiktokVerde.webp" alt="Logo Tiktok, Agencia de marketing" />
                     </a>
                     <a>
-                        <img src="img/InVerde.webp" alt="Logo LinkedIn" />
+                        <img src="img/InVerde.webp" alt="Logo LinkedIn, Agencia de marketing" />
                     </a>
                 </div>
             </div>
@@ -65,7 +69,7 @@ function MenuLateralSinHome() {
                 <a className="burger" onClick={handleToggle}> <span></span> <span></span> </a>
                 <div className="textoRotar"><a className="linkDecor" onClick={selOpt}>Let's Talk</a></div>
                 <div className="logomovil"><a href="./#">
-                    <majo  src="./img/logopr.png" alt="Logo Agencia Prez"></majo>
+                    <img  src="./img/logopr.png" alt="Logo Agencia Prez"></img>
                 </a></div>
             </div>
         </>

@@ -22,18 +22,18 @@ function VideoVH() {
             </div>
             <div class="contenedorVH">
                 <div class="filaVH">
-                    <div class="columnaVH"><img className='potencia' src="./img/lapotenciaLogo.png" alt="Potencia que levanta al Ecuador" /></div>
+                    <div class="columnaVH"><img className='potencia' src="./img/lapotenciaLogo.png" alt="Potencia que levanta al Ecuador, Agencia de marketing" /></div>
                 </div>
                 <div class="filaVH moviluno">
-                    <div class="columnaVH "><img className='sobre' src="./img/imagenCamion.jpg" alt="Camion Sinotruk" /></div>
-                    <div class="columnaVH "><img className='uno' src="./img/numero1Logo.png" alt="Numero 1 en ventas en Ecuador" /></div>
+                    <div class="columnaVH "><img className='sobre' src="./img/imagenCamion.jpg" alt="Camion Sinotruk, Agencia de marketing" /></div>
+                    <div class="columnaVH "><img className='uno' src="./img/numero1Logo.png" alt="Numero 1 en ventas en Ecuador, Agencia de marketing" /></div>
                 </div>
             </div>
             <div class="contenedorIn noresponsive">
                 <div class="filaIn">
-                    <div class="columnaIn"><img className='una' src="./img/imagenuna.jpg" alt="Camión T5G" /></div>
-                    <div class="columnaIn"><img className='dos' src="./img/imagendos.jpg" alt="Camión T5G 18 Ton" /></div>
-                    <div class="columnaIn"><img className='tres' src="./img/imagentres.jpg" alt="Camión 8 Ton" /></div>
+                    <div class="columnaIn"><img className='una' src="./img/imagenuna.jpg" alt="Camión T5G, Agencia de marketing" /></div>
+                    <div class="columnaIn"><img className='dos' src="./img/imagendos.jpg" alt="Camión T5G 18 Ton, Agencia de marketing" /></div>
+                    <div class="columnaIn"><img className='tres' src="./img/imagentres.jpg" alt="Camión 8 Ton, Agencia de marketing" /></div>
                 </div>
             </div>
 
@@ -43,7 +43,7 @@ function VideoVH() {
                         <img
                             className="d-block w-100"
                             src="./img/imagenuna.jpg"
-                            alt="Camión T5G"
+                            alt="Camión T5G, Agencia de marketing"
                         />
                     </Carousel.Item>
 
@@ -51,7 +51,7 @@ function VideoVH() {
                         <img
                             className="d-block w-100"
                             src="./img/imagendos.jpg"
-                            alt="Camión T5G 18 Ton"
+                            alt="Camión T5G 18 Ton, Agencia de marketing"
                         />
                     </Carousel.Item>
 
@@ -59,7 +59,7 @@ function VideoVH() {
                         <img
                             className="d-block w-100"
                             src="./img/imagentres.jpg"
-                            alt="Camión 8 Ton"
+                            alt="Camión 8 Ton, Agencia de marketing"
                         />
                     </Carousel.Item>
 

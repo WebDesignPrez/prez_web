@@ -12,7 +12,7 @@ function FotoVideoVH() {
             <div class="contenedor-imagenesVH">
                 <video preload="none" autoPlay={true} playsInline={true} controls={false} loop muted class="video1VH"
                     src="./img/VehicentroAtras.mp4"
-                    alt="Reel Veinstein"
+                    alt="Reel Veinstein, Agencia de marketing"
                     onClick={handleVideoClick}
                 >
                     Tu navegador no soporta la etiqueta de video HTML5.
@@ -20,7 +20,7 @@ function FotoVideoVH() {
                 <video preload="none" autoPlay={true} playsInline={true} controls={false} loop muted class="video2VH"
                     src="./img/sinotrukAdelante.mp4"
                     onClick={handleVideoClick}
-                    alt="El veridico Sinotrukero"
+                    alt="El veridico Sinotrukero, Agencia de marketing"
                 >
                     Tu navegador no soporta la etiqueta de video HTML5.
                 </video>

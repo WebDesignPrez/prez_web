@@ -13,7 +13,7 @@ function VideoHome() {
     <div className='videoloop'>
       <video preload="none" autoPlay={true} playsInline={true} controls={false} loop muted className='videoserviciosinicio'
         src="./img/videoInicio.mp4"
-        alt="Video Equipo Prez Agencia de Marketing Ambato Ecuador"
+        alt="Video Equipo Prez Agencia de Marketing Ambato Ecuador, Agencia de marketing"
         style={{ width: '75%', height: 'auto', marginLeft: '22vw' }}
         onClick={handleVideoClick}
       >
@@ -25,7 +25,7 @@ function VideoHome() {
     <div className="videoInicio noresponsive">
       <video
         src="./img/videoInicio.mp4"
-        alt="Video Equipo Prez Agencia de Marketing Ambato Ecuador"
+        alt="Video Equipo Prez Agencia de Marketing Ambato Ecuador, Agencia de marketing"
         autoPlay
         loop
         muted

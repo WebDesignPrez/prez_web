@@ -11,7 +11,7 @@ function VideoPM() {
         <div className='videoloop'>
             <video preload="none" autoPlay={true} playsInline={true} controls={false} loop muted className='videoserviciosinicio'
                 src="./img/IconoPaidMedia.mp4"
-                alt="Animación Generación de Leads Agencia Marketing Ambato - Prez"
+                alt="Animación Generación de Leads Agencia Marketing Ambato - Prez, Agencia de marketing"
                 style={{ width: '60%', height: 'auto', marginLeft: '22vw' }}
                 onClick={handleVideoClick}
             >
@@ -34,15 +34,15 @@ function VideoPM() {
                     <p><span>Social ADS</span></p>
                     <p>Con Social Ads, puedes conectar con tu audiencia ideal en las redes sociales y aumentar tu alcance, engagement y conversiones, todo mientras maximizas tu inversión publicitaria y obtienes resultados medibles en tiempo real.</p>
                     <div className='image-row'>
-                        <img src="./img/pms1.png" className='imgSocial' alt="Facebook ADS" />
-                        <img src="./img/pms2.png" className='imgSocial' alt="Instagram ADS" />
-                        <img src="./img/pms3.png" className='imgSocial' alt="Tiktok ADS" />
-                        <img src="./img/pms4.png" className='imgSocial' alt="LinkedIn ADS" />
-                        <img src="./img/pms5.png" className='imgSocial' alt="Twitter ADS" />
+                        <img src="./img/pms1.png" className='imgSocial' alt="Facebook ADS, Agencia de marketing" />
+                        <img src="./img/pms2.png" className='imgSocial' alt="Instagram ADS, Agencia de marketing" />
+                        <img src="./img/pms3.png" className='imgSocial' alt="Tiktok ADS, Agencia de marketing" />
+                        <img src="./img/pms4.png" className='imgSocial' alt="LinkedIn ADS, Agencia de marketing" />
+                        <img src="./img/pms5.png" className='imgSocial' alt="Twitter ADS, Agencia de marketing" />
                     </div>
                 </div>
                 <div class="item imgservices">
-                    <img src="./img/pm2.png" alt="Social ADS Agencia Marketing Ambato - Prez" />
+                    <img src="./img/pm2.png" alt="Social ADS Agencia Marketing Ambato - Prez, Agencia de marketing" />
                 </div>
             </div>
         </div>

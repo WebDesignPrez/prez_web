@@ -19,15 +19,15 @@ function Vehicentro() {
                 <title>Agencia Prez - Vehicentro</title>
                 <h1>Vehicentro</h1>
                 <meta name="title" content="Agencia Prez - Leads" />
-                <meta name="description" content="En Agencia Prez, trabajamos en estrecha colaboración con Vehicentro, una empresa líder en venta de camiones en Ecuador. Nuestros servicios de marketing digital, branding estratégico y generación de leads han contribuido al crecimiento y éxito de Vehicentro. Descubre cómo nuestras soluciones personalizadas han impulsado su visibilidad, aumentado las ventas y mejorado su presencia en línea." />
-                <meta name="keywords" content="agencia prez, vehicentro, marketing digital, branding estratégico, Vehicentro, venta de camiones"></meta>
+                <meta name="description" content="En Agencia Prez, Agencia de marketing, trabajamos en estrecha colaboración con Vehicentro, una empresa líder en venta de camiones en Ecuador. Nuestros servicios de marketing digital, branding estratégico y generación de leads han contribuido al crecimiento y éxito de Vehicentro. Descubre cómo nuestras soluciones personalizadas han impulsado su visibilidad, aumentado las ventas y mejorado su presencia en línea." />
+                <meta name="keywords" content="agencia de marketing, agencia prez, vehicentro, marketing digital, branding estratégico, Vehicentro, venta de camiones"></meta>
                 <meta name="robots" content="index, follow"></meta>
                 <meta name='author' content="Prez agencia de marketing digital"></meta>
             </Helmet>
             <WhatsappIcon />
             <MenuLateral />
             <div className="LogoClienteCasoExito">
-                <img src="./img/logoVehicentro.png" alt="logo Vehicentro" />
+                <img src="./img/logoVehicentro.png" alt="logo Vehicentro, Agencia de marketing" />
 	        </div>
             <VideoVH />
             <FotoVideoVH />
