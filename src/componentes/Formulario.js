@@ -15,7 +15,8 @@ const initialForm = {
   celular: '',
   cedula: '',
   requerimiento: '',
-  servicio: ''
+  servicio: '',
+  empresa: ''
 }
 
 function Formulario() {
@@ -35,6 +36,8 @@ function Formulario() {
     cedula,
     requerimiento,
     servicio,
+    empresa
+
 
   } = useForm(initialForm)
 
@@ -152,11 +155,12 @@ function Formulario() {
       !validateCelular(celular) ||
       !validateCedula(cedula) ||
       !validateRequerimiento(requerimiento) ||
-      !validateServicio(servicio)
+      !validateServicio(servicio) ||
+      !validateEmpresa(empresa)
     ) { return }
 
     setIsEnabledSubmitButton(false)
-    console.log('Form send');
+    // console.log('Form send', formState);
 
     emailjs.send("service_mail_agenciaprez", "template_agenciaprez", { ...formState }, 'DrcQUlJntI-f4aCkp')
       .then((result) => {
@@ -299,6 +303,24 @@ function Formulario() {
       return true
     }
   }
+  const validateEmpresa = (servicio) => {
+    if (empresa === "") {
+      toast.warn('Por favor escriba el nombre de su empresa o negocio', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+      return false
+    } else {
+      return true
+    }
+  }
+
+
 
 
   //* End David Methods *//
@@ -336,10 +358,18 @@ function Formulario() {
                   <input type="text" id="celular" placeholder=" " name="celular" onBlur={(e) => { handleFocusTel(e) }} onChange={onInputChange} value={celular} />
                   <label for="celular">Celular</label>
                 </div>
+
                 <div class="form-field">
                   <input type="text" id="cedula" placeholder=" " name="cedula" onBlur={(e) => { handleFocusCed(e) }} onChange={onInputChange} value={cedula} />
                   <label for="cedula">Cédula</label>
                 </div>
+
+                <div class="form-field">
+                  <input type="text" id="" placeholder=" " name="empresa" onBlur={(e) => { handleFocusCed(e) }} onChange={onInputChange} value={empresa} />
+                  <label for="cedula">Empresa / Negocio</label>
+                </div>
+
+
                 <div class="form-field">
                   <textarea name='requerimiento' id="requerimiento" placeholder=" " onChange={onInputChange} value={requerimiento} ></textarea>
                   <label class="ltextarea" for="requerimiento">Requerimiento</label>
