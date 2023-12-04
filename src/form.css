@@ -416,7 +416,7 @@
         width: 65%;
         padding-right: 10vw;
         background-color: #272726;
-        color: #92e65b;
+        color: #f6c3ca;
         font-size: 2vw;
     }
 
@@ -425,7 +425,7 @@
 
     .loader {
   border: 8px solid #f3f3f3; /* Light grey */
-  border-top: 8px solid #92e65b; /* Blue */
+  border-top: 8px solid #f6c3ca; /* Blue */
   border-radius: 50%;
   width: 20px;
   height: 20px;

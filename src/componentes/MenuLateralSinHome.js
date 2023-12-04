@@ -68,7 +68,7 @@ function MenuLateralSinHome() {
                 <a className="burger" onClick={handleToggle}> <span></span> <span></span> </a>
                 <div className="textoRotar"><a className="linkDecor" onClick={selOpt}>Let's Talk</a></div>
                 <div className="logomovil"><a href="./#">
-                    <img  src="./img/logopr.png" alt="Logo"></img>
+                    <img  src="./img/logoprcuadrado.png" alt="Logo"></img>
                 </a></div>
             </div>
         </>

@@ -5,7 +5,7 @@ function PiePagina() {
       <footer>
         <div class="footer-container">
           <div class="columna">
-            <img className="logoP" src="./img/logo-prezagencia.png" alt="Logo Agencia Marketing Ambato - Prez" />
+            <img className="logoP" src="./img/logoprcuadrado.png" alt="Logo Agencia Marketing Ambato - Prez" />
             <h3>Oficina</h3>
             <p>Virgen del Sol y Camino al Oriente</p>
             <p><strong>Ambato - Ecuador</strong></p>

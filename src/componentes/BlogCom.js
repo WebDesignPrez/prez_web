@@ -34,7 +34,7 @@ function BlogCom() {
 
     return (
         <>
-            <img className="logo" src="./img/logopr.png" alt="Logo Agencia Marketing Ambato Prez, Agencia de marketing" />
+            <img className="logo" src="./img/logoprcuadrado.svg" alt="Logo Agencia Marketing Ambato Prez, Agencia de marketing" />
             <div className="inicioBlog">
                 <div className="tituloMarketing blog" id="Inicio">
                     <div className="iconotituloizquierda">

@@ -89,7 +89,7 @@ function Inicio() {
           <p>Si estás buscando una <span class="keyword">agencia de marketing en Ambato</span> que te ayude a alcanzar tus objetivos comerciales, no busques más. En <span class="location">Ambato</span>, somos la <span class="keyword">agencia de marketing</span> de elección para empresas que buscan resultados reales y un enfoque personalizado.</p>
       </div>
       <WhatsappIcon />
-      <img className="logo" src="./img/logopr.png" alt="Logo Prez Agencia de Marketing Ambato Ecuador, Agencia de marketing" />
+      <img className="logo" src="./img/logoprcuadrado.svg" alt="Logo Prez Agencia de Marketing Ambato Ecuador, Agencia de marketing" />
       <div className="tituloInicio" id="Inicio">
         <div className='conteLetrasInicio'>
           <p>En nuestro mundo</p>

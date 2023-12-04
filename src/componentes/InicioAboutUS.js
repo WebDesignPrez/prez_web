@@ -1,7 +1,7 @@
 function InicioAboutUs() {
     return (
         <>
-            <img className="logo" src="./img/logopr.png" alt="Logo Agencia Prez, Agencia de marketing" />
+            <img className="logo" src="./img/logoprcuadrado.svg" alt="Logo Agencia Prez, Agencia de marketing" />
             <div className="tituloMarketing nosotros" id="Inicio">
                 <div className="espacioNosotros">
                     <p>Sobre</p>

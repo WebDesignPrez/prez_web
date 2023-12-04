@@ -4,7 +4,7 @@ function PiePaginaFormulario() {
       <footer id="footer2">
         <div class="footer-container">
           <div class="columna">
-            <img className="logoP" src="./img/prezBlanco.png" alt="Logo Agencia Marketing Ambato - Prez, Agencia de marketing" />
+            <img className="logoP" src="./img/logoprcuadradoblanco.svg" alt="Logo Agencia Marketing Ambato - Prez, Agencia de marketing" />
             <h1 className="footerh1">Agencia de Marketing</h1>
             <p>Virgen del Sol y Camino al Oriente</p>
             <p><strong>Ambato - Ecuador</strong></p>

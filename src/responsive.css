@@ -165,7 +165,7 @@
     }
 
     .linkBox .link {
-        border-bottom: solid #93e54c 0.1vh;
+        border-bottom: solid #f6c3ca 0.1vh;
         margin-bottom: 5vh;
     }
 
@@ -309,7 +309,7 @@
     }
 
     .tituloLetsTalk {
-        background-color: #93e54c;
+        background-color: #f6c3ca;
         padding: 6vw 0 6vw 5vw;
         line-height: 1;
     }
@@ -560,7 +560,7 @@
     .contenedorLets {
         padding: 7% 3%;
         display: flex;
-        background-color: #93e54c;
+        background-color: #f6c3ca;
         padding-left: 2.7% !important;
     }
 
@@ -573,12 +573,12 @@
 
     .letras p.titulo1 {
         margin: 0 0 3% 0;
-        color: #fff;
+        color: black;
         font-size: 1.2rem;
         font-weight: 500;
     }
 
-    .menuLateral .burger span:first-child {
+    /* .menuLateral .burger span:first-child {
         margin-bottom: 1.7vw;
     }
 
@@ -588,7 +588,8 @@
 
     .menuLateral {
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .menuLateralActive .logomovil {
@@ -599,15 +600,52 @@
 
     .logomovil {
         display: block !important;
-        max-width: 33.33%;
+        max-width: 20%;
         z-index: 19 !important;
-        text-align: center;
+        text-align: right;
     }
 
     .logomovil img {
         max-width: 90%;
         vertical-align: -webkit-baseline-middle;
+    } */
+
+    .menuLateral {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
+    
+    .menuLateralActive .logomovil {
+        display: none !important;
+        max-width: 25%;
+        z-index: 19 !important;
+    }
+    
+    .logomovil {
+        display: block !important;
+        max-width: 20%;
+        z-index: 19 !important;
+        text-align: center; 
+    }
+    
+    .logomovil img {
+        max-width: 90%;
+        vertical-align: middle;
+    }
+    
+    .burger {
+        text-align: left; 
+    }
+    
+    .burger span:first-child {
+        margin-bottom: 1.7vw;
+    }
+    
+    .burger span {
+        height: 0.5vw;
+    }
+    
 
     .imagenFlechaLT {
         width: 10%;
@@ -615,10 +653,10 @@
 
     .letras p.titulo2 {
         margin: 0;
-        color: #fff;
+        color: black;
         font-size: 2.6rem;
         font-weight: 700;
-        border-bottom: solid #fff 0.1vh;
+        border-bottom: solid black 0.1vh;
         display: inline;
     }
 
